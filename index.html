@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIFA World Cup 2026 — PDC Friends Prediction Tracker</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f3f2f1;
+    color: #201f1e;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
+    color: #fff;
+    padding: 24px 24px 20px;
+    position: sticky; top: 0; z-index: 50;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .header h1 { font-size: clamp(18px,4vw,26px); font-weight: 700; letter-spacing: -0.3px; }
+  .header-sub { font-size: 13px; color: #c8e0f4; margin-top: 4px; }
+  .header-meta { font-size: 12px; color: #a8cce8; margin-top: 2px; }
+  .header-rule { font-size: 11px; color: #ffd180; margin-top: 6px; }
+
+  /* ── Tabs ── */
+  .tabs {
+    display: flex; gap: 4px;
+    padding: 12px 16px 0;
+    background: #fff;
+    border-bottom: 2px solid #edebe9;
+    overflow-x: auto;
+  }
+  .tab {
+    padding: 8px 16px; font-size: 13px; font-weight: 600;
+    border: none; background: transparent; cursor: pointer;
+    color: #605e5c; border-bottom: 3px solid transparent;
+    margin-bottom: -2px; white-space: nowrap; transition: all .15s;
+  }
+  .tab.active { color: #0078d4; border-bottom-color: #0078d4; }
+  .tab:hover:not(.active) { color: #201f1e; background: #f3f2f1; border-radius: 4px 4px 0 0; }
+
+  /* ── Panel ── */
+  .panel { display: none; padding: 16px; max-width: 1100px; margin: 0 auto; }
+  .panel.active { display: block; }
+
+  /* ── Summary cards ── */
+  .summary-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 16px; }
+  .stat-card {
+    background: #fff; border-radius: 8px; padding: 16px 12px;
+    text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    border-top: 3px solid #0078d4;
+  }
+  .stat-val { font-size: 28px; font-weight: 700; color: #0078d4; }
+  .stat-lbl { font-size: 12px; color: #605e5c; margin-top: 2px; }
+
+  /* ── Invalid banner ── */
+  .invalid-banner {
+    background: #fde7e9; border-left: 4px solid #c4314b;
+    border-radius: 0 6px 6px 0; padding: 10px 14px;
+    font-size: 12px; color: #c4314b; margin-bottom: 14px;
+    line-height: 1.5;
+  }
+
+  /* ── Match cards ── */
+  .match-grid { display: grid; gap: 12px; }
+  .match-card {
+    background: #fff; border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    overflow: hidden;
+  }
+  .match-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 16px; border-bottom: 1px solid #edebe9;
+    background: #faf9f8;
+  }
+  .match-title { font-size: 15px; font-weight: 600; }
+  .match-badge {
+    font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 600;
+  }
+  .badge-result { background: #dff6dd; color: #107c10; }
+  .badge-pending { background: #edebe9; color: #605e5c; }
+  .match-body { padding: 12px 16px; }
+
+  .pred-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .pred-label {
+    font-size: 12px; color: #605e5c; width: 110px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-shrink: 0;
+  }
+  .pred-label.invalid-lbl { color: #c4314b; text-decoration: line-through; }
+  .pred-bar-wrap {
+    flex: 1; height: 26px; background: #edebe9;
+    border-radius: 4px; overflow: hidden;
+  }
+  .pred-bar {
+    height: 100%; border-radius: 4px;
+    display: flex; align-items: center; padding: 0 8px;
+    min-width: 40px; transition: width .4s ease;
+  }
+  .pred-bar span { font-size: 11px; font-weight: 700; color: #000; white-space: nowrap; }
+  .pred-bar.invalid-bar { opacity: 0.3; }
+  .pred-pct { font-size: 12px; color: #605e5c; width: 32px; text-align: right; flex-shrink: 0; }
+  .pip {
+    font-size: 10px; font-weight: 700; padding: 1px 5px;
+    border-radius: 4px; margin-left: 2px; flex-shrink: 0;
+  }
+  .pip3 { background: #fff4ce; color: #7d5a00; }
+  .pip2 { background: #dae8f6; color: #004e8c; }
+  .pip1 { background: #dff6dd; color: #0a5c0a; }
+  .pip-inv { background: #fde7e9; color: #c4314b; font-size: 9px; }
+
+  .consensus-row {
+    display: flex; align-items: center; gap: 6px;
+    margin-top: 10px; padding-top: 10px;
+    border-top: 1px solid #edebe9; font-size: 12px;
+  }
+  .consensus-row span.lbl { color: #605e5c; }
+  .consensus-row span.val { font-weight: 600; }
+  .actual-section { margin-top: 10px; padding-top: 10px; border-top: 1px solid #edebe9; }
+  .actual-section label { font-size: 12px; color: #605e5c; display: block; margin-bottom: 4px; }
+  .actual-row { display: flex; gap: 6px; }
+  .actual-row input {
+    flex: 1; height: 32px; padding: 0 10px; font-size: 13px;
+    border: 1px solid #c8c6c4; border-radius: 4px; outline: none;
+  }
+  .actual-row input:focus { border-color: #0078d4; box-shadow: 0 0 0 2px rgba(0,120,212,.2); }
+  .actual-row button, .btn-clear {
+    padding: 0 14px; height: 32px; font-size: 12px; font-weight: 600;
+    background: #0078d4; color: #fff; border: none;
+    border-radius: 4px; cursor: pointer; white-space: nowrap;
+  }
+  .actual-row button:hover { background: #005a9e; }
+  .btn-clear {
+    background: #edebe9; color: #605e5c; margin-top: 4px;
+    display: inline-block; cursor: pointer;
+  }
+  .btn-clear:hover { background: #d2d0ce; }
+  .set-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 12px; color: #107c10; background: #dff6dd;
+    padding: 2px 10px; border-radius: 4px; margin-bottom: 4px;
+  }
+
+  /* ── Leaderboard table ── */
+  .lb-wrap { background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.08); overflow: hidden; }
+  .lb-table { width: 100%; border-collapse: collapse; }
+  .lb-table th {
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; color: #605e5c;
+    padding: 10px 8px; background: #faf9f8;
+    border-bottom: 2px solid #edebe9; text-align: center;
+  }
+  .lb-table th.left { text-align: left; }
+  .lb-table th.right { text-align: right; }
+  .lb-table td { padding: 11px 8px; border-bottom: 1px solid #f3f2f1; vertical-align: middle; }
+  .lb-table tr:last-child td { border-bottom: none; }
+  .lb-table tr:hover td { background: #f3f2f1; }
+  .lb-table tr.tied td:first-child { border-left: 3px solid #0078d4; }
+
+  .sl-cell { font-size: 12px; color: #a19f9d; text-align: center; width: 32px; }
+  .rank-cell { text-align: center; width: 56px; }
+  .rank-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 26px; border-radius: 5px;
+    font-size: 13px; font-weight: 700;
+  }
+  .medal-emoji { font-size: 22px; line-height: 1; }
+  .r-rest { background: #edebe9; color: #605e5c; }
+  .name-cell { font-size: 14px; font-weight: 600; }
+  .name-cell.dimmed { color: #a19f9d; font-weight: 400; }
+  .tied-tag { font-size: 10px; color: #0078d4; margin-left: 5px; font-weight: 400; }
+  .inv-tag { font-size: 10px; color: #c4314b; margin-left: 5px; font-weight: 400; }
+  .stat-cell { text-align: center; width: 56px; position: relative; }
+  .stat-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 30px; height: 28px; border-radius: 5px;
+    font-size: 13px; font-weight: 700; border: none;
+    background: transparent; cursor: default; padding: 0 4px; position: relative;
+  }
+  .stat-btn.clickable { cursor: pointer; }
+  .stat-btn.exact-c { background: #fff4ce; color: #7d5a00; }
+  .stat-btn.diff-c  { background: #dae8f6; color: #004e8c; }
+  .stat-btn.res-c   { background: #dff6dd; color: #0a5c0a; }
+  .stat-btn.zero    { color: #c8c6c4; background: transparent; }
+
+  /* Tooltip */
+  .tt {
+    position: absolute; bottom: calc(100% + 6px); left: 50%;
+    transform: translateX(-50%);
+    background: #201f1e; color: #fff;
+    border-radius: 8px; padding: 10px 12px;
+    min-width: 210px; max-width: 280px; z-index: 200;
+    box-shadow: 0 4px 16px rgba(0,0,0,.3);
+    pointer-events: none; opacity: 0; transition: opacity .15s;
+    white-space: nowrap; text-align: left;
+  }
+  .tt.show { opacity: 1; }
+  .tt-title { font-size: 10px; font-weight: 700; color: #a19f9d; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+  .tt-row { display: flex; justify-content: space-between; gap: 10px; padding: 2px 0; font-size: 12px; }
+  .tt-match { color: #e1dfdd; }
+  .tt-score { font-weight: 700; color: #6fcf97; font-family: monospace; }
+  .tt-arrow {
+    position: absolute; bottom: -5px; left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 8px; height: 8px;
+    background: #201f1e;
+  }
+  .pts-cell { text-align: right; width: 52px; padding-right: 12px !important; }
+  .pts-val { font-size: 20px; font-weight: 700; }
+  .pts-blue { color: #0078d4; }
+  .pts-green { color: #107c10; }
+  .pts-grey { color: #c8c6c4; }
+
+  /* hover hint */
+  .hover-hint {
+    font-size: 11px; color: #a19f9d; text-align: center;
+    margin-bottom: 10px; padding: 6px;
+    background: #faf9f8; border-radius: 4px;
+  }
+
+  /* ── Share / WA section ── */
+  .share-section { margin-top: 20px; }
+  .share-section h3 { font-size: 14px; font-weight: 700; margin-bottom: 10px; color: #201f1e; }
+  .wa-preview {
+    background: #e9f5e1; border: 1px solid #c2e0b4;
+    border-radius: 8px; padding: 14px;
+    font-family: monospace; font-size: 12px; color: #1a3d12;
+    white-space: pre-wrap; line-height: 1.6; margin-bottom: 10px;
+    max-height: 280px; overflow-y: auto;
+  }
+  .copy-btn {
+    padding: 10px 20px; font-size: 13px; font-weight: 700;
+    background: #25D366; color: #fff; border: none;
+    border-radius: 6px; cursor: pointer; display: inline-flex;
+    align-items: center; gap: 6px; transition: background .15s;
+  }
+  .copy-btn:hover { background: #1da851; }
+  .copy-btn.copied { background: #107c10; }
+
+  /* ── Load panel ── */
+  .load-card {
+    background: #fff; border-radius: 8px; padding: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08); margin-bottom: 16px;
+  }
+  .load-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; }
+  .scoring-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin-bottom: 16px; }
+  .sc-rule {
+    text-align: center; padding: 12px 8px;
+    border-radius: 6px; border: 1px solid #edebe9;
+  }
+  .sc-num { font-size: 24px; font-weight: 700; }
+  .sc-lbl { font-size: 11px; color: #605e5c; margin-top: 2px; line-height: 1.3; }
+  .sc-gold { color: #7d5a00; } .sc-blue { color: #004e8c; } .sc-green { color: #0a5c0a; }
+  .step-row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 10px; }
+  .step-row:last-child { margin-bottom: 0; }
+  .step-n {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: #0078d4; color: #fff; font-size: 11px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px;
+  }
+  .step-row p { font-size: 13px; color: #605e5c; line-height: 1.5; }
+  .step-row p b { color: #201f1e; }
+  .step-row code {
+    font-family: monospace; font-size: 12px;
+    background: #faf9f8; border: 1px solid #edebe9;
+    padding: 1px 6px; border-radius: 3px; color: #201f1e;
+  }
+  .json-input {
+    width: 100%; height: 100px; border: 1px solid #c8c6c4;
+    border-radius: 6px; padding: 10px; font-size: 12px;
+    font-family: monospace; color: #201f1e; resize: vertical; outline: none;
+    margin-top: 8px;
+  }
+  .json-input:focus { border-color: #0078d4; box-shadow: 0 0 0 2px rgba(0,120,212,.2); }
+  .load-btn {
+    width: 100%; padding: 11px; background: #0078d4; color: #fff;
+    border: none; border-radius: 6px; font-size: 14px; font-weight: 700;
+    cursor: pointer; margin-top: 8px; display: flex;
+    align-items: center; justify-content: center; gap: 6px;
+  }
+  .load-btn:hover { background: #005a9e; }
+  .status-line { font-size: 12px; text-align: center; margin-top: 6px; min-height: 16px; }
+  .ok { color: #107c10; } .err { color: #c4314b; }
+
+  /* ── Mobile ── */
+  @media(max-width:600px){
+    .summary-row { grid-template-columns: repeat(3,1fr); gap: 8px; }
+    .stat-val { font-size: 22px; }
+    .lb-table th, .lb-table td { padding: 8px 4px; }
+    .name-cell { font-size: 13px; }
+    .pts-val { font-size: 17px; }
+    .panel { padding: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⚽ FIFA World Cup 2026 — Prediction Tracker</h1>
+  <div class="header-sub">PDC Friends 1991-93 · Group Stage</div>
+  <div class="header-meta">Scoring: 3 pts exact score · 2 pts right goal diff · 1 pt correct result</div>
+  <div class="header-rule">⛔ Predictions submitted at or after kickoff are excluded from scoring</div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('load')">📋 Load Data</button>
+  <button class="tab" onclick="switchTab('matches')">⚽ Matches</button>
+  <button class="tab" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
+</div>
+
+<!-- LOAD TAB -->
+<div id="panel-load" class="panel active">
+  <div class="load-card">
+    <h3>Scoring Rules · set by Biju</h3>
+    <div class="scoring-grid">
+      <div class="sc-rule"><div class="sc-num sc-gold">3</div><div class="sc-lbl">Exact score</div></div>
+      <div class="sc-rule"><div class="sc-num sc-blue">2</div><div class="sc-lbl">Right result + goal diff</div></div>
+      <div class="sc-rule"><div class="sc-num sc-green">1</div><div class="sc-lbl">Right result only</div></div>
+    </div>
+    <h3 style="margin-bottom:10px;">How to update</h3>
+    <div class="step-row"><div class="step-n">1</div><p>Drop the <b>.txt chat file</b> to Claude and type <code>generate json</code></p></div>
+    <div class="step-row"><div class="step-n">2</div><p>Claude validates timestamps vs kickoff and flags <b>⛔ INVALID</b> predictions</p></div>
+    <div class="step-row"><div class="step-n">3</div><p>Paste the JSON below → click <b>Load</b> → leaderboard updates instantly</p></div>
+    <div class="step-row"><div class="step-n">4</div><p>Go to <b>Leaderboard</b> → hover EXACT/DIFF/RESULT for match details → <b>Copy for WhatsApp</b></p></div>
+    <textarea class="json-input" id="jsonInput" placeholder='Paste JSON from Claude here...'></textarea>
+    <button class="load-btn" onclick="loadJSON()">⬆ Load Predictions + Results</button>
+    <div class="status-line" id="loadStatus"></div>
+  </div>
+</div>
+
+<!-- MATCHES TAB -->
+<div id="panel-matches" class="panel">
+  <div id="matchesContent">
+    <div style="text-align:center;padding:40px;color:#a19f9d;">Load predictions first.</div>
+  </div>
+</div>
+
+<!-- LEADERBOARD TAB -->
+<div id="panel-leaderboard" class="panel">
+  <div id="lbContent">
+    <div style="text-align:center;padding:40px;color:#a19f9d;">Load predictions first.</div>
+  </div>
+</div>
+
+<script>
+let state = { predictions: [], matches: {} };
+const COLORS = ['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb87b','#c09060'];
+
+function switchTab(t) {
+  document.querySelectorAll('.tab').forEach((b,i) =>
+    b.classList.toggle('active', ['load','matches','leaderboard'][i] === t));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-'+t).classList.add('active');
+}
+
+function loadJSON() {
+  const raw = document.getElementById('jsonInput').value.trim();
+  const st  = document.getElementById('loadStatus');
+  try {
+    const clean  = raw.replace(/```json|```/g,'').trim();
+    const parsed = JSON.parse(clean);
+    if (!parsed.predictions || !Array.isArray(parsed.predictions)) throw new Error('Missing predictions array');
+    state.predictions = parsed.predictions;
+    buildMatchState(parsed.results || {});
+    renderMatches();
+    renderLB();
+    const resolved = Object.values(state.matches).filter(m => m.actual).length;
+    const invalids = parsed.predictions.reduce((n,p) => n + p.scores.filter(s => s.status === 'INVALID').length, 0);
+    st.className = 'status-line ok';
+    st.textContent = `✓ Loaded ${state.predictions.length} participants · ${Object.keys(state.matches).length} matches · ${resolved} results confirmed · ${invalids} INVALID excluded`;
+    switchTab('matches');
+  } catch(e) {
+    st.className = 'status-line err';
+    st.textContent = 'Error: ' + e.message;
+  }
+}
+
+function mkey(t1, t2) { return [t1,t2].sort().join(' vs '); }
+
+function buildMatchState(results) {
+  const prev = state.matches;
+  const m = {};
+  for (const p of state.predictions) {
+    for (const s of (p.scores || [])) {
+      const k = mkey(s.team1, s.team2);
+      if (!m[k]) m[k] = { team1: s.team1, team2: s.team2, preds: [], actual: null };
+      m[k].preds.push({ name: p.name, score1: s.score1, score2: s.score2, status: s.status || 'valid',
+                         submitted_est: s.submitted_est || '', kickoff_est: s.kickoff_est || '' });
+    }
+  }
+  for (const v of Object.values(results)) {
+    const k = mkey(v.team1, v.team2);
+    if (m[k]) m[k].actual = v.score1 + '-' + v.score2;
+  }
+  for (const [k,v] of Object.entries(prev)) {
+    if (v.actual && m[k] && !m[k].actual) m[k].actual = v.actual;
+  }
+  state.matches = m;
+}
+
+function getResult(a,b) { return a>b?'w1':b>a?'w2':'d'; }
+
+function calcPts(ps1,ps2,as1,as2) {
+  if (ps1===as1 && ps2===as2) return 3;
+  if (getResult(ps1,ps2) !== getResult(as1,as2)) return 0;
+  if ((ps1-ps2) === (as1-as2)) return 2;
+  return 1;
+}
+
+function renderMatches() {
+  const el = document.getElementById('matchesContent');
+  const keys = Object.keys(state.matches);
+  if (!keys.length) { el.innerHTML = '<div style="text-align:center;padding:40px;color:#a19f9d;">No matches found.</div>'; return; }
+
+  const invalidList = [];
+  for (const p of state.predictions)
+    for (const s of p.scores)
+      if (s.status === 'INVALID') invalidList.push(`${p.name} (${s.team1} vs ${s.team2})`);
+
+  const resolved = keys.filter(k => state.matches[k].actual).length;
+  let html = '';
+
+  if (invalidList.length) {
+    html += `<div class="invalid-banner">⛔ <b>${invalidList.length} INVALID prediction${invalidList.length>1?'s':''} excluded from scoring</b> — submitted after kickoff:<br>${invalidList.join(' · ')}</div>`;
+  }
+
+  html += `<div class="summary-row">
+    <div class="stat-card"><div class="stat-val">${keys.length}</div><div class="stat-lbl">Matches</div></div>
+    <div class="stat-card"><div class="stat-val">${state.predictions.length}</div><div class="stat-lbl">Participants</div></div>
+    <div class="stat-card"><div class="stat-val">${resolved}</div><div class="stat-lbl">Results In</div></div>
+  </div><div class="match-grid">`;
+
+  keys.forEach((key, ki) => {
+    const m = state.matches[key];
+    const validPreds = m.preds.filter(p => p.status !== 'INVALID');
+    const allGroups  = {};
+    for (const p of m.preds) {
+      const sc = p.score1+'-'+p.score2+'|'+p.status;
+      if (!allGroups[sc]) allGroups[sc] = [];
+      allGroups[sc].push(p.name);
+    }
+    const total = validPreds.length;
+    const validGroups = {};
+    for (const p of validPreds) {
+      const sc = p.score1+'-'+p.score2;
+      if (!validGroups[sc]) validGroups[sc] = [];
+      validGroups[sc].push(p.name);
+    }
+    const sorted = Object.entries(allGroups).sort((a,b) => b[1].length - a[1].length);
+    const topValid = Object.entries(validGroups).sort((a,b) => b[1].length - a[1].length)[0];
+
+    let ci = 0;
+    const bars = sorted.map(([scKey, names]) => {
+      const [sc, status] = scKey.split('|');
+      const isInvalid = status === 'INVALID';
+      const validNames = names.filter(n => validPreds.find(vp => vp.name===n));
+      const pct = total > 0 ? Math.round(validNames.length / total * 100) : 0;
+      const [s1,s2] = sc.split('-').map(Number);
+      const res = getResult(s1,s2);
+      const wl  = res==='w1' ? m.team1 : res==='w2' ? m.team2 : 'Draw';
+      let pip = '';
+      if (!isInvalid && m.actual) {
+        const [as1,as2] = m.actual.split('-').map(Number);
+        const pts = calcPts(s1,s2,as1,as2);
+        if (pts===3) pip = '<span class="pip pip3">+3</span>';
+        else if (pts===2) pip = '<span class="pip pip2">+2</span>';
+        else if (pts===1) pip = '<span class="pip pip1">+1</span>';
+      }
+      if (isInvalid) pip = '<span class="pip pip-inv">⛔ invalid</span>';
+      const color = isInvalid ? '#c8c6c4' : COLORS[ci%COLORS.length];
+      if (!isInvalid) ci++;
+      const label = names.length>1 ? names.length+' members' : names[0];
+      const tooltipNames = names.join(', ');
+      return `<div class="pred-row">
+        <div class="pred-label${isInvalid?' invalid-lbl':''}" title="${tooltipNames}">${label}</div>
+        <div class="pred-bar-wrap">
+          <div class="pred-bar${isInvalid?' invalid-bar':''}" style="width:${isInvalid?100:Math.max(pct,6)}%;background:${color};">
+            <span>${sc} · ${wl}</span>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:2px;flex-shrink:0;">
+          <div class="pred-pct">${isInvalid?'':pct+'%'}</div>${pip}
+        </div>
+      </div>`;
+    }).join('');
+
+    const isResult = !!m.actual;
+    const badgeHtml = isResult
+      ? `<span class="match-badge badge-result">✓ ${m.actual}</span>`
+      : `<span class="match-badge badge-pending">Pending</span>`;
+    const actualHTML = isResult
+      ? `<div class="set-badge">✓ Result: ${m.actual}</div>
+         <button class="btn-clear" onclick="clearActual('${key}')">Clear</button>`
+      : `<div class="actual-row">
+           <input type="text" id="ai-${ki}" placeholder="e.g. 2-1" />
+           <button onclick="setActual('${key}',${ki})">Set Result</button>
+         </div>`;
+
+    html += `<div class="match-card">
+      <div class="match-header">
+        <div class="match-title">${m.team1} vs ${m.team2}</div>
+        ${badgeHtml}
+      </div>
+      <div class="match-body">
+        ${bars}
+        ${topValid ? `<div class="consensus-row">
+          <span class="lbl">Most backed (valid):</span>
+          <span class="val">${topValid[0]}</span>
+          <span class="lbl">(${topValid[1].length} of ${total})</span>
+        </div>` : ''}
+        <div class="actual-section">
+          <label>Actual result:</label>
+          ${actualHTML}
+        </div>
+      </div>
+    </div>`;
+  });
+
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+function setActual(key, idx) {
+  const v = document.getElementById('ai-'+idx).value.trim();
+  const p = v.split(/[-:]/).map(Number);
+  if (p.length!==2 || isNaN(p[0]) || isNaN(p[1])) { alert('Enter a valid score like 2-1'); return; }
+  state.matches[key].actual = p[0]+'-'+p[1];
+  renderMatches(); renderLB();
+}
+function clearActual(key) { state.matches[key].actual = null; renderMatches(); renderLB(); }
+
+function calcAllScores() {
+  const scores = {};
+  for (const p of state.predictions)
+    scores[p.name] = { pts:0, exact:[], gdiff:[], result:[], played:0, invalidCount:0 };
+  for (const m of Object.values(state.matches)) {
+    if (!m.actual) continue;
+    const [as1,as2] = m.actual.split('-').map(Number);
+    const matchLabel = `${m.team1} vs ${m.team2}`;
+    for (const p of m.preds) {
+      if (!scores[p.name]) scores[p.name] = { pts:0, exact:[], gdiff:[], result:[], played:0, invalidCount:0 };
+      if (p.status === 'INVALID') { scores[p.name].invalidCount++; continue; }
+      const pts = calcPts(p.score1, p.score2, as1, as2);
+      scores[p.name].played++;
+      scores[p.name].pts += pts;
+      const pred = `${p.score1}-${p.score2}`;
+      if (pts===3) scores[p.name].exact.push({match:matchLabel,pred,actual:m.actual});
+      else if (pts===2) scores[p.name].gdiff.push({match:matchLabel,pred,actual:m.actual});
+      else if (pts===1) scores[p.name].result.push({match:matchLabel,pred,actual:m.actual});
+    }
+  }
+  return Object.entries(scores).sort((a,b) =>
+    b[1].pts-a[1].pts || b[1].exact.length-a[1].exact.length || b[1].gdiff.length-a[1].gdiff.length);
+}
+
+function denseRanks(ranked) {
+  const out = []; let cur=0, prevKey=null;
+  for (const [,s] of ranked) {
+    const key = s.pts+'|'+s.exact.length+'|'+s.gdiff.length;
+    if (key!==prevKey) { cur++; prevKey=key; }
+    out.push(cur);
+  }
+  return out;
+}
+
+function statCell(val, items, colClass, type, uid) {
+  if (val===0) return `<td class="stat-cell"><button class="stat-btn zero">${val}</button></td>`;
+  const labels = {exact:'Exact Score (+3 each)', gdiff:'Right Goal Diff (+2 each)', result:'Correct Result (+1 each)'};
+  const ttId = `tt-${uid}-${type}`;
+  return `<td class="stat-cell">
+    <button class="stat-btn clickable ${colClass}"
+      onmouseenter="showTT('${ttId}')" onmouseleave="hideTT('${ttId}')"
+      onfocus="showTT('${ttId}')" onblur="hideTT('${ttId}')">${val}
+      <div class="tt" id="${ttId}">
+        <div class="tt-title">${labels[type]}</div>
+        ${items.map(it=>`<div class="tt-row"><span class="tt-match">${it.match}</span><span class="tt-score">${it.pred} → ${it.actual}</span></div>`).join('')}
+        <div class="tt-arrow"></div>
+      </div>
+    </button>
+  </td>`;
+}
+
+function showTT(id) { const t=document.getElementById(id); if(t) t.classList.add('show'); }
+function hideTT(id) { const t=document.getElementById(id); if(t) t.classList.remove('show'); }
+
+const MEDALS = {1:'🥇',2:'🥈',3:'🥉'};
+
+function renderLB() {
+  const el = document.getElementById('lbContent');
+  if (!state.predictions.length) {
+    el.innerHTML = '<div style="text-align:center;padding:40px;color:#a19f9d;">Load predictions first.</div>';
+    return;
+  }
+  const ranked = calcAllScores();
+  const ranks  = denseRanks(ranked);
+  const rankCounts = {};
+  ranks.forEach(r => { rankCounts[r] = (rankCounts[r]||0)+1; });
+  const hasResults = Object.values(state.matches).some(m => m.actual);
+
+  let html = `<div class="hover-hint">💡 Hover the coloured numbers under EXACT · DIFF · RESULT to see which matches scored those points</div>
+  <div class="lb-wrap"><table class="lb-table">
+    <thead><tr>
+      <th style="width:32px;">SL</th>
+      <th style="width:56px;">RANK</th>
+      <th class="left">PLAYER</th>
+      <th>EXACT</th><th>DIFF</th><th>RESULT</th>
+      <th class="right" style="padding-right:12px;">PTS</th>
+    </tr></thead><tbody>`;
+
+  ranked.forEach(([name,s],i) => {
+    const rank = ranks[i];
+    const tied = rankCounts[rank]>1 && rank<=3;
+    const uid  = name.replace(/[^a-zA-Z0-9]/g,'_');
+    const medal= MEDALS[rank];
+    const rankCell = medal
+      ? `<span class="medal-emoji">${medal}</span>`
+      : `<span class="rank-badge r-rest">${rank}</span>`;
+
+    html += `<tr class="${tied?'tied':''}">
+      <td class="sl-cell">${i+1}</td>
+      <td class="rank-cell">${rankCell}</td>
+      <td class="name-cell${s.pts===0?' dimmed':''}">
+        ${name}
+        ${tied?'<span class="tied-tag">tied</span>':''}
+        ${s.invalidCount>0?`<span class="inv-tag">⛔ ${s.invalidCount} invalid</span>`:''}
+      </td>
+      ${statCell(s.exact.length, s.exact,  'exact-c','exact', uid)}
+      ${statCell(s.gdiff.length, s.gdiff,  'diff-c', 'gdiff', uid)}
+      ${statCell(s.result.length,s.result, 'res-c',  'result',uid)}
+      <td class="pts-cell">
+        <span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span>
+      </td>
+    </tr>`;
+  });
+
+  html += '</tbody></table></div>';
+
+  if (hasResults) {
+    const waMsg = buildWA(ranked, ranks);
+    html += `<div class="share-section">
+      <h3>🟢 Share to WhatsApp</h3>
+      <div class="wa-preview" id="waPreview">${escHtml(waMsg)}</div>
+      <button class="copy-btn" id="copyBtn" onclick="copyWA()">📋 Copy for WhatsApp</button>
+    </div>`;
+  }
+  el.innerHTML = html;
+}
+
+function buildWA(ranked, ranks) {
+  const resolved = Object.values(state.matches).filter(m => m.actual).length;
+  const date = new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+  let msg = '⚽ *FIFA World Cup 2026 — Leaderboard*\n';
+  msg += `📅 Updated: ${date} | ${resolved} match${resolved!==1?'es':''} played\n\n`;
+  ranked.forEach(([name,s],i) => {
+    const rank  = ranks[i];
+    const medal = MEDALS[rank] || (rank+'.');
+    msg += `${medal} *${name}* — ${s.pts} pts`;
+    if (s.played>0) msg += ` (${s.exact.length}×⭐ ${s.gdiff.length}×✅ ${s.result.length}×1️⃣)`;
+    if (s.invalidCount>0) msg += ` ⛔${s.invalidCount}`;
+    msg += '\n';
+  });
+  msg += '\n_⭐ exact (3pts) · ✅ right diff (2pts) · 1️⃣ result (1pt) · ⛔ invalid_\n';
+  msg += '_PDC Friends 1991-93 · Prediction competition_';
+  return msg;
+}
+
+function escHtml(t) {
+  return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function copyWA() {
+  const ranked = calcAllScores();
+  const ranks  = denseRanks(ranked);
+  navigator.clipboard.writeText(buildWA(ranked, ranks)).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.className = 'copy-btn copied';
+    btn.textContent = '✓ Copied! Paste into WhatsApp';
+    setTimeout(() => { btn.className='copy-btn'; btn.textContent='📋 Copy for WhatsApp'; }, 3000);
+  });
+}
+</script>
+</body>
+</html>
