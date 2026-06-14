@@ -1,0 +1,1404 @@
+{
+  "meta": {
+    "updated": "14 Jun 2026",
+    "matches_played": 4,
+    "group": "PDC Friends 1991-93"
+  },
+  "predictions": [
+    {
+      "name": "P Vijayan",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 06:33 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 10:54 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 10:54 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 11:25 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:25 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Vinod K M",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 06:36 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 11:29 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 11:29 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:08 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 12:08 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Sunilraj",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Praveen Kodurkalam",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 06:44 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:36 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:36 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 05:39 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "INVALID"
+        }
+      ]
+    },
+    {
+      "name": "Senthil Kumar",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 06:49 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:20 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:20 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 01:00 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 01:00 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Srikanth N R",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 06:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:12 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 09:04 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:19 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 08:19 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Kamal",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:08 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 08:08 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:08 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 11:52 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:52 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Harish",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:03 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:11 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:11 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 10:43 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 10:43 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Sheejith Sahadevan",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:12 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:12 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:12 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:16 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:16 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:16 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:16 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:16 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Shaik Afzal",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 12:09 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 12:09 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Nandhini Viswanath",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:42 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Krishnan",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Vinod Menon",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 09:51 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 09:51 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Bijesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "INVALID"
+        }
+      ]
+    },
+    {
+      "name": "Smitha Ramesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "INVALID"
+        }
+      ]
+    },
+    {
+      "name": "Deepa R Rao",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 02:49 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 02:49 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Sreejith Ramachandran",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 04:15 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 04:15 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Satheesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 10:30 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Sasikumar Prabhakaran",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Ashik",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:53 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:53 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 07:00 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 07:00 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 03:00 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 03:00 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 03:00 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Abhilash Unniyambath",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Rajith",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:05 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:06 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:00 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:00 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 01:00 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "KD",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 09:10 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 09:10 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 09:10 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Kesava Prasad",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Sreejith Chandra",
+      "scores": [
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 10:00 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 10:00 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    },
+    {
+      "name": "Baba Krishnankutty",
+      "scores": [
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 7,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "mexico vs south africa": {
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "score1": 2,
+      "score2": 0
+    },
+    "czechia vs south korea": {
+      "team1": "South Korea",
+      "team2": "Czechia",
+      "score1": 2,
+      "score2": 1
+    },
+    "bosnia & herzegovina vs canada": {
+      "team1": "Canada",
+      "team2": "Bosnia & Herzegovina",
+      "score1": 1,
+      "score2": 1
+    },
+    "paraguay vs usa": {
+      "team1": "USA",
+      "team2": "Paraguay",
+      "score1": 4,
+      "score2": 1
+    },
+    "qatar vs switzerland": {
+      "team1": "Qatar",
+      "team2": "Switzerland",
+      "score1": 1,
+      "score2": 1
+    },
+    "brazil vs morocco": {
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "score1": 1,
+      "score2": 1
+    },
+    "haiti vs scotland": {
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "score1": 0,
+      "score2": 1
+    },
+    "australia vs turkiye": {
+      "team1": "Australia",
+      "team2": "Turkiye",
+      "score1": 2,
+      "score2": 0
+    }
+  }
+}
