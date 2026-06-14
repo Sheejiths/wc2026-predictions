@@ -394,10 +394,13 @@ function renderLB(){
     const rank=ranks[i];const tied=rankCounts[rank]>1&&rank<=3;
     const uid=name.replace(/[^a-zA-Z0-9]/g,'_');const medal=MEDALS[rank];
 
-    // Stat cell builder — opens bottom sheet on tap (fix 4)
+    // Stat cell builder — stores data in global map, refs by key (avoids JSON-in-onclick bug)
     const sc=(val,items,colClass,type)=>{
       if(val===0)return`<td class="stat-cell"><button class="stat-btn zero">${val}</button></td>`;
-      return`<td class="stat-cell"><button class="stat-btn clickable ${colClass}" onclick="showStatDetail('${name.replace(/'/g,'\\'')}','${type}',${JSON.stringify(items).replace(/</g,'\\u003c')})">${val}</button></td>`;
+      const key=uid+'_'+type;
+      window._statData=window._statData||{};
+      window._statData[key]={name,type,items};
+      return`<td class="stat-cell"><button class="stat-btn clickable ${colClass}" onclick="showStatByKey('${key}')">${val}</button></td>`;
     };
 
     html+=`<tr class="${tied?'tied':''}">
@@ -415,6 +418,12 @@ function renderLB(){
   html+='</tbody></table></div>';
   // Fix 5: WhatsApp share section removed
   el.innerHTML=html;
+}
+
+// Safe wrapper — avoids JSON-in-onclick attribute issues
+function showStatByKey(key){
+  const d=window._statData&&window._statData[key];
+  if(d) showStatDetail(d.name,d.type,d.items);
 }
 
 loadData();
