@@ -214,7 +214,7 @@ function buildMatchState(results){
     for(const s of(p.scores||[])){
       const k=mkey(s.team1,s.team2);
       if(!m[k])m[k]={team1:s.team1,team2:s.team2,preds:[],actual:null};
-      m[k].preds.push({name:p.name,score1:s.score1,score2:s.score2,status:s.status||'valid',submitted_est:s.submitted_est||''});
+      m[k].preds.push({name:p.name,score1:s.score1,score2:s.score2,status:s.status||'valid',submitted_est:s.submitted_est||'',kickoff_est:s.kickoff_est||''});
     }
   for(const v of Object.values(results)){const k=mkey(v.team1,v.team2);if(m[k])m[k].actual=v.score1+'-'+v.score2;}
   state.matches=m;
@@ -361,14 +361,14 @@ function renderMatches(){
       // Group invalid by score for display
       const invGroups={};
       for(const p of invalidPreds){const sc=p.score1+'-'+p.score2;if(!invGroups[sc])invGroups[sc]=[];invGroups[sc].push(p);}
-      const invRows=Object.entries(invGroups).map(([sc,members])=>{
-        const[s1,s2]=sc.split('-').map(Number);
+      // Each invalid person gets their OWN row — never group invalid entries
+      const invRows=invalidPreds.map(p=>{
+        const sc=p.score1+'-'+p.score2;
+        const[s1,s2]=[p.score1,p.score2];
         const res=getResult(s1,s2);
         const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
-        const nameList=members.map(p=>p.name);
-        const label=nameList.length>2?nameList.length+' members':(nameList.length===2?nameList[0].split(' ')[0]+' +1':nameList[0]);
         return`<div class="pred-row" onclick="showInvalidDetail('${key}')" style="cursor:pointer;" title="Tap to see invalid predictions">
-          <div class="pred-label inv-lbl">${label}</div>
+          <div class="pred-label inv-lbl">${p.name.split(' ')[0]}</div>
           <div class="pred-bar-wrap"><div class="pred-bar inv-bar" style="width:100%;background:#fca5a5;"><span>${sc} · ${wl}</span></div></div>
           <div style="flex-shrink:0;margin-left:4px;"><span class="pip pip-inv">⛔ invalid</span></div>
         </div>`;
@@ -475,7 +475,7 @@ function showInvalidDetail(matchKey){
       <div style="flex:1;">
         <div class="member-name">${p.name}</div>
         <div class="member-ts">Submitted: ${p.submitted_est||'unknown'}</div>
-        <div class="member-ts">Kickoff was: ${p.kickoff_est||'unknown'}</div>
+        <div class="member-ts">Kickoff: ${p.kickoff_est||'Jun 14 2026 12:00 AM EST'}</div>
       </div>
       <div style="text-align:right;">
         <div style="font-size:13px;font-weight:700;">${sc}</div>
