@@ -249,16 +249,17 @@ function showBarDetail(matchKey, scoreStr){
   const[s1,s2]=scoreStr.split('-').map(Number);
   const res=getResult(s1,s2);
   const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
-  const members=m.preds.filter(p=>p.score1===s1&&p.score2===s2);
-  const isInv=members.length>0&&members[0].status==='INVALID';
+  // Only show VALID members in bar detail — invalid are shown separately
+  const members=m.preds.filter(p=>p.score1===s1&&p.score2===s2&&p.status!=='INVALID');
+  if(members.length===0){showInvalidDetail(matchKey);return;}
   let pts=null;
-  if(m.actual&&!isInv){
+  if(m.actual){
     const[as1,as2]=m.actual.split('-').map(Number);
     pts=calcPts(s1,s2,as1,as2);
   }
-  const ptLabel=pts===3?'+3 pts (Exact!)':pts===2?'+2 pts (Right diff)':pts===1?'+1 pt (Right result)':pts===0?'0 pts':isInv?'⛔ Invalid — submitted after kickoff':'Pending';
-  const ptColor=pts===3?'#7d5a00':pts===2?'#004e8c':pts===1?'#0a5c0a':isInv?'#c4314b':'#605e5c';
-  const ptBg=pts===3?'#fff4ce':pts===2?'#dae8f6':pts===1?'#dff6dd':isInv?'#fde7e9':'#edebe9';
+  const ptLabel=pts===3?'+3 pts (Exact!)':pts===2?'+2 pts (Right diff)':pts===1?'+1 pt (Right result)':pts===0?'0 pts':'Pending';
+  const ptColor=pts===3?'#7d5a00':pts===2?'#004e8c':pts===1?'#0a5c0a':'#605e5c';
+  const ptBg=pts===3?'#fff4ce':pts===2?'#dae8f6':pts===1?'#dff6dd':'#edebe9';
 
   let body=`<div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px;background:#f9f8f7;border-radius:8px;">
     <div style="font-size:22px;font-weight:700;">${scoreStr}</div>
@@ -279,7 +280,7 @@ function showBarDetail(matchKey, scoreStr){
         <div class="member-name">${p.name}</div>
         ${p.submitted_est?'<div class="member-ts">Submitted: '+p.submitted_est+'</div>':''}
       </div>
-      ${p.status==='INVALID'?'<span style="font-size:10px;background:#fde7e9;color:#c4314b;padding:2px 6px;border-radius:4px;">⛔ invalid</span>':''}
+      <!-- valid member -->
     </div>`;
   });
   body+='</div>';
@@ -319,40 +320,69 @@ function renderMatches(){
 
   keys.forEach((key)=>{
     const m=state.matches[key];
+
+    // ── Fully separate valid and invalid ──────────────────────────────────────
     const validPreds=m.preds.filter(p=>p.status!=='INVALID');
+    const invalidPreds=m.preds.filter(p=>p.status==='INVALID');
     const total=validPreds.length;
-    const allGroups={};
-    for(const p of m.preds){const sc=p.score1+'-'+p.score2;if(!allGroups[sc])allGroups[sc]=[];allGroups[sc].push(p);}
+
+    // Group ONLY valid predictions by score
     const validGroups={};
-    for(const p of validPreds){const sc=p.score1+'-'+p.score2;if(!validGroups[sc])validGroups[sc]=[];validGroups[sc].push(p);}
-    const sorted=Object.entries(allGroups).sort((a,b)=>b[1].length-a[1].length);
-    const topValid=Object.entries(validGroups).sort((a,b)=>b[1].length-a[1].length)[0];
+    for(const p of validPreds){
+      const sc=p.score1+'-'+p.score2;
+      if(!validGroups[sc])validGroups[sc]=[];
+      validGroups[sc].push(p);
+    }
+    const sortedValid=Object.entries(validGroups).sort((a,b)=>b[1].length-a[1].length);
+    const topValid=sortedValid[0];
     let ci=0;
 
-    const bars=sorted.map(([sc,members])=>{
-      const isInv=members[0].status==='INVALID';
-      const validMembers=members.filter(p=>p.status!=='INVALID');
-      const pct=total>0?Math.round(validMembers.length/total*100):0;
+    // Render valid prediction bars only
+    const bars=sortedValid.map(([sc,members])=>{
+      const pct=total>0?Math.round(members.length/total*100):0;
       const[s1,s2]=sc.split('-').map(Number);
       const res=getResult(s1,s2);
       const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
       let pip='';
-      if(!isInv&&m.actual){const[as1,as2]=m.actual.split('-').map(Number);const pts=calcPts(s1,s2,as1,as2);if(pts===3)pip='<span class="pip pip3">+3</span>';else if(pts===2)pip='<span class="pip pip2">+2</span>';else if(pts===1)pip='<span class="pip pip1">+1</span>';}
-      if(isInv)pip='<span class="pip pip-inv">⛔ invalid</span>';
-      const color=isInv?'#c8c6c4':COLORS[ci%COLORS.length];if(!isInv)ci++;
-      // Show first 2 names or "N members"
+      if(m.actual){const[as1,as2]=m.actual.split('-').map(Number);const pts=calcPts(s1,s2,as1,as2);if(pts===3)pip='<span class="pip pip3">+3</span>';else if(pts===2)pip='<span class="pip pip2">+2</span>';else if(pts===1)pip='<span class="pip pip1">+1</span>';}
+      const color=COLORS[ci%COLORS.length];ci++;
       const nameList=members.map(p=>p.name);
       const label=nameList.length>2?nameList.length+' members':(nameList.length===2?nameList[0].split(' ')[0]+' +1':nameList[0]);
-      const safeKey=key.replace(/[^a-zA-Z0-9]/g,'_');
       return`<div class="pred-row" onclick="showBarDetail('${key}','${sc}')" title="Tap to see who predicted this">
-        <div class="pred-label${isInv?' inv-lbl':''}">${label}</div>
-        <div class="pred-bar-wrap"><div class="pred-bar${isInv?' inv-bar':''}" style="width:${isInv?100:Math.max(pct,6)}%;background:${color};"><span>${sc} · ${wl}</span></div></div>
-        <div style="display:flex;align-items:center;gap:2px;flex-shrink:0;"><div class="pred-pct">${isInv?'':pct+'%'}</div>${pip}</div>
+        <div class="pred-label">${label}</div>
+        <div class="pred-bar-wrap"><div class="pred-bar" style="width:${Math.max(pct,6)}%;background:${color};"><span>${sc} · ${wl}</span></div></div>
+        <div style="display:flex;align-items:center;gap:2px;flex-shrink:0;"><div class="pred-pct">${pct}%</div>${pip}</div>
       </div>`;
     }).join('');
 
+    // Render invalid as ONE clearly separated section at the bottom
+    let invalidSection='';
+    if(invalidPreds.length>0){
+      // Group invalid by score for display
+      const invGroups={};
+      for(const p of invalidPreds){const sc=p.score1+'-'+p.score2;if(!invGroups[sc])invGroups[sc]=[];invGroups[sc].push(p);}
+      const invRows=Object.entries(invGroups).map(([sc,members])=>{
+        const[s1,s2]=sc.split('-').map(Number);
+        const res=getResult(s1,s2);
+        const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
+        const nameList=members.map(p=>p.name);
+        const label=nameList.length>2?nameList.length+' members':(nameList.length===2?nameList[0].split(' ')[0]+' +1':nameList[0]);
+        return`<div class="pred-row" onclick="showInvalidDetail('${key}')" style="cursor:pointer;" title="Tap to see invalid predictions">
+          <div class="pred-label inv-lbl">${label}</div>
+          <div class="pred-bar-wrap"><div class="pred-bar inv-bar" style="width:100%;background:#fca5a5;"><span>${sc} · ${wl}</span></div></div>
+          <div style="flex-shrink:0;margin-left:4px;"><span class="pip pip-inv">⛔ invalid</span></div>
+        </div>`;
+      }).join('');
+      invalidSection=`
+        <div style="border-top:1.5px dashed #fca5a5;margin-top:8px;padding-top:8px;">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#c4314b;margin-bottom:5px;">⛔ Excluded — submitted after kickoff (${invalidPreds.length})</div>
+          ${invRows}
+        </div>`;
+    }
+
     const isResult=!!m.actual;
-    html+=`<div class="match-card"><div class="match-header"><div class="match-title">${m.team1} vs ${m.team2}</div><span class="match-badge ${isResult?'badge-result':'badge-pending'}">${isResult?'✓ '+m.actual:'Pending'}</span></div><div class="match-body">${bars}${topValid?`<div class="consensus-row"><span style="color:#605e5c;">Most backed:</span><span style="font-weight:600;margin-left:4px;">${topValid[0]}</span><span style="color:#605e5c;margin-left:4px;">(${topValid[1].length} of ${total})</span></div>`:''}</div></div>`;
+    const consensusRow=topValid?`<div class="consensus-row"><span style="color:#605e5c;">Most backed:</span><span style="font-weight:600;margin-left:4px;">${topValid[0]}</span><span style="color:#605e5c;margin-left:4px;">(${topValid[1].length} of ${total})</span></div>`:'';
+    html+=`<div class="match-card"><div class="match-header"><div class="match-title">${m.team1} vs ${m.team2}</div><span class="match-badge ${isResult?'badge-result':'badge-pending'}">${isResult?'&#10003; '+m.actual:'Pending'}</span></div><div class="match-body">${bars}${consensusRow}${invalidSection}</div></div>`;
   });
   html+='</div>';
   el.innerHTML=html;
