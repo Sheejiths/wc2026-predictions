@@ -297,6 +297,161 @@
       ]
     },
     {
+      "name": "Sunilraj",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:08 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:05 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:36 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 2,
+          "score2": 3,
+          "submitted_est": "Jun 14 2026 07:36 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:36 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 07:36 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:45 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 12:45 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:45 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:45 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
       "name": "Praveen Kodurkalam",
       "scores": [
         {
@@ -565,16 +720,6 @@
           "group": "G"
         },
         {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 08:31 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
           "team1": "Saudi Arabia",
           "team2": "Uruguay",
           "score1": 1,
@@ -583,6 +728,16 @@
           "kickoff_est": "Jun 15 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 08:31 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
         },
         {
           "team1": "France",
@@ -610,6 +765,161 @@
           "score1": 1,
           "score2": 1,
           "submitted_est": "Jun 15 2026 11:56 AM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Srikanth N R",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 06:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:12 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 09:04 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:19 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 08:19 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:37 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:37 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:37 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 07:46 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 07:46 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 15 2026 07:46 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 07:46 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
           "kickoff_est": "Jun 17 2026 12:00 AM EST",
           "status": "valid",
           "group": "J"
@@ -782,14 +1092,14 @@
       ]
     },
     {
-      "name": "Nandhini Viswanath",
+      "name": "Harish",
       "scores": [
         {
           "team1": "Qatar",
           "team2": "Switzerland",
-          "score1": 0,
+          "score1": 2,
           "score2": 2,
-          "submitted_est": "Jun 12 2026 08:42 AM EST",
+          "submitted_est": "Jun 12 2026 07:03 AM EST",
           "kickoff_est": "Jun 13 2026 03:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -797,9 +1107,9 @@
         {
           "team1": "Brazil",
           "team2": "Morocco",
-          "score1": 2,
+          "score1": 4,
           "score2": 1,
-          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "submitted_est": "Jun 12 2026 08:11 AM EST",
           "kickoff_est": "Jun 13 2026 06:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -807,9 +1117,9 @@
         {
           "team1": "Haiti",
           "team2": "Scotland",
-          "score1": 0,
+          "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "submitted_est": "Jun 12 2026 08:11 AM EST",
           "kickoff_est": "Jun 13 2026 09:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -817,9 +1127,9 @@
         {
           "team1": "Australia",
           "team2": "Turkiye",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 10:43 PM EST",
           "kickoff_est": "Jun 14 2026 12:00 AM EST",
           "status": "valid",
           "group": "D"
@@ -827,9 +1137,9 @@
         {
           "team1": "Germany",
           "team2": "Curacao",
-          "score1": 3,
+          "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "submitted_est": "Jun 13 2026 10:43 PM EST",
           "kickoff_est": "Jun 14 2026 01:00 PM EST",
           "status": "valid",
           "group": "E"
@@ -837,9 +1147,9 @@
         {
           "team1": "Netherlands",
           "team2": "Japan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 03:38 AM EST",
           "kickoff_est": "Jun 14 2026 04:00 PM EST",
           "status": "valid",
           "group": "F"
@@ -848,8 +1158,8 @@
           "team1": "Ivory Coast",
           "team2": "Ecuador",
           "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 03:38 AM EST",
           "kickoff_est": "Jun 14 2026 07:00 PM EST",
           "status": "valid",
           "group": "E"
@@ -858,8 +1168,8 @@
           "team1": "Sweden",
           "team2": "Tunisia",
           "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 03:38 AM EST",
           "kickoff_est": "Jun 14 2026 10:00 PM EST",
           "status": "valid",
           "group": "F"
@@ -867,10 +1177,20 @@
         {
           "team1": "Spain",
           "team2": "Cape Verde",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "score1": 6,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 09:45 PM EST",
           "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 09:45 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
         },
@@ -879,27 +1199,17 @@
           "team2": "Egypt",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 07:28 AM EST",
+          "submitted_est": "Jun 14 2026 09:45 PM EST",
           "kickoff_est": "Jun 15 2026 03:00 PM EST",
           "status": "valid",
           "group": "G"
         },
         {
-          "team1": "Saudi Arabia",
-          "team2": "Uruguay",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 07:28 AM EST",
-          "kickoff_est": "Jun 15 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
           "team1": "Iran",
           "team2": "New Zealand",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 07:28 AM EST",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 09:45 PM EST",
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -907,9 +1217,9 @@
         {
           "team1": "France",
           "team2": "Senegal",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:56 PM EST",
           "kickoff_est": "Jun 16 2026 03:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -918,8 +1228,8 @@
           "team1": "Iraq",
           "team2": "Norway",
           "score1": 1,
-          "score2": 3,
-          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:56 PM EST",
           "kickoff_est": "Jun 16 2026 06:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -927,9 +1237,9 @@
         {
           "team1": "Argentina",
           "team2": "Algeria",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:56 PM EST",
           "kickoff_est": "Jun 16 2026 09:00 PM EST",
           "status": "valid",
           "group": "J"
@@ -937,87 +1247,12 @@
         {
           "team1": "Austria",
           "team2": "Jordan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:56 PM EST",
           "kickoff_est": "Jun 17 2026 12:00 AM EST",
           "status": "valid",
           "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Kesava Prasad",
-      "scores": [
-        {
-          "team1": "Qatar",
-          "team2": "Switzerland",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 12:35 AM EST",
-          "kickoff_est": "Jun 13 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "B"
-        },
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 12:35 AM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 12:35 AM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 10:20 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 10:20 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Saudi Arabia",
-          "team2": "Uruguay",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 10:20 PM EST",
-          "kickoff_est": "Jun 15 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 10:20 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
         }
       ]
     },
@@ -1187,6 +1422,1556 @@
       ]
     },
     {
+      "name": "Shaik Afzal",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 12 2026 08:38 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 12:09 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 12:09 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 10:04 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 10:04 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 10:04 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 10:04 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:54 AM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:54 AM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:54 AM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 11:54 AM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Nandhini Viswanath",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:42 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:43 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 08:35 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 07:57 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 07:28 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 07:28 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 07:28 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 10:42 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Krishnan",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 09:29 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 09:29 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 09:29 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 09:29 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 12:49 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:49 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 12:49 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:49 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Vinod Menon",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 08:53 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 09:51 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 09:51 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 02:35 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 02:35 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 02:35 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:18 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:18 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:18 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:18 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:52 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:52 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:52 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:52 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Bijesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 09:03 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "INVALID",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:21 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:53 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:53 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:53 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:53 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:11 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 01:11 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:11 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 01:11 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Smitha Ramesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 11:58 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "INVALID",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 06:53 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:24 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 12:24 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:24 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:24 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Deepa R Rao",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 01:57 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 02:49 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 02:49 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 04:05 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:05 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:05 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 05:42 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 05:42 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 15 2026 05:42 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 05:42 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:45 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 01:45 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 01:45 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:45 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Sreejith Ramachandran",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 04:15 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 04:15 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:25 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:25 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 01:25 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 01:25 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 02:23 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 02:23 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 02:23 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 05:03 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 0,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 05:03 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 05:03 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 05:03 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Satheesh",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 10:31 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 10:30 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 05:22 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 6,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:35 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 04:35 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:35 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:35 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:53 AM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 11:53 AM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 11:53 AM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Sasikumar Prabhakaran",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 16 2026 12:40 AM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 16 2026 12:40 AM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 16 2026 12:40 AM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 0,
+          "score2": 0,
+          "submitted_est": "Jun 16 2026 12:40 AM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
       "name": "Ashik",
       "scores": [
         {
@@ -1312,6 +3097,326 @@
       ]
     },
     {
+      "name": "Abhilash Unniyambath",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 13 2026 02:02 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 04:24 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 01:38 AM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:38 AM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 01:38 AM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 01:38 AM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
+      "name": "Rajith",
+      "scores": [
+        {
+          "team1": "Qatar",
+          "team2": "Switzerland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:05 AM EST",
+          "kickoff_est": "Jun 13 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Morocco",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 12 2026 07:06 AM EST",
+          "kickoff_est": "Jun 13 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Haiti",
+          "team2": "Scotland",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "kickoff_est": "Jun 13 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:13 AM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 01:13 AM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 01:13 AM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 14 2026 09:11 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Saudi Arabia",
+          "team2": "Uruguay",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 09:11 PM EST",
+          "kickoff_est": "Jun 15 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 09:11 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Iran",
+          "team2": "New Zealand",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 14 2026 09:11 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 3,
+          "submitted_est": "Jun 15 2026 12:29 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 12:29 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 12:29 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 12:29 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
+        }
+      ]
+    },
+    {
       "name": "KD",
       "scores": [
         {
@@ -1417,14 +3522,14 @@
       ]
     },
     {
-      "name": "Sasikumar Prabhakaran",
+      "name": "Kesava Prasad",
       "scores": [
         {
           "team1": "Qatar",
           "team2": "Switzerland",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
           "kickoff_est": "Jun 13 2026 03:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -1432,9 +3537,9 @@
         {
           "team1": "Brazil",
           "team2": "Morocco",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
           "kickoff_est": "Jun 13 2026 06:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -1443,8 +3548,8 @@
           "team1": "Haiti",
           "team2": "Scotland",
           "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 07:49 AM EST",
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 12:35 AM EST",
           "kickoff_est": "Jun 13 2026 09:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -1452,9 +3557,9 @@
         {
           "team1": "Spain",
           "team2": "Cape Verde",
-          "score1": 5,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 10:20 PM EST",
           "kickoff_est": "Jun 15 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -1464,7 +3569,7 @@
           "team2": "Egypt",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "submitted_est": "Jun 14 2026 10:20 PM EST",
           "kickoff_est": "Jun 15 2026 03:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -1473,8 +3578,8 @@
           "team1": "Saudi Arabia",
           "team2": "Uruguay",
           "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 10:20 PM EST",
           "kickoff_est": "Jun 15 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -1484,50 +3589,95 @@
           "team2": "New Zealand",
           "score1": 1,
           "score2": 0,
-          "submitted_est": "Jun 15 2026 01:26 AM EST",
+          "submitted_est": "Jun 14 2026 10:20 PM EST",
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        }
+      ]
+    },
+    {
+      "name": "Baba Krishnankutty",
+      "scores": [
+        {
+          "team1": "Australia",
+          "team2": "Turkiye",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Germany",
+          "team2": "Curacao",
+          "score1": 7,
+          "score2": 0,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Japan",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "Ecuador",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Tunisia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 13 2026 11:31 PM EST",
+          "kickoff_est": "Jun 14 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:38 PM EST",
+          "kickoff_est": "Jun 15 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Egypt",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:38 PM EST",
+          "kickoff_est": "Jun 15 2026 03:00 PM EST",
           "status": "valid",
           "group": "G"
         },
         {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 16 2026 12:40 AM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
+          "team1": "Iran",
+          "team2": "New Zealand",
           "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 16 2026 12:40 AM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "score2": 1,
+          "submitted_est": "Jun 14 2026 07:38 PM EST",
+          "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Argentina",
-          "team2": "Algeria",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 16 2026 12:40 AM EST",
-          "kickoff_est": "Jun 16 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "J"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 0,
-          "score2": 0,
-          "submitted_est": "Jun 16 2026 12:40 AM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
+          "group": "G"
         }
       ]
     },
@@ -1725,1186 +3875,6 @@
           "score1": 2,
           "score2": 1,
           "submitted_est": "Jun 15 2026 09:40 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Baba Krishnankutty",
-      "scores": [
-        {
-          "team1": "Australia",
-          "team2": "Turkiye",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:31 PM EST",
-          "kickoff_est": "Jun 14 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "D"
-        },
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 7,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 11:31 PM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 4,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:31 PM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:31 PM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:31 PM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 4,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:38 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:38 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:38 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        }
-      ]
-    },
-    {
-      "name": "Satheesh",
-      "scores": [
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 10:31 AM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 12 2026 10:31 AM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 5,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 05:22 PM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 13 2026 05:22 PM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 05:22 PM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 05:22 PM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 6,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:35 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 04:35 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 04:35 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 11:53 AM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 11:53 AM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 11:53 AM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Smitha Ramesh",
-      "scores": [
-        {
-          "team1": "Qatar",
-          "team2": "Switzerland",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 11:58 AM EST",
-          "kickoff_est": "Jun 13 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "B"
-        },
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 11:58 AM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 11:58 AM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Australia",
-          "team2": "Turkiye",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:53 AM EST",
-          "kickoff_est": "Jun 14 2026 12:00 AM EST",
-          "status": "INVALID",
-          "group": "D"
-        },
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 06:53 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:53 AM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:53 AM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 06:53 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:24 AM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Saudi Arabia",
-          "team2": "Uruguay",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 12:24 AM EST",
-          "kickoff_est": "Jun 15 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:24 AM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:24 AM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Argentina",
-          "team2": "Algeria",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
-          "kickoff_est": "Jun 16 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "J"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Sreejith Ramachandran",
-      "scores": [
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 03:39 PM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 12 2026 03:39 PM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        }
-      ]
-    },
-    {
-      "name": "Sunilraj",
-      "scores": [
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 02:05 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 02:05 AM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 02:05 AM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 02:05 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 4,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:36 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 07:36 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 14 2026 07:36 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:45 PM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 12:45 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:45 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Deepa R Rao",
-      "scores": [
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 04:05 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 05:42 AM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 05:42 AM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 01:45 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 01:45 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Abhilash Unniyambath",
-      "scores": [
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 4,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:24 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 04:24 AM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:24 AM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:24 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 11:47 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Argentina",
-          "team2": "Algeria",
-          "score1": 4,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 11:47 PM EST",
-          "kickoff_est": "Jun 16 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "J"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 11:47 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Krishnan",
-      "scores": [
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:35 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 04:35 AM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:35 AM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 04:35 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 4,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 09:29 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 09:29 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 09:29 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        }
-      ]
-    },
-    {
-      "name": "Rajith",
-      "scores": [
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 09:11 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 09:11 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 14 2026 09:11 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 3,
-          "submitted_est": "Jun 15 2026 12:29 PM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 12:29 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 3,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 12:29 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Harish",
-      "scores": [
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 6,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 09:45 PM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 09:45 PM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 14 2026 09:45 PM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        }
-      ]
-    },
-    {
-      "name": "Srikanth N R",
-      "scores": [
-        {
-          "team1": "Qatar",
-          "team2": "Switzerland",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 06:53 AM EST",
-          "kickoff_est": "Jun 13 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "B"
-        },
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 12 2026 07:12 AM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 09:04 AM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Australia",
-          "team2": "Turkiye",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 08:19 AM EST",
-          "kickoff_est": "Jun 14 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "D"
-        },
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 08:19 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:37 PM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 13 2026 11:37 PM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 13 2026 11:37 PM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 4,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 07:46 AM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 07:46 AM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Saudi Arabia",
-          "team2": "Uruguay",
-          "score1": 0,
-          "score2": 3,
-          "submitted_est": "Jun 15 2026 07:46 AM EST",
-          "kickoff_est": "Jun 15 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 07:46 AM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 09:26 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Argentina",
-          "team2": "Algeria",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 09:26 PM EST",
-          "kickoff_est": "Jun 16 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "J"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 09:26 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Vinod Menon",
-      "scores": [
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 09:18 AM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        }
-      ]
-    },
-    {
-      "name": "Bijesh",
-      "scores": [
-        {
-          "team1": "Qatar",
-          "team2": "Switzerland",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 12 2026 09:03 AM EST",
-          "kickoff_est": "Jun 13 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "B"
-        },
-        {
-          "team1": "Brazil",
-          "team2": "Morocco",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 09:03 AM EST",
-          "kickoff_est": "Jun 13 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Haiti",
-          "team2": "Scotland",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 12 2026 09:03 AM EST",
-          "kickoff_est": "Jun 13 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "C"
-        },
-        {
-          "team1": "Australia",
-          "team2": "Turkiye",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:21 AM EST",
-          "kickoff_est": "Jun 14 2026 12:00 AM EST",
-          "status": "INVALID",
-          "group": "D"
-        },
-        {
-          "team1": "Germany",
-          "team2": "Curacao",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:21 AM EST",
-          "kickoff_est": "Jun 14 2026 01:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Netherlands",
-          "team2": "Japan",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:21 AM EST",
-          "kickoff_est": "Jun 14 2026 04:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Ivory Coast",
-          "team2": "Ecuador",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 14 2026 06:21 AM EST",
-          "kickoff_est": "Jun 14 2026 07:00 PM EST",
-          "status": "valid",
-          "group": "E"
-        },
-        {
-          "team1": "Sweden",
-          "team2": "Tunisia",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 14 2026 06:21 AM EST",
-          "kickoff_est": "Jun 14 2026 10:00 PM EST",
-          "status": "valid",
-          "group": "F"
-        },
-        {
-          "team1": "Spain",
-          "team2": "Cape Verde",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 09:53 AM EST",
-          "kickoff_est": "Jun 15 2026 12:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Belgium",
-          "team2": "Egypt",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 09:53 AM EST",
-          "kickoff_est": "Jun 15 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "Saudi Arabia",
-          "team2": "Uruguay",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 09:53 AM EST",
-          "kickoff_est": "Jun 15 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "H"
-        },
-        {
-          "team1": "Iran",
-          "team2": "New Zealand",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 09:53 AM EST",
-          "kickoff_est": "Jun 15 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "G"
-        },
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 01:11 PM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 01:11 PM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Argentina",
-          "team2": "Algeria",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 01:11 PM EST",
-          "kickoff_est": "Jun 16 2026 09:00 PM EST",
-          "status": "valid",
-          "group": "J"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 1,
-          "score2": 2,
-          "submitted_est": "Jun 15 2026 01:11 PM EST",
-          "kickoff_est": "Jun 17 2026 12:00 AM EST",
-          "status": "valid",
-          "group": "J"
-        }
-      ]
-    },
-    {
-      "name": "Shaik Afzal",
-      "scores": [
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 11:54 AM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Iraq",
-          "team2": "Norway",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 15 2026 11:54 AM EST",
-          "kickoff_est": "Jun 16 2026 06:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        },
-        {
-          "team1": "Austria",
-          "team2": "Jordan",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 15 2026 11:54 AM EST",
           "kickoff_est": "Jun 17 2026 12:00 AM EST",
           "status": "valid",
           "group": "J"
