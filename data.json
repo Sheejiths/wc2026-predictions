@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "15 Jun 2026",
-    "updated_time": "05:03 PM",
-    "matches_played": 14,
+    "updated": "16 Jun 2026",
+    "updated_time": "12:00 AM",
+    "matches_played": 16,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -833,6 +833,36 @@
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -2758,6 +2788,36 @@
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -3319,6 +3379,20 @@
       "team2": "Egypt",
       "score1": 1,
       "score2": 1,
+      "group": "G"
+    },
+    "saudi arabia vs uruguay": {
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "score1": 1,
+      "score2": 1,
+      "group": "H"
+    },
+    "iran vs new zealand": {
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "score1": 2,
+      "score2": 2,
       "group": "G"
     }
   }
