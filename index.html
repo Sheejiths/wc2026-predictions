@@ -51,6 +51,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .pip1{background:#dff6dd;color:#0a5c0a;}
 .pip-inv{background:#fde7e9;color:#c4314b;font-size:9px;}
 .consensus-row{display:flex;align-items:center;gap:6px;margin-top:8px;padding-top:8px;border-top:1px solid #edebe9;font-size:12px;}
+/* Search bar */
+.search-wrap{padding:10px 0 4px;position:relative;}
+.search-input{width:100%;height:36px;padding:0 36px 0 12px;font-size:13px;
+  border:1.5px solid #edebe9;border-radius:6px;outline:none;background:#fff;color:#201f1e;}
+.search-input:focus{border-color:#0078d4;box-shadow:0 0 0 2px rgba(0,120,212,.15);}
+.search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);
+  background:none;border:none;cursor:pointer;color:#a19f9d;font-size:16px;line-height:1;display:none;}
+.search-clear.show{display:block;}
+.no-match{text-align:center;padding:30px;color:#a19f9d;font-size:13px;}
+/* Group badge */
+.group-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;
+  background:#e8f0fe;color:#1a56a0;margin-left:8px;letter-spacing:.03em;}
 /* Modal */
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:300;opacity:0;pointer-events:none;transition:opacity .2s;}
 .modal-overlay.show{opacity:1;pointer-events:all;}
@@ -121,6 +133,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div>
 <div id="panel-matches" class="panel active">
   <div class="loading" id="loadingMatches"><div class="loading-spinner"></div>Loading latest data…</div>
+  <div id="matchSearchWrap" class="search-wrap" style="display:none;">
+    <input class="search-input" id="matchSearch" type="text"
+      placeholder="🔍  Search by country name…" oninput="filterMatches(this.value)">
+    <button class="search-clear" id="matchSearchClear" onclick="clearSearch()">×</button>
+  </div>
   <div id="matchesContent" style="display:none;"></div>
 </div>
 <div id="panel-leaderboard" class="panel">
@@ -162,6 +179,7 @@ async function loadData(){
     renderMatches();renderLB();
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
+    document.getElementById('matchSearchWrap').style.display='block';
     document.getElementById('loadingLB').style.display='none';
     document.getElementById('lbContent').style.display='block';
   }catch(e){
@@ -342,9 +360,11 @@ function renderMatches(){
       </div>`;
     }
     const isResult=!!m.actual;
+    const grp=validPreds.length>0&&validPreds[0].group?validPreds[0].group:(invalidPreds.length>0&&invalidPreds[0].group?invalidPreds[0].group:'');
+    const grpBadge=grp?`<span class="group-badge">Group ${grp}</span>`:'';
     const consensusRow=topValid?`<div class="consensus-row"><span style="color:#605e5c;">Most backed:</span><span style="font-weight:600;margin-left:4px;">${topValid[0]}</span><span style="color:#605e5c;margin-left:4px;">(${topValid[1].length} of ${total})</span></div>`:'';
-    html+=`<div class="match-card">
-      <div class="match-header"><div class="match-title">${m.team1} vs ${m.team2}</div>
+    html+=`<div class="match-card" data-teams="${m.team1.toLowerCase()} ${m.team2.toLowerCase()}">
+      <div class="match-header"><div class="match-title">${m.team1} vs ${m.team2}${grpBadge}</div>
       <span class="match-badge ${isResult?'badge-result':'badge-pending'}">${isResult?'&#10003; '+m.actual:'Pending'}</span></div>
       <div class="match-body">${bars}${consensusRow}${invSection}</div>
     </div>`;
@@ -419,6 +439,29 @@ function renderLB(){
   });
   html+='</tbody></table></div>';
   el.innerHTML=html;
+}
+
+function filterMatches(q){
+  q=q.trim().toLowerCase();
+  document.getElementById('matchSearchClear').classList.toggle('show', q.length>0);
+  const cards=document.querySelectorAll('#matchesContent .match-card');
+  let visible=0;
+  cards.forEach(card=>{
+    const teams=card.getAttribute('data-teams')||'';
+    const show=!q||teams.includes(q);
+    card.style.display=show?'':'none';
+    if(show)visible++;
+  });
+  // Show/hide no-match message
+  let nm=document.getElementById('noMatchMsg');
+  if(!nm){nm=document.createElement('div');nm.id='noMatchMsg';nm.className='no-match';document.getElementById('matchesContent').appendChild(nm);}
+  nm.style.display=visible===0&&q?'block':'none';
+  nm.textContent=visible===0&&q?'No matches found for "'+q+'"':'';
+}
+
+function clearSearch(){
+  document.getElementById('matchSearch').value='';
+  filterMatches('');
 }
 
 loadData();
