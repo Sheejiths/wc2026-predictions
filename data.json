@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "16 Jun 2026",
-    "updated_time": "11:33 PM",
+    "updated_time": "11:59 PM",
     "matches_played": 19,
     "group": "PDC Friends 1991-93"
   },
@@ -3848,6 +3848,16 @@
           "kickoff_est": "Jun 17 2026 07:00 PM EST",
           "status": "valid",
           "group": "L"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 11:47 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
         }
       ]
     },
