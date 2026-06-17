@@ -115,6 +115,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   .name-cell{font-size:12px;}.pts-val{font-size:16px;}
   .panel{padding:10px;}.stat-btn{min-width:24px;height:22px;font-size:12px;}
 }
+
+/* Screenshot / print fix — removes sticky header so full page captures cleanly */
+@media print {
+  .sticky-top { position: relative !important; }
+  body { overflow: visible !important; }
+  .panel { display: block !important; }
+  #panel-matches { display: none !important; }
+}
+
+/* Force all leaderboard rows to always render (no lazy/virtual rendering) */
+.lb-table tbody tr { display: table-row !important; visibility: visible !important; }
 </style>
 </head>
 <body>
