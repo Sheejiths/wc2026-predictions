@@ -196,7 +196,7 @@ function buildMatchState(results){
   for(const p of state.predictions)
     for(const s of(p.scores||[])){
       const k=mkey(s.team1,s.team2);
-      if(!m[k])m[k]={team1:s.team1,team2:s.team2,preds:[],actual:null};
+      if(!m[k])m[k]={team1:s.team1,team2:s.team2,preds:[],actual:null,kickoff_est:s.kickoff_est||'',group:s.group||''};
       m[k].preds.push({name:p.name,score1:s.score1,score2:s.score2,
                        status:s.status||'valid',submitted_est:s.submitted_est||'',
                        kickoff_est:s.kickoff_est||'',group:s.group||''});
@@ -305,7 +305,12 @@ function showStatDetail(name,type,items){
 
 function renderMatches(){
   const el=document.getElementById('matchesContent');
-  const keys=Object.keys(state.matches);
+  // Sort matches by kickoff time (earliest first = chronological schedule order)
+  const keys=Object.keys(state.matches).sort((a,b)=>{
+    const ka=state.matches[a].kickoff_est||'';
+    const kb=state.matches[b].kickoff_est||'';
+    return new Date(ka)-new Date(kb);
+  });
   const invalidList=[];
   for(const p of state.predictions)for(const s of p.scores)
     if(s.status==='INVALID')invalidList.push(p.name+' ('+s.team1+' vs '+s.team2+')');
