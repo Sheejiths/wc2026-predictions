@@ -274,6 +274,7 @@ function showBarDetail(matchKey,scoreStr){
   if(members.length===0){showInvalidDetail(matchKey);return;}
   const res=getResult(s1,s2);
   const wl=res==='w1'?flag(m.team1):res==='w2'?flag(m.team2):'Draw';
+  const wlText=res==='w1'?flagText(m.team1):res==='w2'?flagText(m.team2):'Draw';
   let pts=null;
   if(m.actual){const[as1,as2]=m.actual.split('-').map(Number);pts=calcPts(s1,s2,as1,as2);}
   const ptLabel=pts===3?'+3 pts (Exact!)':pts===2?'+2 pts (Right diff)':pts===1?'+1 pt (Right result)':pts===0?'0 pts':'Pending';
@@ -293,7 +294,7 @@ function showBarDetail(matchKey,scoreStr){
       ${p.submitted_est?'<div class="member-ts">Submitted: '+p.submitted_est+'</div>':''}</div>
     </div>`;
   });
-  openModal(flag(m.team1)+' vs '+flag(m.team2),'Prediction: '+scoreStr+' · '+wl,body);
+  openModal(flagText(m.team1)+' vs '+flagText(m.team2),'Prediction: '+scoreStr+' · '+wlText,body);
 }
 
 function showInvalidDetail(matchKey){
@@ -315,7 +316,7 @@ function showInvalidDetail(matchKey){
       <div style="font-size:11px;color:#605e5c;">${wl}</div></div>
     </div>`;
   });
-  openModal(flag(m.team1)+' vs '+flag(m.team2),'⛔ '+invPreds.length+' excluded prediction'+(invPreds.length!==1?'s':''),body);
+  openModal(flagText(m.team1)+' vs '+flagText(m.team2),'⛔ '+invPreds.length+' excluded prediction'+(invPreds.length!==1?'s':''),body);
 }
 
 function showStatByKey(key){
@@ -544,6 +545,7 @@ const FLAGS={
 }
 
 function flag(t){const f=FLAGS[t];return f?`<span style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;">${f}</span> ${t}`:t;}
+function flagText(t){const f=FLAGS[t];return f?f+' '+t:t;}
 
 function filterMatches(q){
   q=q.trim().toLowerCase();
