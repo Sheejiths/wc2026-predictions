@@ -153,6 +153,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </div>
 <div id="panel-leaderboard" class="panel">
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
+  <div id="lbSearchWrap" class="search-wrap" style="display:none;">
+    <input class="search-input" id="lbSearch" type="text"
+      placeholder="🔍  Search by player name…" oninput="filterLB(this.value)">
+    <button class="search-clear" id="lbSearchClear" onclick="clearLBSearch()">×</button>
+  </div>
   <div id="lbContent" style="display:none;"></div>
 </div>
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
@@ -193,6 +198,7 @@ async function loadData(){
     document.getElementById('matchSearchWrap').style.display='block';
     document.getElementById('loadingLB').style.display='none';
     document.getElementById('lbContent').style.display='block';
+    document.getElementById('lbSearchWrap').style.display='block';
   }catch(e){
     const msg='<p style="color:#c4314b;text-align:center;padding:40px;">⚠️ Could not load data. Please refresh.<br><small>'+e.message+'</small></p>';
     document.getElementById('loadingMatches').innerHTML=msg;
@@ -281,7 +287,7 @@ function showInvalidDetail(matchKey){
     const init=p.name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
     const sc=p.score1+'-'+p.score2;
     const res=getResult(p.score1,p.score2);
-    const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
+    const wl=res==='w1'?(flag(m.team1)):res==='w2'?(flag(m.team2)):'Draw';
     body+=`<div class="member-item">
       <div class="member-avatar" style="background:#c4314b;">${init}</div>
       <div style="flex:1;"><div class="member-name">${p.name}</div>
@@ -303,13 +309,19 @@ function showStatDetail(name,type,items){
   const ptBgs={exact:'#fff4ce',gdiff:'#dae8f6',result:'#dff6dd'};
   const ptCols={exact:'#7d5a00',gdiff:'#004e8c',result:'#0a5c0a'};
   let body='';
-  items.forEach(it=>{
-    body+=`<div class="member-item" style="flex-direction:column;align-items:flex-start;gap:4px;">
-      <div style="font-size:13px;font-weight:600;">${it.match}</div>
-      <div style="display:flex;gap:6px;align-items:center;font-size:12px;color:#605e5c;">
-        Predicted: <b>${it.pred}</b> → Actual: <b>${it.actual}</b>
-        <span style="font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;background:${ptBgs[type]};color:${ptCols[type]};">${type==='exact'?'+3':type==='gdiff'?'+2':'+1'}</span>
-      </div></div>`;
+  items.forEach((it,i)=>{
+    const [st1,st2]=it.match.split(' vs ');
+    const init=name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+    body+=`<div class="member-item">
+      <div class="member-avatar" style="background:${AVCOLS[i%AVCOLS.length]};">${init}</div>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:600;">${flag(st1.trim())} vs ${flag(st2.trim())}</div>
+        <div style="display:flex;gap:6px;align-items:center;font-size:12px;color:#605e5c;margin-top:2px;">
+          Predicted: <b>${it.pred}</b> → Actual: <b>${it.actual}</b>
+          <span style="font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;background:${ptBgs[type]};color:${ptCols[type]};">${type==='exact'?'+3':type==='gdiff'?'+2':'+1'}</span>
+        </div>
+      </div>
+    </div>`;
   });
   openModal(name,labels[type]+' — '+items.length+' match'+(items.length!==1?'es':''),body);
 }
@@ -348,7 +360,7 @@ function renderMatches(){
       const pct=total>0?Math.round(members.length/total*100):0;
       const[s1,s2]=sc.split('-').map(Number);
       const res=getResult(s1,s2);
-      const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
+      const wl=res==='w1'?(flag(m.team1)):res==='w2'?(flag(m.team2)):'Draw';
       let pip='';
       if(m.actual){const[as1,as2]=m.actual.split('-').map(Number);const pts=calcPts(s1,s2,as1,as2);
         if(pts===3)pip='<span class="pip pip3">+3</span>';
@@ -381,7 +393,7 @@ function renderMatches(){
     const grpBadge=grp?`<span class="group-badge">Group ${grp}</span>`:'';
     const consensusRow=topValid?`<div class="consensus-row"><span style="color:#605e5c;">Most backed:</span><span style="font-weight:600;margin-left:4px;">${topValid[0]}</span><span style="color:#605e5c;margin-left:4px;">(${topValid[1].length} of ${total})</span></div>`:'';
     html+=`<div class="match-card" data-teams="${m.team1.toLowerCase()} ${m.team2.toLowerCase()}">
-      <div class="match-header"><div class="match-title">${m.team1} vs ${m.team2}${grpBadge}</div>
+      <div class="match-header"><div class="match-title">${flag(m.team1)} vs ${flag(m.team2)}${grpBadge}</div>
       <span class="match-badge ${isResult?'badge-result':'badge-pending'}">${isResult?'&#10003; '+m.actual:'Pending'}</span></div>
       <div class="match-body">${bars}${consensusRow}${invSection}</div>
     </div>`;
@@ -458,6 +470,10 @@ function renderLB(){
   el.innerHTML=html;
 }
 
+const FLAGS={"Qatar": "🇶🇦", "Switzerland": "🇨🇭", "Brazil": "🇧🇷", "Morocco": "🇲🇦", "Haiti": "🇭🇹", "Scotland": "🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f", "Australia": "🇦🇺", "Turkiye": "🇹🇷", "Germany": "🇩🇪", "Curacao": "🇨🇼", "Netherlands": "🇳🇱", "Japan": "🇯🇵", "Ivory Coast": "🇨🇮", "Ecuador": "🇪🇨", "Sweden": "🇸🇪", "Tunisia": "🇹🇳", "Spain": "🇪🇸", "Cape Verde": "🇨🇻", "Belgium": "🇧🇪", "Egypt": "🇪🇬", "Saudi Arabia": "🇸🇦", "Uruguay": "🇺🇾", "Iran": "🇮🇷", "New Zealand": "🇳🇿", "France": "🇫🇷", "Senegal": "🇸🇳", "Iraq": "🇮🇶", "Norway": "🇳🇴", "Argentina": "🇦🇷", "Algeria": "🇩🇿", "Austria": "🇦🇹", "Jordan": "🇯🇴", "Portugal": "🇵🇹", "DR Congo": "🇨🇩", "England": "🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f", "Croatia": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦", "Uzbekistan": "🇺🇿", "Colombia": "🇨🇴", "Mexico": "🇲🇽", "South Africa": "🇿🇦", "South Korea": "🇰🇷", "Czechia": "🇨🇿", "Canada": "🇨🇦", "Bosnia & Herzegovina": "🇧🇦", "USA": "🇺🇸", "Paraguay": "🇵🇾"};
+
+function flag(t){return(FLAGS[t]||'')+(FLAGS[t]?' ':'')+t;}
+
 function filterMatches(q){
   q=q.trim().toLowerCase();
   document.getElementById('matchSearchClear').classList.toggle('show', q.length>0);
@@ -474,6 +490,28 @@ function filterMatches(q){
   if(!nm){nm=document.createElement('div');nm.id='noMatchMsg';nm.className='no-match';document.getElementById('matchesContent').appendChild(nm);}
   nm.style.display=visible===0&&q?'block':'none';
   nm.textContent=visible===0&&q?'No matches found for "'+q+'"':'';
+}
+
+function filterLB(q){
+  q=q.trim().toLowerCase();
+  document.getElementById('lbSearchClear').classList.toggle('show',q.length>0);
+  const rows=document.querySelectorAll('#lbContent .lb-table tbody tr');
+  let visible=0;
+  rows.forEach(row=>{
+    const name=(row.querySelector('.name-cell')||{}).textContent||'';
+    const show=!q||name.toLowerCase().includes(q);
+    row.style.display=show?'':'none';
+    if(show)visible++;
+  });
+  let nm=document.getElementById('lbNoMatch');
+  if(!nm){nm=document.createElement('div');nm.id='lbNoMatch';nm.className='no-match';document.getElementById('lbContent').appendChild(nm);}
+  nm.style.display=visible===0&&q?'block':'none';
+  nm.textContent=visible===0&&q?'No player found for "'+q+'"':'';
+}
+
+function clearLBSearch(){
+  document.getElementById('lbSearch').value='';
+  filterLB('');
 }
 
 function clearSearch(){
