@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "16 Jun 2026",
-    "updated_time": "07:55 PM",
+    "updated_time": "08:30 PM",
     "matches_played": 18,
     "group": "PDC Friends 1991-93"
   },
@@ -983,6 +983,16 @@
           "kickoff_est": "Jun 17 2026 12:00 AM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 09:26 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
         }
       ]
     },
@@ -3828,6 +3838,46 @@
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 15 2026 10:31 PM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Iraq",
+          "team2": "Norway",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 15 2026 10:31 PM EST",
+          "kickoff_est": "Jun 16 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Algeria",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 10:31 PM EST",
+          "kickoff_est": "Jun 16 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "Austria",
+          "team2": "Jordan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 15 2026 10:31 PM EST",
+          "kickoff_est": "Jun 17 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
