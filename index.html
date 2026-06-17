@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FIFA World Cup 2026 — PDC Friends Prediction Tracker</title>
 <style>
@@ -126,6 +129,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 
 /* Force all leaderboard rows to always render (no lazy/virtual rendering) */
 .lb-table tbody tr { display: table-row !important; visibility: visible !important; }
+
+/* Version footer */
+.version-footer{
+  text-align:center;padding:18px 16px 24px;
+  font-size:11px;color:#a19f9d;
+  border-top:1px solid #edebe9;margin-top:24px;
+  line-height:1.8;
+}
+.version-footer strong{color:#605e5c;}
+.version-footer a{color:#0078d4;text-decoration:none;}
 </style>
 </head>
 <body>
@@ -150,15 +163,21 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <button class="search-clear" id="matchSearchClear" onclick="clearSearch()">×</button>
   </div>
   <div id="matchesContent" style="display:none;"></div>
+
+<div class="version-footer">
+  <strong>⚙️ UI v1.0</strong> &nbsp;·&nbsp; Built 17 Jun 2026 02:50 PM EST<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
 </div>
 <div id="panel-leaderboard" class="panel">
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
-  <div id="lbSearchWrap" class="search-wrap" style="display:none;">
-    <input class="search-input" id="lbSearch" type="text"
-      placeholder="🔍  Search by player name…" oninput="filterLB(this.value)">
-    <button class="search-clear" id="lbSearchClear" onclick="clearLBSearch()">×</button>
-  </div>
   <div id="lbContent" style="display:none;"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.0</strong> &nbsp;·&nbsp; Built 17 Jun 2026 02:50 PM EST<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
 </div>
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
 <div class="modal-sheet" id="modalSheet">
@@ -198,7 +217,6 @@ async function loadData(){
     document.getElementById('matchSearchWrap').style.display='block';
     document.getElementById('loadingLB').style.display='none';
     document.getElementById('lbContent').style.display='block';
-    document.getElementById('lbSearchWrap').style.display='block';
   }catch(e){
     const msg='<p style="color:#c4314b;text-align:center;padding:40px;">⚠️ Could not load data. Please refresh.<br><small>'+e.message+'</small></p>';
     document.getElementById('loadingMatches').innerHTML=msg;
@@ -255,7 +273,7 @@ function showBarDetail(matchKey,scoreStr){
   const members=m.preds.filter(p=>p.score1===s1&&p.score2===s2&&p.status!=='INVALID');
   if(members.length===0){showInvalidDetail(matchKey);return;}
   const res=getResult(s1,s2);
-  const wl=res==='w1'?m.team1:res==='w2'?m.team2:'Draw';
+  const wl=res==='w1'?flag(m.team1):res==='w2'?flag(m.team2):'Draw';
   let pts=null;
   if(m.actual){const[as1,as2]=m.actual.split('-').map(Number);pts=calcPts(s1,s2,as1,as2);}
   const ptLabel=pts===3?'+3 pts (Exact!)':pts===2?'+2 pts (Right diff)':pts===1?'+1 pt (Right result)':pts===0?'0 pts':'Pending';
@@ -275,7 +293,7 @@ function showBarDetail(matchKey,scoreStr){
       ${p.submitted_est?'<div class="member-ts">Submitted: '+p.submitted_est+'</div>':''}</div>
     </div>`;
   });
-  openModal(m.team1+' vs '+m.team2,'Prediction: '+scoreStr+' · '+wl,body);
+  openModal(flag(m.team1)+' vs '+flag(m.team2),'Prediction: '+scoreStr+' · '+wl,body);
 }
 
 function showInvalidDetail(matchKey){
@@ -297,7 +315,7 @@ function showInvalidDetail(matchKey){
       <div style="font-size:11px;color:#605e5c;">${wl}</div></div>
     </div>`;
   });
-  openModal(m.team1+' vs '+m.team2,'⛔ '+invPreds.length+' excluded prediction'+(invPreds.length!==1?'s':''),body);
+  openModal(flag(m.team1)+' vs '+flag(m.team2),'⛔ '+invPreds.length+' excluded prediction'+(invPreds.length!==1?'s':''),body);
 }
 
 function showStatByKey(key){
@@ -404,9 +422,6 @@ function renderMatches(){
   });
   html+='</div>';
   el.innerHTML=html;
-  // Re-apply search if active
-  const lbQ=document.getElementById('lbSearch');
-  if(lbQ&&lbQ.value) filterLB(lbQ.value);
 }
 
 function calcAllScores(){
@@ -463,7 +478,7 @@ function renderLB(){
       const colClass=type==='exact'?'exact-c':type==='gdiff'?'diff-c':'res-c';
       return`<td class="stat-cell"><button class="stat-btn clickable ${colClass}" onclick="showStatByKey('${uid+'_'+type}')">${val}</button></td>`;
     };
-    html+=`<tr class="${tied?'tied':''}" data-name="${name.toLowerCase()}">
+    html+=`<tr class="${tied?'tied':''}">
       <td class="sl-cell">${i+1}</td>
       <td class="rank-cell">${medal?'<span class="medal-emoji">'+medal+'</span>':'<span class="rank-badge">'+rank+'</span>'}</td>
       <td class="name-cell${s.pts===0?' dimmed':''}">
@@ -475,9 +490,6 @@ function renderLB(){
   });
   html+='</tbody></table></div>';
   el.innerHTML=html;
-  // Re-apply search if active
-  const lbQ=document.getElementById('lbSearch');
-  if(lbQ&&lbQ.value) filterLB(lbQ.value);
 }
 
 const FLAGS={
@@ -549,28 +561,6 @@ function filterMatches(q){
   if(!nm){nm=document.createElement('div');nm.id='noMatchMsg';nm.className='no-match';document.getElementById('matchesContent').appendChild(nm);}
   nm.style.display=visible===0&&q?'block':'none';
   nm.textContent=visible===0&&q?'No matches found for "'+q+'"':'';
-}
-
-function filterLB(q){
-  q=q.trim().toLowerCase();
-  document.getElementById('lbSearchClear').classList.toggle('show',q.length>0);
-  const rows=document.querySelectorAll('.lb-table tbody tr');
-  let visible=0;
-  rows.forEach(row=>{
-    const name=row.getAttribute('data-name')||'';
-    const show=!q||name.toLowerCase().includes(q);
-    row.style.display=show?'':'none';
-    if(show)visible++;
-  });
-  let nm=document.getElementById('lbNoMatch');
-  if(!nm){nm=document.createElement('div');nm.id='lbNoMatch';nm.className='no-match';document.getElementById('lbContent').appendChild(nm);}
-  nm.style.display=visible===0&&q?'block':'none';
-  nm.textContent=visible===0&&q?'No player found for "'+q+'"':'';
-}
-
-function clearLBSearch(){
-  document.getElementById('lbSearch').value='';
-  filterLB('');
 }
 
 function clearSearch(){
