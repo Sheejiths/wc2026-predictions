@@ -1,8 +1,8 @@
 {
   "meta": {
     "updated": "17 Jun 2026",
-    "updated_time": "10:37 AM",
-    "matches_played": 19,
+    "updated_time": "11:22 AM",
+    "matches_played": 20,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -5014,6 +5014,13 @@
       "team2": "Algeria",
       "score1": 3,
       "score2": 0,
+      "group": "J"
+    },
+    "austria vs jordan": {
+      "team1": "Austria",
+      "team2": "Jordan",
+      "score1": 3,
+      "score2": 1,
       "group": "J"
     }
   }
