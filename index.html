@@ -404,6 +404,9 @@ function renderMatches(){
   });
   html+='</div>';
   el.innerHTML=html;
+  // Re-apply search if active
+  const lbQ=document.getElementById('lbSearch');
+  if(lbQ&&lbQ.value) filterLB(lbQ.value);
 }
 
 function calcAllScores(){
@@ -472,6 +475,9 @@ function renderLB(){
   });
   html+='</tbody></table></div>';
   el.innerHTML=html;
+  // Re-apply search if active
+  const lbQ=document.getElementById('lbSearch');
+  if(lbQ&&lbQ.value) filterLB(lbQ.value);
 }
 
 const FLAGS={
@@ -525,7 +531,7 @@ const FLAGS={
   "Paraguay":"🇵🇾"
 }
 
-function flag(t){return(FLAGS[t]||'')+(FLAGS[t]?' ':'')+t;}
+function flag(t){const f=FLAGS[t];return f?`<span style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;">${f}</span> ${t}`:t;}
 
 function filterMatches(q){
   q=q.trim().toLowerCase();
