@@ -308,12 +308,16 @@ function showStatDetail(name,type,items){
   const labels={exact:'Exact Scores (+3 each)',gdiff:'Right Goal Diff (+2 each)',result:'Correct Results (+1 each)'};
   const ptBgs={exact:'#fff4ce',gdiff:'#dae8f6',result:'#dff6dd'};
   const ptCols={exact:'#7d5a00',gdiff:'#004e8c',result:'#0a5c0a'};
-  let body='';
-  items.forEach((it,i)=>{
-    const [st1,st2]=it.match.split(' vs ');
-    const init=name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+  const init=name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+  const avatarColor=AVCOLS[name.charCodeAt(0)%AVCOLS.length];
+  let body=`<div class="member-item" style="margin-bottom:12px;padding-bottom:12px;border-bottom:2px solid #edebe9;">
+    <div class="member-avatar" style="background:${avatarColor};width:42px;height:42px;font-size:14px;">${init}</div>
+    <div><div style="font-size:15px;font-weight:700;">${name}</div>
+    <div style="font-size:12px;color:#605e5c;">${labels[type]} — ${items.length} match${items.length!==1?'es':''}</div></div>
+  </div>`;
+  items.forEach(it=>{
+    const[st1,st2]=it.match.split(' vs ');
     body+=`<div class="member-item">
-      <div class="member-avatar" style="background:${AVCOLS[i%AVCOLS.length]};">${init}</div>
       <div style="flex:1;">
         <div style="font-size:13px;font-weight:600;">${flag(st1.trim())} vs ${flag(st2.trim())}</div>
         <div style="display:flex;gap:6px;align-items:center;font-size:12px;color:#605e5c;margin-top:2px;">
@@ -456,7 +460,7 @@ function renderLB(){
       const colClass=type==='exact'?'exact-c':type==='gdiff'?'diff-c':'res-c';
       return`<td class="stat-cell"><button class="stat-btn clickable ${colClass}" onclick="showStatByKey('${uid+'_'+type}')">${val}</button></td>`;
     };
-    html+=`<tr class="${tied?'tied':''}">
+    html+=`<tr class="${tied?'tied':''}" data-name="${name.toLowerCase()}">
       <td class="sl-cell">${i+1}</td>
       <td class="rank-cell">${medal?'<span class="medal-emoji">'+medal+'</span>':'<span class="rank-badge">'+rank+'</span>'}</td>
       <td class="name-cell${s.pts===0?' dimmed':''}">
@@ -470,7 +474,56 @@ function renderLB(){
   el.innerHTML=html;
 }
 
-const FLAGS={"Qatar": "🇶🇦", "Switzerland": "🇨🇭", "Brazil": "🇧🇷", "Morocco": "🇲🇦", "Haiti": "🇭🇹", "Scotland": "🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f", "Australia": "🇦🇺", "Turkiye": "🇹🇷", "Germany": "🇩🇪", "Curacao": "🇨🇼", "Netherlands": "🇳🇱", "Japan": "🇯🇵", "Ivory Coast": "🇨🇮", "Ecuador": "🇪🇨", "Sweden": "🇸🇪", "Tunisia": "🇹🇳", "Spain": "🇪🇸", "Cape Verde": "🇨🇻", "Belgium": "🇧🇪", "Egypt": "🇪🇬", "Saudi Arabia": "🇸🇦", "Uruguay": "🇺🇾", "Iran": "🇮🇷", "New Zealand": "🇳🇿", "France": "🇫🇷", "Senegal": "🇸🇳", "Iraq": "🇮🇶", "Norway": "🇳🇴", "Argentina": "🇦🇷", "Algeria": "🇩🇿", "Austria": "🇦🇹", "Jordan": "🇯🇴", "Portugal": "🇵🇹", "DR Congo": "🇨🇩", "England": "🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f", "Croatia": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦", "Uzbekistan": "🇺🇿", "Colombia": "🇨🇴", "Mexico": "🇲🇽", "South Africa": "🇿🇦", "South Korea": "🇰🇷", "Czechia": "🇨🇿", "Canada": "🇨🇦", "Bosnia & Herzegovina": "🇧🇦", "USA": "🇺🇸", "Paraguay": "🇵🇾"};
+const FLAGS={
+  "Qatar":"🇶🇦",
+  "Switzerland":"🇨🇭",
+  "Brazil":"🇧🇷",
+  "Morocco":"🇲🇦",
+  "Haiti":"🇭🇹",
+  "Scotland":"🇬🇧",
+  "Australia":"🇦🇺",
+  "Turkiye":"🇹🇷",
+  "Germany":"🇩🇪",
+  "Curacao":"🇨🇼",
+  "Netherlands":"🇳🇱",
+  "Japan":"🇯🇵",
+  "Ivory Coast":"🇨🇮",
+  "Ecuador":"🇪🇨",
+  "Sweden":"🇸🇪",
+  "Tunisia":"🇹🇳",
+  "Spain":"🇪🇸",
+  "Cape Verde":"🇨🇻",
+  "Belgium":"🇧🇪",
+  "Egypt":"🇪🇬",
+  "Saudi Arabia":"🇸🇦",
+  "Uruguay":"🇺🇾",
+  "Iran":"🇮🇷",
+  "New Zealand":"🇳🇿",
+  "France":"🇫🇷",
+  "Senegal":"🇸🇳",
+  "Iraq":"🇮🇶",
+  "Norway":"🇳🇴",
+  "Argentina":"🇦🇷",
+  "Algeria":"🇩🇿",
+  "Austria":"🇦🇹",
+  "Jordan":"🇯🇴",
+  "Portugal":"🇵🇹",
+  "DR Congo":"🇨🇩",
+  "England":"🇬🇧",
+  "Croatia":"🇭🇷",
+  "Ghana":"🇬🇭",
+  "Panama":"🇵🇦",
+  "Uzbekistan":"🇺🇿",
+  "Colombia":"🇨🇴",
+  "Mexico":"🇲🇽",
+  "South Africa":"🇿🇦",
+  "South Korea":"🇰🇷",
+  "Czechia":"🇨🇿",
+  "Canada":"🇨🇦",
+  "Bosnia & Herzegovina":"🇧🇦",
+  "USA":"🇺🇸",
+  "Paraguay":"🇵🇾"
+}
 
 function flag(t){return(FLAGS[t]||'')+(FLAGS[t]?' ':'')+t;}
 
@@ -498,7 +551,7 @@ function filterLB(q){
   const rows=document.querySelectorAll('#lbContent .lb-table tbody tr');
   let visible=0;
   rows.forEach(row=>{
-    const name=(row.querySelector('.name-cell')||{}).textContent||'';
+    const name=row.getAttribute('data-name')||'';
     const show=!q||name.toLowerCase().includes(q);
     row.style.display=show?'':'none';
     if(show)visible++;
