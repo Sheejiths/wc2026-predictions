@@ -1,8 +1,8 @@
 {
   "meta": {
     "updated": "18 Jun 2026",
-    "updated_time": "08:11 PM",
-    "matches_played": 24,
+    "updated_time": "10:30 PM",
+    "matches_played": 28,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -1903,6 +1903,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:18 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:18 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:18 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 09:18 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -2148,6 +2188,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:22 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:22 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 11:22 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 11:22 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -2783,6 +2863,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 09:26 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:26 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:26 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:26 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -4183,6 +4303,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 07:30 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 07:30 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 4,
+          "submitted_est": "Jun 18 2026 07:30 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 07:30 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -5523,6 +5683,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:54 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:54 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:54 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:54 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -5738,6 +5938,46 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:17 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:17 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 18 2026 09:17 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:17 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -6058,23 +6298,52 @@
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "USA",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:44 PM EST",
+          "kickoff_est": "Jun 19 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Haiti",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:44 PM EST",
+          "kickoff_est": "Jun 19 2026 08:30 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Morocco",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:44 PM EST",
+          "kickoff_est": "Jun 19 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "C"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "Paraguay",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:44 PM EST",
+          "kickoff_est": "Jun 19 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
     {
       "name": "Biju",
-      "scores": [
-        {
-          "team1": "France",
-          "team2": "Senegal",
-          "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 16 2026 10:22 AM EST",
-          "kickoff_est": "Jun 16 2026 03:00 PM EST",
-          "status": "valid",
-          "group": "I"
-        }
-      ]
+      "scores": []
     },
     {
       "name": "Tony",
@@ -6290,6 +6559,34 @@
       "score1": 1,
       "score2": 3,
       "group": "K"
+    },
+    "czechia vs south africa": {
+      "team1": "Czechia",
+      "team2": "South Africa",
+      "score1": 1,
+      "score2": 1,
+      "group": "A"
+    },
+    "bosnia & herzegovina vs switzerland": {
+      "team1": "Switzerland",
+      "team2": "Bosnia & Herzegovina",
+      "score1": 4,
+      "score2": 1,
+      "group": "B"
+    },
+    "canada vs qatar": {
+      "team1": "Canada",
+      "team2": "Qatar",
+      "score1": 6,
+      "score2": 0,
+      "group": "B"
+    },
+    "mexico vs south korea": {
+      "team1": "Mexico",
+      "team2": "South Korea",
+      "score1": 1,
+      "score2": 0,
+      "group": "A"
     }
   }
 }
