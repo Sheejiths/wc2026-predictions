@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "18 Jun 2026",
-    "updated_time": "05:38 PM",
+    "updated_time": "08:11 PM",
     "matches_played": 24,
     "group": "PDC Friends 1991-93"
   },
@@ -218,6 +218,36 @@
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:50 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 11:50 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:50 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -423,6 +453,16 @@
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 04:01 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -620,12 +660,42 @@
           "group": "K"
         },
         {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 06:17 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
           "team1": "Czechia",
           "team2": "South Africa",
           "score1": 1,
           "score2": 1,
-          "submitted_est": "Jun 17 2026 02:06 AM EST",
+          "submitted_est": "Jun 18 2026 06:17 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 06:17 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 06:17 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -843,6 +913,36 @@
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 12:58 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 12:58 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:58 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -1048,6 +1148,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -1253,6 +1393,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:02 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:02 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 11:02 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:02 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -1463,8 +1643,8 @@
           "team1": "Czechia",
           "team2": "South Africa",
           "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 17 2026 02:46 AM EST",
+          "score2": 0,
+          "submitted_est": "Jun 17 2026 09:49 PM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
@@ -1478,6 +1658,16 @@
           "kickoff_est": "Jun 18 2026 06:00 PM EST",
           "status": "valid",
           "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:09 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -1693,6 +1883,26 @@
           "kickoff_est": "Jun 18 2026 06:00 PM EST",
           "status": "valid",
           "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 17 2026 09:59 PM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 09:16 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -1898,6 +2108,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:44 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -2288,6 +2538,16 @@
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 09:29 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -2489,10 +2749,40 @@
           "team2": "Qatar",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 17 2026 11:51 PM EST",
+          "submitted_est": "Jun 18 2026 01:58 AM EST",
           "kickoff_est": "Jun 18 2026 06:00 PM EST",
           "status": "valid",
           "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 01:58 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:58 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:58 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -2698,6 +2988,16 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:54 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -2895,12 +3195,42 @@
           "group": "K"
         },
         {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 02:31 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
           "team1": "Czechia",
           "team2": "South Africa",
-          "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 16 2026 11:51 PM EST",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 02:31 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 0,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 02:31 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 02:31 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -3098,6 +3428,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:50 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 03:50 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:50 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:50 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -3303,6 +3673,36 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 03:05 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:05 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 03:09 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -3510,12 +3910,42 @@
           "group": "K"
         },
         {
-          "team1": "Czechia",
-          "team2": "South Africa",
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 17 2026 06:57 AM EST",
+          "submitted_est": "Jun 18 2026 05:49 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 05:49 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 05:49 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 05:49 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -3733,6 +4163,26 @@
           "kickoff_est": "Jun 18 2026 06:00 PM EST",
           "status": "valid",
           "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 17 2026 04:19 PM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 01:59 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -3888,6 +4338,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 12 2026 07:09 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 02:05 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 02:05 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 02:05 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -4093,6 +4583,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:42 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 12:42 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:42 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 12:42 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -4292,10 +4822,40 @@
         {
           "team1": "Czechia",
           "team2": "South Africa",
-          "score1": 1,
-          "score2": 0,
-          "submitted_est": "Jun 17 2026 03:15 AM EST",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 02:10 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 02:10 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 02:10 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 02:10 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -4513,6 +5073,36 @@
           "kickoff_est": "Jun 17 2026 07:00 PM EST",
           "status": "valid",
           "group": "L"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:47 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 12:47 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 12:47 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -4700,12 +5290,42 @@
           "group": "K"
         },
         {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
           "team1": "Czechia",
           "team2": "South Africa",
-          "score1": 1,
+          "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 17 2026 03:31 AM EST",
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -4863,6 +5483,46 @@
           "kickoff_est": "Jun 17 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -5038,6 +5698,46 @@
           "kickoff_est": "Jun 15 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:07 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "South Africa",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:07 AM EST",
+          "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:07 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 01:07 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "A"
         }
       ]
     },
@@ -5187,9 +5887,9 @@
         {
           "team1": "Czechia",
           "team2": "South Africa",
-          "score1": 1,
+          "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 16 2026 09:13 PM EST",
+          "submitted_est": "Jun 18 2026 12:31 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
@@ -5320,12 +6020,42 @@
           "group": "K"
         },
         {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:12 AM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
           "team1": "Czechia",
           "team2": "South Africa",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 16 2026 07:59 PM EST",
+          "submitted_est": "Jun 18 2026 11:12 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "A"
+        },
+        {
+          "team1": "Canada",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 18 2026 11:12 AM EST",
+          "kickoff_est": "Jun 18 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "B"
+        },
+        {
+          "team1": "Mexico",
+          "team2": "South Korea",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 18 2026 11:12 AM EST",
+          "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
         }
@@ -5333,7 +6063,18 @@
     },
     {
       "name": "Biju",
-      "scores": []
+      "scores": [
+        {
+          "team1": "France",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 16 2026 10:22 AM EST",
+          "kickoff_est": "Jun 16 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        }
+      ]
     },
     {
       "name": "Tony",
