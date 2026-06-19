@@ -207,7 +207,8 @@ async function loadData(){
     const data=await res.json();
     if(data.meta){
       const upd=data.meta.updated+(data.meta.updated_time?' · '+data.meta.updated_time+' EST':'');
-      document.getElementById('lastUpdated').textContent='📅 Last updated: '+upd+' · '+data.meta.matches_played+' matches played';
+      const ms=(data.meta.matches_scored!=null)?data.meta.matches_scored:data.meta.matches_played;
+      document.getElementById('lastUpdated').textContent='📅 Last updated: '+upd+' · '+ms+' of '+data.meta.matches_played+' matches scored';
     }
     state.predictions=data.predictions||[];
     buildMatchState(data.results||{});
@@ -341,8 +342,15 @@ function showStatDetail(name,type,items){
   const playerData=allScoresForChart.find(([n])=>n===name);
   const played=playerData?playerData[1].played:0;       // valid preds on scored matches
   const noPredCount=playerData?playerData[1].noPred:0;  // scored matches with no valid pred
-  // Wrong = all scored matches minus hit minus no-prediction
+  const invalidCount=playerData?playerData[1].invalidCount:0; // scored matches with an invalid (post-kickoff) pred
+  const trueNoPred=Math.max(0,noPredCount-invalidCount);      // genuinely no prediction
+  // Wrong = all scored matches minus hit minus no-prediction (no-pred still includes invalids)
   const wrongCount=scoredMatches-playerCount-noPredCount;
+  // Player's overall PTS and Rank (for modal header)
+  const pts=playerData?playerData[1].pts:0;
+  const _ranks=denseRanks(allScoresForChart);
+  const _idx=allScoresForChart.findIndex(([n])=>n===name);
+  const rank=_idx>=0?_ranks[_idx]:'-';
 
   // Vibrant professional palette (inspired by reference)
   const vibrantColors={
@@ -350,16 +358,22 @@ function showStatDetail(name,type,items){
     gdiff:'#00C9A7',   // Mint teal      — Goal difference
     result:'#F7931E',  // Warm amber     — Correct result
   };
-  const hitColor=vibrantColors[type];
+  const hitColor=typeColors[type];  // match the leaderboard column colour: gold (exact) / blue (diff) / green (result)
   const wrongColor='#FF6B6B';   // Coral red
   const noPredColor='#D1D5DB'; // Soft grey
+  const invalidColor='#D63384'; // Pink — invalid (excluded) predictions
 
   const chartId='statDonut_'+Date.now();
 
   let body=`<div class="member-item" style="margin-bottom:12px;padding-bottom:12px;border-bottom:2px solid #edebe9;">
     <div class="member-avatar" style="background:${avatarColor};width:42px;height:42px;font-size:14px;">${init}</div>
-    <div><div style="font-size:15px;font-weight:700;">${name}</div>
-    <div style="font-size:12px;color:#605e5c;">${labels[type]} — ${playerCount} of ${scoredMatches} matches</div></div>
+    <div style="flex:1;">
+      <div style="font-size:16px;font-weight:700;">${name}</div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:5px;">
+        <span style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:10px;background:#eef2ff;color:#3b4cca;">Rank ${rank}</span>
+        <span style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:10px;background:#e9f7ef;color:#0a5c0a;">${pts} PTS</span>
+      </div>
+    </div>
   </div>
   <div style="display:flex;flex-direction:column;align-items:center;padding:8px 0 16px;border-bottom:1px solid #edebe9;margin-bottom:12px;">
     <div style="position:relative;width:180px;height:180px;">
@@ -384,7 +398,11 @@ function showStatDetail(name,type,items){
       </div>
       <div style="display:flex;align-items:center;gap:5px;">
         <div style="width:10px;height:10px;border-radius:50%;background:${noPredColor};border:1px solid #bbb;"></div>
-        <span><b>No prediction</b>: ${noPredCount}</span>
+        <span><b>No prediction</b>: ${trueNoPred}</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:5px;">
+        <div style="width:10px;height:10px;border-radius:50%;background:${invalidColor};"></div>
+        <span><b>Invalid</b>: ${invalidCount}</span>
       </div>
     </div>
   </div>`;
@@ -402,7 +420,7 @@ function showStatDetail(name,type,items){
     </div>`;
   });
 
-  openModal('',labels[type]+' — '+playerCount+' match'+(playerCount!==1?'es':''),body);
+  openModal('',labels[type]+' — '+playerCount+' of '+scoredMatches+' matches',body);
 
   // Draw donut chart after modal renders
   requestAnimationFrame(()=>{
@@ -417,8 +435,9 @@ function showStatDetail(name,type,items){
   const total=scoredMatches||1;
   const hitAngle=(playerCount/total)*Math.PI*2;
   const wrongAngle=(wrongCount/total)*Math.PI*2;
-  const noPredAngle=(noPredCount/total)*Math.PI*2;
-  const hc=hitColor, wc=wrongColor, nc=noPredColor;
+  const noPredAngle=(trueNoPred/total)*Math.PI*2;
+  const invalidAngle=(invalidCount/total)*Math.PI*2;
+  const hc=hitColor, wc=wrongColor, nc=noPredColor, ic=invalidColor;
 
   let progress=0;
   const animate=()=>{
@@ -427,11 +446,21 @@ function showStatDetail(name,type,items){
     const hA=hitAngle*prog;
     const wA=wrongAngle*prog;
     const nA=noPredAngle*prog;
+    const iA=invalidAngle*prog;
     const startH=-Math.PI/2;
     const startW=startH+hA;
     const startN=startW+wA;
+    const startI=startN+nA;
 
     const gap=0.03;
+
+    // Invalid slice
+    if(iA>gap){
+      ctx.beginPath();
+      ctx.arc(cx,cy,R,startI+gap/2,startI+iA);
+      ctx.arc(cx,cy,r,startI+iA,startI+gap/2,true);
+      ctx.fillStyle=ic; ctx.fill();
+    }
 
     // No-pred slice
     if(nA>gap){
