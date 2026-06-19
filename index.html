@@ -165,7 +165,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.1</strong> &nbsp;·&nbsp; Built 18 Jun 2026 11:06 PM EST<br>
+  <strong>⚙️ UI v1.2</strong> &nbsp;·&nbsp; Built 18 Jun 2026 11:18 PM EST<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -174,7 +174,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.1</strong> &nbsp;·&nbsp; Built 18 Jun 2026 11:06 PM EST<br>
+  <strong>⚙️ UI v1.2</strong> &nbsp;·&nbsp; Built 18 Jun 2026 11:18 PM EST<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -331,40 +331,38 @@ function showStatDetail(name,type,items){
   const init=name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
   const avatarColor=AVCOLS[name.charCodeAt(0)%AVCOLS.length];
 
-  // Compute group totals for this type
-  const allScores=calcAllScores();
-  let groupTotal=0;
-  allScores.forEach(([n,s])=>{groupTotal+=s[type==='gdiff'?'gdiff':type].length;});
+  // Denominator = number of matches that have results (scored matches)
+  const scoredMatches=Object.values(state.matches).filter(m=>m.actual).length;
   const playerCount=items.length;
-  const othersCount=groupTotal-playerCount;
-  const pct=groupTotal>0?Math.round((playerCount/groupTotal)*100):0;
+  const othersCount=scoredMatches-playerCount;
+  const pct=scoredMatches>0?Math.round((playerCount/scoredMatches)*100):0;
 
-  // Build donut chart HTML (canvas drawn via JS after modal opens)
+  // Build donut chart HTML
   const chartId='statDonut_'+Date.now();
   const typeColor=typeColors[type];
 
   let body=`<div class="member-item" style="margin-bottom:12px;padding-bottom:12px;border-bottom:2px solid #edebe9;">
     <div class="member-avatar" style="background:${avatarColor};width:42px;height:42px;font-size:14px;">${init}</div>
     <div><div style="font-size:15px;font-weight:700;">${name}</div>
-    <div style="font-size:12px;color:#605e5c;">${labels[type]} — ${playerCount} match${playerCount!==1?'es':''}</div></div>
+    <div style="font-size:12px;color:#605e5c;">${labels[type]} — ${playerCount} of ${scoredMatches} matches</div></div>
   </div>
   <div style="display:flex;flex-direction:column;align-items:center;padding:8px 0 16px;border-bottom:1px solid #edebe9;margin-bottom:12px;">
-    <div style="position:relative;width:160px;height:160px;">
-      <canvas id="${chartId}" width="160" height="160"></canvas>
+    <div style="position:relative;width:180px;height:180px;">
+      <canvas id="${chartId}" width="180" height="180"></canvas>
       <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
-        <div style="font-size:26px;font-weight:800;color:${typeColor};line-height:1;">${playerCount}</div>
-        <div style="font-size:10px;color:#605e5c;margin-top:2px;font-weight:600;">of ${groupTotal}</div>
-        <div style="font-size:9px;color:#a19f9d;">group total</div>
+        <div style="font-size:30px;font-weight:800;color:${typeColor};line-height:1;">${playerCount}</div>
+        <div style="font-size:10px;color:#605e5c;margin-top:3px;font-weight:600;">of ${scoredMatches} matches</div>
+        <div style="font-size:9px;color:#a19f9d;">${pct}% hit rate</div>
       </div>
     </div>
-    <div style="display:flex;gap:20px;margin-top:12px;font-size:12px;">
+    <div style="display:flex;gap:20px;margin-top:8px;font-size:12px;">
       <div style="display:flex;align-items:center;gap:6px;">
         <div style="width:12px;height:12px;border-radius:3px;background:${typeColor};"></div>
-        <span><b>${name.split(' ')[0]}</b>: ${playerCount} (${pct}%)</span>
+        <span><b>${name.split(' ')[0]}</b>: ${playerCount} match${playerCount!==1?'es':''}</span>
       </div>
       <div style="display:flex;align-items:center;gap:6px;">
-        <div style="width:12px;height:12px;border-radius:3px;background:#edebe9;"></div>
-        <span><b>Others</b>: ${othersCount} (${100-pct}%)</span>
+        <div style="width:12px;height:12px;border-radius:3px;background:#d0d0d0;border:1px solid #bbb;"></div>
+        <span><b>No hit</b>: ${othersCount} match${othersCount!==1?'es':''}</span>
       </div>
     </div>
   </div>`;
@@ -389,41 +387,48 @@ function showStatDetail(name,type,items){
     const canvas=document.getElementById(chartId);
     if(!canvas)return;
     const ctx=canvas.getContext('2d');
-    const cx=80,cy=80,R=68,r=44;
-    const total=groupTotal||1;
+    const cx=90,cy=90,R=72,r=48;
+    const total=scoredMatches||1;
     const playerAngle=(playerCount/total)*Math.PI*2;
     const gap=0.04; // small gap between slices
 
-    // Draw outer ring background
-    ctx.beginPath();ctx.arc(cx,cy,R,0,Math.PI*2);
-    ctx.arc(cx,cy,r,0,Math.PI*2,true);
-    ctx.fillStyle='#f3f2f1';ctx.fill();
-
-    // Animate draw
+    // Animate draw with exploded player slice
     let progress=0;
     const animate=()=>{
-      ctx.clearRect(0,0,160,160);
-      const curAngle=playerAngle*progress;
+      ctx.clearRect(0,0,180,180);
+      const curAngle=playerAngle*Math.min(progress,1);
 
-      // Others slice (full ring first)
+      // --- Remaining (no-hit) slice ---
       ctx.beginPath();
-      ctx.arc(cx,cy,R,-Math.PI/2,Math.PI*1.5);
-      ctx.arc(cx,cy,r,Math.PI*1.5,-Math.PI/2,true);
-      ctx.fillStyle='#edebe9';ctx.fill();
+      ctx.arc(cx,cy,R,-Math.PI/2+curAngle,Math.PI*1.5);
+      ctx.arc(cx,cy,r,Math.PI*1.5,-Math.PI/2+curAngle,true);
+      ctx.fillStyle='#e0e0e0';ctx.fill();
 
-      // Player slice
+      // --- Player slice (exploded: offset toward its midpoint) ---
       if(curAngle>0.01){
+        const midAngle=-Math.PI/2+curAngle/2;
+        const explode=8; // px offset
+        const ox=Math.cos(midAngle)*explode;
+        const oy=Math.sin(midAngle)*explode;
+        ctx.save();
+        ctx.translate(ox,oy);
         ctx.beginPath();
-        ctx.arc(cx,cy,R,-Math.PI/2,-Math.PI/2+curAngle);
+        ctx.arc(cx,cy,R+4,-Math.PI/2,-Math.PI/2+curAngle); // slightly bigger radius too
         ctx.arc(cx,cy,r,-Math.PI/2+curAngle,-Math.PI/2,true);
-        ctx.fillStyle='${typeColor}';ctx.fill();
+        ctx.fillStyle='${typeColor}';
+        // Add subtle glow
+        ctx.shadowColor='${typeColor}';
+        ctx.shadowBlur=10;
+        ctx.fill();
+        ctx.restore();
       }
 
       // Inner white circle (donut hole)
-      ctx.beginPath();ctx.arc(cx,cy,r-2,0,Math.PI*2);
+      ctx.shadowBlur=0;
+      ctx.beginPath();ctx.arc(cx,cy,r-1,0,Math.PI*2);
       ctx.fillStyle='#ffffff';ctx.fill();
 
-      if(progress<1){progress=Math.min(1,progress+0.05);requestAnimationFrame(animate);}
+      if(progress<1){progress=Math.min(1,progress+0.04);requestAnimationFrame(animate);}
     };
     animate();
   });
