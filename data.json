@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "18 Jun 2026",
-    "updated_time": "10:30 PM",
+    "updated": "19 Jun 2026",
+    "updated_time": "12:27 AM",
     "matches_played": 28,
     "group": "PDC Friends 1991-93"
   },
@@ -4343,6 +4343,16 @@
           "kickoff_est": "Jun 19 2026 11:00 PM EST",
           "status": "valid",
           "group": "D"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Bosnia & Herzegovina",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 17 2026 04:19 PM EST",
+          "kickoff_est": "Jun 18 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "B"
         }
       ]
     },
