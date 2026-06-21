@@ -17,7 +17,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .header-meta{font-size:11px;color:#a8cce8;margin-top:2px;}
 .header-rule{font-size:11px;color:#ffd180;margin-top:4px;}
 .header-updated{font-size:11px;color:#90caf9;margin-top:3px;font-style:italic;}
-.tabs{display:flex;gap:4px;padding:8px 16px 0;background:#fff;border-bottom:2px solid #edebe9;}
+.tabs{display:flex;gap:4px;padding:8px 16px 0;background:#fff;border-bottom:2px solid #edebe9;overflow-x:auto;-webkit-overflow-scrolling:touch;}
 .tab{padding:8px 18px;font-size:13px;font-weight:600;border:none;background:transparent;cursor:pointer;color:#605e5c;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:all .15s;border-radius:4px 4px 0 0;}
 .tab.active{color:#0078d4;border-bottom-color:#0078d4;background:#f0f6ff;}
 .tab:hover:not(.active){color:#201f1e;background:#f3f2f1;}
@@ -139,6 +139,24 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 }
 .version-footer strong{color:#605e5c;}
 .version-footer a{color:#0078d4;text-decoration:none;}
+.st-subtabs{display:flex;gap:6px;margin-bottom:14px;border-bottom:1px solid #edebe9;}
+.st-subtab{font-size:12px;font-weight:600;padding:6px 12px;color:#605e5c;border-bottom:2px solid transparent;}
+.st-subtab.active{color:#201f1e;border-bottom-color:#201f1e;}
+.st-subtab.disabled{color:#c8c6c4;}
+.st-group{margin-bottom:18px;}
+.st-group h3{font-size:14px;font-weight:700;margin:0 0 6px;color:#201f1e;}
+.st-table{width:100%;border-collapse:collapse;font-size:12px;min-width:440px;}
+.st-table th{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#605e5c;padding:6px 4px;background:#faf9f8;border-bottom:2px solid #edebe9;text-align:center;}
+.st-table th.left{text-align:left;padding-left:6px;}
+.st-table td{padding:7px 4px;border-bottom:1px solid #f3f2f1;text-align:center;vertical-align:middle;color:#323130;}
+.st-table td.left{text-align:left;padding-left:6px;}
+.st-table tr:last-child td{border-bottom:none;}
+.st-table tr:hover td{background:#f9f8f7;}
+.st-table .team{display:inline-flex;align-items:center;gap:7px;font-weight:600;color:#201f1e;}
+.st-flag{font-size:15px;}
+.st-pos{color:#a19f9d;font-weight:600;}
+.st-table .pts{font-weight:700;color:#201f1e;}
+.form-dot{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;font-size:9px;color:#fff;margin:0 1px;font-weight:700;line-height:1;}
 </style>
 </head>
 <body>
@@ -154,6 +172,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <button class="tab active" onclick="switchTab('matches')">⚽ Matches</button>
     <button class="tab" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
     <button class="tab" onclick="switchTab('trend')">📈 Rank Trend</button>
+    <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
   </div>
 </div>
 <div id="panel-matches" class="panel active">
@@ -189,6 +208,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
 </div>
+<div id="panel-standings" class="panel">
+  <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
+  <div id="stContent" style="display:none;"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
+</div>
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
 <div class="modal-sheet" id="modalSheet">
   <div class="modal-handle"></div>
@@ -205,10 +233,11 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
   if(t==='trend') renderTrend();
+  if(t==='standings') renderStandings();
 }
 
 async function loadData(){
@@ -223,8 +252,9 @@ async function loadData(){
     }
     state.predictions=data.predictions||[];
     state.timeline=data.timeline||null;
+    state.standings=data.standings||null;
     buildMatchState(data.results||{});
-    renderMatches();renderLB();renderTrend();
+    renderMatches();renderLB();renderTrend();renderStandings();
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
     document.getElementById('matchSearchWrap').style.display='block';
@@ -232,11 +262,14 @@ async function loadData(){
     document.getElementById('lbContent').style.display='block';
     document.getElementById('loadingTrend').style.display='none';
     document.getElementById('trendContent').style.display='block';
+    document.getElementById('loadingStandings').style.display='none';
+    document.getElementById('stContent').style.display='block';
   }catch(e){
     const msg='<p style="color:#c4314b;text-align:center;padding:40px;">⚠️ Could not load data. Please refresh.<br><small>'+e.message+'</small></p>';
     document.getElementById('loadingMatches').innerHTML=msg;
     document.getElementById('loadingLB').innerHTML=msg;
     document.getElementById('loadingTrend').innerHTML=msg;
+    document.getElementById('loadingStandings').innerHTML=msg;
   }
 }
 
@@ -742,6 +775,43 @@ function renderTrend(){
 function toggleTrendPlayer(n){if(!trendSel)trendSel=new Set();if(trendSel.has(n))trendSel.delete(n);else trendSel.add(n);renderTrend();}
 function trendSelClear(){trendSel=new Set();renderTrend();}
 function trendSelTop3(){trendSel=null;renderTrend();}
+
+function renderStandings(){
+  const el=document.getElementById('stContent');
+  if(!el) return;
+  const st=state.standings;
+  if(!st||!Object.keys(st).length){
+    el.innerHTML='<p style="text-align:center;color:#605e5c;padding:40px 20px;">📊 Standings data isn\'t available yet.<br><small>Regenerate data.json with the latest build to enable this view.</small></p>';
+    return;
+  }
+  const dot=r=>{
+    if(r==='W')return '<span class="form-dot" style="background:#107c10;" title="Win">✓</span>';
+    if(r==='L')return '<span class="form-dot" style="background:#d13438;" title="Loss">✕</span>';
+    if(r==='D')return '<span class="form-dot" style="background:#8a8886;" title="Draw">–</span>';
+    return '<span class="form-dot" style="background:transparent;border:1.5px solid #d6d6d6;"></span>';
+  };
+  const GG=3;
+  let html=`<div class="hover-hint" style="margin-bottom:10px;">📊 Live group tables from actual match results — sorted by points, then goal difference. &nbsp;<span style="white-space:nowrap;">✓ win · – draw · ✕ loss</span></div>`;
+  html+=`<div class="st-subtabs"><span class="st-subtab active">Group Stage</span><span class="st-subtab disabled">Knockout — TBD</span></div>`;
+  Object.keys(st).forEach(g=>{
+    html+=`<div class="st-group"><h3>Group ${g}</h3><div style="overflow-x:auto;-webkit-overflow-scrolling:touch;"><table class="st-table"><thead><tr>
+      <th style="width:18px;"></th><th class="left">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Form</th></tr></thead><tbody>`;
+    st[g].forEach((r,i)=>{
+      const flag=FLAGS[r.team]||'🏳️';
+      let form=r.form.map(dot).join('');
+      for(let k=r.form.length;k<GG;k++) form+=dot('');
+      html+=`<tr>
+        <td class="st-pos">${i+1}</td>
+        <td class="left"><span class="team"><span class="st-flag">${flag}</span>${r.team}</span></td>
+        <td>${r.mp}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td>
+        <td>${r.gf}</td><td>${r.ga}</td><td>${r.gd>0?'+'+r.gd:r.gd}</td>
+        <td class="pts">${r.pts}</td>
+        <td style="white-space:nowrap;">${form}</td></tr>`;
+    });
+    html+=`</tbody></table></div></div>`;
+  });
+  el.innerHTML=html;
+}
 
 const FLAGS={
   "Qatar":"🇶🇦",
