@@ -1,9 +1,9 @@
 {
   "meta": {
     "updated": "21 Jun 2026",
-    "updated_time": "02:00 PM",
-    "matches_played": 37,
-    "matches_scored": 33,
+    "updated_time": "05:00 PM",
+    "matches_played": 38,
+    "matches_scored": 34,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -10019,6 +10019,13 @@
       "score1": 4,
       "score2": 0,
       "group": "H"
+    },
+    "belgium vs iran": {
+      "team1": "Belgium",
+      "team2": "Iran",
+      "score1": 0,
+      "score2": 0,
+      "group": "G"
     }
   },
   "timeline": {
@@ -10065,7 +10072,7 @@
         18,
         18,
         23,
-        24
+        26
       ],
       "Praveen Kodurkalam": [
         0,
@@ -10131,7 +10138,7 @@
         19,
         23,
         26,
-        27
+        29
       ],
       "Shaik Afzal": [
         1,
@@ -10208,7 +10215,7 @@
         17,
         22,
         24,
-        25
+        28
       ],
       "Sreejith Ramachandran": [
         1,
@@ -10274,7 +10281,7 @@
         15,
         16,
         21,
-        22
+        24
       ],
       "KD": [
         1,
@@ -10720,15 +10727,31 @@
     "G": [
       {
         "team": "Iran",
-        "mp": 1,
+        "mp": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1,
+        "pts": 2,
         "form": [
+          "D",
+          "D"
+        ]
+      },
+      {
+        "team": "Belgium",
+        "mp": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 2,
+        "form": [
+          "D",
           "D"
         ]
       },
@@ -10740,20 +10763,6 @@
         "l": 0,
         "gf": 2,
         "ga": 2,
-        "gd": 0,
-        "pts": 1,
-        "form": [
-          "D"
-        ]
-      },
-      {
-        "team": "Belgium",
-        "mp": 1,
-        "w": 0,
-        "d": 1,
-        "l": 0,
-        "gf": 1,
-        "ga": 1,
         "gd": 0,
         "pts": 1,
         "form": [
