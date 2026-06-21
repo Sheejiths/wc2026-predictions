@@ -145,7 +145,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .st-subtab.disabled{color:#c8c6c4;}
 .st-group{margin-bottom:18px;}
 .st-group h3{font-size:14px;font-weight:700;margin:0 0 6px;color:#201f1e;}
-.st-table{width:100%;border-collapse:collapse;font-size:12px;min-width:440px;}
+.st-table{width:100%;border-collapse:collapse;font-size:12px;min-width:360px;}
 .st-table th{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#605e5c;padding:6px 4px;background:#faf9f8;border-bottom:2px solid #edebe9;text-align:center;}
 .st-table th.left{text-align:left;padding-left:6px;}
 .st-table td{padding:7px 4px;border-bottom:1px solid #f3f2f1;text-align:center;vertical-align:middle;color:#323130;}
@@ -154,6 +154,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .st-table tr:hover td{background:#f9f8f7;}
 .st-table .team{display:inline-flex;align-items:center;gap:7px;font-weight:600;color:#201f1e;}
 .st-flag{font-size:15px;}
+.st-code{font-weight:700;letter-spacing:.04em;border-bottom:1px dotted #b0aeac;color:#201f1e;}
+.team-chip{cursor:pointer;}
 .st-pos{color:#a19f9d;font-weight:600;}
 .st-table .pts{font-weight:700;color:#201f1e;}
 .form-dot{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;font-size:9px;color:#fff;margin:0 1px;font-weight:700;line-height:1;}
@@ -776,6 +778,28 @@ function toggleTrendPlayer(n){if(!trendSel)trendSel=new Set();if(trendSel.has(n)
 function trendSelClear(){trendSel=new Set();renderTrend();}
 function trendSelTop3(){trendSel=null;renderTrend();}
 
+const CODES={"Algeria":"ALG","Argentina":"ARG","Australia":"AUS","Austria":"AUT","Belgium":"BEL","Bosnia & Herzegovina":"BIH","Brazil":"BRA","Canada":"CAN","Cape Verde":"CPV","Colombia":"COL","Croatia":"CRO","Curacao":"CUW","Czechia":"CZE","DR Congo":"COD","Ecuador":"ECU","Egypt":"EGY","England":"ENG","France":"FRA","Germany":"GER","Ghana":"GHA","Haiti":"HAI","Iran":"IRN","Iraq":"IRQ","Ivory Coast":"CIV","Japan":"JPN","Jordan":"JOR","Mexico":"MEX","Morocco":"MAR","Netherlands":"NED","New Zealand":"NZL","Norway":"NOR","Panama":"PAN","Paraguay":"PAR","Portugal":"POR","Qatar":"QAT","Saudi Arabia":"KSA","Scotland":"SCO","Senegal":"SEN","South Africa":"RSA","South Korea":"KOR","Spain":"ESP","Sweden":"SWE","Switzerland":"SUI","Tunisia":"TUN","Turkiye":"TUR","USA":"USA","Uruguay":"URU","Uzbekistan":"UZB"};
+
+function showTeamPop(ev,team){
+  ev.stopPropagation();
+  let pop=document.getElementById('teamPop');
+  if(!pop){
+    pop=document.createElement('div');pop.id='teamPop';document.body.appendChild(pop);
+    pop.style.cssText='position:fixed;z-index:9999;background:#201f1e;color:#fff;font-size:13px;font-weight:600;padding:7px 11px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.28);pointer-events:none;white-space:nowrap;display:none;';
+    document.addEventListener('click',()=>{pop.style.display='none';});
+    window.addEventListener('scroll',()=>{pop.style.display='none';},true);
+  }
+  pop.innerHTML=(FLAGS[team]||'🏳️')+' '+team;
+  pop.style.display='block';
+  const r=ev.currentTarget.getBoundingClientRect();
+  const pw=pop.offsetWidth,ph=pop.offsetHeight;
+  let x=Math.max(6,Math.min(r.left+r.width/2-pw/2,window.innerWidth-pw-6));
+  let y=r.top-ph-8; if(y<6) y=r.bottom+8;
+  pop.style.left=x+'px';pop.style.top=y+'px';
+  clearTimeout(window._teamPopT);
+  window._teamPopT=setTimeout(()=>{pop.style.display='none';},2400);
+}
+
 function renderStandings(){
   const el=document.getElementById('stContent');
   if(!el) return;
@@ -791,18 +815,19 @@ function renderStandings(){
     return '<span class="form-dot" style="background:transparent;border:1.5px solid #d6d6d6;"></span>';
   };
   const GG=3;
-  let html=`<div class="hover-hint" style="margin-bottom:10px;">📊 Live group tables from actual match results — sorted by points, then goal difference. &nbsp;<span style="white-space:nowrap;">✓ win · – draw · ✕ loss</span></div>`;
+  let html=`<div class="hover-hint" style="margin-bottom:10px;">📊 Live group tables from actual match results — sorted by points, then goal difference. &nbsp;<span style="white-space:nowrap;">👆 tap a country code for its full name</span></div>`;
   html+=`<div class="st-subtabs"><span class="st-subtab active">Group Stage</span><span class="st-subtab disabled">Knockout — TBD</span></div>`;
   Object.keys(st).forEach(g=>{
     html+=`<div class="st-group"><h3>Group ${g}</h3><div style="overflow-x:auto;-webkit-overflow-scrolling:touch;"><table class="st-table"><thead><tr>
       <th style="width:18px;"></th><th class="left">Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Form</th></tr></thead><tbody>`;
     st[g].forEach((r,i)=>{
       const flag=FLAGS[r.team]||'🏳️';
+      const code=CODES[r.team]||r.team.slice(0,3).toUpperCase();
       let form=r.form.map(dot).join('');
       for(let k=r.form.length;k<GG;k++) form+=dot('');
       html+=`<tr>
         <td class="st-pos">${i+1}</td>
-        <td class="left"><span class="team"><span class="st-flag">${flag}</span>${r.team}</span></td>
+        <td class="left"><span class="team team-chip" onclick="showTeamPop(event,'${r.team.replace(/'/g,"\\'")}')"><span class="st-flag">${flag}</span><span class="st-code">${code}</span></span></td>
         <td>${r.mp}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td>
         <td>${r.gf}</td><td>${r.ga}</td><td>${r.gd>0?'+'+r.gd:r.gd}</td>
         <td class="pts">${r.pts}</td>
