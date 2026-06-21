@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "20 Jun 2026",
-    "updated_time": "06:00 PM",
-    "matches_played": 34,
-    "matches_scored": 30,
+    "updated": "21 Jun 2026",
+    "updated_time": "02:42 AM",
+    "matches_played": 36,
+    "matches_scored": 32,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -674,6 +674,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:42 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:42 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:42 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:42 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -959,6 +999,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -2299,6 +2379,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 01:50 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:50 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:50 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:50 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -2630,7 +2750,7 @@
           "team2": "Saudi Arabia",
           "score1": 2,
           "score2": 0,
-          "submitted_est": "Jun 20 2026 12:40 AM EST",
+          "submitted_est": "Jun 20 2026 12:41 AM EST",
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -2640,7 +2760,7 @@
           "team2": "Iran",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 20 2026 12:40 AM EST",
+          "submitted_est": "Jun 20 2026 12:41 AM EST",
           "kickoff_est": "Jun 21 2026 03:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -2650,7 +2770,7 @@
           "team2": "Cape Verde",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 20 2026 12:40 AM EST",
+          "submitted_est": "Jun 20 2026 12:41 AM EST",
           "kickoff_est": "Jun 21 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -2660,7 +2780,7 @@
           "team2": "Egypt",
           "score1": 1,
           "score2": 1,
-          "submitted_est": "Jun 20 2026 12:40 AM EST",
+          "submitted_est": "Jun 20 2026 12:41 AM EST",
           "kickoff_est": "Jun 21 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -2979,6 +3099,46 @@
           "kickoff_est": "Jun 20 2026 08:00 PM EST",
           "status": "valid",
           "group": "E"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Japan",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 20 2026 09:19 PM EST",
+          "kickoff_est": "Jun 21 2026 12:00 AM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Saudi Arabia",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 20 2026 09:19 PM EST",
+          "kickoff_est": "Jun 21 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 20 2026 09:19 PM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 20 2026 09:19 PM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
         }
       ]
     },
@@ -3274,6 +3434,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:45 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:45 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 01:45 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:45 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -3934,6 +4134,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -4269,6 +4509,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:37 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:37 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 01:37 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:37 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -4544,6 +4824,56 @@
           "kickoff_est": "Jun 19 2026 11:00 PM EST",
           "status": "valid",
           "group": "D"
+        },
+        {
+          "team1": "Spain",
+          "team2": "Saudi Arabia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:05 AM EST",
+          "kickoff_est": "Jun 21 2026 12:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:02 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:02 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:02 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:02 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -4675,7 +5005,7 @@
           "team2": "Senegal",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "submitted_est": "Jun 15 2026 12:35 PM EST",
           "kickoff_est": "Jun 16 2026 03:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -4685,7 +5015,7 @@
           "team2": "Norway",
           "score1": 1,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "submitted_est": "Jun 15 2026 12:35 PM EST",
           "kickoff_est": "Jun 16 2026 06:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -4695,7 +5025,7 @@
           "team2": "Algeria",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "submitted_est": "Jun 15 2026 12:35 PM EST",
           "kickoff_est": "Jun 16 2026 09:00 PM EST",
           "status": "valid",
           "group": "J"
@@ -4705,7 +5035,7 @@
           "team2": "Jordan",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 15 2026 12:34 PM EST",
+          "submitted_est": "Jun 15 2026 12:35 PM EST",
           "kickoff_est": "Jun 17 2026 12:00 AM EST",
           "status": "valid",
           "group": "J"
@@ -5225,7 +5555,7 @@
           "team2": "Switzerland",
           "score1": 0,
           "score2": 2,
-          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "submitted_est": "Jun 12 2026 03:40 PM EST",
           "kickoff_est": "Jun 13 2026 03:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -5235,7 +5565,7 @@
           "team2": "Morocco",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "submitted_est": "Jun 12 2026 03:40 PM EST",
           "kickoff_est": "Jun 13 2026 06:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -5245,7 +5575,7 @@
           "team2": "Scotland",
           "score1": 0,
           "score2": 2,
-          "submitted_est": "Jun 12 2026 03:39 PM EST",
+          "submitted_est": "Jun 12 2026 03:40 PM EST",
           "kickoff_est": "Jun 13 2026 09:00 PM EST",
           "status": "valid",
           "group": "C"
@@ -6843,12 +7173,52 @@
         {
           "team1": "Spain",
           "team2": "Saudi Arabia",
-          "score1": 4,
+          "score1": 5,
           "score2": 1,
-          "submitted_est": "Jun 20 2026 02:53 AM EST",
+          "submitted_est": "Jun 21 2026 02:20 AM EST",
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:20 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:20 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 02:20 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:20 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -6860,7 +7230,7 @@
           "team2": "Switzerland",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 12 2026 07:05 AM EST",
+          "submitted_est": "Jun 12 2026 07:06 AM EST",
           "kickoff_est": "Jun 13 2026 03:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -6890,7 +7260,7 @@
           "team2": "Turkiye",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "submitted_est": "Jun 13 2026 12:44 AM EST",
           "kickoff_est": "Jun 14 2026 12:00 AM EST",
           "status": "valid",
           "group": "D"
@@ -6900,7 +7270,7 @@
           "team2": "Curacao",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 13 2026 12:43 AM EST",
+          "submitted_est": "Jun 13 2026 12:44 AM EST",
           "kickoff_est": "Jun 14 2026 01:00 PM EST",
           "status": "valid",
           "group": "E"
@@ -7529,6 +7899,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:31 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:31 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 02:31 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:31 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -7690,7 +8100,7 @@
           "team2": "South Africa",
           "score1": 1,
           "score2": 0,
-          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
           "kickoff_est": "Jun 18 2026 12:00 PM EST",
           "status": "valid",
           "group": "A"
@@ -7700,7 +8110,7 @@
           "team2": "Bosnia & Herzegovina",
           "score1": 1,
           "score2": 0,
-          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
           "kickoff_est": "Jun 18 2026 03:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -7710,7 +8120,7 @@
           "team2": "Qatar",
           "score1": 0,
           "score2": 1,
-          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
           "kickoff_est": "Jun 18 2026 06:00 PM EST",
           "status": "valid",
           "group": "B"
@@ -7720,7 +8130,7 @@
           "team2": "South Korea",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 18 2026 03:02 AM EST",
+          "submitted_est": "Jun 18 2026 03:03 AM EST",
           "kickoff_est": "Jun 18 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
@@ -7799,8 +8209,8 @@
           "team1": "Tunisia",
           "team2": "Japan",
           "score1": 0,
-          "score2": 1,
-          "submitted_est": "Jun 20 2026 01:12 AM EST",
+          "score2": 2,
+          "submitted_est": "Jun 20 2026 09:21 PM EST",
           "kickoff_est": "Jun 21 2026 12:00 AM EST",
           "status": "valid",
           "group": "F"
@@ -7809,11 +8219,51 @@
           "team1": "Spain",
           "team2": "Saudi Arabia",
           "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 20 2026 01:12 AM EST",
+          "score2": 1,
+          "submitted_est": "Jun 20 2026 09:21 PM EST",
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:14 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:14 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 02:14 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:14 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -8119,6 +8569,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:21 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 02:21 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:21 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 02:21 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -8160,7 +8650,7 @@
           "team2": "Cape Verde",
           "score1": 2,
           "score2": 0,
-          "submitted_est": "Jun 14 2026 10:23 PM EST",
+          "submitted_est": "Jun 14 2026 10:24 PM EST",
           "kickoff_est": "Jun 15 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -8170,7 +8660,7 @@
           "team2": "Egypt",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 14 2026 10:23 PM EST",
+          "submitted_est": "Jun 14 2026 10:24 PM EST",
           "kickoff_est": "Jun 15 2026 03:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -8180,7 +8670,7 @@
           "team2": "Uruguay",
           "score1": 1,
           "score2": 1,
-          "submitted_est": "Jun 14 2026 10:23 PM EST",
+          "submitted_est": "Jun 14 2026 10:24 PM EST",
           "kickoff_est": "Jun 15 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
@@ -8190,7 +8680,7 @@
           "team2": "New Zealand",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 14 2026 10:23 PM EST",
+          "submitted_est": "Jun 14 2026 10:24 PM EST",
           "kickoff_est": "Jun 15 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
@@ -8629,6 +9119,46 @@
           "kickoff_est": "Jun 21 2026 12:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 01:34 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:34 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 01:34 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:34 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -8704,6 +9234,46 @@
           "kickoff_est": "Jun 21 2026 12:00 AM EST",
           "status": "valid",
           "group": "F"
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iran",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:38 AM EST",
+          "kickoff_est": "Jun 21 2026 03:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Cape Verde",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:38 AM EST",
+          "kickoff_est": "Jun 21 2026 06:00 PM EST",
+          "status": "valid",
+          "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 01:38 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 01:38 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     }
@@ -8918,6 +9488,20 @@
       "score1": 2,
       "score2": 1,
       "group": "E"
+    },
+    "curacao vs ecuador": {
+      "team1": "Ecuador",
+      "team2": "Curacao",
+      "score1": 0,
+      "score2": 0,
+      "group": "E"
+    },
+    "japan vs tunisia": {
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "score1": 0,
+      "score2": 4,
+      "group": "F"
     }
   }
 }
