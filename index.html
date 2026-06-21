@@ -153,6 +153,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="tabs">
     <button class="tab active" onclick="switchTab('matches')">⚽ Matches</button>
     <button class="tab" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
+    <button class="tab" onclick="switchTab('trend')">📈 Rank Trend</button>
   </div>
 </div>
 <div id="panel-matches" class="panel active">
@@ -165,7 +166,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.5</strong> &nbsp;·&nbsp; Built 19 Jun 2026 12:09 AM EST<br>
+  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -174,7 +175,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.5</strong> &nbsp;·&nbsp; Built 19 Jun 2026 12:09 AM EST<br>
+  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
+</div>
+<div id="panel-trend" class="panel">
+  <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
+  <div id="trendContent" style="display:none;"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -195,9 +205,10 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
+  if(t==='trend') renderTrend();
 }
 
 async function loadData(){
@@ -211,17 +222,21 @@ async function loadData(){
       document.getElementById('lastUpdated').textContent='📅 Last updated: '+upd+' · '+ms+' of '+data.meta.matches_played+' matches scored';
     }
     state.predictions=data.predictions||[];
+    state.timeline=data.timeline||null;
     buildMatchState(data.results||{});
-    renderMatches();renderLB();
+    renderMatches();renderLB();renderTrend();
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
     document.getElementById('matchSearchWrap').style.display='block';
     document.getElementById('loadingLB').style.display='none';
     document.getElementById('lbContent').style.display='block';
+    document.getElementById('loadingTrend').style.display='none';
+    document.getElementById('trendContent').style.display='block';
   }catch(e){
     const msg='<p style="color:#c4314b;text-align:center;padding:40px;">⚠️ Could not load data. Please refresh.<br><small>'+e.message+'</small></p>';
     document.getElementById('loadingMatches').innerHTML=msg;
     document.getElementById('loadingLB').innerHTML=msg;
+    document.getElementById('loadingTrend').innerHTML=msg;
   }
 }
 
@@ -655,6 +670,78 @@ function renderLB(){
   html+='</tbody></table></div>';
   el.innerHTML=html;
 }
+
+let trendSel=null;
+const TRENDCOLORS=['#0078d4','#d83b01','#107c10','#5c2d91','#e3008c','#008272','#ca5010','#b4009e','#004e8c','#498205'];
+
+function renderTrend(){
+  const el=document.getElementById('trendContent');
+  if(!el) return;
+  const tl=state.timeline;
+  if(!tl||!tl.matchdays||!tl.matchdays.length||!tl.points){
+    el.innerHTML='<p style="text-align:center;color:#605e5c;padding:40px 20px;">📈 Rank-trend data isn\'t available yet.<br><small>Regenerate data.json with the latest build to enable this view.</small></p>';
+    return;
+  }
+  const names=Object.keys(tl.points);
+  const mds=tl.matchdays, nMD=mds.length, N=names.length;
+  const posByMD=[], rankByMD=[];
+  mds.forEach((md,j)=>{
+    const arr=names.map(n=>[n,tl.points[n][j]]).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+    const pos={},rk={};let cur=0,prev=null;
+    arr.forEach(([n,p],idx)=>{pos[n]=idx+1;if(p!==prev){cur++;prev=p;}rk[n]=cur;});
+    posByMD.push(pos);rankByMD.push(rk);
+  });
+  const finalPos=posByMD[nMD-1], finalRank=rankByMD[nMD-1];
+  const sortedNames=names.slice().sort((a,b)=>finalPos[a]-finalPos[b]);
+  if(trendSel===null) trendSel=new Set(sortedNames.slice(0,3));
+  const selSorted=sortedNames.filter(n=>trendSel.has(n));
+  const colorOf={};selSorted.forEach((n,i)=>colorOf[n]=TRENDCOLORS[i%TRENDCOLORS.length]);
+
+  const W=720,L=34,Rm=148,T=22,B=38,rowH=15;
+  const plotH=N*rowH,Hsvg=T+plotH+B;
+  const xx=j=>L+(nMD<=1?0:j*((W-L-Rm)/(nMD-1)));
+  const yy=pos=>T+(pos-0.5)*rowH;
+  const esc=s=>s.replace(/'/g,"\\'");
+
+  let svg=`<svg viewBox="0 0 ${W} ${Hsvg}" width="100%" style="max-width:100%;font-family:inherit;min-width:520px;">`;
+  for(let r=1;r<=N;r+=5){
+    svg+=`<line x1="${L}" y1="${yy(r)}" x2="${W-Rm}" y2="${yy(r)}" stroke="#f1f1f1" stroke-width="1"/>`;
+    svg+=`<text x="${L-6}" y="${yy(r)+3}" text-anchor="end" font-size="9" fill="#b0aeac">${r}</text>`;
+  }
+  mds.forEach((md,j)=>{
+    svg+=`<line x1="${xx(j)}" y1="${T-4}" x2="${xx(j)}" y2="${T+plotH}" stroke="#f6f5f4" stroke-width="1"/>`;
+    svg+=`<text x="${xx(j)}" y="${T+plotH+16}" text-anchor="middle" font-size="10" font-weight="600" fill="#605e5c">MD${md}</text>`;
+  });
+  names.forEach(n=>{
+    if(trendSel.has(n)) return;
+    const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
+    svg+=`<polyline points="${pts}" fill="none" stroke="#dcdad7" stroke-width="1.1" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
+  });
+  selSorted.forEach(n=>{
+    const c=colorOf[n];
+    const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
+    svg+=`<polyline points="${pts}" fill="none" stroke="${c}" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
+    mds.forEach((md,j)=>{
+      svg+=`<circle cx="${xx(j)}" cy="${yy(posByMD[j][n])}" r="3.3" fill="${c}"><title>${n} — MD${md}: rank ${rankByMD[j][n]}, ${tl.points[n][j]} pts</title></circle>`;
+    });
+    const fy=yy(finalPos[n]);
+    svg+=`<text x="${W-Rm+8}" y="${fy+3.3}" font-size="10.5" font-weight="600" fill="${c}">${finalRank[n]}. ${n}</text>`;
+  });
+  svg+=`</svg>`;
+
+  let chips=`<div style="display:flex;flex-wrap:wrap;gap:5px;margin:2px 0 12px;">`;
+  sortedNames.forEach(n=>{
+    const on=trendSel.has(n),c=on?colorOf[n]:'#888';
+    chips+=`<button onclick="toggleTrendPlayer('${esc(n)}')" style="font-size:11px;padding:3px 9px;border-radius:12px;cursor:pointer;border:1.5px solid ${on?c:'#d6d6d6'};background:${on?c:'#fff'};color:${on?'#fff':'#605e5c'};font-weight:${on?'600':'500'};white-space:nowrap;">${n}</button>`;
+  });
+  chips+=`</div>`;
+  const hint=`<div class="hover-hint" style="margin-bottom:8px;">📈 Rank by matchday (1 = top). Tap a name or line to highlight; tap again to remove. Hover a dot for points.</div>`;
+  const ctrl=`<div style="display:flex;gap:8px;margin-bottom:10px;"><button onclick="trendSelTop3()" style="font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;">🏅 Top 3</button><button onclick="trendSelClear()" style="font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;">Clear all</button></div>`;
+  el.innerHTML=hint+ctrl+chips+`<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">${svg}</div>`;
+}
+function toggleTrendPlayer(n){if(!trendSel)trendSel=new Set();if(trendSel.has(n))trendSel.delete(n);else trendSel.add(n);renderTrend();}
+function trendSelClear(){trendSel=new Set();renderTrend();}
+function trendSelTop3(){trendSel=null;renderTrend();}
 
 const FLAGS={
   "Qatar":"🇶🇦",
