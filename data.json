@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "21 Jun 2026",
-    "updated_time": "11:00 PM",
+    "updated": "22 Jun 2026",
+    "updated_time": "06:17 AM",
     "matches_played": 40,
     "matches_scored": 36,
     "group": "PDC Friends 1991-93"
@@ -754,6 +754,36 @@
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:35 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:35 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:35 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -1073,10 +1103,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 4,
+          "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -1454,6 +1514,36 @@
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 03:38 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:38 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:38 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -1825,8 +1915,38 @@
           "team2": "Austria",
           "score1": 2,
           "score2": 0,
-          "submitted_est": "Jun 21 2026 07:34 AM EST",
+          "submitted_est": "Jun 22 2026 12:40 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:40 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:40 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:40 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -2200,8 +2320,38 @@
           "team2": "Austria",
           "score1": 2,
           "score2": 0,
-          "submitted_est": "Jun 21 2026 02:55 AM EST",
+          "submitted_est": "Jun 22 2026 12:51 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:51 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:51 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:51 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -2575,8 +2725,38 @@
           "team2": "Austria",
           "score1": 4,
           "score2": 0,
-          "submitted_est": "Jun 21 2026 01:50 AM EST",
+          "submitted_est": "Jun 22 2026 12:15 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:15 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:15 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:15 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -2944,6 +3124,46 @@
           "kickoff_est": "Jun 21 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:19 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 6,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 03:19 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:19 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:19 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -3309,6 +3529,46 @@
           "kickoff_est": "Jun 21 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 21 2026 11:35 PM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 21 2026 11:35 PM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 11:35 PM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 21 2026 11:35 PM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -3638,10 +3898,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 21 2026 01:45 AM EST",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:00 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:00 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:00 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:00 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -4014,9 +4304,39 @@
           "team1": "Argentina",
           "team2": "Austria",
           "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 21 2026 07:30 AM EST",
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:33 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:33 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 05:33 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 05:33 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -4378,10 +4698,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 3,
-          "score2": 1,
-          "submitted_est": "Jun 21 2026 02:15 AM EST",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 04:30 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 04:30 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 04:30 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 04:30 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -4759,6 +5109,36 @@
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 01:00 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 01:00 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 01:00 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -5078,9 +5458,9 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 21 2026 11:41 AM EST",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:54 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
           "status": "valid",
           "group": "J"
@@ -5088,9 +5468,9 @@
         {
           "team1": "France",
           "team2": "Iraq",
-          "score1": 3,
+          "score1": 4,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 11:41 AM EST",
+          "submitted_est": "Jun 22 2026 05:54 AM EST",
           "kickoff_est": "Jun 22 2026 05:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -5098,9 +5478,9 @@
         {
           "team1": "Norway",
           "team2": "Senegal",
-          "score1": 1,
-          "score2": 1,
-          "submitted_est": "Jun 21 2026 11:41 AM EST",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:54 AM EST",
           "kickoff_est": "Jun 22 2026 08:00 PM EST",
           "status": "valid",
           "group": "I"
@@ -5108,9 +5488,9 @@
         {
           "team1": "Jordan",
           "team2": "Algeria",
-          "score1": 0,
-          "score2": 2,
-          "submitted_est": "Jun 21 2026 11:41 AM EST",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:54 AM EST",
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
@@ -5485,8 +5865,38 @@
           "team2": "Austria",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 03:22 AM EST",
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -5854,6 +6264,46 @@
           "kickoff_est": "Jun 21 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 03:33 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 03:33 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:33 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:33 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -6949,6 +7399,46 @@
           "kickoff_est": "Jun 21 2026 09:00 PM EST",
           "status": "valid",
           "group": "G"
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Austria",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 06:17 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 06:17 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 06:17 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 06:17 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
+          "status": "valid",
+          "group": "J"
         }
       ]
     },
@@ -7320,8 +7810,38 @@
           "team2": "Austria",
           "score1": 3,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 06:47 AM EST",
+          "submitted_est": "Jun 22 2026 03:14 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 03:14 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 03:14 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 03:14 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -7684,9 +8204,39 @@
           "team1": "Argentina",
           "team2": "Austria",
           "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 21 2026 02:20 AM EST",
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:55 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -8058,10 +8608,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 02:36 AM EST",
+          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 02:36 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
           "score1": 2,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 06:44 AM EST",
-          "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "submitted_est": "Jun 22 2026 02:36 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 02:36 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -8414,9 +8994,39 @@
           "team1": "Argentina",
           "team2": "Austria",
           "score1": 3,
-          "score2": 0,
-          "submitted_est": "Jun 21 2026 02:31 AM EST",
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 02:17 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 02:17 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 02:17 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 02:17 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -8740,8 +9350,38 @@
           "team2": "Austria",
           "score1": 2,
           "score2": 0,
-          "submitted_est": "Jun 21 2026 02:14 AM EST",
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:58 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -9083,10 +9723,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 3,
+          "score1": 4,
           "score2": 1,
-          "submitted_est": "Jun 21 2026 02:21 AM EST",
+          "submitted_est": "Jun 22 2026 12:53 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 12:53 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:53 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:53 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -9388,10 +10058,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 2,
-          "score2": 1,
-          "submitted_est": "Jun 21 2026 03:29 AM EST",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 01:37 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 01:37 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 01:37 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 01:37 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -9673,10 +10373,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 21 2026 01:34 AM EST",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:41 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:41 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 12:41 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 12:41 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -9788,10 +10518,40 @@
         {
           "team1": "Argentina",
           "team2": "Austria",
-          "score1": 2,
-          "score2": 0,
-          "submitted_est": "Jun 21 2026 01:38 AM EST",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 05:49 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 5,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 05:49 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 05:49 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 05:49 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
