@@ -83,7 +83,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .member-name{font-size:13px;font-weight:600;color:#201f1e;}
 .member-ts{font-size:10px;color:#a19f9d;margin-top:1px;}
 /* Leaderboard */
-.lb-wrap{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden;}
+.lb-wrap{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow-x:auto;-webkit-overflow-scrolling:touch;}
 .lb-table{width:100%;border-collapse:collapse;}
 .lb-table th{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#605e5c;padding:9px 6px;background:#faf9f8;border-bottom:2px solid #edebe9;text-align:center;}
 .lb-table th.left{text-align:left;}
@@ -159,6 +159,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .st-pos{color:#a19f9d;font-weight:600;}
 .st-table .pts{font-weight:700;color:#201f1e;}
 .form-dot{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;font-size:9px;color:#fff;margin:0 1px;font-weight:700;line-height:1;}
+.lb-table{min-width:580px;}
+.lb-table th.sortable{cursor:pointer;white-space:nowrap;-webkit-user-select:none;user-select:none;}
+.lb-table th.sortable:hover{color:#0078d4;}
+.lb-table th .arr{font-size:9px;color:#cfcdcb;margin-left:1px;}
+.lb-table th.active .arr{color:#0078d4;}
+.lb-table th.stick,.lb-table td.stick{position:sticky;background:#fff;z-index:2;}
+.lb-table thead th.stick{background:#faf9f8;z-index:3;}
+.lb-c-sl{left:0;width:32px;min-width:32px;}
+.lb-c-rank{left:32px;width:48px;min-width:48px;}
+.lb-c-player{left:80px;min-width:118px;box-shadow:1px 0 0 #edebe9;}
+.lb-table tr:hover td.stick{background:#f9f8f7;}
+.eff-cell{text-align:center;width:50px;font-size:12px;font-weight:600;color:#323130;}
+.eff-cell.muted{color:#a19f9d;font-weight:400;}
+.lb-controls{display:flex;justify-content:flex-end;margin:2px 2px 8px;}
+.lb-reset{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;}
+.lb-reset:active{transform:scale(.96);}
 </style>
 </head>
 <body>
@@ -187,7 +203,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -196,7 +212,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -205,7 +221,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -214,7 +230,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.6</strong> &nbsp;·&nbsp; Built 21 Jun 2026 · Rank Trend added<br>
+  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -666,6 +682,7 @@ function denseRanks(ranked){
 }
 
 const MEDALS={1:'🥇',2:'🥈',3:'🥉'};
+let lbSort={col:'rank',dir:'asc'};
 
 function renderLB(){
   const el=document.getElementById('lbContent');
@@ -673,38 +690,86 @@ function renderLB(){
   const ranks=denseRanks(ranked);
   const rankCounts={};ranks.forEach(r=>{rankCounts[r]=(rankCounts[r]||0)+1;});
   window._statData={};
-  let html=`<div class="hover-hint">💡 Tap coloured numbers under EXACT · DIFF · RESULT to see match details</div>
-  <div class="lb-wrap"><table class="lb-table">
-    <thead><tr><th style="width:28px;">SL</th><th style="width:50px;">RANK</th>
-    <th class="left">PLAYER</th><th>EXACT</th><th>DIFF</th><th>RESULT</th>
-    <th class="right" style="padding-right:10px;">PTS</th></tr></thead><tbody>`;
-
-  ranked.forEach(([name,s],i)=>{
-    const rank=ranks[i];const tied=rankCounts[rank]>1&&rank<=3;
+  window._lbRows=ranked.map(([name,s],i)=>{
+    const rank=ranks[i];
+    const hits=s.exact.length+s.gdiff.length+s.result.length;
     const uid=name.replace(/[^a-zA-Z0-9]/g,'_')+'_'+i;
-    const medal=MEDALS[rank];
-    // Store stat data safely
     window._statData[uid+'_exact']={name,type:'exact',items:s.exact};
     window._statData[uid+'_gdiff']={name,type:'gdiff',items:s.gdiff};
     window._statData[uid+'_result']={name,type:'result',items:s.result};
+    return {name,s,rank,uid,hits,
+            ppm:s.played?s.pts/s.played:0,
+            hitrate:s.played?hits/s.played:0,
+            tied:rankCounts[rank]>1&&rank<=3,medal:MEDALS[rank]};
+  });
+  el.innerHTML=`<div class="hover-hint">💡 Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
+    <div class="lb-controls"><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
+    <div class="lb-wrap"><div id="lbHost"></div></div>`;
+  applyLBSort();
+}
+
+function lbCompare(a,b,col){
+  switch(col){
+    case 'rank':return a.rank-b.rank;
+    case 'player':return a.name.localeCompare(b.name);
+    case 'exact':return a.s.exact.length-b.s.exact.length;
+    case 'diff':return a.s.gdiff.length-b.s.gdiff.length;
+    case 'result':return a.s.result.length-b.s.result.length;
+    case 'pts':return a.s.pts-b.s.pts;
+    case 'played':return a.s.played-b.s.played;
+    case 'ppm':return a.ppm-b.ppm;
+    case 'hit':return a.hitrate-b.hitrate;
+  }
+  return 0;
+}
+function lbArrow(col){
+  if(lbSort.col!==col)return '<span class="arr">↕</span>';
+  return '<span class="arr">'+(lbSort.dir==='asc'?'▲':'▼')+'</span>';
+}
+function lbTh(col,label,extra){
+  const a=lbSort.col===col?' active':'';
+  return `<th class="sortable${a} ${extra||''}" onclick="sortLB('${col}')">${label}${lbArrow(col)}</th>`;
+}
+function buildLBTable(rows){
+  let h=`<table class="lb-table"><thead><tr>
+    <th class="stick lb-c-sl">SL</th>
+    ${lbTh('rank','RANK','stick lb-c-rank')}
+    ${lbTh('player','PLAYER','left stick lb-c-player')}
+    ${lbTh('exact','EXACT')}${lbTh('diff','DIFF')}${lbTh('result','RESULT')}
+    ${lbTh('pts','PTS','right')}${lbTh('played','P')}${lbTh('ppm','PPM')}${lbTh('hit','HIT%')}
+    </tr></thead><tbody>`;
+  rows.forEach((r,idx)=>{
+    const s=r.s;
     const sc=(val,type)=>{
       if(val===0)return`<td class="stat-cell"><button class="stat-btn zero">${val}</button></td>`;
-      const colClass=type==='exact'?'exact-c':type==='gdiff'?'diff-c':'res-c';
-      return`<td class="stat-cell"><button class="stat-btn clickable ${colClass}" onclick="showStatByKey('${uid+'_'+type}')">${val}</button></td>`;
+      const cc=type==='exact'?'exact-c':type==='gdiff'?'diff-c':'res-c';
+      return`<td class="stat-cell"><button class="stat-btn clickable ${cc}" onclick="showStatByKey('${r.uid+'_'+type}')">${val}</button></td>`;
     };
-    html+=`<tr class="${tied?'tied':''}">
-      <td class="sl-cell">${i+1}</td>
-      <td class="rank-cell">${medal?'<span class="medal-emoji">'+medal+'</span>':'<span class="rank-badge">'+rank+'</span>'}</td>
-      <td class="name-cell${s.pts===0?' dimmed':''}">
-        ${name}${tied?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+' invalid</span>':''}
-      </td>
+    h+=`<tr class="${r.tied?'tied':''}">
+      <td class="sl-cell stick lb-c-sl">${idx+1}</td>
+      <td class="rank-cell stick lb-c-rank">${r.medal?'<span class="medal-emoji">'+r.medal+'</span>':'<span class="rank-badge">'+r.rank+'</span>'}</td>
+      <td class="name-cell stick lb-c-player${s.pts===0?' dimmed':''}">${r.name}${r.tied?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+'</span>':''}</td>
       ${sc(s.exact.length,'exact')}${sc(s.gdiff.length,'gdiff')}${sc(s.result.length,'result')}
       <td class="pts-cell"><span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span></td>
+      <td class="eff-cell muted">${s.played}</td>
+      <td class="eff-cell">${s.played?r.ppm.toFixed(2):'—'}</td>
+      <td class="eff-cell">${s.played?Math.round(r.hitrate*100)+'%':'—'}</td>
     </tr>`;
   });
-  html+='</tbody></table></div>';
-  el.innerHTML=html;
+  return h+'</tbody></table>';
 }
+function applyLBSort(){
+  const rows=window._lbRows.slice();
+  rows.sort((a,b)=>{let c=lbCompare(a,b,lbSort.col);if(c===0)c=a.rank-b.rank;return lbSort.dir==='asc'?c:-c;});
+  const host=document.getElementById('lbHost');
+  if(host)host.innerHTML=buildLBTable(rows);
+}
+function sortLB(col){
+  if(lbSort.col===col)lbSort.dir=lbSort.dir==='asc'?'desc':'asc';
+  else{lbSort.col=col;lbSort.dir=(col==='rank'||col==='player')?'asc':'desc';}
+  applyLBSort();
+}
+function resetLB(){lbSort={col:'rank',dir:'asc'};applyLBSort();}
 
 let trendSel=null;
 const TRENDCOLORS=['#0078d4','#d83b01','#107c10','#5c2d91','#e3008c','#008272','#ca5010','#b4009e','#004e8c','#498205'];
