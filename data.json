@@ -10436,6 +10436,16 @@
           "group": "L"
         },
         {
+          "team1": "Ghana",
+          "team2": "Panama",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 16 2026 11:49 PM EST",
+          "kickoff_est": "Jun 17 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
           "team1": "Uzbekistan",
           "team2": "Colombia",
           "score1": 0,
