@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "22 Jun 2026",
-    "updated_time": "06:17 AM",
+    "updated_time": "11:21 AM",
     "matches_played": 40,
     "matches_scored": 36,
     "group": "PDC Friends 1991-93"
@@ -377,6 +377,36 @@
           "score2": 1,
           "submitted_est": "Jun 21 2026 08:03 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 09:34 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 09:34 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 09:34 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
@@ -6677,6 +6707,36 @@
           "score2": 0,
           "submitted_est": "Jun 21 2026 07:20 AM EST",
           "kickoff_est": "Jun 22 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "J"
+        },
+        {
+          "team1": "France",
+          "team2": "Iraq",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:21 AM EST",
+          "kickoff_est": "Jun 22 2026 05:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Norway",
+          "team2": "Senegal",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:21 AM EST",
+          "kickoff_est": "Jun 22 2026 08:00 PM EST",
+          "status": "valid",
+          "group": "I"
+        },
+        {
+          "team1": "Jordan",
+          "team2": "Algeria",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:21 AM EST",
+          "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
         }
