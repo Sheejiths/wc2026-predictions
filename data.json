@@ -5844,6 +5844,16 @@
           "kickoff_est": "Jun 21 2026 06:00 PM EST",
           "status": "valid",
           "group": "H"
+        },
+        {
+          "team1": "New Zealand",
+          "team2": "Egypt",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 21 2026 09:11 AM EST",
+          "kickoff_est": "Jun 21 2026 09:00 PM EST",
+          "status": "valid",
+          "group": "G"
         }
       ]
     },
@@ -10229,7 +10239,7 @@
         17,
         22,
         24,
-        28
+        29
       ],
       "Sreejith Ramachandran": [
         1,
