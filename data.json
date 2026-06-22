@@ -1,9 +1,9 @@
 {
   "meta": {
     "updated": "21 Jun 2026",
-    "updated_time": "05:00 PM",
-    "matches_played": 38,
-    "matches_scored": 34,
+    "updated_time": "08:00 PM",
+    "matches_played": 39,
+    "matches_scored": 35,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -10026,6 +10026,13 @@
       "score1": 0,
       "score2": 0,
       "group": "G"
+    },
+    "cape verde vs uruguay": {
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "score1": 2,
+      "score2": 2,
+      "group": "H"
     }
   },
   "timeline": {
@@ -10072,7 +10079,7 @@
         18,
         18,
         23,
-        26
+        28
       ],
       "Praveen Kodurkalam": [
         0,
@@ -10105,7 +10112,7 @@
         14,
         17,
         20,
-        21
+        23
       ],
       "Kamal": [
         1,
@@ -10204,7 +10211,7 @@
         16,
         20,
         23,
-        24
+        26
       ],
       "Deepa R Rao": [
         1,
@@ -10303,7 +10310,7 @@
         16,
         21,
         25,
-        26
+        28
       ],
       "Baba Krishnankutty": [
         1,
@@ -10802,29 +10809,31 @@
       },
       {
         "team": "Uruguay",
-        "mp": 1,
+        "mp": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
-        "gf": 1,
-        "ga": 1,
+        "gf": 3,
+        "ga": 3,
         "gd": 0,
-        "pts": 1,
+        "pts": 2,
         "form": [
+          "D",
           "D"
         ]
       },
       {
         "team": "Cape Verde",
-        "mp": 1,
+        "mp": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 2,
+        "ga": 2,
         "gd": 0,
-        "pts": 1,
+        "pts": 2,
         "form": [
+          "D",
           "D"
         ]
       },
