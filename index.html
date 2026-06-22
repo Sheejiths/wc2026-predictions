@@ -772,7 +772,7 @@ function sortLB(col){
 function resetLB(){lbSort={col:'rank',dir:'asc'};applyLBSort();}
 
 let trendSel=null;
-const TRENDCOLORS=['#0078d4','#d83b01','#107c10','#5c2d91','#e3008c','#008272','#ca5010','#b4009e','#004e8c','#498205'];
+const TRENDCOLORS=['#2EA8FF','#F5A623','#2FC36B','#E84FA8','#FF7A45','#00C2B8','#9B6CFF','#36C5F0','#FF5C7A','#A8C921'];
 
 function renderTrend(){
   const el=document.getElementById('trendContent');
@@ -784,11 +784,14 @@ function renderTrend(){
   }
   const names=Object.keys(tl.points);
   const mds=tl.matchdays, nMD=mds.length, N=names.length;
+  const hasTB = tl.exact && tl.gdiff;   // tiebreak data present -> rank like the leaderboard
   const posByMD=[], rankByMD=[];
   mds.forEach((md,j)=>{
-    const arr=names.map(n=>[n,tl.points[n][j]]).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+    const ex=n=>hasTB?(tl.exact[n][j]||0):0, gd=n=>hasTB?(tl.gdiff[n][j]||0):0;
+    const arr=names.map(n=>[n,tl.points[n][j],ex(n),gd(n)])
+      .sort((a,b)=>b[1]-a[1]||b[2]-a[2]||b[3]-a[3]||a[0].localeCompare(b[0]));
     const pos={},rk={};let cur=0,prev=null;
-    arr.forEach(([n,p],idx)=>{pos[n]=idx+1;if(p!==prev){cur++;prev=p;}rk[n]=cur;});
+    arr.forEach(([n,p,e,g],idx)=>{pos[n]=idx+1;const key=p+'|'+e+'|'+g;if(key!==prev){cur++;prev=key;}rk[n]=cur;});
     posByMD.push(pos);rankByMD.push(rk);
   });
   const finalPos=posByMD[nMD-1], finalRank=rankByMD[nMD-1];
@@ -815,12 +818,12 @@ function renderTrend(){
   names.forEach(n=>{
     if(trendSel.has(n)) return;
     const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
-    svg+=`<polyline points="${pts}" fill="none" stroke="#dcdad7" stroke-width="1.1" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
+    svg+=`<polyline points="${pts}" fill="none" stroke="#e7e5e2" stroke-width="1" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
   });
   selSorted.forEach(n=>{
     const c=colorOf[n];
     const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
-    svg+=`<polyline points="${pts}" fill="none" stroke="${c}" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
+    svg+=`<polyline points="${pts}" fill="none" stroke="${c}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
     mds.forEach((md,j)=>{
       svg+=`<circle cx="${xx(j)}" cy="${yy(posByMD[j][n])}" r="3.3" fill="${c}"><title>${n} — MD${md}: rank ${rankByMD[j][n]}, ${tl.points[n][j]} pts</title></circle>`;
     });
