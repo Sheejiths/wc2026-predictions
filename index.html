@@ -175,6 +175,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .lb-controls{display:flex;justify-content:flex-end;margin:2px 2px 8px;}
 .lb-reset{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;}
 .lb-reset:active{transform:scale(.96);}
+.brk-scroll{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid #edebe9;border-radius:10px;background:#fff;max-height:80vh;}
+.brk-canvas{position:relative;}
+.brk-head{position:absolute;font-size:10px;font-weight:700;color:#8a8886;text-transform:uppercase;letter-spacing:.05em;text-align:center;}
+.brk-card{position:absolute;border-radius:8px;background:#fff;border:1.5px solid #e1dfdd;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden;}
+.brk-card.proj{border-style:dashed;border-color:#cfcdcb;background:#fcfbfa;}
+.brk-card.act{border-color:#0078d4;box-shadow:0 1px 4px rgba(0,120,212,.18);}
+.brk-team{display:flex;align-items:center;gap:5px;padding:0 7px;font-size:12px;font-weight:600;color:#605e5c;height:23px;box-sizing:border-box;}
+.brk-team+.brk-team{border-top:1px solid #f0eeec;}
+.brk-team.win{color:#0a5c0a;background:#eef9ee;font-weight:800;}
+.brk-team.tbd{color:#b3b0ad;font-style:italic;font-weight:500;}
+.brk-flag{font-size:13px;line-height:1;}
+.brk-name{flex:1;letter-spacing:.02em;}
+.brk-meta{position:absolute;right:6px;top:50%;transform:translateY(-50%);}
+.brk-score{font-size:11px;font-weight:800;color:#0078d4;background:#eaf3fb;border-radius:4px;padding:1px 5px;}
+.brk-tag{font-size:10px;opacity:.65;}
+.brk-champ{position:absolute;}
+.brk-champ-lbl{font-size:9px;font-weight:700;color:#a07b00;letter-spacing:.07em;margin-bottom:3px;}
+.brk-champ-team{font-size:13px;font-weight:800;color:#7d5a00;background:#fff4ce;border:1.5px solid #f0c850;border-radius:8px;padding:7px 9px;white-space:nowrap;}
+.brk-3p{position:absolute;font-size:11px;color:#605e5c;background:#faf9f8;border:1px solid #edebe9;border-radius:8px;padding:6px 10px;white-space:nowrap;}
 </style>
 </head>
 <body>
@@ -191,6 +210,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <button class="tab" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
     <button class="tab" onclick="switchTab('trend')">📈 Rank Trend</button>
     <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
+    <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
   </div>
 </div>
 <div id="panel-matches" class="panel active">
@@ -203,7 +223,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
+  <strong>⚙️ UI v1.8</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Knockout bracket (projection → actuals)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -212,7 +232,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
+  <strong>⚙️ UI v1.8</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Knockout bracket (projection → actuals)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -221,7 +241,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
+  <strong>⚙️ UI v1.8</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Knockout bracket (projection → actuals)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -230,7 +250,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.7</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Sortable leaderboard + per-pick stats<br>
+  <strong>⚙️ UI v1.8</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Knockout bracket (projection → actuals)<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
+</div>
+<div id="panel-bracket" class="panel">
+  <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
+  <div id="brkContent" style="display:none;"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.8</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Knockout bracket (projection → actuals)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -251,11 +280,12 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
   if(t==='trend') renderTrend();
   if(t==='standings') renderStandings();
+  if(t==='bracket') renderBracket();
 }
 
 async function loadData(){
@@ -271,8 +301,9 @@ async function loadData(){
     state.predictions=data.predictions||[];
     state.timeline=data.timeline||null;
     state.standings=data.standings||null;
+    state.bracket=data.bracket||null;
     buildMatchState(data.results||{});
-    renderMatches();renderLB();renderTrend();renderStandings();
+    renderMatches();renderLB();renderTrend();renderStandings();renderBracket();
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
     document.getElementById('matchSearchWrap').style.display='block';
@@ -282,6 +313,8 @@ async function loadData(){
     document.getElementById('trendContent').style.display='block';
     document.getElementById('loadingStandings').style.display='none';
     document.getElementById('stContent').style.display='block';
+    document.getElementById('loadingBracket').style.display='none';
+    document.getElementById('brkContent').style.display='block';
   }catch(e){
     const msg='<p style="color:#c4314b;text-align:center;padding:40px;">⚠️ Could not load data. Please refresh.<br><small>'+e.message+'</small></p>';
     document.getElementById('loadingMatches').innerHTML=msg;
@@ -866,6 +899,54 @@ function showTeamPop(ev,team){
   pop.style.left=x+'px';pop.style.top=y+'px';
   clearTimeout(window._teamPopT);
   window._teamPopT=setTimeout(()=>{pop.style.display='none';},2400);
+}
+
+function renderBracket(){
+  const el=document.getElementById('brkContent'); if(!el) return;
+  const B=state.bracket;
+  if(!B||!B.matches||!B.matches.length){
+    el.innerHTML='<p style="text-align:center;color:#605e5c;padding:40px 20px;">🏆 Bracket isn\'t available yet.<br><small>Regenerate data.json with the latest build to enable this view.</small></p>';
+    return;
+  }
+  const M={}; B.matches.forEach(m=>M[m.m]=m);
+  const kids=m=>{ if(m.m===32)return[29,30]; const o=[]; [m.slot1,m.slot2].forEach(s=>{const x=/^W(\d+)$/.exec(s||'');if(x)o.push(+x[1]-72);}); return o; };
+  const leaf=[]; (function dfs(id){const m=M[id];if(!m)return;const k=kids(m);if(!k.length){leaf.push(id);return;}k.forEach(dfs);})(32);
+  const COL={R32:0,R16:1,QF:2,SF:3,F:4};
+  const rowH=58,colW=158,cardW=140,cardH=46,padX=8,padY=30;
+  const yOf={}; leaf.forEach((id,i)=>yOf[id]=padY+i*rowH);
+  ['R16','QF','SF'].forEach(r=>B.matches.filter(m=>m.round===r).forEach(m=>{const ys=kids(m).map(c=>yOf[c]).filter(v=>v!=null);if(ys.length)yOf[m.m]=ys.reduce((a,b)=>a+b,0)/ys.length;}));
+  if(yOf[29]!=null&&yOf[30]!=null)yOf[32]=(yOf[29]+yOf[30])/2;
+  const champW=124, totalW=4*colW+cardW+champW, totalH=padY+leaf.length*rowH+12;
+  const xOf=m=>COL[m.round]*colW+padX;
+  // connectors
+  let svg=`<svg width="${totalW}" height="${totalH}" style="position:absolute;left:0;top:0;pointer-events:none;">`;
+  B.matches.forEach(m=>{ if(m.round==='R32'||m.round==='3P')return; const px=xOf(m), py=(yOf[m.m]||0)+cardH/2;
+    kids(m).forEach(c=>{ const cm=M[c]; if(!cm||yOf[c]==null)return; const cx=xOf(cm)+cardW, cy=yOf[c]+cardH/2, midx=(cx+px)/2;
+      svg+=`<path d="M${cx} ${cy} H${midx} V${py} H${px}" fill="none" stroke="#dcdad7" stroke-width="1.5"/>`; }); });
+  svg+=`</svg>`;
+  // column headers
+  const HEAD={R32:'Round of 32',R16:'Round of 16',QF:'Quarter-finals',SF:'Semi-finals',F:'Final'};
+  let heads=''; Object.keys(COL).forEach(r=>{ heads+=`<div class="brk-head" style="left:${COL[r]*colW+padX}px;top:6px;width:${cardW}px;">${HEAD[r]}</div>`; });
+  // cards
+  const row=(team,slot,isWin)=>{ const known=!!team; const flag=known?(FLAGS[team]||'🏳️'):'⚽';
+    const label=known?(CODES[team]||team.slice(0,3).toUpperCase()):(slot||'TBD');
+    return `<div class="brk-team${isWin?' win':''}${known?'':' tbd'}"><span class="brk-flag">${flag}</span><span class="brk-name">${label}</span></div>`; };
+  let cards='';
+  B.matches.forEach(m=>{ if(m.round==='3P')return; const y=yOf[m.m]; if(y==null)return;
+    const proj=m.status!=='actual';
+    const meta=proj?`<span class="brk-tag">🔮</span>`:`<span class="brk-score">${m.s1}-${m.s2}</span>`;
+    cards+=`<div class="brk-card${proj?' proj':' act'}" style="left:${xOf(m)}px;top:${y}px;width:${cardW}px;">
+      ${row(m.t1,m.slot1,m.winner===m.t1&&!!m.t1)}${row(m.t2,m.slot2,m.winner===m.t2&&!!m.t2)}
+      <div class="brk-meta">${meta}</div></div>`; });
+  // champion + 3rd place
+  let extra=''; const fin=M[32], champ=fin&&fin.winner;
+  if(champ){ extra+=`<div class="brk-champ" style="left:${4*colW+cardW+10}px;top:${(yOf[32]||padY)-2}px;">
+     <div class="brk-champ-lbl">${fin.status==='actual'?'CHAMPION':'PROJECTED CHAMPION'}</div>
+     <div class="brk-champ-team">🏆 <span class="brk-flag">${FLAGS[champ]||''}</span> ${champ}</div></div>`; }
+  const tp=M[31];
+  if(tp){ extra+=`<div class="brk-3p" style="left:${padX}px;top:${totalH-30}px;">🥉 3rd place: ${tp.t1?(FLAGS[tp.t1]||'')+' '+tp.t1:'?'} vs ${tp.t2?(FLAGS[tp.t2]||'')+' '+tp.t2:'?'} → <b>${tp.winner||'?'}</b> ${tp.status==='actual'?'('+tp.s1+'-'+tp.s2+')':'🔮'}</div>`; }
+  const legend=`<div class="hover-hint" style="margin-bottom:10px;">🏆 Tournament bracket — projected from group standings &amp; the predicted knockout chain. <b>🔮 dashed = projected</b>, <b>solid blue = actual result</b>. Updates automatically as results arrive. <br><small>“⚽ TBD” slots (best third-place teams) resolve once the group stage finishes.</small></div>`;
+  el.innerHTML=legend+`<div class="brk-scroll"><div class="brk-canvas" style="width:${totalW}px;height:${totalH}px;">${svg}${heads}${cards}${extra}</div></div>`;
 }
 
 function renderStandings(){
