@@ -1,7 +1,7 @@
 {
   "meta": {
     "updated": "23 Jun 2026",
-    "updated_time": "01:00 AM",
+    "updated_time": "06:00 AM",
     "matches_played": 44,
     "matches_scored": 40,
     "group": "PDC Friends 1991-93"
@@ -814,6 +814,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 12:12 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 12:12 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 12:12 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 12:12 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -1169,6 +1209,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:27 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:27 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 10:27 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:27 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -1574,6 +1654,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -1979,6 +2099,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:50 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 11:50 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 11:50 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:50 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -2384,6 +2544,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:07 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:07 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 04:07 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 04:07 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -2789,6 +2989,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 09:42 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 09:42 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 09:42 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 09:42 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -3194,6 +3434,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:47 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:47 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 10:47 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:47 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -3599,6 +3879,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:59 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:59 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 10:59 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:59 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -3964,6 +4284,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:19 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:19 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 10:19 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:19 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -4764,6 +5124,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:20 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:20 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 04:20 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:20 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -5169,6 +5569,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:28 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:28 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 10:28 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:28 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -5524,6 +5964,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:30 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:30 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 11:30 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:30 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -5929,6 +6409,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 04:02 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 04:02 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 04:02 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 04:02 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -6334,6 +6854,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:32 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -6739,6 +7299,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 06:00 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 06:00 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 06:00 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 06:00 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -7144,6 +7744,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 07:05 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 07:05 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 07:05 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 4,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 07:05 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -7499,6 +8139,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 12:20 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 4,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 12:20 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 12:20 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 12:20 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -7904,6 +8584,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:44 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:44 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 10:44 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:44 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -8299,6 +9019,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:49 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 4,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 11:49 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 4,
+          "submitted_est": "Jun 22 2026 11:49 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:49 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -8704,6 +9464,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 03:43 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 03:43 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 03:43 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 03:43 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -9089,6 +9889,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:30 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 02:30 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 02:30 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 02:30 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -9819,6 +10659,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:22 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 3,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 11:22 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 22 2026 11:22 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 11:22 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -10154,6 +11034,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 02:52 AM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 23 2026 02:52 AM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 23 2026 02:52 AM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 23 2026 02:52 AM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
@@ -10469,6 +11389,46 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Uzbekistan",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 22 2026 10:15 PM EST",
+          "kickoff_est": "Jun 23 2026 01:00 PM EST",
+          "status": "valid",
+          "group": "K"
+        },
+        {
+          "team1": "England",
+          "team2": "Ghana",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:15 PM EST",
+          "kickoff_est": "Jun 23 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Panama",
+          "team2": "Croatia",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 22 2026 10:15 PM EST",
+          "kickoff_est": "Jun 23 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "L"
+        },
+        {
+          "team1": "Colombia",
+          "team2": "DR Congo",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 22 2026 10:15 PM EST",
+          "kickoff_est": "Jun 23 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "K"
         }
       ]
     },
