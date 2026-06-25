@@ -1,9 +1,9 @@
 {
   "meta": {
     "updated": "24 Jun 2026",
-    "updated_time": "08:00 PM",
-    "matches_played": 52,
-    "matches_scored": 48,
+    "updated_time": "11:00 PM",
+    "matches_played": 54,
+    "matches_scored": 50,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -13624,6 +13624,20 @@
       "score1": 4,
       "score2": 2,
       "group": "C"
+    },
+    "czechia vs mexico": {
+      "team1": "Czechia",
+      "team2": "Mexico",
+      "score1": 0,
+      "score2": 3,
+      "group": "A"
+    },
+    "south africa vs south korea": {
+      "team1": "South Africa",
+      "team2": "South Korea",
+      "score1": 1,
+      "score2": 0,
+      "group": "A"
     }
   },
   "timeline": {
@@ -13639,7 +13653,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "points": {
       "P Vijayan": [
@@ -13654,7 +13669,8 @@
         28,
         34,
         38,
-        44
+        44,
+        45
       ],
       "Vinod K M": [
         3,
@@ -13668,7 +13684,8 @@
         27,
         31,
         36,
-        39
+        39,
+        42
       ],
       "Sunilraj": [
         2,
@@ -13682,6 +13699,7 @@
         29,
         32,
         36,
+        43,
         43
       ],
       "Praveen Kodurkalam": [
@@ -13696,7 +13714,8 @@
         29,
         34,
         39,
-        46
+        46,
+        47
       ],
       "Senthil Kumar": [
         3,
@@ -13710,7 +13729,8 @@
         23,
         32,
         35,
-        37
+        37,
+        39
       ],
       "Srikanth N R": [
         1,
@@ -13724,7 +13744,8 @@
         24,
         33,
         37,
-        44
+        44,
+        45
       ],
       "Kamal": [
         1,
@@ -13738,7 +13759,8 @@
         27,
         31,
         35,
-        39
+        39,
+        40
       ],
       "Harish": [
         2,
@@ -13752,7 +13774,8 @@
         25,
         29,
         32,
-        35
+        35,
+        36
       ],
       "Sheejith Sahadevan": [
         1,
@@ -13766,7 +13789,8 @@
         30,
         37,
         40,
-        46
+        46,
+        47
       ],
       "Shaik Afzal": [
         1,
@@ -13780,7 +13804,8 @@
         26,
         34,
         38,
-        44
+        44,
+        45
       ],
       "Nandhini Viswanath": [
         4,
@@ -13794,7 +13819,8 @@
         27,
         30,
         36,
-        44
+        44,
+        45
       ],
       "Krishnan": [
         1,
@@ -13808,7 +13834,8 @@
         31,
         38,
         43,
-        50
+        50,
+        51
       ],
       "Vinod Menon": [
         3,
@@ -13822,7 +13849,8 @@
         27,
         33,
         36,
-        41
+        41,
+        42
       ],
       "Bijesh": [
         3,
@@ -13835,6 +13863,7 @@
         23,
         24,
         28,
+        32,
         32,
         32
       ],
@@ -13850,7 +13879,8 @@
         27,
         30,
         35,
-        38
+        38,
+        39
       ],
       "Deepa R Rao": [
         1,
@@ -13864,7 +13894,8 @@
         29,
         36,
         40,
-        44
+        44,
+        45
       ],
       "Sreejith Ramachandran": [
         1,
@@ -13878,6 +13909,7 @@
         27,
         35,
         40,
+        46,
         46
       ],
       "Satheesh": [
@@ -13892,7 +13924,8 @@
         29,
         37,
         40,
-        46
+        46,
+        47
       ],
       "Sasikumar Prabhakaran": [
         1,
@@ -13906,7 +13939,8 @@
         24,
         28,
         30,
-        38
+        38,
+        39
       ],
       "Ashik": [
         1,
@@ -13920,7 +13954,8 @@
         31,
         38,
         41,
-        48
+        48,
+        49
       ],
       "Abhilash Unniyambath": [
         1,
@@ -13934,7 +13969,8 @@
         24,
         31,
         34,
-        36
+        36,
+        37
       ],
       "Rajith": [
         1,
@@ -13948,7 +13984,8 @@
         25,
         31,
         32,
-        38
+        38,
+        41
       ],
       "KD": [
         1,
@@ -13962,7 +13999,8 @@
         29,
         38,
         43,
-        48
+        48,
+        49
       ],
       "Kesava Prasad": [
         6,
@@ -13974,6 +14012,7 @@
         21,
         25,
         29,
+        38,
         38,
         38,
         38
@@ -13990,7 +14029,8 @@
         22,
         27,
         32,
-        36
+        36,
+        37
       ],
       "Srijith": [
         0,
@@ -14004,7 +14044,8 @@
         28,
         31,
         34,
-        38
+        38,
+        39
       ],
       "Sanjesh": [
         0,
@@ -14018,6 +14059,7 @@
         16,
         20,
         24,
+        27,
         27
       ],
       "Tony": [
@@ -14032,7 +14074,8 @@
         7,
         12,
         12,
-        15
+        15,
+        16
       ]
     },
     "exact": {
@@ -14048,6 +14091,7 @@
         4,
         4,
         4,
+        5,
         5
       ],
       "Vinod K M": [
@@ -14060,6 +14104,7 @@
         3,
         3,
         3,
+        4,
         4,
         4,
         4
@@ -14076,6 +14121,7 @@
         2,
         2,
         2,
+        3,
         3
       ],
       "Praveen Kodurkalam": [
@@ -14090,6 +14136,7 @@
         3,
         3,
         4,
+        5,
         5
       ],
       "Senthil Kumar": [
@@ -14102,6 +14149,7 @@
         3,
         3,
         3,
+        6,
         6,
         6,
         6
@@ -14118,6 +14166,7 @@
         1,
         4,
         4,
+        5,
         5
       ],
       "Kamal": [
@@ -14132,6 +14181,7 @@
         4,
         4,
         4,
+        4,
         4
       ],
       "Harish": [
@@ -14139,6 +14189,7 @@
         1,
         1,
         1,
+        2,
         2,
         2,
         2,
@@ -14160,6 +14211,7 @@
         3,
         5,
         5,
+        6,
         6
       ],
       "Shaik Afzal": [
@@ -14174,6 +14226,7 @@
         2,
         4,
         4,
+        5,
         5
       ],
       "Nandhini Viswanath": [
@@ -14188,6 +14241,7 @@
         3,
         3,
         4,
+        5,
         5
       ],
       "Krishnan": [
@@ -14202,6 +14256,7 @@
         3,
         5,
         6,
+        7,
         7
       ],
       "Vinod Menon": [
@@ -14214,6 +14269,7 @@
         2,
         3,
         3,
+        4,
         4,
         4,
         4
@@ -14230,12 +14286,14 @@
         5,
         5,
         5,
+        5,
         5
       ],
       "Smitha Ramesh": [
         0,
         0,
         0,
+        1,
         1,
         1,
         1,
@@ -14258,6 +14316,7 @@
         3,
         4,
         4,
+        4,
         4
       ],
       "Sreejith Ramachandran": [
@@ -14272,6 +14331,7 @@
         4,
         6,
         6,
+        7,
         7
       ],
       "Satheesh": [
@@ -14286,6 +14346,7 @@
         3,
         5,
         5,
+        6,
         6
       ],
       "Sasikumar Prabhakaran": [
@@ -14300,6 +14361,7 @@
         2,
         2,
         2,
+        3,
         3
       ],
       "Ashik": [
@@ -14314,6 +14376,7 @@
         4,
         5,
         5,
+        6,
         6
       ],
       "Abhilash Unniyambath": [
@@ -14326,6 +14389,7 @@
         1,
         1,
         1,
+        2,
         2,
         2,
         2
@@ -14342,7 +14406,8 @@
         1,
         2,
         2,
-        3
+        3,
+        4
       ],
       "KD": [
         0,
@@ -14356,6 +14421,7 @@
         2,
         4,
         4,
+        5,
         5
       ],
       "Kesava Prasad": [
@@ -14368,6 +14434,7 @@
         4,
         4,
         4,
+        6,
         6,
         6,
         6
@@ -14384,6 +14451,7 @@
         1,
         2,
         3,
+        3,
         3
       ],
       "Srijith": [
@@ -14393,6 +14461,7 @@
         2,
         3,
         3,
+        4,
         4,
         4,
         4,
@@ -14412,9 +14481,11 @@
         1,
         1,
         1,
+        1,
         1
       ],
       "Tony": [
+        0,
         0,
         0,
         0,
@@ -14442,6 +14513,7 @@
         1,
         3,
         4,
+        4,
         4
       ],
       "Vinod K M": [
@@ -14456,7 +14528,8 @@
         2,
         2,
         4,
-        4
+        4,
+        5
       ],
       "Sunilraj": [
         1,
@@ -14470,6 +14543,7 @@
         4,
         5,
         6,
+        8,
         8
       ],
       "Praveen Kodurkalam": [
@@ -14484,6 +14558,7 @@
         3,
         4,
         4,
+        5,
         5
       ],
       "Senthil Kumar": [
@@ -14498,7 +14573,8 @@
         2,
         2,
         2,
-        2
+        2,
+        3
       ],
       "Srikanth N R": [
         0,
@@ -14512,6 +14588,7 @@
         3,
         3,
         4,
+        6,
         6
       ],
       "Kamal": [
@@ -14526,6 +14603,7 @@
         2,
         3,
         4,
+        5,
         5
       ],
       "Harish": [
@@ -14540,6 +14618,7 @@
         4,
         5,
         5,
+        6,
         6
       ],
       "Sheejith Sahadevan": [
@@ -14554,6 +14633,7 @@
         3,
         3,
         3,
+        4,
         4
       ],
       "Shaik Afzal": [
@@ -14568,6 +14648,7 @@
         4,
         5,
         6,
+        7,
         7
       ],
       "Nandhini Viswanath": [
@@ -14582,6 +14663,7 @@
         1,
         1,
         2,
+        4,
         4
       ],
       "Krishnan": [
@@ -14596,6 +14678,7 @@
         4,
         4,
         4,
+        5,
         5
       ],
       "Vinod Menon": [
@@ -14610,6 +14693,7 @@
         4,
         5,
         5,
+        6,
         6
       ],
       "Bijesh": [
@@ -14623,6 +14707,7 @@
         1,
         1,
         2,
+        3,
         3,
         3
       ],
@@ -14638,6 +14723,7 @@
         5,
         6,
         8,
+        8,
         8
       ],
       "Deepa R Rao": [
@@ -14652,6 +14738,7 @@
         3,
         4,
         5,
+        6,
         6
       ],
       "Sreejith Ramachandran": [
@@ -14666,6 +14753,7 @@
         1,
         2,
         4,
+        5,
         5
       ],
       "Satheesh": [
@@ -14678,6 +14766,7 @@
         4,
         4,
         4,
+        5,
         5,
         5,
         5
@@ -14694,6 +14783,7 @@
         3,
         4,
         4,
+        6,
         6
       ],
       "Ashik": [
@@ -14708,6 +14798,7 @@
         3,
         4,
         5,
+        6,
         6
       ],
       "Abhilash Unniyambath": [
@@ -14720,6 +14811,7 @@
         2,
         2,
         3,
+        5,
         5,
         5,
         5
@@ -14736,6 +14828,7 @@
         4,
         5,
         5,
+        6,
         6
       ],
       "KD": [
@@ -14750,6 +14843,7 @@
         5,
         6,
         8,
+        8,
         8
       ],
       "Kesava Prasad": [
@@ -14762,6 +14856,7 @@
         1,
         2,
         3,
+        4,
         4,
         4,
         4
@@ -14778,6 +14873,7 @@
         3,
         3,
         3,
+        4,
         4
       ],
       "Srijith": [
@@ -14792,6 +14888,7 @@
         2,
         3,
         3,
+        4,
         4
       ],
       "Sanjesh": [
@@ -14806,6 +14903,7 @@
         0,
         2,
         3,
+        4,
         4
       ],
       "Tony": [
@@ -14820,6 +14918,7 @@
         1,
         2,
         2,
+        2,
         2
       ]
     }
@@ -14828,62 +14927,66 @@
     "A": [
       {
         "team": "Mexico",
-        "mp": 2,
-        "w": 2,
+        "mp": 3,
+        "w": 3,
         "d": 0,
         "l": 0,
-        "gf": 3,
+        "gf": 6,
         "ga": 0,
-        "gd": 3,
-        "pts": 6,
+        "gd": 6,
+        "pts": 9,
         "form": [
+          "W",
           "W",
           "W"
         ]
       },
       {
-        "team": "South Korea",
-        "mp": 2,
+        "team": "South Africa",
+        "mp": 3,
         "w": 1,
-        "d": 0,
-        "l": 1,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "pts": 3,
-        "form": [
-          "W",
-          "L"
-        ]
-      },
-      {
-        "team": "Czechia",
-        "mp": 2,
-        "w": 0,
         "d": 1,
         "l": 1,
         "gf": 2,
         "ga": 3,
         "gd": -1,
-        "pts": 1,
+        "pts": 4,
         "form": [
           "L",
-          "D"
+          "D",
+          "W"
         ]
       },
       {
-        "team": "South Africa",
-        "mp": 2,
+        "team": "South Korea",
+        "mp": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "pts": 3,
+        "form": [
+          "W",
+          "L",
+          "L"
+        ]
+      },
+      {
+        "team": "Czechia",
+        "mp": 3,
         "w": 0,
         "d": 1,
-        "l": 1,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "l": 2,
+        "gf": 2,
+        "ga": 6,
+        "gd": -4,
         "pts": 1,
         "form": [
           "L",
-          "D"
+          "D",
+          "L"
         ]
       }
     ],
@@ -15591,450 +15694,530 @@
       {
         "m": 1,
         "round": "R32",
+        "t1": "South Africa",
+        "t2": "Canada",
+        "t1src": "final",
+        "t2src": "final",
         "slot1": "Runner-up A",
         "slot2": "Runner-up B",
-        "t1": "South Korea",
-        "t2": "Canada",
-        "t1src": "live",
-        "t2src": "final",
-        "winner": null,
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 2,
         "round": "R32",
-        "slot1": "Winner C",
-        "slot2": "Runner-up F",
         "t1": "Brazil",
         "t2": "Japan",
         "t1src": "final",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Winner C",
+        "slot2": "Runner-up F",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 3,
         "round": "R32",
-        "slot1": "Winner E",
-        "slot2": "Best 3rd",
         "t1": "Germany",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner E",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 4,
         "round": "R32",
-        "slot1": "Winner F",
-        "slot2": "Runner-up C",
         "t1": "Netherlands",
         "t2": "Morocco",
         "t1src": "live",
         "t2src": "final",
-        "winner": null,
+        "slot1": "Winner F",
+        "slot2": "Runner-up C",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 5,
         "round": "R32",
-        "slot1": "Runner-up E",
-        "slot2": "Runner-up I",
         "t1": "Ivory Coast",
         "t2": "Norway",
         "t1src": "live",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Runner-up E",
+        "slot2": "Runner-up I",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 6,
         "round": "R32",
-        "slot1": "Winner I",
-        "slot2": "Best 3rd",
         "t1": "France",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner I",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 7,
         "round": "R32",
-        "slot1": "Winner A",
-        "slot2": "Best 3rd",
         "t1": "Mexico",
         "t2": null,
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner A",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 8,
         "round": "R32",
-        "slot1": "Winner L",
-        "slot2": "Best 3rd",
         "t1": "England",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner L",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 9,
         "round": "R32",
-        "slot1": "Winner G",
-        "slot2": "Best 3rd",
         "t1": "Egypt",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner G",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 10,
         "round": "R32",
-        "slot1": "Winner D",
-        "slot2": "Best 3rd",
         "t1": "USA",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner D",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 11,
         "round": "R32",
-        "slot1": "Winner H",
-        "slot2": "Runner-up J",
         "t1": "Spain",
         "t2": "Austria",
         "t1src": "live",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Winner H",
+        "slot2": "Runner-up J",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 12,
         "round": "R32",
-        "slot1": "Runner-up K",
-        "slot2": "Runner-up L",
         "t1": "Portugal",
         "t2": "Ghana",
         "t1src": "live",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Runner-up K",
+        "slot2": "Runner-up L",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 13,
         "round": "R32",
-        "slot1": "Winner B",
-        "slot2": "Best 3rd",
         "t1": "Switzerland",
         "t2": null,
         "t1src": "final",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner B",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 14,
         "round": "R32",
-        "slot1": "Runner-up D",
-        "slot2": "Runner-up G",
         "t1": "Australia",
         "t2": "Iran",
         "t1src": "live",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Runner-up D",
+        "slot2": "Runner-up G",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 15,
         "round": "R32",
-        "slot1": "Winner J",
-        "slot2": "Runner-up H",
         "t1": "Argentina",
         "t2": "Uruguay",
         "t1src": "live",
         "t2src": "live",
-        "winner": null,
+        "slot1": "Winner J",
+        "slot2": "Runner-up H",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 16,
         "round": "R32",
-        "slot1": "Winner K",
-        "slot2": "Best 3rd",
         "t1": "Colombia",
         "t2": null,
         "t1src": "live",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "Winner K",
+        "slot2": "Best 3rd",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": []
       },
       {
         "m": 17,
         "round": "R16",
-        "slot1": "W73",
-        "slot2": "W75",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          1,
+          3
+        ]
       },
       {
         "m": 18,
         "round": "R16",
-        "slot1": "W74",
-        "slot2": "W77",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          2,
+          5
+        ]
       },
       {
         "m": 19,
         "round": "R16",
-        "slot1": "W76",
-        "slot2": "W78",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          4,
+          6
+        ]
       },
       {
         "m": 20,
         "round": "R16",
-        "slot1": "W79",
-        "slot2": "W80",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          7,
+          8
+        ]
       },
       {
         "m": 21,
         "round": "R16",
-        "slot1": "W83",
-        "slot2": "W84",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          11,
+          12
+        ]
       },
       {
         "m": 22,
         "round": "R16",
-        "slot1": "W81",
-        "slot2": "W82",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          9,
+          10
+        ]
       },
       {
         "m": 23,
         "round": "R16",
-        "slot1": "W86",
-        "slot2": "W88",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          14,
+          16
+        ]
       },
       {
         "m": 24,
         "round": "R16",
-        "slot1": "W85",
-        "slot2": "W87",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          13,
+          15
+        ]
       },
       {
         "m": 25,
         "round": "QF",
-        "slot1": "W89",
-        "slot2": "W90",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          17,
+          18
+        ]
       },
       {
         "m": 26,
         "round": "QF",
-        "slot1": "W93",
-        "slot2": "W94",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          21,
+          22
+        ]
       },
       {
         "m": 27,
         "round": "QF",
-        "slot1": "W91",
-        "slot2": "W92",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          19,
+          20
+        ]
       },
       {
         "m": 28,
         "round": "QF",
-        "slot1": "W95",
-        "slot2": "W96",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          23,
+          24
+        ]
       },
       {
         "m": 29,
         "round": "SF",
-        "slot1": "W97",
-        "slot2": "W98",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          25,
+          26
+        ]
       },
       {
         "m": 30,
         "round": "SF",
-        "slot1": "W99",
-        "slot2": "W100",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          27,
+          28
+        ]
       },
       {
         "m": 31,
         "round": "3P",
-        "slot1": "SF Loser 1",
-        "slot2": "SF Loser 2",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "3rd place",
+        "slot2": "3rd place",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          29,
+          30
+        ]
       },
       {
         "m": 32,
         "round": "F",
-        "slot1": "France",
-        "slot2": "Brazil",
         "t1": null,
         "t2": null,
         "t1src": "tbd",
         "t2src": "tbd",
-        "winner": null,
+        "slot1": "TBD",
+        "slot2": "TBD",
         "s1": null,
         "s2": null,
-        "status": "pending"
+        "winner": null,
+        "status": "pending",
+        "children": [
+          29,
+          30
+        ]
       }
     ]
   },
@@ -16065,6 +16248,15 @@
         "pts": 3,
         "gd": -1,
         "gf": 3,
+        "qualified": true
+      },
+      {
+        "team": "South Korea",
+        "group": "A",
+        "mp": 3,
+        "pts": 3,
+        "gd": -1,
+        "gf": 2,
         "qualified": true
       },
       {
@@ -16110,15 +16302,6 @@
         "pts": 2,
         "gd": 0,
         "gf": 1,
-        "qualified": true
-      },
-      {
-        "team": "Czechia",
-        "group": "A",
-        "mp": 2,
-        "pts": 1,
-        "gd": -1,
-        "gf": 2,
         "qualified": false
       },
       {
