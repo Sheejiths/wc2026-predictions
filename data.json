@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "24 Jun 2026",
-    "updated_time": "11:00 PM",
+    "updated": "25 Jun 2026",
+    "updated_time": "07:37 AM",
     "matches_played": 54,
     "matches_scored": 50,
     "group": "PDC Friends 1991-93"
@@ -1014,6 +1014,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 03:27 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -1469,6 +1529,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:40 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -1974,6 +2094,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 01:43 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -2479,6 +2659,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 03:02 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -2984,6 +3224,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 06:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -3489,6 +3789,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 02:31 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -4499,6 +4859,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 07:35 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -4964,6 +5384,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 5,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:09 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -5964,6 +6444,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 05:19 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -6469,6 +7009,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:43 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -6864,6 +7464,66 @@
           "kickoff_est": "Jun 23 2026 10:00 PM EST",
           "status": "valid",
           "group": "K"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 0,
+          "score2": 0,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 24 2026 11:43 PM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -7874,6 +8534,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 3,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:58 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -9399,6 +10119,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 05:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -9904,6 +10684,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:15 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -10399,6 +11239,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 5,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 3,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 5,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 12:57 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -10904,6 +11804,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:35 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -11389,6 +12349,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 04:15 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -11744,6 +12764,126 @@
           "kickoff_est": "Jun 22 2026 11:00 PM EST",
           "status": "valid",
           "group": "J"
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Canada",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 03:00 PM EST",
+          "status": "INVALID",
+          "group": "B"
+        },
+        {
+          "team1": "Bosnia & Herzegovina",
+          "team2": "Qatar",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 03:00 PM EST",
+          "status": "INVALID",
+          "group": "B"
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Brazil",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 06:00 PM EST",
+          "status": "INVALID",
+          "group": "C"
+        },
+        {
+          "team1": "Morocco",
+          "team2": "Haiti",
+          "score1": 2,
+          "score2": 0,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 06:00 PM EST",
+          "status": "INVALID",
+          "group": "C"
+        },
+        {
+          "team1": "Czechia",
+          "team2": "Mexico",
+          "score1": 0,
+          "score2": 1,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 09:00 PM EST",
+          "status": "INVALID",
+          "group": "A"
+        },
+        {
+          "team1": "South Africa",
+          "team2": "South Korea",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 24 2026 10:30 PM EST",
+          "kickoff_est": "Jun 24 2026 09:00 PM EST",
+          "status": "INVALID",
+          "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 01:10 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -12219,6 +13359,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 4,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:12 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -12654,6 +13854,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 0,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 02:22 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -13069,6 +14329,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 1,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 01:42 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     },
@@ -13284,6 +14604,66 @@
           "kickoff_est": "Jun 24 2026 09:00 PM EST",
           "status": "valid",
           "group": "A"
+        },
+        {
+          "team1": "Curacao",
+          "team2": "Ivory Coast",
+          "score1": 1,
+          "score2": 0,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Germany",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 04:00 PM EST",
+          "status": "valid",
+          "group": "E"
+        },
+        {
+          "team1": "Japan",
+          "team2": "Sweden",
+          "score1": 1,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Tunisia",
+          "team2": "Netherlands",
+          "score1": 0,
+          "score2": 3,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 07:00 PM EST",
+          "status": "valid",
+          "group": "F"
+        },
+        {
+          "team1": "Turkiye",
+          "team2": "USA",
+          "score1": 1,
+          "score2": 2,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Australia",
+          "score1": 2,
+          "score2": 1,
+          "submitted_est": "Jun 25 2026 07:37 AM EST",
+          "kickoff_est": "Jun 25 2026 10:00 PM EST",
+          "status": "valid",
+          "group": "D"
         }
       ]
     }
@@ -13653,68 +15033,77 @@
       9,
       10,
       11,
-      12,
-      13
+      12
+    ],
+    "labels": [
+      "Jun 13",
+      "Jun 14",
+      "Jun 15",
+      "Jun 16",
+      "Jun 17",
+      "Jun 18",
+      "Jun 19",
+      "Jun 20",
+      "Jun 21",
+      "Jun 22",
+      "Jun 23",
+      "Jun 24"
     ],
     "points": {
       "P Vijayan": [
         3,
         5,
         5,
-        11,
+        8,
         15,
         19,
         24,
-        27,
+        26,
         28,
         34,
         38,
-        44,
         45
       ],
       "Vinod K M": [
         3,
         8,
         10,
-        15,
+        14,
         19,
         21,
         23,
-        25,
+        24,
         27,
         31,
         36,
-        39,
         42
       ],
       "Sunilraj": [
         2,
         4,
         4,
-        8,
+        7,
         13,
         18,
         18,
-        23,
+        22,
         29,
         32,
         36,
-        43,
         43
       ],
       "Praveen Kodurkalam": [
         0,
         2,
         2,
-        8,
+        7,
         10,
         17,
         23,
-        27,
+        26,
         29,
         34,
         39,
-        46,
         47
       ],
       "Senthil Kumar": [
@@ -13725,101 +15114,94 @@
         12,
         12,
         19,
-        21,
+        20,
         23,
         32,
         35,
-        37,
         39
       ],
       "Srikanth N R": [
         1,
         3,
         3,
-        7,
+        5,
         10,
         14,
         17,
-        20,
+        19,
         24,
         33,
         37,
-        44,
         45
       ],
       "Kamal": [
         1,
         3,
         6,
-        14,
+        11,
         16,
         19,
         24,
-        26,
+        25,
         27,
         31,
         35,
-        39,
         40
       ],
       "Harish": [
         2,
         7,
         7,
-        11,
+        10,
         15,
         17,
         22,
-        24,
+        23,
         25,
         29,
         32,
-        35,
         36
       ],
       "Sheejith Sahadevan": [
         1,
         4,
         4,
-        13,
+        11,
         17,
         19,
         23,
-        26,
+        25,
         30,
         37,
         40,
-        46,
         47
       ],
       "Shaik Afzal": [
         1,
         2,
         2,
-        6,
+        5,
         11,
         13,
         19,
-        24,
+        23,
         26,
         34,
         38,
-        44,
         45
       ],
       "Nandhini Viswanath": [
-        4,
+        3,
         6,
         6,
-        12,
+        11,
         14,
         16,
         20,
-        23,
+        22,
         27,
         30,
         36,
-        44,
         45
       ],
       "Krishnan": [
@@ -13830,18 +15212,17 @@
         15,
         19,
         25,
-        28,
+        27,
         31,
         38,
         43,
-        50,
         51
       ],
       "Vinod Menon": [
         3,
         5,
         7,
-        12,
+        9,
         15,
         17,
         22,
@@ -13849,7 +15230,6 @@
         27,
         33,
         36,
-        41,
         42
       ],
       "Bijesh": [
@@ -13864,22 +15244,20 @@
         24,
         28,
         32,
-        32,
         32
       ],
       "Smitha Ramesh": [
         2,
         4,
         4,
-        9,
+        8,
         13,
         16,
         20,
-        23,
+        22,
         27,
         30,
         35,
-        38,
         39
       ],
       "Deepa R Rao": [
@@ -13890,11 +15268,10 @@
         13,
         17,
         22,
-        24,
+        23,
         29,
         36,
         40,
-        44,
         45
       ],
       "Sreejith Ramachandran": [
@@ -13905,26 +15282,24 @@
         9,
         16,
         21,
-        26,
+        25,
         27,
         35,
         40,
-        46,
         46
       ],
       "Satheesh": [
         1,
         3,
         5,
-        12,
+        11,
         17,
         17,
         22,
-        25,
+        24,
         29,
         37,
         40,
-        46,
         47
       ],
       "Sasikumar Prabhakaran": [
@@ -13935,26 +15310,24 @@
         9,
         12,
         17,
-        20,
+        19,
         24,
         28,
         30,
-        38,
         39
       ],
       "Ashik": [
         1,
         4,
         7,
-        15,
+        13,
         19,
         23,
         27,
-        29,
+        28,
         31,
         38,
         41,
-        48,
         49
       ],
       "Abhilash Unniyambath": [
@@ -13965,41 +15338,38 @@
         13,
         15,
         18,
-        21,
+        20,
         24,
         31,
         34,
-        36,
         37
       ],
       "Rajith": [
-        1,
+        0,
         6,
         6,
-        10,
+        9,
         11,
         15,
         16,
-        21,
+        20,
         25,
         31,
         32,
-        38,
         41
       ],
       "KD": [
         1,
         7,
         9,
-        13,
+        11,
         14,
         16,
         24,
-        27,
+        26,
         29,
         38,
         43,
-        48,
         49
       ],
       "Kesava Prasad": [
@@ -14010,18 +15380,17 @@
         13,
         16,
         21,
-        25,
+        24,
         29,
-        38,
         38,
         38,
         38
       ],
       "Baba Krishnankutty": [
-        1,
+        0,
         5,
         7,
-        12,
+        11,
         13,
         14,
         17,
@@ -14029,37 +15398,34 @@
         22,
         27,
         32,
-        36,
         37
       ],
       "Srijith": [
         0,
         1,
         4,
-        11,
+        10,
         16,
         18,
         24,
-        26,
+        25,
         28,
         31,
         34,
-        38,
         39
       ],
       "Sanjesh": [
         0,
         0,
         0,
-        4,
+        3,
         8,
         9,
         11,
-        14,
+        13,
         16,
         20,
         24,
-        27,
         27
       ],
       "Tony": [
@@ -14070,11 +15436,10 @@
         3,
         3,
         3,
-        6,
+        5,
         7,
         12,
         12,
-        15,
         16
       ]
     },
@@ -14083,7 +15448,7 @@
         1,
         1,
         1,
-        2,
+        1,
         3,
         3,
         4,
@@ -14091,7 +15456,6 @@
         4,
         4,
         4,
-        5,
         5
       ],
       "Vinod K M": [
@@ -14104,7 +15468,6 @@
         3,
         3,
         3,
-        4,
         4,
         4,
         4
@@ -14121,7 +15484,6 @@
         2,
         2,
         2,
-        3,
         3
       ],
       "Praveen Kodurkalam": [
@@ -14136,7 +15498,6 @@
         3,
         3,
         4,
-        5,
         5
       ],
       "Senthil Kumar": [
@@ -14149,7 +15510,6 @@
         3,
         3,
         3,
-        6,
         6,
         6,
         6
@@ -14166,17 +15526,15 @@
         1,
         4,
         4,
-        5,
         5
       ],
       "Kamal": [
         0,
         0,
         1,
+        2,
         3,
         3,
-        3,
-        4,
         4,
         4,
         4,
@@ -14189,7 +15547,6 @@
         1,
         1,
         1,
-        2,
         2,
         2,
         2,
@@ -14211,7 +15568,6 @@
         3,
         5,
         5,
-        6,
         6
       ],
       "Shaik Afzal": [
@@ -14226,7 +15582,6 @@
         2,
         4,
         4,
-        5,
         5
       ],
       "Nandhini Viswanath": [
@@ -14241,7 +15596,6 @@
         3,
         3,
         4,
-        5,
         5
       ],
       "Krishnan": [
@@ -14256,20 +15610,18 @@
         3,
         5,
         6,
-        7,
         7
       ],
       "Vinod Menon": [
         1,
         1,
         1,
-        2,
+        1,
         2,
         2,
         2,
         3,
         3,
-        4,
         4,
         4,
         4
@@ -14286,14 +15638,12 @@
         5,
         5,
         5,
-        5,
         5
       ],
       "Smitha Ramesh": [
         0,
         0,
         0,
-        1,
         1,
         1,
         1,
@@ -14316,7 +15666,6 @@
         3,
         4,
         4,
-        4,
         4
       ],
       "Sreejith Ramachandran": [
@@ -14331,7 +15680,6 @@
         4,
         6,
         6,
-        7,
         7
       ],
       "Satheesh": [
@@ -14346,7 +15694,6 @@
         3,
         5,
         5,
-        6,
         6
       ],
       "Sasikumar Prabhakaran": [
@@ -14361,7 +15708,6 @@
         2,
         2,
         2,
-        3,
         3
       ],
       "Ashik": [
@@ -14376,7 +15722,6 @@
         4,
         5,
         5,
-        6,
         6
       ],
       "Abhilash Unniyambath": [
@@ -14389,7 +15734,6 @@
         1,
         1,
         1,
-        2,
         2,
         2,
         2
@@ -14406,7 +15750,6 @@
         1,
         2,
         2,
-        3,
         4
       ],
       "KD": [
@@ -14421,7 +15764,6 @@
         2,
         4,
         4,
-        5,
         5
       ],
       "Kesava Prasad": [
@@ -14434,7 +15776,6 @@
         4,
         4,
         4,
-        6,
         6,
         6,
         6
@@ -14451,7 +15792,6 @@
         1,
         2,
         3,
-        3,
         3
       ],
       "Srijith": [
@@ -14461,7 +15801,6 @@
         2,
         3,
         3,
-        4,
         4,
         4,
         4,
@@ -14481,11 +15820,9 @@
         1,
         1,
         1,
-        1,
         1
       ],
       "Tony": [
-        0,
         0,
         0,
         0,
@@ -14513,7 +15850,6 @@
         1,
         3,
         4,
-        4,
         4
       ],
       "Vinod K M": [
@@ -14527,7 +15863,6 @@
         2,
         2,
         2,
-        4,
         4,
         5
       ],
@@ -14543,7 +15878,6 @@
         4,
         5,
         6,
-        8,
         8
       ],
       "Praveen Kodurkalam": [
@@ -14558,7 +15892,6 @@
         3,
         4,
         4,
-        5,
         5
       ],
       "Senthil Kumar": [
@@ -14573,14 +15906,13 @@
         2,
         2,
         2,
-        2,
         3
       ],
       "Srikanth N R": [
         0,
         0,
         0,
-        1,
+        0,
         1,
         1,
         2,
@@ -14588,7 +15920,6 @@
         3,
         3,
         4,
-        6,
         6
       ],
       "Kamal": [
@@ -14603,7 +15934,6 @@
         2,
         3,
         4,
-        5,
         5
       ],
       "Harish": [
@@ -14618,14 +15948,13 @@
         4,
         5,
         5,
-        6,
         6
       ],
       "Sheejith Sahadevan": [
         0,
         0,
         0,
-        1,
+        0,
         2,
         2,
         2,
@@ -14633,7 +15962,6 @@
         3,
         3,
         3,
-        4,
         4
       ],
       "Shaik Afzal": [
@@ -14648,7 +15976,6 @@
         4,
         5,
         6,
-        7,
         7
       ],
       "Nandhini Viswanath": [
@@ -14663,7 +15990,6 @@
         1,
         1,
         2,
-        4,
         4
       ],
       "Krishnan": [
@@ -14678,7 +16004,6 @@
         4,
         4,
         4,
-        5,
         5
       ],
       "Vinod Menon": [
@@ -14693,7 +16018,6 @@
         4,
         5,
         5,
-        6,
         6
       ],
       "Bijesh": [
@@ -14707,7 +16031,6 @@
         1,
         1,
         2,
-        3,
         3,
         3
       ],
@@ -14723,7 +16046,6 @@
         5,
         6,
         8,
-        8,
         8
       ],
       "Deepa R Rao": [
@@ -14738,7 +16060,6 @@
         3,
         4,
         5,
-        6,
         6
       ],
       "Sreejith Ramachandran": [
@@ -14753,7 +16074,6 @@
         1,
         2,
         4,
-        5,
         5
       ],
       "Satheesh": [
@@ -14766,7 +16086,6 @@
         4,
         4,
         4,
-        5,
         5,
         5,
         5
@@ -14783,14 +16102,13 @@
         3,
         4,
         4,
-        6,
         6
       ],
       "Ashik": [
         0,
         0,
         0,
-        1,
+        0,
         2,
         3,
         3,
@@ -14798,7 +16116,6 @@
         3,
         4,
         5,
-        6,
         6
       ],
       "Abhilash Unniyambath": [
@@ -14811,7 +16128,6 @@
         2,
         2,
         3,
-        5,
         5,
         5,
         5
@@ -14828,21 +16144,19 @@
         4,
         5,
         5,
-        6,
         6
       ],
       "KD": [
         0,
         1,
         2,
-        3,
+        2,
         3,
         3,
         5,
         5,
         5,
         6,
-        8,
         8,
         8
       ],
@@ -14856,7 +16170,6 @@
         1,
         2,
         3,
-        4,
         4,
         4,
         4
@@ -14873,7 +16186,6 @@
         3,
         3,
         3,
-        4,
         4
       ],
       "Srijith": [
@@ -14888,7 +16200,6 @@
         2,
         3,
         3,
-        4,
         4
       ],
       "Sanjesh": [
@@ -14903,7 +16214,6 @@
         0,
         2,
         3,
-        4,
         4
       ],
       "Tony": [
@@ -14916,7 +16226,6 @@
         1,
         1,
         1,
-        2,
         2,
         2,
         2
