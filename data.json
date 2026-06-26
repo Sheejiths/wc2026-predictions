@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "25 Jun 2026",
-    "updated_time": "09:00 PM",
-    "matches_played": 58,
-    "matches_scored": 54,
+    "updated": "26 Jun 2026",
+    "updated_time": "12:00 AM",
+    "matches_played": 60,
+    "matches_scored": 56,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -15406,6 +15406,20 @@
       "score1": 1,
       "score2": 3,
       "group": "F"
+    },
+    "turkiye vs usa": {
+      "team1": "Turkiye",
+      "team2": "USA",
+      "score1": 3,
+      "score2": 2,
+      "group": "D"
+    },
+    "australia vs paraguay": {
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "score1": 0,
+      "score2": 0,
+      "group": "D"
     }
   },
   "timeline": {
@@ -15528,7 +15542,7 @@
         33,
         37,
         45,
-        49
+        51
       ],
       "Kamal": [
         1,
@@ -15573,7 +15587,7 @@
         37,
         40,
         47,
-        51
+        53
       ],
       "Shaik Afzal": [
         1,
@@ -15603,7 +15617,7 @@
         30,
         36,
         45,
-        49
+        51
       ],
       "Krishnan": [
         1,
@@ -15633,7 +15647,7 @@
         33,
         36,
         42,
-        49
+        51
       ],
       "Bijesh": [
         3,
@@ -15663,7 +15677,7 @@
         30,
         35,
         39,
-        43
+        45
       ],
       "Deepa R Rao": [
         1,
@@ -15693,7 +15707,7 @@
         35,
         40,
         46,
-        50
+        52
       ],
       "Satheesh": [
         1,
@@ -15753,7 +15767,7 @@
         31,
         34,
         37,
-        41
+        43
       ],
       "Rajith": [
         0,
@@ -15783,7 +15797,7 @@
         38,
         43,
         49,
-        51
+        53
       ],
       "Kesava Prasad": [
         6,
@@ -15843,7 +15857,7 @@
         20,
         24,
         27,
-        31
+        33
       ],
       "Tony": [
         0,
@@ -16372,7 +16386,7 @@
         3,
         4,
         6,
-        6
+        7
       ],
       "Kamal": [
         0,
@@ -16417,7 +16431,7 @@
         3,
         3,
         4,
-        4
+        5
       ],
       "Shaik Afzal": [
         0,
@@ -16447,7 +16461,7 @@
         1,
         2,
         4,
-        4
+        5
       ],
       "Krishnan": [
         0,
@@ -16477,7 +16491,7 @@
         5,
         5,
         6,
-        6
+        7
       ],
       "Bijesh": [
         0,
@@ -16507,7 +16521,7 @@
         6,
         8,
         8,
-        8
+        9
       ],
       "Deepa R Rao": [
         0,
@@ -16537,7 +16551,7 @@
         2,
         4,
         5,
-        5
+        6
       ],
       "Satheesh": [
         0,
@@ -16597,7 +16611,7 @@
         5,
         5,
         5,
-        5
+        6
       ],
       "Rajith": [
         0,
@@ -16627,7 +16641,7 @@
         6,
         8,
         8,
-        8
+        9
       ],
       "Kesava Prasad": [
         0,
@@ -16687,7 +16701,7 @@
         2,
         3,
         4,
-        4
+        5
       ],
       "Tony": [
         0,
@@ -16908,62 +16922,66 @@
     "D": [
       {
         "team": "USA",
-        "mp": 2,
+        "mp": 3,
         "w": 2,
         "d": 0,
-        "l": 0,
-        "gf": 6,
-        "ga": 1,
-        "gd": 5,
+        "l": 1,
+        "gf": 8,
+        "ga": 4,
+        "gd": 4,
         "pts": 6,
         "form": [
           "W",
-          "W"
+          "W",
+          "L"
         ]
       },
       {
         "team": "Australia",
-        "mp": 2,
+        "mp": 3,
         "w": 1,
-        "d": 0,
+        "d": 1,
         "l": 1,
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 3,
+        "pts": 4,
         "form": [
           "W",
-          "L"
+          "L",
+          "D"
         ]
       },
       {
         "team": "Paraguay",
-        "mp": 2,
+        "mp": 3,
         "w": 1,
-        "d": 0,
+        "d": 1,
         "l": 1,
         "gf": 2,
         "ga": 4,
         "gd": -2,
-        "pts": 3,
+        "pts": 4,
         "form": [
           "L",
-          "W"
+          "W",
+          "D"
         ]
       },
       {
         "team": "Turkiye",
-        "mp": 2,
-        "w": 0,
+        "mp": 3,
+        "w": 1,
         "d": 0,
         "l": 2,
-        "gf": 0,
-        "ga": 3,
-        "gd": -3,
-        "pts": 0,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
+        "pts": 3,
         "form": [
           "L",
-          "L"
+          "L",
+          "W"
         ]
       }
     ],
@@ -17622,7 +17640,7 @@
         "round": "R32",
         "t1": "USA",
         "t2": null,
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "tbd",
         "slot1": "Winner D",
         "slot2": "Best 3rd",
@@ -17682,7 +17700,7 @@
         "round": "R32",
         "t1": "Australia",
         "t2": "Iran",
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "live",
         "slot1": "Runner-up D",
         "slot2": "Runner-up G",
@@ -18042,6 +18060,15 @@
         "qualified": true
       },
       {
+        "team": "Paraguay",
+        "group": "D",
+        "mp": 3,
+        "pts": 4,
+        "gd": -2,
+        "gf": 2,
+        "qualified": true
+      },
+      {
         "team": "Croatia",
         "group": "L",
         "mp": 2,
@@ -18062,15 +18089,6 @@
       {
         "team": "Algeria",
         "group": "J",
-        "mp": 2,
-        "pts": 3,
-        "gd": -2,
-        "gf": 2,
-        "qualified": true
-      },
-      {
-        "team": "Paraguay",
-        "group": "D",
         "mp": 2,
         "pts": 3,
         "gd": -2,
