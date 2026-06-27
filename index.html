@@ -177,27 +177,68 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 
 /* ===== Dark theme ===== */
 body.dark{background:#1b1a19;color:#e8e6e3;}
-body.dark .tabs{background:#252423;border-bottom-color:#3b3a39;}
-body.dark .tab{color:#a19f9d;}
-body.dark .tab.active{color:#4cb3ff;background:#1f2a36;border-bottom-color:#4cb3ff;}
-body.dark .tab:hover:not(.active){color:#e8e6e3;background:#2d2c2b;}
-body.dark .stat-card,body.dark .match-card,body.dark .lb-wrap,body.dark .modal-sheet,
-body.dark .rep-card,body.dark .brk-card,body.dark .group-card{background:#252423!important;color:#e8e6e3;}
-body.dark .match-header,body.dark .lb-table th,body.dark .md-stat,body.dark .rep-res,
-body.dark .hover-hint,body.dark .pred-bar-wrap,body.dark .md-bar-track{background:#2d2c2b!important;}
-body.dark .lb-table td{border-bottom-color:#333231;}
-body.dark .lb-table tr:hover td{background:#2d2c2b;}
-body.dark .lb-table th{color:#a19f9d;border-bottom-color:#3b3a39;}
+/* ===== "AI" dark theme — deep slate, crisp text, fluorescent accents ===== */
+body.dark{background:#0e1116;color:#eaedf2;}
+/* tabs */
+body.dark .tabs{background:#151b23;border-bottom-color:#283142;}
+body.dark .tab{color:#9aa6b6;}
+body.dark .tab.active{color:#4cb3ff;background:#16222e;border-bottom-color:#4cb3ff;}
+body.dark .tab:hover:not(.active){color:#eaedf2;background:#1d2530;}
+/* surfaces */
+body.dark .panel,body.dark .stat-card,body.dark .match-card,body.dark .lb-wrap,
+body.dark .modal-sheet,body.dark .rep-card,body.dark .brk-card,body.dark .group-card{background:#171d26!important;color:#eaedf2;}
+body.dark .modal-header{background:#1c2330;border-bottom-color:#283142;}
+body.dark .match-header,body.dark .st-table th,body.dark .lb-table th,body.dark .md-stat,
+body.dark .rep-res,body.dark .hover-hint,body.dark .pred-bar-wrap,body.dark .md-bar-track,
+body.dark .rank-badge,body.dark .th-in{background:#222b38!important;}
+body.dark .search-input{background:#222b38;color:#eaedf2;border-color:#283142;}
+/* primary / secondary / muted text */
 body.dark .name-cell,body.dark .md-name,body.dark .rep-txt,body.dark .match-title,
-body.dark .stat-val,body.dark .md-bar-val,body.dark .modal-title{color:#e8e6e3;}
+body.dark .stat-val,body.dark .md-bar-val,body.dark .modal-title,body.dark .st-group h3,
+body.dark .st-table .team,body.dark .st-code,body.dark .th-team,body.dark .brk-name{color:#eaedf2;}
+body.dark .st-table td{color:#cdd4de;}
+body.dark .eff-cell{color:#cdd4de;}
 body.dark .stat-lbl,body.dark .md-sub,body.dark .rep-sub,body.dark .pred-label,
-body.dark .modal-subtitle,body.dark .md-bar-lbl,body.dark .header-meta{color:#a19f9d;}
-body.dark .search-input{background:#2d2c2b;color:#e8e6e3;border-color:#3b3a39;}
-body.dark .modal-header{background:#252423;border-bottom-color:#3b3a39;}
-body.dark .lb-table tr.me-row td{background:#3a3526!important;}
-body.dark .rep-line{border-bottom-color:#333231;}
-body.dark .stat-btn.zero{color:#6b6967;}
-body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#252423!important;}
+body.dark .modal-subtitle,body.dark .md-bar-lbl,body.dark .header-meta,
+body.dark .st-table th,body.dark .lb-table th,body.dark .th-grp{color:#9aa6b6;}
+body.dark .eff-cell.muted,body.dark .st-pos,body.dark .name-cell.dimmed,
+body.dark .stat-btn.zero,body.dark .st-subtab.disabled,body.dark .th-out{color:#6b7585;}
+/* the Standings points — the unreadable one — now bright */
+body.dark .st-table .pts{color:#ffffff;font-weight:800;}
+body.dark .st-code{border-bottom-color:#4a5568;}
+/* borders / dividers / hover */
+body.dark .st-table td{border-bottom-color:#222b38;}
+body.dark .st-table th{border-bottom-color:#283142;}
+body.dark .st-table tr:hover td,body.dark .lb-table tr:hover td{background:#1d2530;}
+body.dark .lb-table td{border-bottom-color:#222b38;}
+body.dark .lb-table th{border-bottom-color:#283142;}
+body.dark .rep-line,body.dark .md-bar-row{border-bottom-color:#222b38;}
+body.dark .st-subtabs{border-bottom-color:#283142;}
+body.dark .st-subtab{color:#9aa6b6;}
+body.dark .st-subtab.active{color:#eaedf2;border-bottom-color:#eaedf2;}
+body.dark .brk-team+.brk-team{border-top-color:#283142;}
+/* sticky leaderboard columns must match card bg */
+body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#171d26!important;}
+body.dark .rank-badge{color:#9aa6b6;}
+/* accent-colored values brightened for contrast */
+body.dark .pts-blue{color:#4cb3ff;} body.dark .pts-green{color:#3ad07a;} body.dark .pts-grey{color:#6b7585;}
+body.dark .md-stat b{color:#4cb3ff;}
+body.dark .tied-tag,body.dark .th-mark{color:#4cb3ff;}
+body.dark .inv-tag{color:#ff6b85;}
+body.dark .stat-btn.exact-c{background:#3a2f12;color:#ffcf5c;}
+body.dark .stat-btn.diff-c{background:#13283e;color:#7ec3ff;}
+body.dark .stat-btn.res-c{background:#123320;color:#5fe08a;}
+body.dark .md-chip{background:#3a2f12;color:#ffcf5c;}
+body.dark .rep-txt b{color:#4cb3ff;}
+body.dark .md-bar-fill{background:linear-gradient(90deg,#2EA8FF,#4cb3ff);}
+/* bracket */
+body.dark .brk-team{color:#9aa6b6;}
+body.dark .brk-team.win{color:#5fe08a;background:#123320;}
+body.dark .brk-team.tbd{color:#6b7585;}
+body.dark .brk-team.live .brk-name{color:#ffcf5c;}
+/* me-row highlight */
+body.dark .lb-table tr.me-row td{background:#2a2a16!important;}
+body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
 
 /* Screenshot / print fix — removes sticky header so full page captures cleanly */
 @media print {
@@ -327,7 +368,7 @@ body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#25242
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.1</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Fluorescent FORM win/loss dots<br>
+  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -336,7 +377,7 @@ body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#25242
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.1</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Fluorescent FORM win/loss dots<br>
+  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -345,7 +386,7 @@ body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#25242
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.1</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Fluorescent FORM win/loss dots<br>
+  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -354,7 +395,7 @@ body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#25242
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.1</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Fluorescent FORM win/loss dots<br>
+  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -363,7 +404,7 @@ body.dark .lb-c-sl,body.dark .lb-c-rank,body.dark .lb-c-player{background:#25242
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.1</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Fluorescent FORM win/loss dots<br>
+  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
