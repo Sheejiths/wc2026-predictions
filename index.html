@@ -43,9 +43,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .pred-row:hover .pred-bar-wrap{opacity:.85;}
 .pred-label{font-size:12px;color:#605e5c;width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;}
 .pred-label.inv-lbl{color:#c4314b;}
-.pred-bar-wrap{flex:1;height:24px;background:#edebe9;border-radius:4px;overflow:hidden;}
-.pred-bar{height:100%;border-radius:4px;display:flex;align-items:center;padding:0 8px;min-width:36px;}
+.pred-bar-wrap{flex:1;height:24px;background:#edebe9;border-radius:4px;overflow:hidden;display:flex;align-items:center;}
+.pred-bar{height:100%;border-radius:4px;display:flex;align-items:center;padding:0 8px;min-width:36px;flex-shrink:0;}
 .pred-bar span{font-size:11px;font-weight:700;color:#000;white-space:nowrap;}
+.pred-out{flex:1;font-size:11px;font-weight:700;color:#201f1e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 8px;}
 .pred-bar.inv-bar{opacity:.3;}
 .pred-pct{font-size:12px;color:#605e5c;width:30px;text-align:right;flex-shrink:0;}
 .pip{font-size:10px;font-weight:700;padding:1px 5px;border-radius:4px;margin-left:2px;flex-shrink:0;}
@@ -131,7 +132,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .lb-table tr.me-row td:first-child{border-left:3px solid #f5a623;}
 .you-badge{font-size:9px;font-weight:700;color:#3a2c00;background:#ffd180;border-radius:8px;padding:1px 6px;margin-left:5px;vertical-align:middle;}
 .mv{font-size:10px;font-weight:700;line-height:1;display:block;margin-top:2px;}
-.mv-up{color:#107c10;} .mv-down{color:#c4314b;} .mv-same{color:#b0aeac;}
+.mv-up{color:#2FC36B;} .mv-down{color:#FF5C7A;} .mv-same{color:#b0aeac;}
 .name-cell.clk{cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .name-cell.clk:active{opacity:.6;}
 
@@ -239,6 +240,13 @@ body.dark .brk-team.live .brk-name{color:#ffcf5c;}
 /* me-row highlight */
 body.dark .lb-table tr.me-row td{background:#2a2a16!important;}
 body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
+/* fixes: member picker names, match team labels, bracket card surface, movement arrows */
+body.dark .member-name{color:#eaedf2;}
+body.dark .member-item{border-bottom-color:#283142;}
+body.dark .pred-out{color:#eaedf2;}
+body.dark .pred-bar-wrap{background:#222b38!important;}
+body.dark .brk-card{background:#222b38!important;border-color:#3a4655;}
+body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .mv-same{color:#6b7585;}
 
 /* Screenshot / print fix — removes sticky header so full page captures cleanly */
 @media print {
@@ -368,7 +376,7 @@ body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
+  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -377,7 +385,7 @@ body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
+  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -386,7 +394,7 @@ body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
+  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -395,7 +403,7 @@ body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
+  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -404,7 +412,7 @@ body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.2</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · High-contrast AI dark theme<br>
+  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -979,7 +987,7 @@ function renderMatches(){
       const label=nameList.length>2?nameList.length+' members':(nameList.length===2?nameList[0].split(' ')[0]+' +1':nameList[0]);
       return`<div class="pred-row" onclick="showBarDetail('${key}','${sc}')" title="Tap to see members">
         <div class="pred-label">${label}</div>
-        <div class="pred-bar-wrap"><div class="pred-bar" style="width:${Math.max(pct,6)}%;background:${color};"><span>${sc} · ${wl}</span></div></div>
+        <div class="pred-bar-wrap"><div class="pred-bar" style="width:${Math.max(pct,6)}%;background:${color};"><span>${sc}</span></div><div class="pred-out">${wl}</div></div>
         <div style="display:flex;align-items:center;gap:2px;flex-shrink:0;"><div class="pred-pct">${pct}%</div>${pip}</div>
       </div>`;
     }).join('');
