@@ -1,9 +1,9 @@
 {
   "meta": {
     "updated": "26 Jun 2026",
-    "updated_time": "06:38 PM",
-    "matches_played": 62,
-    "matches_scored": 58,
+    "updated_time": "10:00 PM",
+    "matches_played": 64,
+    "matches_scored": 60,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -17114,6 +17114,20 @@
       "score1": 5,
       "score2": 0,
       "group": "I"
+    },
+    "cape verde vs saudi arabia": {
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "score1": 0,
+      "score2": 0,
+      "group": "H"
+    },
+    "spain vs uruguay": {
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "score1": 0,
+      "score2": 1,
+      "group": "H"
     }
   },
   "timeline": {
@@ -17164,7 +17178,7 @@
         38,
         45,
         48,
-        49
+        51
       ],
       "Vinod K M": [
         3,
@@ -17180,7 +17194,7 @@
         36,
         42,
         44,
-        46
+        48
       ],
       "Sunilraj": [
         2,
@@ -17196,7 +17210,7 @@
         36,
         43,
         50,
-        52
+        55
       ],
       "Praveen Kodurkalam": [
         0,
@@ -17212,7 +17226,7 @@
         39,
         47,
         51,
-        53
+        54
       ],
       "Senthil Kumar": [
         3,
@@ -17244,7 +17258,7 @@
         37,
         45,
         51,
-        53
+        54
       ],
       "Kamal": [
         1,
@@ -17260,7 +17274,7 @@
         35,
         40,
         42,
-        45
+        49
       ],
       "Harish": [
         2,
@@ -17276,7 +17290,7 @@
         32,
         36,
         43,
-        44
+        46
       ],
       "Sheejith Sahadevan": [
         1,
@@ -17292,7 +17306,7 @@
         40,
         47,
         53,
-        54
+        56
       ],
       "Shaik Afzal": [
         1,
@@ -17308,7 +17322,7 @@
         38,
         45,
         49,
-        50
+        52
       ],
       "Nandhini Viswanath": [
         3,
@@ -17324,7 +17338,7 @@
         36,
         45,
         51,
-        53
+        54
       ],
       "Krishnan": [
         1,
@@ -17340,7 +17354,7 @@
         43,
         51,
         55,
-        57
+        60
       ],
       "Vinod Menon": [
         3,
@@ -17356,7 +17370,7 @@
         36,
         42,
         51,
-        53
+        55
       ],
       "Bijesh": [
         3,
@@ -17372,7 +17386,7 @@
         32,
         32,
         33,
-        35
+        37
       ],
       "Smitha Ramesh": [
         2,
@@ -17388,7 +17402,7 @@
         35,
         39,
         45,
-        47
+        49
       ],
       "Deepa R Rao": [
         1,
@@ -17404,7 +17418,7 @@
         40,
         45,
         47,
-        49
+        50
       ],
       "Sreejith Ramachandran": [
         1,
@@ -17420,7 +17434,7 @@
         40,
         46,
         52,
-        54
+        57
       ],
       "Satheesh": [
         1,
@@ -17436,7 +17450,7 @@
         40,
         47,
         51,
-        53
+        54
       ],
       "Sasikumar Prabhakaran": [
         1,
@@ -17452,7 +17466,7 @@
         30,
         39,
         41,
-        45
+        46
       ],
       "Ashik": [
         1,
@@ -17468,7 +17482,7 @@
         41,
         49,
         53,
-        55
+        56
       ],
       "Abhilash Unniyambath": [
         1,
@@ -17484,7 +17498,7 @@
         34,
         37,
         43,
-        45
+        46
       ],
       "Rajith": [
         0,
@@ -17500,7 +17514,7 @@
         32,
         41,
         45,
-        47
+        48
       ],
       "KD": [
         1,
@@ -17516,7 +17530,7 @@
         43,
         49,
         53,
-        54
+        57
       ],
       "Kesava Prasad": [
         6,
@@ -17532,7 +17546,7 @@
         38,
         38,
         41,
-        43
+        45
       ],
       "Baba Krishnankutty": [
         0,
@@ -17548,7 +17562,7 @@
         32,
         37,
         39,
-        40
+        43
       ],
       "Srijith": [
         0,
@@ -17564,7 +17578,7 @@
         34,
         39,
         43,
-        47
+        50
       ],
       "Sanjesh": [
         0,
@@ -17870,7 +17884,7 @@
         6,
         7,
         8,
-        8
+        9
       ],
       "Satheesh": [
         0,
@@ -18064,7 +18078,7 @@
         4,
         4,
         5,
-        5
+        6
       ],
       "Vinod K M": [
         0,
@@ -18080,7 +18094,7 @@
         4,
         5,
         5,
-        5
+        6
       ],
       "Sunilraj": [
         1,
@@ -18096,7 +18110,7 @@
         6,
         8,
         8,
-        8
+        9
       ],
       "Praveen Kodurkalam": [
         0,
@@ -18160,7 +18174,7 @@
         4,
         5,
         5,
-        6
+        8
       ],
       "Harish": [
         1,
@@ -18176,7 +18190,7 @@
         5,
         6,
         6,
-        6
+        7
       ],
       "Sheejith Sahadevan": [
         0,
@@ -18192,7 +18206,7 @@
         3,
         4,
         5,
-        5
+        6
       ],
       "Shaik Afzal": [
         0,
@@ -18208,7 +18222,7 @@
         6,
         7,
         7,
-        7
+        8
       ],
       "Nandhini Viswanath": [
         0,
@@ -18240,7 +18254,7 @@
         4,
         5,
         5,
-        5
+        6
       ],
       "Vinod Menon": [
         0,
@@ -18256,7 +18270,7 @@
         5,
         6,
         7,
-        7
+        8
       ],
       "Bijesh": [
         0,
@@ -18272,7 +18286,7 @@
         3,
         3,
         3,
-        3
+        4
       ],
       "Smitha Ramesh": [
         1,
@@ -18288,7 +18302,7 @@
         8,
         8,
         9,
-        9
+        10
       ],
       "Deepa R Rao": [
         0,
@@ -18416,7 +18430,7 @@
         8,
         8,
         9,
-        9
+        10
       ],
       "Kesava Prasad": [
         0,
@@ -18432,7 +18446,7 @@
         4,
         4,
         4,
-        4
+        5
       ],
       "Baba Krishnankutty": [
         0,
@@ -18448,7 +18462,7 @@
         3,
         4,
         4,
-        4
+        5
       ],
       "Srijith": [
         0,
@@ -18464,7 +18478,7 @@
         3,
         4,
         4,
-        4
+        5
       ],
       "Sanjesh": [
         0,
@@ -18874,6 +18888,18 @@
           "t2": "Iraq",
           "s1": 5,
           "s2": 0
+        },
+        {
+          "t1": "Cape Verde",
+          "t2": "Saudi Arabia",
+          "s1": 0,
+          "s2": 0
+        },
+        {
+          "t1": "Uruguay",
+          "t2": "Spain",
+          "s1": 0,
+          "s2": 1
         }
       ]
     }
@@ -19340,62 +19366,66 @@
     "H": [
       {
         "team": "Spain",
-        "mp": 2,
-        "w": 1,
+        "mp": 3,
+        "w": 2,
         "d": 1,
         "l": 0,
-        "gf": 4,
+        "gf": 5,
         "ga": 0,
-        "gd": 4,
-        "pts": 4,
+        "gd": 5,
+        "pts": 7,
         "form": [
           "D",
+          "W",
           "W"
         ]
       },
       {
-        "team": "Uruguay",
-        "mp": 2,
-        "w": 0,
-        "d": 2,
-        "l": 0,
-        "gf": 3,
-        "ga": 3,
-        "gd": 0,
-        "pts": 2,
-        "form": [
-          "D",
-          "D"
-        ]
-      },
-      {
         "team": "Cape Verde",
-        "mp": 2,
+        "mp": 3,
         "w": 0,
-        "d": 2,
+        "d": 3,
         "l": 0,
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 2,
+        "pts": 3,
         "form": [
+          "D",
           "D",
           "D"
         ]
       },
       {
-        "team": "Saudi Arabia",
-        "mp": 2,
+        "team": "Uruguay",
+        "mp": 3,
         "w": 0,
-        "d": 1,
+        "d": 2,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "gd": -1,
+        "pts": 2,
+        "form": [
+          "D",
+          "D",
+          "L"
+        ]
+      },
+      {
+        "team": "Saudi Arabia",
+        "mp": 3,
+        "w": 0,
+        "d": 2,
         "l": 1,
         "gf": 1,
         "ga": 5,
         "gd": -4,
-        "pts": 1,
+        "pts": 2,
         "form": [
           "D",
-          "L"
+          "L",
+          "D"
         ]
       }
     ],
@@ -19817,7 +19847,7 @@
         "round": "R32",
         "t1": "Spain",
         "t2": "Austria",
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "live",
         "slot1": "Winner H",
         "slot2": "Runner-up J",
@@ -19876,9 +19906,9 @@
         "m": 15,
         "round": "R32",
         "t1": "Argentina",
-        "t2": "Uruguay",
+        "t2": "Cape Verde",
         "t1src": "live",
-        "t2src": "live",
+        "t2src": "final",
         "slot1": "Winner J",
         "slot2": "Runner-up H",
         "s1": null,
@@ -20276,21 +20306,21 @@
         "qualified": false
       },
       {
-        "team": "Cape Verde",
-        "group": "H",
-        "mp": 2,
-        "pts": 2,
-        "gd": 0,
-        "gf": 2,
-        "qualified": false
-      },
-      {
         "team": "Belgium",
         "group": "G",
         "mp": 2,
         "pts": 2,
         "gd": 0,
         "gf": 1,
+        "qualified": false
+      },
+      {
+        "team": "Uruguay",
+        "group": "H",
+        "mp": 3,
+        "pts": 2,
+        "gd": -1,
+        "gf": 3,
         "qualified": false
       },
       {
