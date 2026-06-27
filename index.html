@@ -133,6 +133,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .you-badge{font-size:9px;font-weight:700;color:#3a2c00;background:#ffd180;border-radius:8px;padding:1px 6px;margin-left:5px;vertical-align:middle;}
 .mv{font-size:10px;font-weight:700;line-height:1;display:block;margin-top:2px;}
 .mv-up{color:#2FC36B;} .mv-down{color:#FF5C7A;} .mv-same{color:#b0aeac;}
+/* Rank Trend grid + unselected ("ghost") lines — barely visible in both themes */
+.trend-grid{stroke:rgba(0,0,0,.05);}
+.trend-ghost{stroke:rgba(0,0,0,.06);}
+body.dark .trend-grid{stroke:rgba(255,255,255,.045);}
+body.dark .trend-ghost{stroke:rgba(255,255,255,.06);}
 .name-cell.clk{cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .name-cell.clk:active{opacity:.6;}
 
@@ -376,7 +381,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
+  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -385,7 +390,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
+  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -394,7 +399,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
+  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -403,7 +408,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
+  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -412,7 +417,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.3</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Dark-theme contrast fixes + fluorescent movement<br>
+  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1192,17 +1197,17 @@ function renderTrend(){
 
   let svg=`<svg viewBox="0 0 ${W} ${Hsvg}" width="100%" style="max-width:100%;font-family:inherit;min-width:520px;">`;
   for(let r=1;r<=N;r+=5){
-    svg+=`<line x1="${L}" y1="${yy(r)}" x2="${W-Rm}" y2="${yy(r)}" stroke="#f1f1f1" stroke-width="1"/>`;
+    svg+=`<line x1="${L}" y1="${yy(r)}" x2="${W-Rm}" y2="${yy(r)}" class="trend-grid" stroke-width="1"/>`;
     svg+=`<text x="${L-6}" y="${yy(r)+3}" text-anchor="end" font-size="9" fill="#b0aeac">${r}</text>`;
   }
   mds.forEach((md,j)=>{
-    svg+=`<line x1="${xx(j)}" y1="${T-4}" x2="${xx(j)}" y2="${T+plotH}" stroke="#f6f5f4" stroke-width="1"/>`;
+    svg+=`<line x1="${xx(j)}" y1="${T-4}" x2="${xx(j)}" y2="${T+plotH}" class="trend-grid" stroke-width="1"/>`;
     svg+=`<text x="${xx(j)}" y="${T+plotH+16}" text-anchor="middle" font-size="10" font-weight="600" fill="#605e5c">${(tl.labels&&tl.labels[j])||('MD'+md)}</text>`;
   });
   names.forEach(n=>{
     if(trendSel.has(n)) return;
     const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
-    svg+=`<polyline points="${pts}" fill="none" stroke="#e7e5e2" stroke-width="1" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
+    svg+=`<polyline points="${pts}" fill="none" class="trend-ghost" stroke-width="1.2" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
   });
   selSorted.forEach(n=>{
     const c=colorOf[n];
