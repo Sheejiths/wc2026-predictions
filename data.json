@@ -21924,6 +21924,12 @@
       }
     ],
     "cut": 8,
-    "final": false
+    "final": false,
+    "confirmed": {
+      "Bosnia & Herzegovina": {
+        "slot": 10,
+        "opp": "USA"
+      }
+    }
   }
 }

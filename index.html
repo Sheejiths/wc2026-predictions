@@ -335,6 +335,10 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
 .th-stat{font-size:12px;font-weight:700;min-width:42px;text-align:right;}
 .th-gd{min-width:34px;color:#605e5c;font-weight:600;}
 .th-mark{width:16px;text-align:center;color:#107c10;font-weight:800;}
+.th-conf{font-size:9.5px;font-weight:700;color:#107c10;background:#eef9ee;border:1px solid #b7e0b7;border-radius:8px;padding:1px 6px;white-space:nowrap;}
+.th-confirmed{outline:1px solid #b7e0b7;}
+body.dark .th-conf{color:#5fe08a;background:#123320;border-color:#1f5a33;}
+body.dark .th-confirmed{outline-color:#1f5a33;}
 .th-cut{display:flex;align-items:center;text-align:center;margin:5px 0;}
 .th-cut span{font-size:10px;font-weight:700;color:#b8860b;text-transform:uppercase;letter-spacing:.04em;background:#fff4ce;border:1px dashed #f0c850;border-radius:6px;padding:2px 8px;margin:0 auto;}
 .th-note{font-size:11px;color:#605e5c;margin-top:10px;line-height:1.5;}
@@ -381,7 +385,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
+  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -390,7 +394,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
+  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -399,7 +403,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
+  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -408,7 +412,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
+  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -417,7 +421,7 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.4</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Faint Rank Trend ghost/grid lines (both themes)<br>
+  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1261,24 +1265,29 @@ function showThirds(){
   const T=state.thirds;
   if(!T||!T.ranked||!T.ranked.length){openModal('Best third-placed teams','','<p style="color:#605e5c;">Not available yet.</p>');return;}
   const sub=(T.final?'Final ranking — top 8 qualify':'Live ranking — provisional, top 8 currently qualify')+' · sorted by Pts → GD → GF';
+  const conf=T.confirmed||{};
   let rows='';
   T.ranked.forEach((t,i)=>{
     const flag=FLAGS[t.team]||'🏳️';
     const cut=(i===T.cut)?'<div class="th-cut"><span>qualification cut-line — top 8</span></div>':'';
     const gd=(t.gd>0?'+':'')+t.gd;
-    rows+=cut+`<div class="th-row ${t.qualified?'th-in':'th-out'}">
+    const cf=conf[t.team];
+    const tail=cf
+      ? `<span class="th-conf">✓ → ${CODES[cf.opp]||cf.opp||'?'} · R32 #${cf.slot}</span>`
+      : `<span class="th-mark">${t.qualified?'✓':''}</span>`;
+    rows+=cut+`<div class="th-row ${t.qualified?'th-in':'th-out'}${cf?' th-confirmed':''}">
         <span class="th-rank">${i+1}</span>
         <span class="th-flag">${flag}</span>
         <span class="th-team">${t.team}</span>
         <span class="th-grp">Grp ${t.group}</span>
         <span class="th-stat">${t.pts} pts</span>
         <span class="th-stat th-gd">${gd}</span>
-        <span class="th-mark">${t.qualified?'✓':''}</span>
+        ${tail}
       </div>`;
   });
   openModal('🥉 Best third-placed teams', sub,
     `<div class="th-list">${rows}</div>
-     <p class="th-note">8 of 12 third-placed teams advance to the Round of 32. ${T.final?'These are final.':'Standings are still changing — this updates with every result.'} The exact R32 slot each qualifier takes is assigned once all groups finish.</p>`);
+     <p class="th-note">8 of 12 third-placed teams advance to the Round of 32. ${T.final?'These are final.':'Standings are still changing — this updates with every result.'} Teams marked <b style="color:#107c10;">✓ → R32</b> already have an officially-confirmed opponent; the rest are assigned once all groups finish.</p>`);
 }
 
 function renderBracket(){
