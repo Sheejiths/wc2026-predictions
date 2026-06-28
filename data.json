@@ -21494,9 +21494,9 @@
         "m": 3,
         "round": "R32",
         "t1": "Germany",
-        "t2": null,
+        "t2": "Paraguay",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner E",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21539,9 +21539,9 @@
         "m": 6,
         "round": "R32",
         "t1": "France",
-        "t2": null,
+        "t2": "Sweden",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner I",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21554,9 +21554,9 @@
         "m": 7,
         "round": "R32",
         "t1": "Mexico",
-        "t2": null,
+        "t2": "Ecuador",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner A",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21569,9 +21569,9 @@
         "m": 8,
         "round": "R32",
         "t1": "England",
-        "t2": null,
+        "t2": "DR Congo",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner L",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21584,9 +21584,9 @@
         "m": 9,
         "round": "R32",
         "t1": "Belgium",
-        "t2": null,
+        "t2": "Senegal",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner G",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21644,9 +21644,9 @@
         "m": 13,
         "round": "R32",
         "t1": "Switzerland",
-        "t2": null,
+        "t2": "Algeria",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner B",
         "slot2": "Best 3rd",
         "s1": null,
@@ -21689,9 +21689,9 @@
         "m": 16,
         "round": "R32",
         "t1": "Colombia",
-        "t2": null,
+        "t2": "Ghana",
         "t1src": "final",
-        "t2src": "tbd",
+        "t2src": "final",
         "slot1": "Winner K",
         "slot2": "Best 3rd",
         "s1": null,
@@ -22104,9 +22104,37 @@
     "cut": 8,
     "final": true,
     "confirmed": {
+      "Paraguay": {
+        "slot": 3,
+        "opp": "Germany"
+      },
+      "Sweden": {
+        "slot": 6,
+        "opp": "France"
+      },
+      "Ecuador": {
+        "slot": 7,
+        "opp": "Mexico"
+      },
+      "DR Congo": {
+        "slot": 8,
+        "opp": "England"
+      },
+      "Senegal": {
+        "slot": 9,
+        "opp": "Belgium"
+      },
       "Bosnia & Herzegovina": {
         "slot": 10,
         "opp": "USA"
+      },
+      "Algeria": {
+        "slot": 13,
+        "opp": "Switzerland"
+      },
+      "Ghana": {
+        "slot": 16,
+        "opp": "Colombia"
       }
     }
   }
