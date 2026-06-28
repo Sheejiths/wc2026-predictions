@@ -1,9 +1,9 @@
 {
   "meta": {
     "updated": "27 Jun 2026",
-    "updated_time": "07:00 PM",
-    "matches_played": 68,
-    "matches_scored": 64,
+    "updated_time": "09:30 PM",
+    "matches_played": 70,
+    "matches_scored": 66,
     "group": "PDC Friends 1991-93"
   },
   "predictions": [
@@ -18716,6 +18716,20 @@
       "score1": 2,
       "score2": 1,
       "group": "L"
+    },
+    "colombia vs portugal": {
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "score1": 0,
+      "score2": 0,
+      "group": "K"
+    },
+    "dr congo vs uzbekistan": {
+      "team1": "DR Congo",
+      "team2": "Uzbekistan",
+      "score1": 3,
+      "score2": 1,
+      "group": "K"
     }
   },
   "timeline": {
@@ -18769,7 +18783,7 @@
         45,
         48,
         52,
-        55
+        57
       ],
       "Vinod K M": [
         3,
@@ -18786,7 +18800,7 @@
         42,
         44,
         49,
-        53
+        55
       ],
       "Sunilraj": [
         2,
@@ -18803,7 +18817,7 @@
         43,
         50,
         56,
-        59
+        60
       ],
       "Praveen Kodurkalam": [
         0,
@@ -18837,7 +18851,7 @@
         39,
         41,
         44,
-        48
+        49
       ],
       "Srikanth N R": [
         1,
@@ -18854,7 +18868,7 @@
         45,
         51,
         55,
-        56
+        57
       ],
       "Kamal": [
         1,
@@ -18871,7 +18885,7 @@
         40,
         42,
         50,
-        51
+        54
       ],
       "Harish": [
         2,
@@ -18888,7 +18902,7 @@
         36,
         43,
         47,
-        48
+        50
       ],
       "Sheejith Sahadevan": [
         1,
@@ -18905,7 +18919,7 @@
         47,
         53,
         60,
-        64
+        66
       ],
       "Shaik Afzal": [
         1,
@@ -18922,7 +18936,7 @@
         45,
         49,
         53,
-        58
+        59
       ],
       "Nandhini Viswanath": [
         3,
@@ -18939,7 +18953,7 @@
         45,
         51,
         58,
-        61
+        62
       ],
       "Krishnan": [
         1,
@@ -18956,7 +18970,7 @@
         51,
         55,
         61,
-        62
+        63
       ],
       "Vinod Menon": [
         3,
@@ -18973,7 +18987,7 @@
         42,
         51,
         58,
-        59
+        62
       ],
       "Bijesh": [
         3,
@@ -18990,7 +19004,7 @@
         32,
         33,
         37,
-        39
+        40
       ],
       "Smitha Ramesh": [
         2,
@@ -19007,7 +19021,7 @@
         39,
         45,
         50,
-        51
+        53
       ],
       "Deepa R Rao": [
         1,
@@ -19041,7 +19055,7 @@
         46,
         52,
         61,
-        62
+        63
       ],
       "Satheesh": [
         1,
@@ -19058,7 +19072,7 @@
         47,
         51,
         55,
-        57
+        58
       ],
       "Sasikumar Prabhakaran": [
         1,
@@ -19075,7 +19089,7 @@
         39,
         41,
         47,
-        48
+        49
       ],
       "Ashik": [
         1,
@@ -19092,7 +19106,7 @@
         49,
         53,
         57,
-        58
+        60
       ],
       "Abhilash Unniyambath": [
         1,
@@ -19109,7 +19123,7 @@
         37,
         43,
         47,
-        50
+        51
       ],
       "Rajith": [
         0,
@@ -19126,7 +19140,7 @@
         41,
         45,
         51,
-        53
+        54
       ],
       "KD": [
         1,
@@ -19143,7 +19157,7 @@
         49,
         53,
         58,
-        63
+        64
       ],
       "Kesava Prasad": [
         6,
@@ -19160,7 +19174,7 @@
         38,
         41,
         46,
-        49
+        50
       ],
       "Baba Krishnankutty": [
         0,
@@ -19177,7 +19191,7 @@
         37,
         39,
         44,
-        48
+        49
       ],
       "Srijith": [
         0,
@@ -19228,7 +19242,7 @@
         16,
         20,
         25,
-        28
+        29
       ]
     },
     "exact": {
@@ -19349,7 +19363,7 @@
         4,
         4,
         4,
-        4
+        5
       ],
       "Harish": [
         0,
@@ -19725,7 +19739,7 @@
         4,
         5,
         6,
-        6
+        7
       ],
       "Vinod K M": [
         0,
@@ -19742,7 +19756,7 @@
         5,
         5,
         6,
-        6
+        7
       ],
       "Sunilraj": [
         1,
@@ -19844,7 +19858,7 @@
         6,
         6,
         7,
-        7
+        8
       ],
       "Sheejith Sahadevan": [
         0,
@@ -19861,7 +19875,7 @@
         4,
         5,
         6,
-        6
+        7
       ],
       "Shaik Afzal": [
         0,
@@ -19929,7 +19943,7 @@
         6,
         7,
         9,
-        9
+        10
       ],
       "Bijesh": [
         0,
@@ -19963,7 +19977,7 @@
         8,
         9,
         10,
-        10
+        11
       ],
       "Deepa R Rao": [
         0,
@@ -20048,7 +20062,7 @@
         6,
         6,
         6,
-        6
+        7
       ],
       "Abhilash Unniyambath": [
         0,
@@ -20599,6 +20613,18 @@
           "t1": "Croatia",
           "t2": "Ghana",
           "s1": 2,
+          "s2": 1
+        },
+        {
+          "t1": "Colombia",
+          "t2": "Portugal",
+          "s1": 0,
+          "s2": 0
+        },
+        {
+          "t1": "DR Congo",
+          "t2": "Uzbekistan",
+          "s1": 3,
           "s2": 1
         }
       ]
@@ -21264,60 +21290,64 @@
     "K": [
       {
         "team": "Colombia",
-        "mp": 2,
+        "mp": 3,
         "w": 2,
-        "d": 0,
+        "d": 1,
         "l": 0,
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 6,
+        "pts": 7,
         "form": [
           "W",
-          "W"
+          "W",
+          "D"
         ]
       },
       {
         "team": "Portugal",
-        "mp": 2,
+        "mp": 3,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 0,
         "gf": 6,
         "ga": 1,
         "gd": 5,
-        "pts": 4,
+        "pts": 5,
         "form": [
           "D",
-          "W"
+          "W",
+          "D"
         ]
       },
       {
         "team": "DR Congo",
-        "mp": 2,
-        "w": 0,
+        "mp": 3,
+        "w": 1,
         "d": 1,
         "l": 1,
-        "gf": 1,
-        "ga": 2,
-        "gd": -1,
-        "pts": 1,
+        "gf": 4,
+        "ga": 3,
+        "gd": 1,
+        "pts": 4,
         "form": [
           "D",
-          "L"
+          "L",
+          "W"
         ]
       },
       {
         "team": "Uzbekistan",
-        "mp": 2,
+        "mp": 3,
         "w": 0,
         "d": 0,
-        "l": 2,
-        "gf": 1,
-        "ga": 8,
-        "gd": -7,
+        "l": 3,
+        "gf": 2,
+        "ga": 11,
+        "gd": -9,
         "pts": 0,
         "form": [
+          "L",
           "L",
           "L"
         ]
@@ -21570,7 +21600,7 @@
         "round": "R32",
         "t1": "Portugal",
         "t2": "Croatia",
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "final",
         "slot1": "Runner-up K",
         "slot2": "Runner-up L",
@@ -21630,7 +21660,7 @@
         "round": "R32",
         "t1": "Colombia",
         "t2": null,
-        "t1src": "live",
+        "t1src": "final",
         "t2src": "tbd",
         "slot1": "Winner K",
         "slot2": "Best 3rd",
@@ -21933,6 +21963,15 @@
   "thirds": {
     "ranked": [
       {
+        "team": "DR Congo",
+        "group": "K",
+        "mp": 3,
+        "pts": 4,
+        "gd": 1,
+        "gf": 4,
+        "qualified": true
+      },
+      {
         "team": "Sweden",
         "group": "F",
         "mp": 3,
@@ -22002,7 +22041,7 @@
         "pts": 3,
         "gd": -1,
         "gf": 2,
-        "qualified": true
+        "qualified": false
       },
       {
         "team": "Algeria",
@@ -22029,15 +22068,6 @@
         "pts": 2,
         "gd": -1,
         "gf": 3,
-        "qualified": false
-      },
-      {
-        "team": "DR Congo",
-        "group": "K",
-        "mp": 2,
-        "pts": 1,
-        "gd": -1,
-        "gf": 1,
         "qualified": false
       }
     ],

@@ -157,8 +157,8 @@ body.dark .trend-ghost{stroke:rgba(255,255,255,.06);}
 .md-bar-track{flex:1;height:16px;background:#f0eeec;border-radius:4px;overflow:hidden;}
 .md-bar-fill{height:100%;background:linear-gradient(90deg,#0078d4,#2ea8ff);border-radius:4px;}
 .md-bar-val{width:26px;text-align:right;font-weight:700;color:#201f1e;flex-shrink:0;}
-.md-me-btn{width:100%;margin-top:14px;padding:10px;border-radius:8px;border:none;font-size:13px;font-weight:700;cursor:pointer;background:#ffd180;color:#3a2c00;}
-.md-me-btn.is-me{background:#f3f2f1;color:#605e5c;}
+.md-me-btn{width:100%;margin-top:14px;padding:10px;border-radius:8px;border:none;font-size:13px;font-weight:700;cursor:pointer;background:#f3f2f1;color:#605e5c;}
+.md-me-btn.is-me{background:#ffd180;color:#3a2c00;}
 .md-chips{display:flex;flex-wrap:wrap;gap:5px;}
 .md-chip{font-size:11px;padding:3px 9px;border-radius:10px;background:#fff4ce;color:#7d5a00;font-weight:600;}
 
@@ -385,7 +385,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
+  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -394,7 +394,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
+  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -403,7 +403,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
+  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -412,7 +412,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
+  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -421,7 +421,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.5</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Tag confirmed best-thirds in popover<br>
+  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -630,7 +630,7 @@ function showMember(name){
     +'<div class="md-sec-title">📅 Points by matchday</div><div class="md-bars">'+(bars||'<div class="md-sub">No matchday data yet.</div>')+'</div>'
     +(exChips?('<div class="md-sec-title">🎯 Exact-score hits ('+s.exact.length+')</div><div class="md-chips">'+exChips+'</div>'):'')
     +'<button class="md-me-btn'+(isMe?' is-me':'')+'" onclick="setMe(\''+(isMe?'':name.replace(/\'/g,"\\'"))+'\');closeModal();">'+(isMe?'✓ This is you — tap to remove':'⭐ This is me')+'</button>';
-  openModal(name,'Tap-to-view member detail',body);
+  openModal(name,'',body);
 }
 
 /* ===================== MATCHDAY REPORT ===================== */
