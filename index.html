@@ -140,6 +140,7 @@ body.dark .ko-sec-head{color:#6fb8ff;border-top-color:#26405a;}
   border-radius:14px;padding:4px 11px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s;white-space:nowrap;}
 .hdr-btn:active{background:rgba(255,255,255,.32);}
 .hdr-btn.me-set{background:#ffd180;color:#3a2c00;border-color:#ffd180;}
+.hdr-btn.disabled,.hdr-btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none;}
 
 /* ===== "This is me" row + movement arrows ===== */
 .lb-table tr.me-row td{background:#fff8e6!important;}
@@ -175,6 +176,9 @@ body.dark .trend-ghost{stroke:rgba(255,255,255,.06);}
 .md-me-btn.is-me{background:#ffd180;color:#3a2c00;}
 .md-chips{display:flex;flex-wrap:wrap;gap:5px;}
 .md-chip{font-size:11px;padding:3px 9px;border-radius:10px;background:#fff4ce;color:#7d5a00;font-weight:600;}
+.md-bar-fill.ko{background:linear-gradient(90deg,#0a8f5b,#34d399);}
+.md-chip.ko{background:#e6f7ef;color:#0a6b43;}
+body.dark .md-chip.ko{background:#10301f;color:#5fd6a0;}
 
 /* ===== Matchday Report + share card ===== */
 .rep-card{background:#fff;border-radius:12px;overflow:hidden;}
@@ -318,6 +322,9 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
 .lb-c-rank{left:32px;width:48px;min-width:48px;}
 .lb-c-player{left:80px;min-width:118px;box-shadow:1px 0 0 #edebe9;}
 .lb-table tr:hover td.stick{background:#f9f8f7;}
+.lb-table.lb-ko{min-width:0;}
+.lb-table.lb-ko th.stick,.lb-table.lb-ko td.stick{position:static;box-shadow:none;}
+.lb-table.lb-ko .lb-c-player{min-width:90px;}
 .eff-cell{text-align:center;width:50px;font-size:12px;font-weight:600;color:#323130;}
 .eff-cell.muted{color:#a19f9d;font-weight:400;}
 .lb-controls{display:flex;justify-content:flex-end;margin:2px 2px 8px;}
@@ -377,7 +384,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
     <div class="header-updated" id="lastUpdated"></div>
     <div class="hdr-tools">
       <button class="hdr-btn" id="meChip" onclick="pickMe()">⭐ Set me</button>
-      <button class="hdr-btn" onclick="showReport()">📋 Matchday Report</button>
+      <button class="hdr-btn" id="reportBtn" onclick="showReport()">📋 Matchday Report</button>
       <button class="hdr-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
     </div>
   </div>
@@ -389,9 +396,9 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
     <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
   </div>
   <div class="stage-bar" id="stageBar" style="display:none;">
-    <button class="stage-btn active" id="stageOverall" onclick="setStage('overall')">🏅 Overall</button>
     <button class="stage-btn" id="stageGroup" onclick="setStage('group')">🌍 Group Stage</button>
     <button class="stage-btn" id="stageKO" onclick="setStage('ko')">🏆 Round of 32</button>
+    <button class="stage-btn active" id="stageOverall" onclick="setStage('overall')">🏅 Overall</button>
   </div>
 </div>
 <div id="panel-matches" class="panel active">
@@ -404,7 +411,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
+  <strong>⚙️ UI v1.11.5</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · KO match cards show "Most backed" (left) and "Result → advances" (right) for consistency with group cards<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -413,7 +420,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
+  <strong>⚙️ UI v1.11.5</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · KO match cards show "Most backed" (left) and "Result → advances" (right) for consistency with group cards<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -422,7 +429,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
+  <strong>⚙️ UI v1.11.5</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · KO match cards show "Most backed" (left) and "Result → advances" (right) for consistency with group cards<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -431,7 +438,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
+  <strong>⚙️ UI v1.11.5</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · KO match cards show "Most backed" (left) and "Result → advances" (right) for consistency with group cards<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -440,7 +447,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
+  <strong>⚙️ UI v1.11.5</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · KO match cards show "Most backed" (left) and "Result → advances" (right) for consistency with group cards<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -475,10 +482,18 @@ function switchTab(t){
 function setStage(s){
   state.stage=s;
   lbSort={col:'rank',dir:'asc'};
+  updateReportBtn();
   document.getElementById('stageOverall').classList.toggle('active',s==='overall');
   document.getElementById('stageGroup').classList.toggle('active',s==='group');
   document.getElementById('stageKO').classList.toggle('active',s==='ko');
   renderMatches();renderLB();renderTrend();
+}
+function updateReportBtn(){
+  var b=document.getElementById('reportBtn');if(!b)return;
+  var off=(state.stage==='overall');
+  b.disabled=off;
+  b.classList.toggle('disabled',off);
+  b.title=off?'Matchday Report is available in Group Stage or Round of 32 view':'';
 }
 
 async function loadData(){
@@ -502,6 +517,7 @@ async function loadData(){
     refreshMeChip();
     renderMatches();renderLB();renderTrend();renderStandings();renderBracket();
     {const sb=document.getElementById('stageBar');if(sb)sb.style.display=(state.ko&&(state.ko.matchdays||[]).length>0)?'flex':'none';}
+    updateReportBtn();
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
     document.getElementById('matchSearchWrap').style.display='block';
@@ -628,47 +644,94 @@ function movementHTML(delta){
 }
 
 /* ===================== MEMBER DETAIL ===================== */
-function showMember(name){
-  var rows=window._lbRows||[]; var r=rows.filter(function(x){return x.name===name;})[0];
-  if(!r){return;}
-  var s=r.s, tl=state.timeline, me=getMe();
-  var hits=r.hits, played=s.played;
-  // per-matchday day points
-  var bars='';
-  if(tl&&tl.points&&tl.points[name]){
-    var pts=tl.points[name], labels=tl.labels||[], day=[];
-    for(var j=0;j<pts.length;j++){ day.push(j===0?pts[0]:pts[j]-pts[j-1]); }
-    var mx=Math.max(1,Math.max.apply(null,day));
-    var best=-1,bi=-1,worst=1e9,wi=-1;
-    day.forEach(function(v,j){ if(v>best){best=v;bi=j;} if(v<worst){worst=v;wi=j;} });
-    bars=day.map(function(v,j){
-      var w=Math.round(v/mx*100);
-      return '<div class="md-bar-row"><span class="md-bar-lbl">'+(labels[j]||('MD'+(j+1)))+'</span>'
-        +'<div class="md-bar-track"><div class="md-bar-fill" style="width:'+w+'%"></div></div>'
-        +'<span class="md-bar-val">'+v+'</span></div>';
-    }).join('');
-    var bw='<div class="md-sub" style="margin-top:6px;">🔥 Best day: <b>'+(labels[bi]||('MD'+(bi+1)))+'</b> ('+best+' pts) · 🥶 Quietest: '+(labels[wi]||('MD'+(wi+1)))+' ('+worst+' pts)</div>';
-    bars=bars+bw;
+function mdBarsHTML(labels,day,cls){
+  var mx=Math.max(1,Math.max.apply(null,day.length?day:[0]));
+  return day.map(function(v,j){
+    var w=Math.round(v/mx*100);
+    return '<div class="md-bar-row"><span class="md-bar-lbl">'+(labels[j]||('MD'+(j+1)))+'</span>'
+      +'<div class="md-bar-track"><div class="md-bar-fill '+(cls||'')+'" style="width:'+w+'%"></div></div>'
+      +'<span class="md-bar-val">'+v+'</span></div>';
+  }).join('');
+}
+function memberStats(name){
+  var g=null,gall=calcAllScores();
+  for(var i=0;i<gall.length;i++){if(gall[i][0]===name){g=gall[i][1];break;}}
+  var ko=state.ko,kS={pts:0,exact:[],gdiff:[],result:[],wrong:0,played:0};
+  if(ko){
+    var sc=ko.scores[name]||{},pr=ko.predictions[name]||{};
+    for(var k in sc){var c=sc[k],p=pr[k],res=(ko.results||{})[k];if(!res)continue;
+      var item={match:res.team1+' vs '+res.team2,pred:(p&&p.draw_no_score)?'Draw':(p?p.score1+'-'+p.score2:'?'),actual:res.score1+'-'+res.score2};
+      kS.pts+=c.total;kS.played++;
+      if(c.tier90==='exact')kS.exact.push(item);else if(c.tier90==='gdiff')kS.gdiff.push(item);
+      else if(c.tier90==='result')kS.result.push(item);else kS.wrong++;
+    }
   }
-  var exChips=(s.exact||[]).map(function(e){return '<span class="md-chip">'+e.match.replace(' vs ',' ')+' · '+e.pred+'</span>';}).join('');
+  return {g:g,ko:kS};
+}
+function memberRank(name,stage){
+  var list;
+  if(stage==='ko'){
+    var ko=state.ko;
+    list=state.predictions.map(function(p){return {n:p.name,k:[((ko&&ko.totals)||{})[p.name]||0]};});
+    list.sort(function(a,b){return b.k[0]-a.k[0]||a.n.localeCompare(b.n);});
+  }else if(stage==='overall'){
+    list=calcOverallScores().map(function(e){return {n:e[0],k:[e[1].pts,e[1].exact.length,e[1].gdiff.length]};});
+  }else{
+    list=calcAllScores().map(function(e){return {n:e[0],k:[e[1].pts,e[1].exact.length,e[1].gdiff.length]};});
+  }
+  var cur=0,prev=null,rank=null;
+  for(var i=0;i<list.length;i++){var key=list[i].k.join('|');if(key!==prev){cur++;prev=key;}if(list[i].n===name){rank=cur;break;}}
+  return {rank:rank||'-',medal:MEDALS[rank]||''};
+}
+function showMember(name){
+  var me=getMe(),stage=state.stage||'group';
+  var st=memberStats(name),g=st.g,ko=st.ko;
+  var useG=stage!=='ko', useK=(stage==='ko'||stage==='overall')&&state.ko&&(state.ko.matchdays||[]).length>0;
+  var pts=0,exactN=0,played=0,hitN=0;
+  if(useG&&g){pts+=g.pts;exactN+=g.exact.length;played+=g.played;hitN+=g.exact.length+g.gdiff.length+g.result.length;}
+  if(useK){pts+=ko.pts;exactN+=ko.exact.length;played+=ko.played;hitN+=ko.exact.length+ko.gdiff.length+ko.result.length;}
+  var ppm=played?pts/played:0,hit=played?hitN/played:0;
+  var rk=memberRank(name,stage);
+  var barsHtml='';
+  if(useG&&state.timeline&&state.timeline.points&&state.timeline.points[name]){
+    var p=state.timeline.points[name],lab=state.timeline.labels||[];
+    var day=p.map(function(v,j){return j===0?v:v-p[j-1];});
+    if(stage==='overall')barsHtml+='<div class="md-sub" style="margin:2px 0 5px;font-weight:700;color:#2ea8ff;">🌍 Group Stage</div>';
+    barsHtml+=mdBarsHTML(lab,day,'');
+    var bi=day.indexOf(Math.max.apply(null,day)),wi=day.indexOf(Math.min.apply(null,day));
+    barsHtml+='<div class="md-sub" style="margin-top:6px;">🔥 Best day: <b>'+(lab[bi]||('MD'+(bi+1)))+'</b> ('+day[bi]+' pts) · 🥶 Quietest: '+(lab[wi]||('MD'+(wi+1)))+' ('+day[wi]+' pts)</div>';
+  }
+  if(useK&&state.ko.timeline&&state.ko.timeline[name]){
+    var kp=state.ko.timeline[name],klab=state.ko.matchdays||[];
+    var kday=kp.map(function(v,j){return j===0?v:v-kp[j-1];});
+    barsHtml+='<div class="md-sub" style="margin:'+(stage==='overall'?'12px':'2px')+' 0 5px;font-weight:700;color:#27c98a;">🏆 Round of 32</div>';
+    barsHtml+=mdBarsHTML(klab,kday,'ko');
+  }
+  var exItems=[];
+  if(useG&&g)exItems=exItems.concat(g.exact.map(function(e){return {x:e,ko:false};}));
+  if(useK)exItems=exItems.concat(ko.exact.map(function(e){return {x:e,ko:true};}));
+  var exChips=exItems.map(function(o){return '<span class="md-chip'+(o.ko?' ko':'')+'">'+o.x.match.replace(' vs ',' ')+' · '+o.x.pred+'</span>';}).join('');
   var isMe=(name===me);
+  var stageLbl=stage==='ko'?'Round of 32':(stage==='overall'?'Overall':'Group Stage');
   var body=''
-    +'<div class="md-hero"><div class="md-rank">'+(r.medal||r.rank)+'</div>'
-    +'<div><div class="md-name">'+name+'</div><div class="md-sub">Rank '+r.rank+' · '+s.pts+' pts'+(s.invalidCount>0?' · ⛔ '+s.invalidCount+' invalid':'')+'</div></div></div>'
+    +'<div class="md-hero"><div class="md-rank">'+(rk.medal||rk.rank)+'</div>'
+    +'<div><div class="md-name">'+name+'</div><div class="md-sub">'+stageLbl+' · Rank '+rk.rank+' · '+pts+' pts</div></div></div>'
     +'<div class="md-stats">'
-    +'<div class="md-stat"><b>'+s.pts+'</b><span>Points</span></div>'
-    +'<div class="md-stat"><b>'+s.exact.length+'</b><span>Exact</span></div>'
-    +'<div class="md-stat"><b>'+(played?r.ppm.toFixed(2):'—')+'</b><span>PPM</span></div>'
-    +'<div class="md-stat"><b>'+(played?Math.round(r.hitrate*100)+'%':'—')+'</b><span>Hit%</span></div>'
+    +'<div class="md-stat"><b>'+pts+'</b><span>Points</span></div>'
+    +'<div class="md-stat"><b>'+exactN+'</b><span>Exact</span></div>'
+    +'<div class="md-stat"><b>'+(played?ppm.toFixed(2):'—')+'</b><span>PPM</span></div>'
+    +'<div class="md-stat"><b>'+(played?Math.round(hit*100)+'%':'—')+'</b><span>Hit%</span></div>'
     +'</div>'
-    +'<div class="md-sec-title">📅 Points by matchday</div><div class="md-bars">'+(bars||'<div class="md-sub">No matchday data yet.</div>')+'</div>'
-    +(exChips?('<div class="md-sec-title">🎯 Exact-score hits ('+s.exact.length+')</div><div class="md-chips">'+exChips+'</div>'):'')
+    +'<div class="md-sec-title">📅 Points by matchday</div><div class="md-bars">'+(barsHtml||'<div class="md-sub">No matchday data yet.</div>')+'</div>'
+    +(exChips?('<div class="md-sec-title">🎯 Exact-score hits ('+exItems.length+')</div><div class="md-chips">'+exChips+'</div>'):'')
     +'<button class="md-me-btn'+(isMe?' is-me':'')+'" onclick="setMe(\''+(isMe?'':name.replace(/\'/g,"\\'"))+'\');closeModal();">'+(isMe?'✓ This is you — tap to remove':'⭐ This is me')+'</button>';
   openModal(name,'',body);
 }
 
 /* ===================== MATCHDAY REPORT ===================== */
 function buildReportData(){
+  if((state.stage==='ko'||state.stage==='overall')&&state.ko&&(state.ko.matchdays||[]).length>0)
+    return buildKOReportData();
   var tl=state.timeline;
   if(!tl||!tl.matchdays||!tl.matchdays.length||!tl.md_matches) return null;
   var mds=tl.matchdays, md=mds[mds.length-1], label=(tl.labels&&tl.labels[mds.length-1])||('MD'+md);
@@ -699,7 +762,46 @@ function buildReportData(){
   return {md:md,label:label,fixtures:matchInfo,winners:winners,maxPts:maxPts,
           climbers:climbers,climb:climb,upset:upset};
 }
+function koMovement(){
+  var g=state.timeline,ko=state.ko,out={};
+  if(!g||!g.points) return out;
+  var names=Object.keys(g.points), j=function(n){return g.points[n].length-1;};
+  function rankBy(fn){
+    var arr=names.map(function(n){return [n,fn(n)];});
+    arr.sort(function(a,b){return b[1][0]-a[1][0]||b[1][1]-a[1][1]||b[1][2]-a[1][2]||a[0].localeCompare(b[0]);});
+    var r={};arr.forEach(function(e,i){r[e[0]]=i+1;});return r;
+  }
+  var before=rankBy(function(n){var i=j(n);return [g.points[n][i],(g.exact?g.exact[n][i]:0),(g.gdiff?g.gdiff[n][i]:0)];});
+  var after=rankBy(function(n){var i=j(n);var kp=(ko.totals||{})[n]||0,ke=0,kg=0,sc=ko.scores[n]||{};
+    for(var k in sc){if(sc[k].tier90==='exact')ke++;else if(sc[k].tier90==='gdiff')kg++;}
+    return [g.points[n][i]+kp,(g.exact?g.exact[n][i]:0)+ke,(g.gdiff?g.gdiff[n][i]:0)+kg];});
+  names.forEach(function(n){out[n]=before[n]-after[n];});
+  return out;
+}
+function buildKOReportData(){
+  var ko=state.ko, mds=ko.matchdays||[], label=mds[mds.length-1];
+  var kos=[];for(var k in (ko.results||{})){if(ko.results[k].et_date===label)kos.push(k);}
+  var names=(state.predictions||[]).map(function(p){return p.name;});
+  var dayPts={};names.forEach(function(n){dayPts[n]=0;});
+  var fixtures=kos.map(function(k){
+    var res=ko.results[k],exact=[],wrong=0,got=0;
+    names.forEach(function(n){
+      var p=(ko.predictions[n]||{})[k],c=(ko.scores[n]||{})[k];
+      if(!p||p.status==='INVALID')return;
+      got++;if(c){dayPts[n]+=c.total;if(c.tier90==='exact')exact.push(n);if(c.total===0)wrong++;}
+    });
+    return {t1:res.team1,t2:res.team2,s1:res.score1,s2:res.score2,exact:exact,wrong:wrong,got:got};
+  });
+  var maxPts=Math.max.apply(null,names.map(function(n){return dayPts[n];}));
+  var winners=(maxPts>0)?names.filter(function(n){return dayPts[n]===maxPts;}).sort():[];
+  var mv=koMovement(),climb=0,climbers=[];
+  Object.keys(mv).forEach(function(n){if(mv[n]>climb){climb=mv[n];climbers=[n];}else if(mv[n]===climb&&climb>0){climbers.push(n);}});
+  var upset=fixtures.slice().sort(function(a,b){return b.wrong-a.wrong;})[0];
+  return {md:label,label:label+' · Round of 32',fixtures:fixtures,winners:winners,maxPts:maxPts,
+          climbers:climbers,climb:climb,upset:upset};
+}
 function showReport(){
+  if(state.stage==='overall')return;
   var R=buildReportData();
   if(!R){openModal('📋 Matchday Report','','<p style="color:#605e5c;">No scored matchday yet.</p>');return;}
   var FL=(typeof FLAGS!=='undefined')?FLAGS:{};
@@ -713,7 +815,7 @@ function showReport(){
     +'<div class="rep-card" id="repCard">'
     +'<div class="rep-hd"><h3>📋 Matchday Report</h3><div class="rep-date">'+R.label+' · PDC Friends 1991-93</div></div>'
     +'<div class="rep-body">'
-    +'<div class="rep-line"><div class="rep-ico">🏆</div><div class="rep-txt"><b>Day winner:</b> '+R.winners.join(', ')+' <span class="rep-sub">('+R.maxPts+' pts)</span></div></div>'
+    +'<div class="rep-line"><div class="rep-ico">🏆</div><div class="rep-txt"><b>Day winner:</b> '+(R.winners.length?R.winners.join(', '):'— none —')+' <span class="rep-sub">('+R.maxPts+' pts)</span></div></div>'
     +'<div class="rep-line"><div class="rep-ico">🚀</div><div class="rep-txt"><b>Biggest climber:</b> '+climbTxt+'</div></div>'
     +'<div class="rep-line"><div class="rep-ico">💥</div><div class="rep-txt"><b>Upset of the day:</b> '+upsetTxt+'</div></div>'
     +'<div class="rep-line"><div class="rep-ico">🎯</div><div class="rep-txt"><b>Exact-score heroes:</b> '+heroTxt+'</div></div>'
@@ -999,11 +1101,18 @@ function renderMatches(){
     if(s.status==='INVALID')invalidList.push(p.name+' ('+s.team1+' vs '+s.team2+')');
   const resolved=keys.filter(k=>state.matches[k].actual).length;
   let html='';
+  let nMatches=keys.length, nParts=state.predictions.length, nResults=resolved;
+  if(state.stage==='overall' && state.ko){
+    const kl=koMatchList();
+    nMatches+=kl.length;
+    nResults+=kl.filter(o=>o.res).length;
+    nParts=Math.max(nParts, Object.keys(state.ko.totals||{}).length);
+  }
   // Top invalid banner removed — invalid details shown per-match only
   html+=`<div class="summary-row">
-    <div class="stat-card"><div class="stat-val">${keys.length}</div><div class="stat-lbl">Matches</div></div>
-    <div class="stat-card"><div class="stat-val">${state.predictions.length}</div><div class="stat-lbl">Participants</div></div>
-    <div class="stat-card"><div class="stat-val">${resolved}</div><div class="stat-lbl">Results In</div></div>
+    <div class="stat-card"><div class="stat-val">${nMatches}</div><div class="stat-lbl">Matches</div></div>
+    <div class="stat-card"><div class="stat-val">${nParts}</div><div class="stat-lbl">Participants</div></div>
+    <div class="stat-card"><div class="stat-val">${nResults}</div><div class="stat-lbl">Results In</div></div>
   </div><div class="match-grid">`;
 
   keys.forEach(key=>{
@@ -1572,18 +1681,21 @@ function koMatchesHTML(includeSummary){
     }).join('');
     let invSec='';
     if(invalid.length)invSec=`<div style="border-top:1.5px dashed #fca5a5;margin-top:8px;padding-top:8px;"><span onclick="showKOInvalid('${k}')" style="cursor:pointer;font-size:12px;font-weight:700;color:#c4314b;">⛔ Excluded — after kickoff (${invalid.length}) <span style="font-size:10px;color:#a19f9d;font-weight:400;">↗ details</span></span></div>`;
-    let resultLine='';
+    const topKO=sorted.length?sorted[0]:null;
+    const mostBacked=topKO?`<span><span style="color:#605e5c;">Most backed:</span> <b style="margin-left:3px;">${topKO[0]}</b> <span style="color:#605e5c;margin-left:3px;">(${topKO[1].length} of ${total})</span></span>`:'<span></span>';
+    let resultPart='';
     if(res){
       let r=res.score1+'-'+res.score2+' (90)';
       if(res.et1!=null)r+=' · ET '+res.et1+'-'+res.et2;
       if(res.pens_winner)r+=' · pens: '+res.pens_winner;
-      resultLine=`<div class="consensus-row"><span style="color:#605e5c;">Result:</span><span style="font-weight:700;margin-left:4px;">${r}</span><span style="color:#605e5c;margin-left:6px;">→ ${flag(res.winner)} advance</span></div>`;
+      resultPart=`<span><span style="color:#605e5c;">Result:</span> <b style="margin-left:3px;">${r}</b> <span style="color:#605e5c;margin-left:4px;">→ ${flag(res.winner)} advance</span></span>`;
     }
+    const footerRow=(topKO||res)?`<div class="consensus-row" style="justify-content:space-between;flex-wrap:wrap;gap:6px 16px;">${mostBacked}${resultPart}</div>`:'';
     const badge=res?('&#10003; '+res.score1+'-'+res.score2):'Pending';
     html+=`<div class="match-card" data-teams="${(t1||'').toLowerCase()} ${(t2||'').toLowerCase()}">
       <div class="match-header"><div class="match-title">${flag(t1)} vs ${flag(t2)}${koStageBadge(res?res.stage:'Round of 32')}</div>
       <span class="match-badge ${res?'badge-result':'badge-pending'}">${badge}</span></div>
-      <div class="match-body">${bars}${resultLine}${invSec}</div></div>`;
+      <div class="match-body">${bars}${footerRow}${invSec}</div></div>`;
   });
   html+='</div>';
   return html;
@@ -1628,7 +1740,7 @@ function renderLBKO(){
   });
   rows.sort((a,b)=>b.pts-a.pts||a.name.localeCompare(b.name));
   let cur=0,pk=null;const ranks=rows.map(r=>{if(r.pts!==pk){cur++;pk=r.pts;}return cur;});
-  let h=`<div class="hover-hint">🏆 Knockout points (Round of 32 onward). 90-min 3/2/1, plus ET (+up to 3) and pens (+2) when a draw is predicted and the match goes that far. Tap a name for their picks.</div><div class="lb-wrap"><table class="lb-table"><thead><tr><th class="stick lb-c-sl">SL</th><th class="stick lb-c-rank">RANK</th><th class="left stick lb-c-player">PLAYER</th><th class="right">KO PTS</th><th>PLAYED</th></tr></thead><tbody>`;
+  let h=`<div class="hover-hint">🏆 Knockout points (Round of 32 onward). 90-min 3/2/1, plus ET (+up to 3) and pens (+2) when a draw is predicted and the match goes that far. Tap a name for their picks.</div><div class="lb-wrap"><table class="lb-table lb-ko"><thead><tr><th class="stick lb-c-sl">SL</th><th class="stick lb-c-rank">RANK</th><th class="left stick lb-c-player">PLAYER</th><th class="right">KO PTS</th><th>PLAYED</th></tr></thead><tbody>`;
   rows.forEach((r,i)=>{
     const rank=ranks[i],medal=MEDALS[rank]||'';
     const isMe=r.name===me;
