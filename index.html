@@ -21,6 +21,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .tab{padding:8px 18px;font-size:13px;font-weight:600;border:none;background:transparent;cursor:pointer;color:#605e5c;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:all .15s;border-radius:4px 4px 0 0;}
 .tab.active{color:#0078d4;border-bottom-color:#0078d4;background:#f0f6ff;}
 .tab:hover:not(.active){color:#201f1e;background:#f3f2f1;}
+.stage-bar{display:flex;gap:6px;padding:10px 16px 0;background:#fff;justify-content:center;}
+.stage-btn{padding:7px 20px;font-size:13px;font-weight:700;border:1.5px solid #d8e6f5;background:#f4f9ff;cursor:pointer;color:#3a6ea5;border-radius:999px;transition:all .15s;}
+.stage-btn.active{background:#0078d4;border-color:#0078d4;color:#fff;box-shadow:0 2px 8px rgba(0,120,212,.3);}
+.stage-btn:hover:not(.active){background:#e7f1fb;}
+body.dark .stage-bar{background:#0f1620;}
+body.dark .stage-btn{background:#16222e;border-color:#26405a;color:#7fc0ff;}
+body.dark .stage-btn.active{background:#1f6feb;border-color:#1f6feb;color:#fff;box-shadow:0 0 12px rgba(76,179,255,.4);}
+body.dark .stage-btn:hover:not(.active){background:#1d2d3d;}
+.ko-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
+.ko-pill.on{background:#e3f0ff;color:#0b66c3;}
+.ko-sec-head{margin:20px 0 10px;font-size:15px;font-weight:800;color:#0b66c3;border-top:2px solid #e6eef7;padding-top:14px;}
+body.dark .ko-pill{background:#1a2330;color:#6b7888;}
+body.dark .ko-pill.on{background:#13314e;color:#6fb8ff;}
+body.dark .ko-sec-head{color:#6fb8ff;border-top-color:#26405a;}
 .panel{display:none;padding:14px;max-width:1100px;margin:0 auto;}
 .panel.active{display:block;}
 .loading{text-align:center;padding:60px 20px;color:#605e5c;}
@@ -374,6 +388,11 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
     <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
     <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
   </div>
+  <div class="stage-bar" id="stageBar" style="display:none;">
+    <button class="stage-btn active" id="stageOverall" onclick="setStage('overall')">🏅 Overall</button>
+    <button class="stage-btn" id="stageGroup" onclick="setStage('group')">🌍 Group Stage</button>
+    <button class="stage-btn" id="stageKO" onclick="setStage('ko')">🏆 Round of 32</button>
+  </div>
 </div>
 <div id="panel-matches" class="panel active">
   <div class="loading" id="loadingMatches"><div class="loading-spinner"></div>Loading latest data…</div>
@@ -385,7 +404,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
+  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -394,7 +413,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
+  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -403,7 +422,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
+  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -412,7 +431,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
+  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -421,7 +440,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.9.6</strong> &nbsp;·&nbsp; Built 22 Jun 2026 · Member modal: drop subtitle, swap me-button colors<br>
+  <strong>⚙️ UI v1.11.0</strong> &nbsp;·&nbsp; Built 29 Jun 2026 · Overall (Grand Total) leaderboard = Group + R32, with KO column; full sort/medals/trend/tap-through<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker<br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -445,9 +464,21 @@ function switchTab(t){
   document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
+  // stage toggle only applies to matches / leaderboard / trend
+  const showStage=(['matches','leaderboard','trend'].includes(t)) && state.ko && (state.ko.matchdays||[]).length>0;
+  const sb=document.getElementById('stageBar'); if(sb) sb.style.display=showStage?'flex':'none';
   if(t==='trend') renderTrend();
   if(t==='standings') renderStandings();
   if(t==='bracket') renderBracket();
+}
+
+function setStage(s){
+  state.stage=s;
+  lbSort={col:'rank',dir:'asc'};
+  document.getElementById('stageOverall').classList.toggle('active',s==='overall');
+  document.getElementById('stageGroup').classList.toggle('active',s==='group');
+  document.getElementById('stageKO').classList.toggle('active',s==='ko');
+  renderMatches();renderLB();renderTrend();
 }
 
 async function loadData(){
@@ -465,9 +496,12 @@ async function loadData(){
     state.standings=data.standings||null;
     state.bracket=data.bracket||null;
     state.thirds=data.thirds||null;
+    state.ko=data.ko||null;
+    if(!state.stage)state.stage=(state.ko&&(state.ko.matchdays||[]).length>0)?'overall':'group';
     buildMatchState(data.results||{});
     refreshMeChip();
     renderMatches();renderLB();renderTrend();renderStandings();renderBracket();
+    {const sb=document.getElementById('stageBar');if(sb)sb.style.display=(state.ko&&(state.ko.matchdays||[]).length>0)?'flex':'none';}
     document.getElementById('loadingMatches').style.display='none';
     document.getElementById('matchesContent').style.display='block';
     document.getElementById('matchSearchWrap').style.display='block';
@@ -574,7 +608,7 @@ function avatarColor(n){var h=0;for(var i=0;i<n.length;i++)h=(h*31+n.charCodeAt(
 
 /* ===================== MOVEMENT (rank change vs previous matchday) ===================== */
 function computeMovement(){
-  var tl=state.timeline, out={};
+  var tl=(state.stage==='overall')?buildOverallTimeline():state.timeline, out={};
   if(!tl||!tl.points||!tl.matchdays||tl.matchdays.length<2) return out;
   var names=Object.keys(tl.points), j=tl.matchdays.length-1;
   function rankAt(col){
@@ -952,6 +986,7 @@ function showStatDetail(name,type,items){
 }
 
 function renderMatches(){
+  if(state.stage==='ko') return renderMatchesKO();
   const el=document.getElementById('matchesContent');
   // Sort matches by kickoff time (earliest first = chronological schedule order)
   const keys=Object.keys(state.matches).sort((a,b)=>{
@@ -1024,6 +1059,7 @@ function renderMatches(){
     </div>`;
   });
   html+='</div>';
+  if(state.stage==='overall'){const kh=koMatchesHTML(false);if(kh)html+='<div class="ko-sec-head">🏆 Round of 32</div>'+kh;}
   el.innerHTML=html;
 }
 
@@ -1068,8 +1104,10 @@ const MEDALS={1:'🥇',2:'🥈',3:'🥉'};
 let lbSort={col:'rank',dir:'asc'};
 
 function renderLB(){
+  if(state.stage==='ko') return renderLBKO();
   const el=document.getElementById('lbContent');
-  const ranked=calcAllScores();
+  const overall=state.stage==='overall';
+  const ranked=overall?calcOverallScores():calcAllScores();
   const ranks=denseRanks(ranked);
   window._mvMap=computeMovement();
   const rankCounts={};ranks.forEach(r=>{rankCounts[r]=(rankCounts[r]||0)+1;});
@@ -1086,7 +1124,7 @@ function renderLB(){
             hitrate:s.played?hits/s.played:0,
             tied:rankCounts[rank]>1&&rank<=3,medal:MEDALS[rank]};
   });
-  el.innerHTML=`<div class="hover-hint">💡 Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
+  el.innerHTML=`<div class="hover-hint">${overall?'🏅 <b>Overall</b> = Group + Round of 32. EXACT·DIFF·RESULT are combined across both stages; <b>KO</b> shows the knockout points (incl. any ET/pens bonus) inside the PTS grand total. ':'💡 '}Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
     <div class="lb-controls"><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
     <div class="lb-wrap"><div id="lbHost"></div></div>`;
   applyLBSort();
@@ -1100,6 +1138,7 @@ function lbCompare(a,b,col){
     case 'diff':return a.s.gdiff.length-b.s.gdiff.length;
     case 'result':return a.s.result.length-b.s.result.length;
     case 'pts':return a.s.pts-b.s.pts;
+    case 'ko':return (a.s.koPts||0)-(b.s.koPts||0);
     case 'played':return a.s.played-b.s.played;
     case 'ppm':return a.ppm-b.ppm;
     case 'hit':return a.hitrate-b.hitrate;
@@ -1120,7 +1159,7 @@ function buildLBTable(rows){
     ${lbTh('rank','RANK','stick lb-c-rank')}
     ${lbTh('player','PLAYER','left stick lb-c-player')}
     ${lbTh('exact','EXACT')}${lbTh('diff','DIFF')}${lbTh('result','RESULT')}
-    ${lbTh('pts','PTS','right')}${lbTh('played','P')}${lbTh('ppm','PPM')}${lbTh('hit','HIT%')}
+    ${lbTh('pts','PTS','right')}${state.stage==='overall'?lbTh('ko','KO'):''}${lbTh('played','P')}${lbTh('ppm','PPM')}${lbTh('hit','HIT%')}
     </tr></thead><tbody>`;
   rows.forEach((r,idx)=>{
     const s=r.s;
@@ -1138,6 +1177,7 @@ function buildLBTable(rows){
       <td class="name-cell clk stick lb-c-player${s.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">you</span>':''}${r.tied?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+'</span>':''}</td>
       ${sc(s.exact.length,'exact')}${sc(s.gdiff.length,'gdiff')}${sc(s.result.length,'result')}
       <td class="pts-cell"><span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span></td>
+      ${state.stage==='overall'?('<td class="eff-cell"><span class="ko-pill'+((s.koPts||0)>0?' on':'')+'">'+(s.koPts||0)+'</span></td>'):''}
       <td class="eff-cell muted">${s.played}</td>
       <td class="eff-cell">${s.played?r.ppm.toFixed(2):'—'}</td>
       <td class="eff-cell">${s.played?Math.round(r.hitrate*100)+'%':'—'}</td>
@@ -1168,9 +1208,10 @@ let trendSel=null;
 const TRENDCOLORS=['#2EA8FF','#F5A623','#2FC36B','#E84FA8','#FF7A45','#00C2B8','#9B6CFF','#36C5F0','#FF5C7A','#A8C921'];
 
 function renderTrend(){
+  if(state.stage==='ko') return renderTrendKO();
   const el=document.getElementById('trendContent');
   if(!el) return;
-  const tl=state.timeline;
+  const tl=(state.stage==='overall')?buildOverallTimeline():state.timeline;
   if(!tl||!tl.matchdays||!tl.matchdays.length||!tl.points){
     el.innerHTML='<p style="text-align:center;color:#605e5c;padding:40px 20px;">📈 Rank-trend data isn\'t available yet.<br><small>Regenerate data.json with the latest build to enable this view.</small></p>';
     return;
@@ -1466,6 +1507,199 @@ function filterMatches(q){
 function clearSearch(){
   document.getElementById('matchSearch').value='';
   filterMatches('');
+}
+
+/* ===================== KNOCKOUT (R32) RENDERERS ===================== */
+const KOTIER={exact:'pip3',gdiff:'pip2',result:'pip1'};
+function koStageBadge(st){return st?('<span class="group-badge">'+st+'</span>'):'';}
+
+function koMatchList(){
+  const ko=state.ko; if(!ko)return[];
+  const idx=new Set(Object.keys(ko.results||{}));
+  for(const n in (ko.predictions||{}))for(const k in ko.predictions[n])idx.add(k);
+  const arr=[...idx].map(k=>{
+    const res=(ko.results||{})[k]||null;let ke='';
+    if(res)ke=res.kickoff_est;else{for(const n in ko.predictions){if(ko.predictions[n][k]){ke=ko.predictions[n][k].kickoff_est;break;}}}
+    return {k,res,kickoff_est:ke};
+  });
+  arr.sort((a,b)=>new Date(a.kickoff_est)-new Date(b.kickoff_est));
+  return arr;
+}
+function koPredsFor(k){
+  const ko=state.ko,out=[];
+  for(const n in (ko.predictions||{})){const pr=ko.predictions[n][k];if(pr)out.push(Object.assign({name:n,sc:(ko.scores[n]||{})[k]||null},pr));}
+  return out;
+}
+function renderMatchesKO(){
+  const el=document.getElementById('matchesContent');
+  const h=koMatchesHTML(true);
+  el.innerHTML=h||'<p style="text-align:center;color:#888;padding:40px;">No Round-of-32 predictions yet.</p>';
+}
+function koMatchesHTML(includeSummary){
+  const ko=state.ko;
+  if(!ko||!koMatchList().length) return '';
+  const list=koMatchList();
+  const resolved=list.filter(o=>o.res).length;
+  let html=(includeSummary?`<div class="summary-row">
+    <div class="stat-card"><div class="stat-val">${list.length}</div><div class="stat-lbl">KO Matches</div></div>
+    <div class="stat-card"><div class="stat-val">${Object.keys(ko.totals||{}).length}</div><div class="stat-lbl">Participants</div></div>
+    <div class="stat-card"><div class="stat-val">${resolved}</div><div class="stat-lbl">Results In</div></div>
+  </div>`:'')+`<div class="match-grid">`;
+  list.forEach(o=>{
+    const k=o.k,res=o.res,preds=koPredsFor(k);
+    const t1=res?res.team1:(preds[0]&&preds[0].team1),t2=res?res.team2:(preds[0]&&preds[0].team2);
+    const valid=preds.filter(p=>p.status!=='INVALID'),invalid=preds.filter(p=>p.status==='INVALID');
+    const total=valid.length;
+    const groups={};valid.forEach(p=>{const sc=p.draw_no_score?'Draw':(p.score1+'-'+p.score2);(groups[sc]=groups[sc]||[]).push(p);});
+    const sorted=Object.entries(groups).sort((a,b)=>b[1].length-a[1].length);
+    let ci=0;
+    const bars=sorted.map(([sc,mem])=>{
+      const pct=total?Math.round(mem.length/total*100):0;
+      let a,b,isDraw;
+      if(sc==='Draw'){isDraw=true;a=b=null;}
+      else{const ab=sc.split('-').map(Number);a=ab[0];b=ab[1];isDraw=a===b;}
+      const wl=isDraw?'Draw':(a>b?flag(t1):flag(t2));
+      let pip='';
+      if(res){const any=mem[0].sc;if(any){const tier=KOTIER[any.tier90];if(tier)pip='<span class="pip '+tier+'">+'+any.total+'</span>';else if(any.total>0)pip='<span class="pip pip1">+'+any.total+'</span>';}}
+      const color=COLORS[ci%COLORS.length];ci++;
+      const nm=mem.map(p=>p.name);
+      const label=(nm.length>2?nm.length+' members':(nm.length===2?nm[0].split(' ')[0]+' +1':nm[0]))+(isDraw?' 🔁':'');
+      return`<div class="pred-row" onclick="showKODetail('${k}','${sc}')" title="Tap for members${isDraw?' & ET/pens':''}">
+        <div class="pred-label">${label}</div>
+        <div class="pred-bar-wrap"><div class="pred-bar" style="width:${Math.max(pct,6)}%;background:${color};"><span>${sc}</span></div><div class="pred-out">${wl}</div></div>
+        <div style="display:flex;align-items:center;gap:2px;flex-shrink:0;"><div class="pred-pct">${pct}%</div>${pip}</div>
+      </div>`;
+    }).join('');
+    let invSec='';
+    if(invalid.length)invSec=`<div style="border-top:1.5px dashed #fca5a5;margin-top:8px;padding-top:8px;"><span onclick="showKOInvalid('${k}')" style="cursor:pointer;font-size:12px;font-weight:700;color:#c4314b;">⛔ Excluded — after kickoff (${invalid.length}) <span style="font-size:10px;color:#a19f9d;font-weight:400;">↗ details</span></span></div>`;
+    let resultLine='';
+    if(res){
+      let r=res.score1+'-'+res.score2+' (90)';
+      if(res.et1!=null)r+=' · ET '+res.et1+'-'+res.et2;
+      if(res.pens_winner)r+=' · pens: '+res.pens_winner;
+      resultLine=`<div class="consensus-row"><span style="color:#605e5c;">Result:</span><span style="font-weight:700;margin-left:4px;">${r}</span><span style="color:#605e5c;margin-left:6px;">→ ${flag(res.winner)} advance</span></div>`;
+    }
+    const badge=res?('&#10003; '+res.score1+'-'+res.score2):'Pending';
+    html+=`<div class="match-card" data-teams="${(t1||'').toLowerCase()} ${(t2||'').toLowerCase()}">
+      <div class="match-header"><div class="match-title">${flag(t1)} vs ${flag(t2)}${koStageBadge(res?res.stage:'Round of 32')}</div>
+      <span class="match-badge ${res?'badge-result':'badge-pending'}">${badge}</span></div>
+      <div class="match-body">${bars}${resultLine}${invSec}</div></div>`;
+  });
+  html+='</div>';
+  return html;
+}
+function showKODetail(k,sc){
+  const preds=koPredsFor(k).filter(p=>p.status!=='INVALID'&&((p.draw_no_score?'Draw':(p.score1+'-'+p.score2))===sc));
+  const res=(state.ko.results||{})[k]||null;
+  preds.sort((a,b)=>(b.sc?b.sc.total:0)-(a.sc?a.sc.total:0)||a.name.localeCompare(b.name));
+  let body=`<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#a19f9d;margin-bottom:8px;">${preds.length} member${preds.length!==1?'s':''} · 90-min pick ${sc}${res?(' · actual '+res.score1+'-'+res.score2):''}</div>`;
+  preds.forEach((p,i)=>{
+    const init=p.name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+    const pick=p.draw_no_score?'Draw':(p.score1+'-'+p.score2);
+    let extra='';
+    if(p.et1!=null)extra+=' · ET '+p.et1+'-'+p.et2;
+    if(p.pens_winner)extra+=' · pens '+p.pens_winner;
+    const pts=p.sc?(' &nbsp;<b style="color:#0a5c0a;">+'+p.sc.total+'</b>'):'';
+    const note=p.sc&&(p.sc.noteET||p.sc.notePens)?('<div class="member-ts" style="color:#a19f9d;">'+(p.sc.noteET||p.sc.notePens)+'</div>'):'';
+    body+=`<div class="member-item"><div class="member-avatar" style="background:${AVCOLS[i%AVCOLS.length]};">${init}</div>
+      <div style="flex:1;"><div class="member-name">${p.name}${pts}</div>
+      <div class="member-ts">Pick: ${pick}${extra}</div>${note}</div></div>`;
+  });
+  openModal((res?(flagText(res.team1)+' vs '+flagText(res.team2)):'Round of 32'),'90-min prediction: '+sc,body);
+}
+function showKOInvalid(k){
+  const preds=koPredsFor(k).filter(p=>p.status==='INVALID');
+  let body=`<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#c4314b;margin-bottom:8px;">${preds.length} excluded — submitted at/after kickoff</div>`;
+  preds.forEach((p,i)=>{
+    const init=p.name.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+    body+=`<div class="member-item"><div class="member-avatar" style="background:#c4314b;">${init}</div>
+      <div style="flex:1;"><div class="member-name">${p.name}</div>
+      <div class="member-ts">Pick: ${p.score1}-${p.score2} ⛔ ${p.submitted_est||''}</div></div></div>`;
+  });
+  openModal('Excluded picks','Submitted at/after kickoff',body);
+}
+function renderLBKO(){
+  const el=document.getElementById('lbContent');
+  const ko=state.ko,me=getMe();
+  const names=state.predictions.map(p=>p.name);
+  const rows=names.map(n=>{
+    let np=0;for(const k in (ko.predictions||{})[n]||{}){if((ko.results||{})[k])np++;}
+    return {name:n,pts:(ko.totals||{})[n]||0,np};
+  });
+  rows.sort((a,b)=>b.pts-a.pts||a.name.localeCompare(b.name));
+  let cur=0,pk=null;const ranks=rows.map(r=>{if(r.pts!==pk){cur++;pk=r.pts;}return cur;});
+  let h=`<div class="hover-hint">🏆 Knockout points (Round of 32 onward). 90-min 3/2/1, plus ET (+up to 3) and pens (+2) when a draw is predicted and the match goes that far. Tap a name for their picks.</div><div class="lb-wrap"><table class="lb-table"><thead><tr><th class="stick lb-c-sl">SL</th><th class="stick lb-c-rank">RANK</th><th class="left stick lb-c-player">PLAYER</th><th class="right">KO PTS</th><th>PLAYED</th></tr></thead><tbody>`;
+  rows.forEach((r,i)=>{
+    const rank=ranks[i],medal=MEDALS[rank]||'';
+    const isMe=r.name===me;
+    h+=`<tr class="${isMe?'me-row':''}"><td class="sl-cell stick lb-c-sl">${i+1}</td>
+      <td class="rank-cell stick lb-c-rank">${medal?'<span class="medal-emoji">'+medal+'</span>':'<span class="rank-badge">'+rank+'</span>'}</td>
+      <td class="name-cell clk stick lb-c-player${r.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">you</span>':''}</td>
+      <td class="pts-cell"><span class="pts-val ${r.pts>=3?'pts-blue':r.pts>0?'pts-green':'pts-grey'}">${r.pts}</span></td>
+      <td class="eff-cell muted">${r.np}</td></tr>`;
+  });
+  h+='</tbody></table></div>';
+  el.innerHTML=h;
+}
+function renderTrendKO(){
+  const el=document.getElementById('trendContent');
+  const ko=state.ko;
+  const mds=(ko&&ko.matchdays)||[];
+  if(mds.length<2){
+    const names=state.predictions.map(p=>p.name).map(n=>({name:n,pts:(ko.totals||{})[n]||0})).filter(r=>r.pts>0).sort((a,b)=>b.pts-a.pts);
+    let h='<div class="hover-hint">📈 The KO rank-trend chart appears once two or more knockout rounds have been played. So far, knockout points after '+(mds[0]||'the first round')+':</div>';
+    if(!names.length)h+='<p style="text-align:center;color:#888;padding:30px;">No knockout points yet.</p>';
+    else{h+='<div style="max-width:480px;margin:0 auto;">';names.forEach((r,i)=>{h+=`<div style="display:flex;justify-content:space-between;padding:8px 14px;border-bottom:1px solid var(--line,#eee);"><span>${i+1}. ${r.name}</span><b>${r.pts}</b></div>`;});h+='</div>';}
+    el.innerHTML=h;return;
+  }
+  // 2+ matchdays: simple cumulative lines reuse not implemented yet — fallback list
+  el.innerHTML='<div class="hover-hint">KO rank trend across rounds coming as more results arrive.</div>';
+}
+
+function calcOverallScores(){
+  const base=calcAllScores();              // [[name,s],...] group only
+  const map={}; base.forEach(([n,s])=>{map[n]=s;s.koPts=0;s.koBonus=0;});
+  const ko=state.ko;
+  if(ko){
+    for(const n in map){
+      const s=map[n], sc=ko.scores[n]||{}, pr=ko.predictions[n]||{};
+      for(const k in sc){
+        const c=sc[k], p=pr[k], res=(ko.results||{})[k];
+        if(!res) continue;
+        const label=res.team1+' vs '+res.team2;
+        const pred=(p&&p.draw_no_score)?'Draw':(p?p.score1+'-'+p.score2:'?');
+        const actual=res.score1+'-'+res.score2;
+        const item={match:label,pred,actual,ko:true};
+        if(c.tier90==='exact')s.exact.push(item);
+        else if(c.tier90==='gdiff')s.gdiff.push(item);
+        else if(c.tier90==='result')s.result.push(item);
+        else s.wrong++;
+        s.played++; s.pts+=c.total; s.koPts+=c.total; s.koBonus+=(c.total-c.p90);
+      }
+    }
+  }
+  return Object.entries(map).sort((a,b)=>b[1].pts-a[1].pts||b[1].exact.length-a[1].exact.length||b[1].gdiff.length-a[1].gdiff.length);
+}
+function buildOverallTimeline(){
+  const g=state.timeline, ko=state.ko;
+  if(!g) return g;
+  if(!ko||!(ko.matchdays||[]).length) return g;
+  const names=Object.keys(g.points), gN=g.matchdays.length, koMDs=ko.matchdays;
+  const koByMD=koMDs.map(()=>[]);
+  for(const k in (ko.results||{})){const r=ko.results[k];const j=koMDs.indexOf(r.et_date);if(j>=0)koByMD[j].push(k);}
+  const out={matchdays:g.matchdays.slice(),labels:(g.labels||g.matchdays).slice(),points:{},exact:{},gdiff:{}};
+  koMDs.forEach((d,j)=>{out.matchdays.push(gN+1+j);out.labels.push('R32');});
+  names.forEach(n=>{
+    out.points[n]=g.points[n].slice();
+    out.exact[n]=g.exact?g.exact[n].slice():g.points[n].map(()=>0);
+    out.gdiff[n]=g.gdiff?g.gdiff[n].slice():g.points[n].map(()=>0);
+    let cumP=g.points[n][gN-1]||0, cumE=(g.exact&&g.exact[n][gN-1])||0, cumG=(g.gdiff&&g.gdiff[n][gN-1])||0;
+    koByMD.forEach(ks=>{
+      ks.forEach(k=>{const c=(ko.scores[n]||{})[k];if(c){cumP+=c.total;if(c.tier90==='exact')cumE++;else if(c.tier90==='gdiff')cumG++;}});
+      out.points[n].push(cumP);out.exact[n].push(cumE);out.gdiff[n].push(cumG);
+    });
+  });
+  return out;
 }
 
 initTheme();
