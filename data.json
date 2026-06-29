@@ -22183,6 +22183,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 04:26 PM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 04:26 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 04:26 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kesava Prasad": {
@@ -22197,6 +22239,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 02:11 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:13 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:13 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:13 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22215,6 +22299,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 11:56 PM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 11:56 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 11:56 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Deepa R Rao": {
@@ -22229,6 +22355,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 04:51 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:38 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:38 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:38 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22247,6 +22415,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:03 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:03 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:03 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sunilraj": {
@@ -22261,6 +22471,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 05:28 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:01 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:01 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:01 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22279,6 +22531,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:44 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:44 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:44 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sreejith Ramachandran": {
@@ -22295,6 +22589,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:04 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:04 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:04 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Shaik Afzal": {
@@ -22309,6 +22645,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 06:04 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 05:18 PM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 05:18 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 05:18 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22341,6 +22719,34 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:58 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:58 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Tony": {
@@ -22361,14 +22767,42 @@
     "2": {
      "team1": "Brazil",
      "team2": "Japan",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:49 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:49 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
      "score1": 3,
      "score2": 1,
      "draw_no_score": false,
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 11:21 AM EST",
-     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "submitted_est": "Jun 29 2026 03:49 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22387,6 +22821,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:05 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:05 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:05 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Harish": {
@@ -22401,6 +22877,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 07:02 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:26 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:26 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:26 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22419,6 +22937,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:44 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:44 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 2,
+     "et2": 1,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 04:44 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Krishnan": {
@@ -22433,6 +22993,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 07:38 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:30 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:30 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:30 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22465,6 +23067,34 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 09:36 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 28 2026 09:36 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kamal": {
@@ -22479,6 +23109,48 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 08:18 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:08 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:08 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:08 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22507,8 +23179,36 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 08:22 AM EST",
+     "submitted_est": "Jun 29 2026 10:17 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:17 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:17 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22531,14 +23231,28 @@
     "2": {
      "team1": "Brazil",
      "team2": "Japan",
-     "score1": 3,
-     "score2": 2,
+     "score1": 2,
+     "score2": 0,
      "draw_no_score": false,
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 12:15 PM EST",
+     "submitted_est": "Jun 29 2026 09:59 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:59 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22561,14 +23275,42 @@
     "2": {
      "team1": "Brazil",
      "team2": "Japan",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:54 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
      "score1": 2,
      "score2": 0,
      "draw_no_score": false,
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 08:47 AM EST",
-     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "submitted_est": "Jun 29 2026 03:54 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:54 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22617,6 +23359,48 @@
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:12 AM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 10:12 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Netherlands",
+     "submitted_est": "Jun 29 2026 10:12 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Nandhini Viswanath": {
@@ -22647,6 +23431,34 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:32 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 09:32 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Srikanth N R": {
@@ -22673,8 +23485,36 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 11:20 AM EST",
+     "submitted_est": "Jun 29 2026 03:47 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:47 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 2,
+     "et2": 1,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 03:47 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22707,6 +23547,34 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:22 AM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 05:22 AM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Baba Krishnankutty": {
@@ -22727,14 +23595,42 @@
     "2": {
      "team1": "Brazil",
      "team2": "Japan",
+     "score1": 4,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 12:48 PM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
      "score1": 3,
      "score2": 1,
      "draw_no_score": false,
      "et1": null,
      "et2": null,
      "pens_winner": null,
-     "submitted_est": "Jun 28 2026 12:17 PM EST",
-     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "submitted_est": "Jun 29 2026 12:48 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 12:48 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22765,6 +23661,50 @@
      "pens_winner": null,
      "submitted_est": "Jun 28 2026 02:01 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    }
+   },
+   "Bijesh": {
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 12:10 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "2": {
+     "team1": "Brazil",
+     "team2": "Japan",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 12:10 PM EST",
+     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "submitted_est": "Jun 29 2026 12:10 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23129,56 +24069,38 @@
    "Jun 28"
   ],
   "timeline": {
-   "Vinod K M": [
-    1
-   ],
    "Abhilash Unniyambath": [
     0
    ],
-   "Sunilraj": [
+   "Deepa R Rao": [
     1
-   ],
-   "Sasikumar Prabhakaran": [
-    1
-   ],
-   "Srijith": [
-    2
    ],
    "Sreejith Ramachandran": [
     2
    ],
-   "Kesava Prasad": [
-    2
+   "Sunilraj": [
+    1
    ],
-   "Harish": [
+   "Tony": [
     0
    ],
-   "Srikanth N R": [
-    0
-   ],
-   "Sanjesh": [
+   "Sheejith Sahadevan": [
     2
    ],
-   "Vinod Menon": [
+   "Nandhini Viswanath": [
+    0
+   ],
+   "Krishnan": [
+    2
+   ],
+   "Smitha Ramesh": [
     2
    ],
    "Praveen Kodurkalam": [
     2
    ],
-   "Tony": [
-    0
-   ],
-   "Ashik": [
+   "Rajith": [
     2
-   ],
-   "Krishnan": [
-    2
-   ],
-   "Satheesh": [
-    1
-   ],
-   "KD": [
-    3
    ],
    "P Vijayan": [
     2
@@ -23186,28 +24108,49 @@
    "Shaik Afzal": [
     2
    ],
-   "Rajith": [
+   "Kesava Prasad": [
     2
    ],
-   "Nandhini Viswanath": [
-    0
+   "Satheesh": [
+    1
    ],
-   "Baba Krishnankutty": [
-    2
-   ],
-   "Kamal": [
+   "Harish": [
     0
    ],
    "Senthil Kumar": [
     0
    ],
-   "Smitha Ramesh": [
+   "Srikanth N R": [
+    0
+   ],
+   "Baba Krishnankutty": [
     2
    ],
-   "Deepa R Rao": [
+   "Sanjesh": [
+    2
+   ],
+   "Vinod Menon": [
+    2
+   ],
+   "Sasikumar Prabhakaran": [
     1
    ],
-   "Sheejith Sahadevan": [
+   "Kamal": [
+    0
+   ],
+   "Bijesh": [
+    0
+   ],
+   "Ashik": [
+    2
+   ],
+   "KD": [
+    3
+   ],
+   "Vinod K M": [
+    1
+   ],
+   "Srijith": [
     2
    ]
   }
