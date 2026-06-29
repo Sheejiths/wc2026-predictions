@@ -5,7 +5,7 @@
   "matches_played": 72,
   "matches_scored": 68,
   "group": "PDC Friends 1991-93",
-  "ko_results": 1
+  "ko_results": 2
  },
  "predictions": [
   {
@@ -21488,11 +21488,14 @@
     "t2": "Japan",
     "slot2": "Runner-up F",
     "t2src": "final",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
-    "children": []
+    "s1": 2,
+    "s2": 1,
+    "winner": "Brazil",
+    "status": "actual",
+    "children": [],
+    "et1": null,
+    "et2": null,
+    "pens_winner": null
    },
    {
     "m": 3,
@@ -21725,11 +21728,11 @@
    {
     "m": 18,
     "round": "R16",
-    "t1": null,
+    "t1": "Brazil",
     "t2": null,
-    "t1src": "tbd",
+    "t1src": "live",
     "t2src": "tbd",
-    "slot1": "TBD",
+    "slot1": "Winner M2",
     "slot2": "TBD",
     "s1": null,
     "s2": null,
@@ -22166,6 +22169,21 @@
     "stage": "Round of 32",
     "kickoff_est": "Jun 28 2026 03:00 PM EST",
     "et_date": "Jun 28"
+   },
+   "2": {
+    "ko": 2,
+    "m": 2,
+    "team1": "Brazil",
+    "team2": "Japan",
+    "score1": 2,
+    "score2": 1,
+    "et1": null,
+    "et2": null,
+    "pens_winner": null,
+    "winner": "Brazil",
+    "stage": "Round of 32",
+    "kickoff_est": "Jun 29 2026 01:00 PM EST",
+    "et_date": "Jun 29"
    }
   },
   "predictions": {
@@ -22179,6 +22197,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 12:45 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22193,6 +22212,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 04:26 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22207,6 +22227,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 04:26 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22221,6 +22242,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 04:26 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22237,6 +22259,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 02:11 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22251,6 +22274,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:13 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22265,6 +22289,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:13 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22279,6 +22304,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:13 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22295,6 +22321,7 @@
      "et1": 0,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Canada",
      "submitted_est": "Jun 28 2026 03:44 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22309,6 +22336,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:56 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22323,6 +22351,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:56 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22337,6 +22366,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:56 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22353,6 +22383,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 04:51 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22367,6 +22398,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:38 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22381,6 +22413,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:38 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22395,6 +22428,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:38 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22411,6 +22445,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:12 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22425,6 +22460,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:03 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22439,6 +22475,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:03 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22453,6 +22490,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:03 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22469,6 +22507,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:28 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22483,6 +22522,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:01 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22497,6 +22537,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:01 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22511,6 +22552,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:01 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22527,6 +22569,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:30 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22541,6 +22584,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:44 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22555,6 +22599,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:44 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22569,6 +22614,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:44 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22585,6 +22631,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:51 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22599,6 +22646,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:04 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22613,6 +22661,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:04 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22627,6 +22676,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:04 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22643,6 +22693,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 06:04 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22657,6 +22708,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:18 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22671,6 +22723,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:18 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22685,6 +22738,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 05:18 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22701,6 +22755,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:01 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22715,6 +22770,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:01 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22729,6 +22785,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:58 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22743,6 +22800,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:58 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22759,6 +22817,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 06:16 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22770,9 +22829,10 @@
      "score1": 1,
      "score2": 1,
      "draw_no_score": false,
-     "et1": null,
-     "et2": null,
+     "et1": 2,
+     "et2": 1,
      "pens_winner": null,
+     "named_winner": "Brazil",
      "submitted_est": "Jun 29 2026 03:49 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22787,6 +22847,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:49 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22801,6 +22862,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:49 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22817,6 +22879,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 06:38 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22831,6 +22894,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:05 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22845,6 +22909,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:05 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22859,6 +22924,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:05 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22875,6 +22941,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 07:02 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22889,6 +22956,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:26 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22903,6 +22971,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:26 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22917,6 +22986,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:26 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22933,6 +23003,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 07:13 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -22947,6 +23018,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:44 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -22961,6 +23033,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 04:44 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -22975,6 +23048,7 @@
      "et1": 2,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Netherlands",
      "submitted_est": "Jun 29 2026 04:44 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -22991,6 +23065,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 07:38 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23005,6 +23080,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:30 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23019,6 +23095,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:30 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23033,6 +23110,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:30 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23049,6 +23127,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 07:46 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23063,6 +23142,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:59 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23077,6 +23157,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 09:36 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23091,6 +23172,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 09:36 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23107,6 +23189,7 @@
      "et1": 0,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Canada",
      "submitted_est": "Jun 28 2026 08:18 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23121,6 +23204,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:08 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23135,6 +23219,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:08 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23149,6 +23234,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:08 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23165,6 +23251,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:22 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23179,6 +23266,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:17 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23193,6 +23281,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:17 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23207,6 +23296,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:17 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23223,6 +23313,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:32 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23237,6 +23328,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:59 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23251,6 +23343,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:59 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23267,6 +23360,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:47 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23281,6 +23375,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:54 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23295,6 +23390,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:54 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23309,6 +23405,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:54 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23325,6 +23422,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:58 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23339,6 +23437,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 08:58 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23355,6 +23454,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:07 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23369,6 +23469,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:12 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23383,6 +23484,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 10:12 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23397,6 +23499,7 @@
      "et1": 0,
      "et2": 0,
      "pens_winner": "Netherlands",
+     "named_winner": "Netherlands",
      "submitted_est": "Jun 29 2026 10:12 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23413,6 +23516,7 @@
      "et1": 0,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Canada",
      "submitted_est": "Jun 28 2026 01:21 PM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23427,6 +23531,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 01:21 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23441,6 +23546,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:32 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23455,6 +23561,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 09:32 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23471,6 +23578,7 @@
      "et1": 0,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Canada",
      "submitted_est": "Jun 28 2026 11:20 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23485,6 +23593,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:47 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23499,6 +23608,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 03:47 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23513,6 +23623,7 @@
      "et1": 2,
      "et2": 1,
      "pens_winner": null,
+     "named_winner": "Netherlands",
      "submitted_est": "Jun 29 2026 03:47 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23529,6 +23640,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:39 AM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23543,6 +23655,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 11:39 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23557,6 +23670,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:22 AM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23571,6 +23685,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 05:22 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23587,6 +23702,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 12:17 PM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23601,6 +23717,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:48 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23615,6 +23732,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:48 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23629,6 +23747,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:48 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23645,6 +23764,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 28 2026 02:01 PM EST",
      "kickoff_est": "Jun 28 2026 03:00 PM EST",
      "status": "valid",
@@ -23659,6 +23779,7 @@
      "et1": 1,
      "et2": 0,
      "pens_winner": null,
+     "named_winner": "Brazil",
      "submitted_est": "Jun 28 2026 02:01 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23675,6 +23796,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:10 PM EST",
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
@@ -23689,6 +23811,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:10 PM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
@@ -23703,6 +23826,7 @@
      "et1": null,
      "et2": null,
      "pens_winner": null,
+     "named_winner": null,
      "submitted_est": "Jun 29 2026 12:10 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
@@ -23720,7 +23844,19 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kesava Prasad": {
@@ -23732,7 +23868,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Senthil Kumar": {
@@ -23740,11 +23888,23 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": ""
+     "notePens": "",
+     "floor": true
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Deepa R Rao": {
@@ -23756,7 +23916,19 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Vinod Menon": {
@@ -23768,7 +23940,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sunilraj": {
@@ -23780,7 +23964,19 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "KD": {
@@ -23792,7 +23988,19 @@
      "tier90": "exact",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sreejith Ramachandran": {
@@ -23804,7 +24012,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Shaik Afzal": {
@@ -23816,7 +24036,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Abhilash Unniyambath": {
@@ -23828,7 +24060,19 @@
      "tier90": "wrong",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Tony": {
@@ -23840,7 +24084,19 @@
      "tier90": "wrong",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Ashik": {
@@ -23852,7 +24108,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Harish": {
@@ -23864,7 +24132,19 @@
      "tier90": "wrong",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sasikumar Prabhakaran": {
@@ -23876,7 +24156,19 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Krishnan": {
@@ -23888,7 +24180,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Rajith": {
@@ -23900,7 +24204,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kamal": {
@@ -23908,11 +24224,23 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
      "total": 0,
      "tier90": "wrong",
      "tierET": null,
-     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": ""
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sanjesh": {
@@ -23924,7 +24252,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Smitha Ramesh": {
@@ -23936,7 +24276,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Vinod K M": {
@@ -23948,7 +24300,19 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Srijith": {
@@ -23960,7 +24324,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sheejith Sahadevan": {
@@ -23972,7 +24348,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Nandhini Viswanath": {
@@ -23980,11 +24368,23 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": ""
+     "notePens": "",
+     "floor": true
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Srikanth N R": {
@@ -23992,11 +24392,23 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": ""
+     "notePens": "",
+     "floor": true
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Praveen Kodurkalam": {
@@ -24008,7 +24420,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Baba Krishnankutty": {
@@ -24020,7 +24444,19 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "P Vijayan": {
@@ -24032,127 +24468,183 @@
      "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
-     "notePens": ""
+     "notePens": "",
+     "floor": false
+    },
+    "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    }
+   },
+   "Bijesh": {
+    "2": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    }
   },
   "totals": {
-   "Satheesh": 1,
-   "Kesava Prasad": 2,
-   "Senthil Kumar": 0,
+   "Satheesh": 4,
+   "Kesava Prasad": 4,
+   "Senthil Kumar": 4,
    "Deepa R Rao": 1,
-   "Vinod Menon": 2,
-   "Sunilraj": 1,
-   "KD": 3,
-   "Sreejith Ramachandran": 2,
-   "Shaik Afzal": 2,
+   "Vinod Menon": 3,
+   "Sunilraj": 2,
+   "KD": 6,
+   "Sreejith Ramachandran": 3,
+   "Shaik Afzal": 3,
    "Abhilash Unniyambath": 0,
-   "Tony": 0,
-   "Ashik": 2,
-   "Harish": 0,
-   "Sasikumar Prabhakaran": 1,
-   "Krishnan": 2,
-   "Rajith": 2,
-   "Kamal": 0,
-   "Sanjesh": 2,
-   "Smitha Ramesh": 2,
-   "Vinod K M": 1,
-   "Srijith": 2,
-   "Sheejith Sahadevan": 2,
-   "Nandhini Viswanath": 0,
-   "Srikanth N R": 0,
-   "Praveen Kodurkalam": 2,
-   "Baba Krishnankutty": 2,
-   "P Vijayan": 2
+   "Tony": 1,
+   "Ashik": 5,
+   "Harish": 3,
+   "Sasikumar Prabhakaran": 4,
+   "Krishnan": 5,
+   "Rajith": 5,
+   "Kamal": 1,
+   "Sanjesh": 5,
+   "Smitha Ramesh": 3,
+   "Vinod K M": 2,
+   "Srijith": 4,
+   "Sheejith Sahadevan": 5,
+   "Nandhini Viswanath": 4,
+   "Srikanth N R": 2,
+   "Praveen Kodurkalam": 5,
+   "Baba Krishnankutty": 3,
+   "P Vijayan": 3,
+   "Bijesh": 1
   },
   "matchdays": [
-   "Jun 28"
+   "Jun 28",
+   "Jun 29"
   ],
   "timeline": {
-   "Abhilash Unniyambath": [
-    0
+   "Smitha Ramesh": [
+    2,
+    3
    ],
-   "Deepa R Rao": [
-    1
-   ],
-   "Sreejith Ramachandran": [
-    2
+   "Baba Krishnankutty": [
+    2,
+    3
    ],
    "Sunilraj": [
-    1
-   ],
-   "Tony": [
-    0
-   ],
-   "Sheejith Sahadevan": [
-    2
-   ],
-   "Nandhini Viswanath": [
-    0
-   ],
-   "Krishnan": [
-    2
-   ],
-   "Smitha Ramesh": [
+    1,
     2
    ],
    "Praveen Kodurkalam": [
-    2
+    2,
+    5
    ],
    "Rajith": [
-    2
-   ],
-   "P Vijayan": [
-    2
-   ],
-   "Shaik Afzal": [
-    2
-   ],
-   "Kesava Prasad": [
-    2
-   ],
-   "Satheesh": [
-    1
-   ],
-   "Harish": [
-    0
-   ],
-   "Senthil Kumar": [
-    0
-   ],
-   "Srikanth N R": [
-    0
-   ],
-   "Baba Krishnankutty": [
-    2
-   ],
-   "Sanjesh": [
-    2
-   ],
-   "Vinod Menon": [
-    2
-   ],
-   "Sasikumar Prabhakaran": [
-    1
-   ],
-   "Kamal": [
-    0
+    2,
+    5
    ],
    "Bijesh": [
-    0
-   ],
-   "Ashik": [
-    2
-   ],
-   "KD": [
-    3
-   ],
-   "Vinod K M": [
+    0,
     1
    ],
-   "Srijith": [
+   "Sanjesh": [
+    2,
+    5
+   ],
+   "Senthil Kumar": [
+    1,
+    4
+   ],
+   "Shaik Afzal": [
+    2,
+    3
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    4
+   ],
+   "Srikanth N R": [
+    1,
     2
+   ],
+   "Tony": [
+    0,
+    1
+   ],
+   "Kesava Prasad": [
+    2,
+    4
+   ],
+   "Vinod Menon": [
+    2,
+    3
+   ],
+   "Srijith": [
+    2,
+    4
+   ],
+   "KD": [
+    3,
+    6
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4
+   ],
+   "Satheesh": [
+    1,
+    4
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    5
+   ],
+   "Harish": [
+    0,
+    3
+   ],
+   "Kamal": [
+    1,
+    1
+   ],
+   "Vinod K M": [
+    1,
+    2
+   ],
+   "Ashik": [
+    2,
+    5
+   ],
+   "Krishnan": [
+    2,
+    5
+   ],
+   "P Vijayan": [
+    2,
+    3
+   ],
+   "Deepa R Rao": [
+    1,
+    1
    ]
   }
- }
+ },
+ "scoring_mode": "winner_floor"
 }
