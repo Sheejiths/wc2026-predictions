@@ -5,7 +5,7 @@
   "matches_played": 72,
   "matches_scored": 68,
   "group": "PDC Friends 1991-93",
-  "ko_results": 5
+  "ko_results": 6
  },
  "predictions": [
   {
@@ -21560,11 +21560,14 @@
     "t2": "Sweden",
     "slot2": "Best 3rd",
     "t2src": "final",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
-    "children": []
+    "s1": 3,
+    "s2": 0,
+    "winner": "France",
+    "status": "actual",
+    "children": [],
+    "et1": null,
+    "et2": null,
+    "pens_winner": null
    },
    {
     "m": 7,
@@ -21756,11 +21759,11 @@
     "m": 19,
     "round": "R16",
     "t1": "Morocco",
-    "t2": null,
+    "t2": "France",
     "t1src": "live",
-    "t2src": "tbd",
+    "t2src": "live",
     "slot1": "Winner M4",
-    "slot2": "TBD",
+    "slot2": "Winner M6",
     "s1": null,
     "s2": null,
     "winner": null,
@@ -22237,6 +22240,21 @@
     "winner": "Norway",
     "stage": "Round of 32",
     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+    "et_date": "Jun 30"
+   },
+   "6": {
+    "ko": 6,
+    "m": 6,
+    "team1": "France",
+    "team2": "Sweden",
+    "score1": 3,
+    "score2": 0,
+    "et1": null,
+    "et2": null,
+    "pens_winner": null,
+    "winner": "France",
+    "stage": "Round of 32",
+    "kickoff_est": "Jun 30 2026 05:00 PM EST",
     "et_date": "Jun 30"
    }
   },
@@ -25189,6 +25207,17 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kesava Prasad": {
@@ -25292,6 +25321,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Deepa R Rao": {
@@ -25340,6 +25380,17 @@
      "floor": false
     },
     "5": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
      "p90": 1,
      "pET": 0,
      "pPens": 0,
@@ -25406,6 +25457,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sunilraj": {
@@ -25448,6 +25510,17 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -25505,6 +25578,17 @@
      "pPens": 0,
      "total": 3,
      "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -25577,6 +25661,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Shaik Afzal": {
@@ -25619,6 +25714,17 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -25691,6 +25797,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Tony": {
@@ -25733,6 +25850,17 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -25790,6 +25918,17 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -25862,6 +26001,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sasikumar Prabhakaran": {
@@ -25905,6 +26055,17 @@
      "total": 3,
      "tier90": "exact",
      "tierET": "wrong",
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
      "noteET": "",
      "notePens": "",
      "floor": false
@@ -25976,6 +26137,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Rajith": {
@@ -26018,6 +26190,17 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -26080,6 +26263,17 @@
      "notePens": "",
      "floor": false
     },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "5": {
      "p90": 0,
      "pET": 0,
@@ -26136,6 +26330,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Smitha Ramesh": {
@@ -26179,6 +26384,17 @@
      "total": 2,
      "tier90": "gdiff",
      "tierET": "wrong",
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
      "noteET": "",
      "notePens": "",
      "floor": false
@@ -26240,6 +26456,17 @@
      "notePens": "",
      "floor": false
     },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "5": {
      "p90": 0,
      "pET": 0,
@@ -26270,6 +26497,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -26342,6 +26580,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Nandhini Viswanath": {
@@ -26395,6 +26644,17 @@
      "pPens": 0,
      "total": 3,
      "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -26456,6 +26716,17 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Praveen Kodurkalam": {
@@ -26509,6 +26780,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -26570,6 +26852,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "P Vijayan": {
@@ -26627,6 +26920,17 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": false
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Bijesh": {
@@ -26672,38 +26976,49 @@
      "tierET": null,
      "noteET": "",
      "notePens": ""
+    },
+    "6": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    }
   },
   "totals": {
-   "Satheesh": 5,
+   "Satheesh": 6,
    "Kesava Prasad": 4,
-   "Senthil Kumar": 7,
-   "Deepa R Rao": 3,
-   "Vinod Menon": 4,
-   "Sunilraj": 5,
-   "KD": 9,
-   "Sreejith Ramachandran": 6,
-   "Shaik Afzal": 6,
-   "Abhilash Unniyambath": 1,
-   "Tony": 2,
-   "Ashik": 6,
-   "Harish": 4,
-   "Sasikumar Prabhakaran": 8,
-   "Krishnan": 8,
-   "Rajith": 8,
-   "Kamal": 2,
-   "Sanjesh": 5,
-   "Smitha Ramesh": 8,
-   "Vinod K M": 2,
-   "Srijith": 7,
-   "Sheejith Sahadevan": 14,
-   "Nandhini Viswanath": 7,
-   "Srikanth N R": 6,
-   "Praveen Kodurkalam": 7,
-   "Baba Krishnankutty": 6,
-   "P Vijayan": 6,
-   "Bijesh": 3
+   "Senthil Kumar": 8,
+   "Deepa R Rao": 4,
+   "Vinod Menon": 5,
+   "Sunilraj": 6,
+   "KD": 10,
+   "Sreejith Ramachandran": 7,
+   "Shaik Afzal": 7,
+   "Abhilash Unniyambath": 2,
+   "Tony": 3,
+   "Ashik": 7,
+   "Harish": 7,
+   "Sasikumar Prabhakaran": 11,
+   "Krishnan": 9,
+   "Rajith": 9,
+   "Kamal": 3,
+   "Sanjesh": 6,
+   "Smitha Ramesh": 9,
+   "Vinod K M": 3,
+   "Srijith": 8,
+   "Sheejith Sahadevan": 15,
+   "Nandhini Viswanath": 8,
+   "Srikanth N R": 7,
+   "Praveen Kodurkalam": 8,
+   "Baba Krishnankutty": 7,
+   "P Vijayan": 7,
+   "Bijesh": 4
   },
   "matchdays": [
    "Jun 28",
@@ -26711,145 +27026,145 @@
    "Jun 30"
   ],
   "timeline": {
-   "Senthil Kumar": [
+   "Tony": [
+    0,
     1,
-    4,
-    7
-   ],
-   "Harish": [
-    0,
-    3,
-    4
-   ],
-   "Bijesh": [
-    0,
-    3,
     3
    ],
-   "Vinod K M": [
-    1,
+   "Praveen Kodurkalam": [
     2,
-    2
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    6
+    5,
+    8
    ],
    "Sasikumar Prabhakaran": [
     1,
     7,
-    8
+    11
    ],
-   "KD": [
-    3,
-    6,
+   "Srikanth N R": [
+    1,
+    5,
+    7
+   ],
+   "Ashik": [
+    2,
+    5,
+    7
+   ],
+   "Rajith": [
+    2,
+    5,
     9
    ],
-   "Deepa R Rao": [
-    1,
-    2,
-    3
+   "Harish": [
+    0,
+    3,
+    7
    ],
-   "Satheesh": [
-    1,
+   "Srijith": [
+    2,
     4,
-    5
+    8
    ],
    "Vinod Menon": [
     2,
     3,
+    5
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    7
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    6
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
     4
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    7
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    3
    ],
    "Kesava Prasad": [
     2,
     4,
     4
    ],
-   "Krishnan": [
+   "Smitha Ramesh": [
     2,
     5,
+    9
+   ],
+   "Kamal": [
+    1,
+    1,
+    3
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
     8
    ],
    "Sheejith Sahadevan": [
     2,
     11,
-    14
-   ],
-   "Srijith": [
-    2,
-    4,
-    7
-   ],
-   "P Vijayan": [
-    2,
-    6,
-    6
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    6
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    5
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    6
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    8
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    5
-   ],
-   "Kamal": [
-    1,
-    1,
-    2
-   ],
-   "Rajith": [
-    2,
-    5,
-    8
-   ],
-   "Ashik": [
-    2,
-    5,
-    6
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    7
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    1
+    15
    ],
    "Nandhini Viswanath": [
     1,
     4,
+    8
+   ],
+   "P Vijayan": [
+    2,
+    6,
     7
    ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
+   "Satheesh": [
+    1,
+    4,
     6
    ],
-   "Tony": [
+   "Krishnan": [
+    2,
+    5,
+    9
+   ],
+   "KD": [
+    3,
+    6,
+    10
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    7
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    6
+   ],
+   "Bijesh": [
     0,
-    1,
-    2
+    3,
+    4
    ]
   }
  },
