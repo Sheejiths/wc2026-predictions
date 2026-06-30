@@ -5,7 +5,7 @@
   "matches_played": 72,
   "matches_scored": 68,
   "group": "PDC Friends 1991-93",
-  "ko_results": 2
+  "ko_results": 3
  },
  "predictions": [
   {
@@ -21506,11 +21506,14 @@
     "t2": "Paraguay",
     "slot2": "Best 3rd",
     "t2src": "final",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
-    "children": []
+    "s1": 1,
+    "s2": 1,
+    "winner": "Paraguay",
+    "status": "actual",
+    "children": [],
+    "et1": 0,
+    "et2": 0,
+    "pens_winner": "Paraguay"
    },
    {
     "m": 4,
@@ -21711,11 +21714,11 @@
     "m": 17,
     "round": "R16",
     "t1": "Canada",
-    "t2": null,
+    "t2": "Paraguay",
     "t1src": "live",
-    "t2src": "tbd",
+    "t2src": "live",
     "slot1": "Winner M1",
-    "slot2": "TBD",
+    "slot2": "Winner M3",
     "s1": null,
     "s2": null,
     "winner": null,
@@ -22183,6 +22186,21 @@
     "winner": "Brazil",
     "stage": "Round of 32",
     "kickoff_est": "Jun 29 2026 01:00 PM EST",
+    "et_date": "Jun 29"
+   },
+   "3": {
+    "ko": 3,
+    "m": 3,
+    "team1": "Germany",
+    "team2": "Paraguay",
+    "score1": 1,
+    "score2": 1,
+    "et1": 0,
+    "et2": 0,
+    "pens_winner": "Paraguay",
+    "winner": "Paraguay",
+    "stage": "Round of 32",
+    "kickoff_est": "Jun 29 2026 04:30 PM EST",
     "et_date": "Jun 29"
    }
   },
@@ -23348,6 +23366,21 @@
      "kickoff_est": "Jun 29 2026 04:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Netherlands",
+     "submitted_est": "Jun 29 2026 07:17 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Vinod K M": {
@@ -23784,6 +23817,36 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "3": {
+     "team1": "Germany",
+     "team2": "Paraguay",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 29 2026 02:07 PM EST",
+     "kickoff_est": "Jun 29 2026 04:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "4": {
+     "team1": "Netherlands",
+     "team2": "Morocco",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Netherlands",
+     "submitted_est": "Jun 29 2026 02:07 PM EST",
+     "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Bijesh": {
@@ -23857,6 +23920,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kesava Prasad": {
@@ -23866,6 +23940,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -23905,6 +23990,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Deepa R Rao": {
@@ -23914,6 +24010,17 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -23943,6 +24050,17 @@
      "notePens": "",
      "floor": false
     },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "2": {
      "p90": 1,
      "pET": 0,
@@ -23962,6 +24080,17 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -23991,6 +24120,17 @@
      "notePens": "",
      "floor": false
     },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "2": {
      "p90": 3,
      "pET": 0,
@@ -24010,6 +24150,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24049,6 +24200,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Abhilash Unniyambath": {
@@ -24064,6 +24226,17 @@
      "floor": false
     },
     "2": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
      "p90": 0,
      "pET": 0,
      "pPens": 0,
@@ -24097,6 +24270,17 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Ashik": {
@@ -24106,6 +24290,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24125,6 +24320,17 @@
    },
    "Harish": {
     "1": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
      "p90": 0,
      "pET": 0,
      "pPens": 0,
@@ -24159,6 +24365,17 @@
      "notePens": "",
      "floor": false
     },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "2": {
      "p90": 3,
      "pET": 0,
@@ -24178,6 +24395,17 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24217,6 +24445,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kamal": {
@@ -24230,6 +24469,17 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     },
     "2": {
      "p90": 0,
@@ -24265,6 +24515,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Smitha Ramesh": {
@@ -24289,6 +24550,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Vinod K M": {
@@ -24309,6 +24581,17 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24361,6 +24644,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Nandhini Viswanath": {
@@ -24381,6 +24675,17 @@
      "pPens": 0,
      "total": 3,
      "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24409,6 +24714,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Praveen Kodurkalam": {
@@ -24429,6 +24745,17 @@
      "pPens": 0,
      "total": 3,
      "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -24457,6 +24784,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "P Vijayan": {
@@ -24481,9 +24819,31 @@
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
+    },
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Bijesh": {
+    "3": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
     "2": {
      "p90": 1,
      "pET": 0,
@@ -24532,9 +24892,57 @@
    "Jun 29"
   ],
   "timeline": {
-   "Smitha Ramesh": [
+   "Vinod K M": [
+    1,
+    2
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0
+   ],
+   "Sreejith Ramachandran": [
     2,
     3
+   ],
+   "Shaik Afzal": [
+    2,
+    3
+   ],
+   "KD": [
+    3,
+    6
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4
+   ],
+   "Rajith": [
+    2,
+    5
+   ],
+   "Kesava Prasad": [
+    2,
+    4
+   ],
+   "Kamal": [
+    1,
+    1
+   ],
+   "Tony": [
+    0,
+    1
+   ],
+   "P Vijayan": [
+    2,
+    3
+   ],
+   "Srikanth N R": [
+    1,
+    2
    ],
    "Baba Krishnankutty": [
     2,
@@ -24544,75 +24952,15 @@
     1,
     2
    ],
-   "Praveen Kodurkalam": [
-    2,
-    5
-   ],
-   "Rajith": [
-    2,
-    5
-   ],
-   "Bijesh": [
-    0,
-    1
-   ],
-   "Sanjesh": [
-    2,
-    5
-   ],
    "Senthil Kumar": [
     1,
-    4
-   ],
-   "Shaik Afzal": [
-    2,
-    3
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    4
-   ],
-   "Srikanth N R": [
-    1,
-    2
-   ],
-   "Tony": [
-    0,
-    1
-   ],
-   "Kesava Prasad": [
-    2,
     4
    ],
    "Vinod Menon": [
     2,
     3
    ],
-   "Srijith": [
-    2,
-    4
-   ],
-   "KD": [
-    3,
-    6
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4
-   ],
-   "Satheesh": [
-    1,
-    4
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3
-   ],
-   "Sheejith Sahadevan": [
+   "Krishnan": [
     2,
     5
    ],
@@ -24620,29 +24968,41 @@
     0,
     3
    ],
-   "Kamal": [
+   "Sheejith Sahadevan": [
+    2,
+    5
+   ],
+   "Sanjesh": [
+    2,
+    5
+   ],
+   "Srijith": [
+    2,
+    4
+   ],
+   "Satheesh": [
+    1,
+    4
+   ],
+   "Bijesh": [
+    0,
+    1
+   ],
+   "Deepa R Rao": [
     1,
     1
    ],
-   "Vinod K M": [
+   "Sasikumar Prabhakaran": [
     1,
-    2
+    4
    ],
    "Ashik": [
     2,
     5
    ],
-   "Krishnan": [
-    2,
-    5
-   ],
-   "P Vijayan": [
+   "Smitha Ramesh": [
     2,
     3
-   ],
-   "Deepa R Rao": [
-    1,
-    1
    ]
   }
  },
