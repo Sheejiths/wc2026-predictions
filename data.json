@@ -22283,6 +22283,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Norway",
+     "submitted_est": "Jun 30 2026 12:06 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 12:06 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 12:06 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kesava Prasad": {
@@ -22407,6 +22452,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:52 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:52 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:52 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Deepa R Rao": {
@@ -22467,6 +22557,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 03:38 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:27 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:27 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:27 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22531,6 +22666,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:03 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:03 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:03 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sunilraj": {
@@ -22591,6 +22771,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 04:01 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:39 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:39 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:39 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22655,6 +22880,51 @@
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:54 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:54 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:54 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sreejith Ramachandran": {
@@ -22715,6 +22985,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 10:04 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:38 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:38 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jun 30 2026 09:38 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22779,6 +23094,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:18 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:18 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:18 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Abhilash Unniyambath": {
@@ -22839,6 +23199,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 03:58 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:37 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:37 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:37 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22903,6 +23308,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:31 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:31 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:31 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Ashik": {
@@ -22963,6 +23413,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 04:05 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:45 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:45 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:45 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23027,6 +23522,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:29 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:29 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jun 30 2026 09:29 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sasikumar Prabhakaran": {
@@ -23087,6 +23627,51 @@
      "named_winner": "Netherlands",
      "submitted_est": "Jun 29 2026 04:44 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:03 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Norway",
+     "submitted_est": "Jun 30 2026 06:03 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:03 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23151,6 +23736,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:17 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:17 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 08:17 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Rajith": {
@@ -23211,6 +23841,51 @@
      "named_winner": null,
      "submitted_est": "Jun 28 2026 09:36 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:08 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:08 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:08 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23275,6 +23950,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:00 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Norway",
+     "submitted_est": "Jun 30 2026 06:00 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:00 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sanjesh": {
@@ -23335,6 +24055,36 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 10:17 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 01:53 PM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 01:53 PM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23399,6 +24149,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:40 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 05:40 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Ecuador",
+     "submitted_est": "Jun 30 2026 05:40 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Vinod K M": {
@@ -23461,6 +24256,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:32 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:32 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 04:32 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Srijith": {
@@ -23491,6 +24331,51 @@
      "named_winner": null,
      "submitted_est": "Jun 28 2026 08:58 AM EST",
      "kickoff_est": "Jun 29 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:20 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:20 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 06:20 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23555,6 +24440,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 07:01 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 07:01 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jun 30 2026 07:01 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Nandhini Viswanath": {
@@ -23615,6 +24545,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 09:32 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:09 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:09 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:09 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23679,6 +24654,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Norway",
+     "named_winner": "Norway",
+     "submitted_est": "Jun 30 2026 02:46 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 02:46 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 02:46 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Praveen Kodurkalam": {
@@ -23739,6 +24759,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 05:22 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:33 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:33 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 03:33 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23803,6 +24868,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:12 AM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:12 AM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:12 AM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "P Vijayan": {
@@ -23865,6 +24975,51 @@
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Ivory Coast",
+     "named_winner": "Ivory Coast",
+     "submitted_est": "Jun 30 2026 12:29 PM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 12:29 PM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 12:29 PM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Bijesh": {
@@ -23910,6 +25065,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 12:10 PM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "5": {
+     "team1": "Ivory Coast",
+     "team2": "Norway",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 01:09 PM EST",
+     "kickoff_est": "Jun 30 2026 01:00 PM EST",
+     "status": "INVALID",
+     "stage": "Round of 32"
+    },
+    "6": {
+     "team1": "France",
+     "team2": "Sweden",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 01:09 PM EST",
+     "kickoff_est": "Jun 30 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "7": {
+     "team1": "Mexico",
+     "team2": "Ecuador",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 01:09 PM EST",
+     "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25207,33 +26407,61 @@
    "Jun 29"
   ],
   "timeline": {
+   "Srijith": [
+    2,
+    4
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3
+   ],
+   "Vinod Menon": [
+    2,
+    3
+   ],
+   "Sanjesh": [
+    2,
+    5
+   ],
+   "Shaik Afzal": [
+    2,
+    3
+   ],
    "Abhilash Unniyambath": [
     0,
     0
    ],
-   "Krishnan": [
-    2,
+   "Srikanth N R": [
+    1,
     5
    ],
    "Senthil Kumar": [
     1,
     4
    ],
-   "Bijesh": [
-    0,
-    3
+   "Ashik": [
+    2,
+    5
+   ],
+   "Smitha Ramesh": [
+    2,
+    5
    ],
    "Kesava Prasad": [
     2,
     4
    ],
-   "Vinod K M": [
+   "Satheesh": [
     1,
-    2
+    4
    ],
-   "Sreejith Ramachandran": [
-    2,
+   "Harish": [
+    0,
     3
+   ],
+   "Tony": [
+    0,
+    1
    ],
    "Nandhini Viswanath": [
     1,
@@ -25243,47 +26471,39 @@
     1,
     7
    ],
-   "Ashik": [
-    2,
-    5
-   ],
-   "Satheesh": [
-    1,
-    4
-   ],
-   "Rajith": [
-    2,
-    5
-   ],
-   "Srikanth N R": [
-    1,
-    5
-   ],
-   "P Vijayan": [
-    2,
-    6
-   ],
-   "Vinod Menon": [
-    2,
-    3
-   ],
-   "Harish": [
+   "Bijesh": [
     0,
     3
    ],
-   "Smitha Ramesh": [
+   "Sreejith Ramachandran": [
     2,
-    5
-   ],
-   "Srijith": [
-    2,
-    4
+    3
    ],
    "KD": [
     3,
     6
    ],
-   "Sanjesh": [
+   "Vinod K M": [
+    1,
+    2
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11
+   ],
+   "Deepa R Rao": [
+    1,
+    2
+   ],
+   "Sunilraj": [
+    1,
+    2
+   ],
+   "Rajith": [
+    2,
+    5
+   ],
+   "Praveen Kodurkalam": [
     2,
     5
    ],
@@ -25291,33 +26511,13 @@
     1,
     1
    ],
-   "Shaik Afzal": [
+   "P Vijayan": [
     2,
-    3
+    6
    ],
-   "Baba Krishnankutty": [
-    2,
-    3
-   ],
-   "Praveen Kodurkalam": [
+   "Krishnan": [
     2,
     5
-   ],
-   "Sunilraj": [
-    1,
-    2
-   ],
-   "Tony": [
-    0,
-    1
-   ],
-   "Deepa R Rao": [
-    1,
-    2
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11
    ]
   }
  },
