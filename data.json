@@ -25020,12 +25020,27 @@
      "score1": 3,
      "score2": 0,
      "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:17 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
      "et1": 0,
      "et2": 1,
      "pens_winner": null,
-     "named_winner": "DR Congo",
+     "named_winner": "Senegal",
      "submitted_est": "Jul 01 2026 06:17 AM EST",
-     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     },
@@ -26319,6 +26334,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 01:09 PM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:15 PM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "INVALID",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:15 PM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:15 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -28496,25 +28556,10 @@
    "Jun 30"
   ],
   "timeline": {
-   "Tony": [
-    0,
-    1,
-    6
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11
-   ],
-   "Sanjesh": [
+   "Vinod Menon": [
     2,
-    5,
-    7
+    3,
+    6
    ],
    "Baba Krishnankutty": [
     2,
@@ -28526,60 +28571,110 @@
     5,
     9
    ],
-   "Bijesh": [
+   "Deepa R Rao": [
+    1,
+    2,
+    7
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9
+   ],
+   "Abhilash Unniyambath": [
     0,
-    3,
-    5
+    0,
+    2
    ],
    "Kesava Prasad": [
     2,
     4,
     4
    ],
-   "Srikanth N R": [
-    1,
-    5,
-    10
+   "KD": [
+    3,
+    6,
+    11
    ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10
-   ],
-   "Vinod Menon": [
+   "Sreejith Ramachandran": [
     2,
     3,
-    6
+    8
    ],
-   "Satheesh": [
-    1,
-    4,
-    7
-   ],
-   "Krishnan": [
+   "Rajith": [
     2,
     5,
     10
    ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16
+   "Harish": [
+    0,
+    3,
+    8
    ],
    "Kamal": [
     1,
     1,
     6
    ],
-   "KD": [
+   "Sanjesh": [
+    2,
+    5,
+    7
+   ],
+   "Tony": [
+    0,
+    1,
+    6
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16
+   ],
+   "Ashik": [
+    2,
+    5,
+    10
+   ],
+   "Shaik Afzal": [
+    2,
     3,
-    6,
+    10
+   ],
+   "Bijesh": [
+    0,
+    3,
+    5
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
     11
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7
    ],
    "Sasikumar Prabhakaran": [
     1,
@@ -28591,49 +28686,14 @@
     4,
     9
    ],
+   "Krishnan": [
+    2,
+    5,
+    10
+   ],
    "P Vijayan": [
     2,
     6,
-    10
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8
-   ],
-   "Ashik": [
-    2,
-    5,
-    10
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4
-   ],
-   "Harish": [
-    0,
-    3,
-    8
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9
-   ],
-   "Rajith": [
-    2,
-    5,
-    10
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
     10
    ]
   }
