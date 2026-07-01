@@ -22382,6 +22382,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:01 PM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:01 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:01 PM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kesava Prasad": {
@@ -22442,6 +22487,51 @@
      "named_winner": null,
      "submitted_est": "Jun 29 2026 05:13 AM EST",
      "kickoff_est": "Jun 29 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:05 PM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:05 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:05 PM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22551,6 +22641,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:01 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:01 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:01 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Deepa R Rao": {
@@ -22656,6 +22791,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 06:27 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:15 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Senegal",
+     "submitted_est": "Jul 01 2026 05:15 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:15 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22765,6 +22945,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:53 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:53 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "USA",
+     "submitted_est": "Jul 01 2026 12:53 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sunilraj": {
@@ -22870,6 +23095,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 05:39 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:01 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:01 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:01 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22979,6 +23249,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:18 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:18 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:18 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sreejith Ramachandran": {
@@ -23084,6 +23399,51 @@
      "named_winner": "Mexico",
      "submitted_est": "Jun 30 2026 09:38 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 11:00 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 11:00 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 11:00 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23193,6 +23553,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:00 PM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:00 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 10:00 PM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Abhilash Unniyambath": {
@@ -23298,6 +23703,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 08:37 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:05 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:05 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:05 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23514,6 +23964,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:47 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:47 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:47 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Harish": {
@@ -23619,6 +24114,51 @@
      "named_winner": "Mexico",
      "submitted_est": "Jun 30 2026 09:29 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:27 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:27 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:27 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23728,6 +24268,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:00 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:00 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:00 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Krishnan": {
@@ -23833,6 +24418,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 08:17 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:58 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:58 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:58 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23942,6 +24572,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:31 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:31 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 08:31 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kamal": {
@@ -24049,6 +24724,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:53 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:53 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:53 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sanjesh": {
@@ -24139,6 +24859,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 01:53 PM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:32 PM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:32 PM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jun 30 2026 09:32 PM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24248,6 +25013,36 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "DR Congo",
+     "submitted_est": "Jul 01 2026 06:17 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 06:17 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Vinod K M": {
@@ -24355,6 +25150,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:54 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:54 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:54 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Srijith": {
@@ -24430,6 +25270,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 06:20 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:33 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:33 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 05:33 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24539,6 +25424,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:26 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Belgium",
+     "named_winner": "Belgium",
+     "submitted_est": "Jul 01 2026 10:26 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:26 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Nandhini Viswanath": {
@@ -24644,6 +25574,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 10:09 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:38 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:38 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 10:38 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24753,6 +25728,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:02 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Belgium",
+     "submitted_est": "Jul 01 2026 02:02 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 02:02 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Praveen Kodurkalam": {
@@ -24858,6 +25878,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 03:33 AM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:22 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Belgium",
+     "submitted_est": "Jul 01 2026 12:22 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 12:22 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24967,6 +26032,51 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:15 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:15 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 01:15 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "P Vijayan": {
@@ -25072,6 +26182,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 12:29 PM EST",
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "8": {
+     "team1": "England",
+     "team2": "DR Congo",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:41 AM EST",
+     "kickoff_est": "Jul 01 2026 12:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "10": {
+     "team1": "USA",
+     "team2": "Bosnia & Herzegovina",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:41 AM EST",
+     "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "9": {
+     "team1": "Belgium",
+     "team2": "Senegal",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 01 2026 09:41 AM EST",
+     "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -27341,28 +28496,48 @@
    "Jun 30"
   ],
   "timeline": {
-   "Shaik Afzal": [
-    2,
-    3,
-    10
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6
-   ],
-   "Kamal": [
-    1,
+   "Tony": [
+    0,
     1,
     6
    ],
-   "Srijith": [
-    2,
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2
+   ],
+   "Nandhini Viswanath": [
+    1,
     4,
+    11
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
     9
    ],
-   "Rajith": [
+   "Bijesh": [
+    0,
+    3,
+    5
+   ],
+   "Kesava Prasad": [
     2,
+    4,
+    4
+   ],
+   "Srikanth N R": [
+    1,
     5,
     10
    ],
@@ -27371,59 +28546,14 @@
     4,
     10
    ],
-   "Ashik": [
+   "Vinod Menon": [
     2,
-    5,
-    10
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    10
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14
+    3,
+    6
    ],
    "Satheesh": [
     1,
     4,
-    7
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
     7
    ],
    "Krishnan": [
@@ -27431,55 +28561,80 @@
     5,
     10
    ],
-   "Sanjesh": [
-    2,
-    5,
-    7
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5
-   ],
-   "Sunilraj": [
+   "Deepa R Rao": [
     1,
     2,
     7
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16
+   ],
+   "Kamal": [
+    1,
+    1,
+    6
    ],
    "KD": [
     3,
     6,
     11
    ],
-   "Tony": [
-    0,
+   "Sasikumar Prabhakaran": [
     1,
-    6
+    7,
+    14
    ],
-   "Kesava Prasad": [
+   "Srijith": [
     2,
     4,
-    4
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8
-   ],
-   "Harish": [
-    0,
-    3,
-    8
+    9
    ],
    "P Vijayan": [
     2,
     6,
     10
    ],
-   "Abhilash Unniyambath": [
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8
+   ],
+   "Ashik": [
+    2,
+    5,
+    10
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4
+   ],
+   "Harish": [
     0,
-    0,
-    2
+    3,
+    8
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9
+   ],
+   "Rajith": [
+    2,
+    5,
+    10
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10
    ]
   }
  },
