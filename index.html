@@ -329,9 +329,13 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
 .lb-table.lb-ko .lb-c-player{min-width:90px;}
 .eff-cell{text-align:center;width:50px;font-size:12px;font-weight:600;color:#323130;}
 .eff-cell.muted{color:#a19f9d;font-weight:400;}
-.lb-controls{display:flex;justify-content:flex-end;margin:2px 2px 8px;}
+.lb-controls{display:flex;justify-content:space-between;align-items:center;margin:2px 2px 8px;}
 .lb-reset{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;}
 .lb-reset:active{transform:scale(.96);}
+.lb-share{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #107c10;background:#107c10;color:#fff;cursor:pointer;font-weight:700;}
+.lb-share:active{transform:scale(.96);}
+.lb-share:disabled{opacity:.6;cursor:default;}
+body.dark .lb-reset{background:#2b2a29;color:#e6e6e6;border-color:#444;}
 .brk-scroll{overflow:auto;-webkit-overflow-scrolling:touch;border:1px solid #edebe9;border-radius:10px;background:#fff;max-height:80vh;}
 .brk-canvas{position:relative;}
 .brk-head{position:absolute;font-size:10px;font-weight:700;color:#8a8886;text-transform:uppercase;letter-spacing:.05em;text-align:center;}
@@ -413,7 +417,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.5</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · R32 BONUS column is tappable — modal breaks down ET/pens bonus per match<br>
+  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -422,7 +426,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.5</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · R32 BONUS column is tappable — modal breaks down ET/pens bonus per match<br>
+  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -431,7 +435,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.5</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · R32 BONUS column is tappable — modal breaks down ET/pens bonus per match<br>
+  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -440,7 +444,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.5</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · R32 BONUS column is tappable — modal breaks down ET/pens bonus per match<br>
+  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -449,7 +453,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.5</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · R32 BONUS column is tappable — modal breaks down ET/pens bonus per match<br>
+  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -509,6 +513,7 @@ async function loadData(){
       document.getElementById('lastUpdated').textContent='📅 Last updated: '+upd+' · '+ms+' of '+data.meta.matches_played+' matches scored';
     }
     state.predictions=data.predictions||[];
+    state.meta=data.meta||{};
     state.timeline=data.timeline||null;
     state.standings=data.standings||null;
     state.bracket=data.bracket||null;
@@ -835,6 +840,75 @@ function ensureH2C(cb){
   s.onload=function(){cb();};
   s.onerror=function(){alert('Could not load the image library (offline?). The report is still viewable above.');};
   document.head.appendChild(s);
+}
+function shareLeaderboardImage(){
+  var btn=document.querySelector('.lb-share'); if(btn){btn.disabled=true;btn.textContent='Rendering…';}
+  var reset=function(){ if(btn){btn.disabled=false;btn.textContent='📤 Share image';} };
+  ensureH2C(function(){
+    try{
+      var stage=state.stage;
+      var title=stage==='overall'?'Overall Standings':stage==='ko'?'Round of 32 Standings':'Group Stage Standings';
+      var ranked=stage==='overall'?calcOverallScores():stage==='ko'?calcKOScores():calcAllScores();
+      var ranks=denseRanks(ranked);
+      var me=getMe();
+      var gS=Object.values(state.matches).filter(function(m){return m.actual;}).length;
+      var kS=state.ko?Object.keys(state.ko.results||{}).length:0;
+      var scored=stage==='overall'?(gS+kS):stage==='ko'?kS:gS;
+      var totalM=stage==='overall'?104:stage==='ko'?16:72;
+      var upd=(state.meta&&state.meta.updated)?state.meta.updated:'';
+
+      var list=[]; // top 10
+      ranked.forEach(function(e,i){ if(i<10) list.push({name:e[0],pts:e[1].pts,rank:ranks[i],me:(e[0]===me)}); });
+      var youRow=null;
+      if(me){ var mi=-1; ranked.forEach(function(e,i){ if(e[0]===me)mi=i; }); if(mi>=10) youRow={name:me,pts:ranked[mi][1].pts,rank:ranks[mi],me:true}; }
+
+      var MED={1:'🥇',2:'🥈',3:'🥉'};
+      function rowHTML(r,dim){
+        var bg=r.me?'#eaf5ea':(dim?'#fafafa':'#ffffff');
+        var bd=r.me?'2px solid #107c10':'1px solid #eee';
+        var rk=MED[r.rank]||('<span style="display:inline-block;min-width:22px;font-weight:800;color:#605e5c;">'+r.rank+'</span>');
+        return '<div style="display:flex;align-items:center;gap:10px;padding:9px 14px;background:'+bg+';border-bottom:'+bd+';">'
+          +'<div style="width:26px;text-align:center;font-size:16px;">'+rk+'</div>'
+          +'<div style="flex:1;font-size:14px;font-weight:'+(r.me?'800':'600')+';color:#201f1e;">'+r.name+(r.me?' <span style="font-size:10px;background:#107c10;color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;">you</span>':'')+'</div>'
+          +'<div style="font-size:16px;font-weight:800;color:#0a5c0a;min-width:34px;text-align:right;">'+r.pts+'</div></div>';
+      }
+
+      var body='';
+      list.forEach(function(r,i){ body+=rowHTML(r,i%2===1); });
+      if(youRow){
+        body+='<div style="text-align:center;color:#a19f9d;font-size:16px;letter-spacing:3px;padding:2px 0;background:#fff;">⋯</div>';
+        body+=rowHTML(youRow,false);
+      }
+
+      var card=document.createElement('div');
+      card.id='lbShareCard';
+      card.style.cssText='position:fixed;left:-9999px;top:0;width:400px;background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,sans-serif;';
+      card.innerHTML=
+        '<div style="background:linear-gradient(135deg,#107c10,#0a5c0a);color:#fff;padding:16px 18px;">'
+          +'<div style="font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85;">FIFA World Cup 2026 · PDC Friends</div>'
+          +'<div style="font-size:20px;font-weight:800;margin-top:3px;">'+title+'</div>'
+          +'<div style="font-size:11px;opacity:.9;margin-top:4px;">'+scored+' of '+totalM+' matches scored'+(upd?(' · as of '+upd):'')+'</div>'
+        +'</div>'
+        +'<div style="display:flex;align-items:center;gap:10px;padding:7px 14px;background:#f3f2f1;font-size:10px;font-weight:800;letter-spacing:.05em;color:#605e5c;text-transform:uppercase;">'
+          +'<div style="width:26px;text-align:center;">Rank</div><div style="flex:1;">Player</div><div style="min-width:34px;text-align:right;">Pts</div></div>'
+        +body
+        +'<div style="padding:10px 14px;background:#faf9f8;border-top:1px solid #edebe9;font-size:10px;color:#a19f9d;text-align:center;">sheejiths.github.io/wc2026-predictions</div>';
+      document.body.appendChild(card);
+
+      html2canvas(card,{backgroundColor:'#ffffff',scale:2,useCORS:true}).then(function(canvas){
+        canvas.toBlob(function(blob){
+          var fname='leaderboard-'+stage+'.png';
+          var file=new File([blob],fname,{type:'image/png'});
+          if(navigator.canShare&&navigator.canShare({files:[file]})){
+            navigator.share({files:[file],title:title}).catch(function(){});
+          }else{
+            var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=fname;a.click();
+          }
+          card.remove(); reset();
+        },'image/png');
+      }).catch(function(){ card.remove(); reset(); alert('Could not render the image.'); });
+    }catch(e){ reset(); alert('Could not build the image.'); }
+  });
 }
 function shareReportImage(){
   var btn=document.getElementById('repShareBtn'); if(btn){btn.disabled=true;btn.textContent='Rendering…';}
@@ -1291,7 +1365,7 @@ function renderLB(){
     :ko?'🏆 <b>Round of 32</b> knockout scoring (90-min 3/2/1, plus ET and pens bonus). <b>BONUS</b> = ET/pens points on top of the 90-min tier, so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. RESULT includes <span style="color:#6b21a8;font-weight:700;">winner-floor</span> +1s (⌊n⌋). '
     :'💡 ';
   el.innerHTML=`<div class="hover-hint">${hint}Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
-    <div class="lb-controls"><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
+    <div class="lb-controls"><button class="lb-share" onclick="shareLeaderboardImage()">📤 Share image</button><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
     <div class="lb-wrap"><div id="lbHost"></div></div>`;
   applyLBSort();
 }
