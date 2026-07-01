@@ -417,7 +417,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
+  <strong>⚙️ UI v1.12.7</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” now includes all 28 participants (RANK/PLAYER/PTS)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -426,7 +426,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
+  <strong>⚙️ UI v1.12.7</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” now includes all 28 participants (RANK/PLAYER/PTS)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -435,7 +435,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
+  <strong>⚙️ UI v1.12.7</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” now includes all 28 participants (RANK/PLAYER/PTS)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -444,7 +444,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
+  <strong>⚙️ UI v1.12.7</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” now includes all 28 participants (RANK/PLAYER/PTS)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -453,7 +453,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.6</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” — Top 10 + you, RANK/PLAYER/PTS card for the active stage<br>
+  <strong>⚙️ UI v1.12.7</strong> &nbsp;·&nbsp; Built 30 Jun 2026 · Leaderboard “Share image” now includes all 28 participants (RANK/PLAYER/PTS)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -857,10 +857,8 @@ function shareLeaderboardImage(){
       var totalM=stage==='overall'?104:stage==='ko'?16:72;
       var upd=(state.meta&&state.meta.updated)?state.meta.updated:'';
 
-      var list=[]; // top 10
-      ranked.forEach(function(e,i){ if(i<10) list.push({name:e[0],pts:e[1].pts,rank:ranks[i],me:(e[0]===me)}); });
-      var youRow=null;
-      if(me){ var mi=-1; ranked.forEach(function(e,i){ if(e[0]===me)mi=i; }); if(mi>=10) youRow={name:me,pts:ranked[mi][1].pts,rank:ranks[mi],me:true}; }
+      var list=[]; // all participants, in rank order
+      ranked.forEach(function(e,i){ list.push({name:e[0],pts:e[1].pts,rank:ranks[i],me:(e[0]===me)}); });
 
       var MED={1:'🥇',2:'🥈',3:'🥉'};
       function rowHTML(r,dim){
@@ -875,10 +873,6 @@ function shareLeaderboardImage(){
 
       var body='';
       list.forEach(function(r,i){ body+=rowHTML(r,i%2===1); });
-      if(youRow){
-        body+='<div style="text-align:center;color:#a19f9d;font-size:16px;letter-spacing:3px;padding:2px 0;background:#fff;">⋯</div>';
-        body+=rowHTML(youRow,false);
-      }
 
       var card=document.createElement('div');
       card.id='lbShareCard';
