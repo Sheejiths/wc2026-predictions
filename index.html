@@ -35,6 +35,8 @@ body.dark .stage-btn:hover:not(.active){background:#1d2d3d;}
 .bn-tab span{opacity:.6;font-size:11px;}
 .bn-tab.active{background:#0078d4;border-color:#0078d4;color:#fff;box-shadow:0 2px 8px rgba(0,120,212,.3);}
 .bonus-table th,.bonus-table td{white-space:nowrap;}
+.bonus-table th.stick,.bonus-table td.stick{position:static;box-shadow:none;}
+.bonus-table th:nth-child(3),.bonus-table td:nth-child(3){text-align:left;padding-left:12px;min-width:92px;}
 .bonus-notes{margin-top:14px;}
 .bn-sec{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:4px;}
 .bn-chip{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;}
@@ -435,7 +437,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -444,7 +446,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -453,7 +455,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -462,7 +464,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -471,7 +473,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -480,7 +482,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  <strong>⚙️ UI v1.12.17</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: fixed Champion-column alignment (sticky-column overlap)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
