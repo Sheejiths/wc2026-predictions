@@ -421,7 +421,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.14</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member modal KO bars show ET/pens bonus as an amber stacked segment<br>
+  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -430,7 +430,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.14</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member modal KO bars show ET/pens bonus as an amber stacked segment<br>
+  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -439,7 +439,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.14</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member modal KO bars show ET/pens bonus as an amber stacked segment<br>
+  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -448,7 +448,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.14</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member modal KO bars show ET/pens bonus as an amber stacked segment<br>
+  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -457,7 +457,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.14</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member modal KO bars show ET/pens bonus as an amber stacked segment<br>
+  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -663,8 +663,8 @@ function mdBarsHTML(labels,day,cls,bonus){
     var b=(bonus&&bonus[j])||0, basev=Math.max(0,v-b);
     var wBase=Math.round(basev/mx*100), wBon=Math.round(b/mx*100);
     var seg='<div class="md-bar-fill '+(cls||'')+'" style="width:'+wBase+'%'+(b>0?';border-radius:4px 0 0 4px':'')+'"></div>';
-    if(b>0) seg+='<div class="md-bar-fill md-bar-bonus" style="width:'+wBon+'%;border-radius:0 4px 4px 0"></div>';
-    var val=v+(b>0?'<span class="md-bon-tag">+'+b+'</span>':'');
+    if(b>0) seg+='<div class="md-bar-fill md-bar-bonus" style="width:'+wBon+'%;border-radius:0 4px 4px 0;display:flex;align-items:center;justify-content:center;">'+(wBon>=16?'<span style="font-size:9px;font-weight:800;color:#5a3600;">'+b+'</span>':'')+'</div>';
+    var val=''+v;
     return '<div class="md-bar-row"><span class="md-bar-lbl">'+(labels[j]||('MD'+(j+1)))+'</span>'
       +'<div class="md-bar-track">'+seg+'</div>'
       +'<span class="md-bar-val">'+val+'</span></div>';
@@ -735,7 +735,7 @@ function showMember(name){
     barsHtml+='<div class="md-sub" style="margin:'+(stage==='overall'?'12px':'2px')+' 0 5px;font-weight:700;color:#27c98a;">🏆 Round of 32</div>';
     barsHtml+=mdBarsHTML(klab,kday,'ko',kbon);
     if(kbon.some(function(b){return b>0;}))
-      barsHtml+='<div class="md-sub" style="margin-top:6px;display:flex;align-items:center;gap:6px;"><span style="display:inline-block;width:12px;height:10px;border-radius:2px;background:linear-gradient(90deg,#e69500,#ffc24d);"></span>Amber = ET / penalty bonus on top of the 90-min score</div>';
+      barsHtml+='<div class="md-sub" style="margin-top:6px;display:flex;align-items:center;gap:6px;"><span style="display:inline-block;width:12px;height:10px;border-radius:2px;background:linear-gradient(90deg,#e69500,#ffc24d);"></span>Amber = ET / penalty bonus (already included in each day\'s total)</div>';
   }
   var exItems=[];
   if(useG&&g)exItems=exItems.concat(g.exact.map(function(e){return {x:e,ko:false};}));
