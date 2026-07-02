@@ -29501,102 +29501,6 @@
    "Jul 1"
   ],
   "timeline": {
-   "Harish": [
-    0,
-    3,
-    8,
-    13
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
-    14
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
-    13
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12
-   ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    10,
-    15
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
-    18
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13
-   ],
    "Sheejith Sahadevan": [
     2,
     11,
@@ -29609,35 +29513,23 @@
     5,
     8
    ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15
-   ],
-   "Praveen Kodurkalam": [
+   "Smitha Ramesh": [
     2,
     5,
     9,
-    18
+    13
    ],
-   "Sreejith Ramachandran": [
+   "Baba Krishnankutty": [
     2,
     3,
     8,
     11
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9
    ],
    "Rajith": [
     2,
@@ -29645,11 +29537,11 @@
     10,
     18
    ],
-   "Satheesh": [
+   "Vinod K M": [
     1,
+    2,
     4,
-    7,
-    10
+    11
    ],
    "Sanjesh": [
     2,
@@ -29657,17 +29549,3004 @@
     7,
     10
    ],
+   "P Vijayan": [
+    2,
+    6,
+    10,
+    16
+   ],
    "Abhilash Unniyambath": [
     0,
     0,
     2,
     5
    ],
-   "P Vijayan": [
+   "Praveen Kodurkalam": [
     2,
+    5,
+    9,
+    18
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
+    11,
+    17
+   ],
+   "Kamal": [
+    1,
+    1,
     6,
+    9
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
+    18
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12
+   ],
+   "Srikanth N R": [
+    1,
+    5,
     10,
-    16
+    15
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13
+   ],
+   "KD": [
+    3,
+    6,
+    11,
+    14
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14
+   ]
+  }
+ },
+ "bonus": {
+  "rounds": {
+   "early_bird": {
+    "label": "Early Bird",
+    "pts": {
+     "semi": 2,
+     "final": 4,
+     "champ": 8
+    },
+    "max_pts": 24,
+    "members": {
+     "Kamal": {
+      "picks": [
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "Spain",
+       "France",
+       "Portugal",
+       "England"
+      ],
+      "finals": [
+       "Portugal",
+       "Spain"
+      ],
+      "champ": "Portugal"
+     },
+     "Kesava Prasad": {
+      "picks": [
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 4,
+        "state": "busted"
+       },
+       {
+        "team": "Netherlands",
+        "level": "champ",
+        "pts": 8,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 10,
+      "forfeited": 14,
+      "max": 10,
+      "semis": [
+       "Argentina",
+       "Netherlands",
+       "Portugal",
+       "Brazil"
+      ],
+      "finals": [
+       "Portugal",
+       "Netherlands"
+      ],
+      "champ": "Netherlands"
+     },
+     "Satheesh": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "USA",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "USA"
+      ],
+      "finals": [
+       "France",
+       "England"
+      ],
+      "champ": "England"
+     },
+     "Sheejith Sahadevan": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Spain",
+       "England",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Spain"
+      ],
+      "champ": "France"
+     },
+     "Krishnan": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "England",
+       "Spain",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Spain"
+      ],
+      "champ": "France"
+     },
+     "Praveen Kodurkalam": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Spain",
+       "England",
+       "Argentina"
+      ],
+      "finals": [
+       "Spain",
+       "England"
+      ],
+      "champ": "England"
+     },
+     "Abhilash Unniyambath": {
+      "picks": [
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
+      "semis": [
+       "Germany",
+       "Spain",
+       "France",
+       "Portugal"
+      ],
+      "finals": [
+       "France",
+       "Spain"
+      ],
+      "champ": "France"
+     },
+     "P Vijayan": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "England",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "KD": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "England",
+       "Argentina",
+       "Portugal"
+      ],
+      "finals": [
+       "France",
+       "Portugal"
+      ],
+      "champ": "Portugal"
+     },
+     "Rajith": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "England",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Vinod K M": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Portugal",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "Argentina",
+       "France"
+      ],
+      "champ": "Argentina"
+     },
+     "Smitha Ramesh": {
+      "picks": [
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
+      "semis": [
+       "Argentina",
+       "France",
+       "Germany",
+       "England"
+      ],
+      "finals": [
+       "England",
+       "Argentina"
+      ],
+      "champ": "Argentina"
+     },
+     "Sreejith Ramachandran": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "Germany"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Deepa R Rao": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "Spain"
+      ],
+      "finals": [
+       "Argentina",
+       "France"
+      ],
+      "champ": "Argentina"
+     },
+     "Harish": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "Spain"
+      ],
+      "finals": [
+       "England",
+       "Spain"
+      ],
+      "champ": "Spain"
+     },
+     "Nandhini Viswanath": {
+      "picks": [
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "final",
+        "pts": 4,
+        "state": "busted"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 18,
+      "forfeited": 6,
+      "max": 18,
+      "semis": [
+       "England",
+       "France",
+       "Argentina",
+       "Germany"
+      ],
+      "finals": [
+       "Argentina",
+       "Germany"
+      ],
+      "champ": "Argentina"
+     },
+     "Srijith": {
+      "picks": [
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "England",
+       "France",
+       "Argentina",
+       "Spain"
+      ],
+      "finals": [
+       "Argentina",
+       "Spain"
+      ],
+      "champ": "Spain"
+     },
+     "Sunilraj": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "Spain"
+      ],
+      "finals": [
+       "Argentina",
+       "France"
+      ],
+      "champ": "Argentina"
+     },
+     "Senthil Kumar": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Belgium",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Argentina",
+       "England",
+       "Belgium"
+      ],
+      "finals": [
+       "France",
+       "England"
+      ],
+      "champ": "France"
+     },
+     "Srikanth N R": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 24,
+      "forfeited": 0,
+      "max": 24,
+      "semis": [
+       "France",
+       "Spain",
+       "England",
+       "Brazil"
+      ],
+      "finals": [
+       "France",
+       "Spain"
+      ],
+      "champ": "France"
+     },
+     "Vinod Menon": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 4,
+        "state": "busted"
+       },
+       {
+        "team": "Germany",
+        "level": "final",
+        "pts": 4,
+        "state": "busted"
+       },
+       {
+        "team": "Netherlands",
+        "level": "champ",
+        "pts": 8,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 4,
+      "forfeited": 20,
+      "max": 4,
+      "semis": [
+       "France",
+       "Netherlands",
+       "England",
+       "Germany"
+      ],
+      "finals": [
+       "Netherlands",
+       "Germany"
+      ],
+      "champ": "Netherlands"
+     },
+     "Sasikumar Prabhakaran": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
+      "semis": [
+       "France",
+       "England",
+       "Argentina",
+       "Netherlands"
+      ],
+      "finals": [
+       "France",
+       "England"
+      ],
+      "champ": "France"
+     },
+     "Ashik": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 4,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "champ",
+        "pts": 8,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
+      "semis": [
+       "France",
+       "Brazil",
+       "England",
+       "Germany"
+      ],
+      "finals": [
+       "Brazil",
+       "England"
+      ],
+      "champ": "Brazil"
+     }
+    }
+   },
+   "bonus": {
+    "label": "Bonus (Round 2)",
+    "pts": {
+     "semi": 1,
+     "final": 2,
+     "champ": 5
+    },
+    "max_pts": 13,
+    "members": {
+     "Satheesh": {
+      "picks": [
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "USA",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "champ",
+        "pts": 5,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
+      "semis": [
+       "Netherlands",
+       "Brazil",
+       "Argentina",
+       "USA"
+      ],
+      "finals": [
+       "Netherlands",
+       "Argentina"
+      ],
+      "champ": "Netherlands"
+     },
+     "Sunilraj": {
+      "picks": [
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Spain",
+       "France",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "Argentina"
+     },
+     "Krishnan": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
+      "semis": [
+       "France",
+       "Argentina",
+       "Spain",
+       "Netherlands"
+      ],
+      "finals": [
+       "France",
+       "Spain"
+      ],
+      "champ": "France"
+     },
+     "Ashik": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Portugal",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "Brazil",
+       "France"
+      ],
+      "champ": "Brazil"
+     },
+     "Sheejith Sahadevan": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Brazil"
+      ],
+      "champ": "France"
+     },
+     "Abhilash Unniyambath": {
+      "picks": [
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "final",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "champ",
+        "pts": 5,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
+      "semis": [
+       "Germany",
+       "Spain",
+       "England",
+       "Argentina"
+      ],
+      "finals": [
+       "Germany",
+       "England"
+      ],
+      "champ": "Germany"
+     },
+     "Vinod K M": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "Argentina"
+     },
+     "Srikanth N R": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Brazil"
+      ],
+      "champ": "France"
+     },
+     "Shaik Afzal": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Brazil"
+      ],
+      "champ": "Brazil"
+     },
+     "Senthil Kumar": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Baba Krishnankutty": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Germany",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
+      "semis": [
+       "Brazil",
+       "Germany",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Srijith": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Brazil",
+       "Spain",
+       "France",
+       "Argentina"
+      ],
+      "finals": [
+       "Spain",
+       "France"
+      ],
+      "champ": "Spain"
+     },
+     "Sreejith Ramachandran": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Argentina",
+       "Spain",
+       "England"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Deepa R Rao": {
+      "picks": [
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Argentina",
+       "England",
+       "France",
+       "Spain"
+      ],
+      "finals": [
+       "Argentina",
+       "France"
+      ],
+      "champ": "Argentina"
+     },
+     "Vinod Menon": {
+      "picks": [
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "champ",
+        "pts": 5,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
+      "semis": [
+       "Netherlands",
+       "Spain",
+       "Argentina",
+       "England"
+      ],
+      "finals": [
+       "Netherlands",
+       "England"
+      ],
+      "champ": "Netherlands"
+     },
+     "Harish": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Spain",
+       "Argentina",
+       "England"
+      ],
+      "finals": [
+       "England",
+       "France"
+      ],
+      "champ": "France"
+     },
+     "Sasikumar Prabhakaran": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Spain",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "Brazil",
+       "France"
+      ],
+      "champ": "Brazil"
+     },
+     "Kamal": {
+      "picks": [
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Portugal",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "Spain",
+       "Argentina",
+       "France",
+       "Portugal"
+      ],
+      "finals": [
+       "Spain",
+       "Portugal"
+      ],
+      "champ": "Portugal"
+     },
+     "Smitha Ramesh": {
+      "picks": [
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 10,
+      "forfeited": 3,
+      "max": 10,
+      "semis": [
+       "Brazil",
+       "Argentina",
+       "France",
+       "Netherlands"
+      ],
+      "finals": [
+       "Netherlands",
+       "Argentina"
+      ],
+      "champ": "Argentina"
+     },
+     "Praveen Kodurkalam": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "England",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Argentina",
+       "Spain",
+       "England"
+      ],
+      "finals": [
+       "France",
+       "England"
+      ],
+      "champ": "France"
+     },
+     "P Vijayan": {
+      "picks": [
+       {
+        "team": "France",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "France",
+        "level": "champ",
+        "pts": 5,
+        "state": "pending"
+       }
+      ],
+      "secured": 0,
+      "live": 13,
+      "forfeited": 0,
+      "max": 13,
+      "semis": [
+       "France",
+       "Spain",
+       "Argentina",
+       "Brazil"
+      ],
+      "finals": [
+       "France",
+       "Argentina"
+      ],
+      "champ": "France"
+     },
+     "Nandhini Viswanath": {
+      "picks": [
+       {
+        "team": "Spain",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "semi",
+        "pts": 1,
+        "state": "busted"
+       },
+       {
+        "team": "Brazil",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Argentina",
+        "level": "semi",
+        "pts": 1,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "final",
+        "pts": 2,
+        "state": "busted"
+       },
+       {
+        "team": "Argentina",
+        "level": "final",
+        "pts": 2,
+        "state": "pending"
+       },
+       {
+        "team": "Netherlands",
+        "level": "champ",
+        "pts": 5,
+        "state": "busted"
+       }
+      ],
+      "secured": 0,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
+      "semis": [
+       "Spain",
+       "Netherlands",
+       "Brazil",
+       "Argentina"
+      ],
+      "finals": [
+       "Netherlands",
+       "Argentina"
+      ],
+      "champ": "Netherlands"
+     }
+    }
+   }
+  },
+  "eliminated": [
+   "Bosnia & Herzegovina",
+   "Curacao",
+   "Czechia",
+   "DR Congo",
+   "Ecuador",
+   "Germany",
+   "Haiti",
+   "Iran",
+   "Iraq",
+   "Ivory Coast",
+   "Japan",
+   "Jordan",
+   "Netherlands",
+   "New Zealand",
+   "Panama",
+   "Qatar",
+   "Saudi Arabia",
+   "Scotland",
+   "Senegal",
+   "South Africa",
+   "South Korea",
+   "Sweden",
+   "Tunisia",
+   "Turkiye",
+   "Uruguay",
+   "Uzbekistan"
+  ],
+  "alive": [
+   "Algeria",
+   "Argentina",
+   "Australia",
+   "Austria",
+   "Belgium",
+   "Brazil",
+   "Canada",
+   "Cape Verde",
+   "Colombia",
+   "Croatia",
+   "Egypt",
+   "England",
+   "France",
+   "Ghana",
+   "Mexico",
+   "Morocco",
+   "Norway",
+   "Paraguay",
+   "Portugal",
+   "Spain",
+   "Switzerland",
+   "USA"
+  ],
+  "group_outs": [
+   "Curacao",
+   "Czechia",
+   "Haiti",
+   "Iran",
+   "Iraq",
+   "Jordan",
+   "New Zealand",
+   "Panama",
+   "Qatar",
+   "Saudi Arabia",
+   "Scotland",
+   "South Korea",
+   "Tunisia",
+   "Turkiye",
+   "Uruguay",
+   "Uzbekistan"
+  ],
+  "ko_losers": [
+   "Bosnia & Herzegovina",
+   "DR Congo",
+   "Ecuador",
+   "Germany",
+   "Ivory Coast",
+   "Japan",
+   "Netherlands",
+   "Senegal",
+   "South Africa",
+   "Sweden"
+  ],
+  "reached_semis": [],
+  "reached_final": [],
+  "champion": null,
+  "missers": {
+   "early_bird": [
+    "Baba Krishnankutty",
+    "Bijesh",
+    "Sanjesh",
+    "Shaik Afzal",
+    "Tony"
+   ],
+   "bonus": [
+    "Bijesh",
+    "KD",
+    "Kesava Prasad",
+    "Rajith",
+    "Sanjesh",
+    "Tony"
+   ]
+  },
+  "invalid": {
+   "early_bird": [],
+   "bonus": [
+    "Bijesh"
    ]
   }
  },

@@ -29,6 +29,19 @@ body.dark .stage-bar{background:#0f1620;}
 body.dark .stage-btn{background:#16222e;border-color:#26405a;color:#7fc0ff;}
 body.dark .stage-btn.active{background:#1f6feb;border-color:#1f6feb;color:#fff;box-shadow:0 0 12px rgba(76,179,255,.4);}
 body.dark .stage-btn:hover:not(.active){background:#1d2d3d;}
+/* --- Bonus tab --- */
+.bonus-toggle{display:flex;gap:8px;margin:4px 0 12px;}
+.bn-tab{padding:7px 16px;font-size:13px;font-weight:700;border:1.5px solid #d8e6f5;background:#f4f9ff;color:#3a6ea5;border-radius:999px;cursor:pointer;transition:all .15s;}
+.bn-tab span{opacity:.6;font-size:11px;}
+.bn-tab.active{background:#0078d4;border-color:#0078d4;color:#fff;box-shadow:0 2px 8px rgba(0,120,212,.3);}
+.bonus-table th,.bonus-table td{white-space:nowrap;}
+.bonus-notes{margin-top:14px;}
+.bn-sec{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:4px;}
+.bn-chip{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;}
+body.dark .bn-tab{background:#16222e;border-color:#26405a;color:#7fc0ff;}
+body.dark .bn-tab.active{background:#1f6feb;border-color:#1f6feb;color:#fff;box-shadow:0 0 12px rgba(76,179,255,.4);}
+body.dark .bn-tab:hover:not(.active){background:#1d2d3d;}
+body.dark .bn-chip{filter:brightness(.92);}
 .ko-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
 .ko-pill.on{background:#e3f0ff;color:#0b66c3;}
 .ko-sec-head{margin:20px 0 10px;font-size:15px;font-weight:800;color:#0b66c3;border-top:2px solid #e6eef7;padding-top:14px;}
@@ -404,6 +417,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
     <button class="tab" onclick="switchTab('trend')">📈 Rank Trend</button>
     <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
     <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
+    <button class="tab" onclick="switchTab('bonus')">🎟️ Bonus</button>
   </div>
   <div class="stage-bar" id="stageBar" style="display:none;">
     <button class="stage-btn" id="stageGroup" onclick="setStage('group')">🌍 Group Stage</button>
@@ -421,7 +435,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -430,7 +444,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -439,7 +453,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -448,7 +462,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -457,7 +471,16 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.15</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Member KO bars: total shown once (bonus labeled inside amber segment, no misleading +)<br>
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
+  <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
+</div>
+</div>
+<div id="panel-bonus" class="panel">
+  <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
+  <div id="bonusContent" style="display:none;"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.12.16</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · New – Bonus tab: Early Bird & Bonus R2 outcome picks with alive/busted stakes tracker<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -478,7 +501,7 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket','bonus'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
   // stage toggle only applies to matches / leaderboard / trend
@@ -487,6 +510,7 @@ function switchTab(t){
   if(t==='trend') renderTrend();
   if(t==='standings') renderStandings();
   if(t==='bracket') renderBracket();
+  if(t==='bonus') renderBonus();
 }
 
 function setStage(s){
@@ -523,12 +547,14 @@ async function loadData(){
     state.bracket=data.bracket||null;
     state.thirds=data.thirds||null;
     state.ko=data.ko||null;
+    state.bonus=data.bonus||null;
+    state.bonusRound='early_bird';
     state.scoringMode=data.scoring_mode||'';
     {var _sm=document.querySelectorAll('.sm-stamp');var _lbl=(state.scoringMode==='winner_floor'?'winner floor':state.scoringMode==='exact_only'?'exact only':(state.scoringMode||'—'));for(var _i=0;_i<_sm.length;_i++)_sm[_i].textContent=_lbl;}
     if(!state.stage)state.stage=(state.ko&&(state.ko.matchdays||[]).length>0)?'overall':'group';
     buildMatchState(data.results||{});
     refreshMeChip();
-    renderMatches();renderLB();renderTrend();renderStandings();renderBracket();
+    renderMatches();renderLB();renderTrend();renderStandings();renderBracket();renderBonus();
     {const sb=document.getElementById('stageBar');if(sb)sb.style.display=(state.ko&&(state.ko.matchdays||[]).length>0)?'flex':'none';}
     updateReportBtn();
     document.getElementById('loadingMatches').style.display='none';
@@ -1666,6 +1692,75 @@ function renderBracket(){
     extra+=`<div class="brk-3p" style="left:${padX}px;top:${totalH-30}px;">🥉 3rd place: ${a} vs ${b}${tp.status==='actual'?' → <b>'+tp.winner+'</b> ('+tp.s1+'-'+tp.s2+')':''}</div>`; }
   const legend=`<div class="hover-hint" style="margin-bottom:10px;">🏆 <b>Live bracket</b> — every team comes from the real group table, nothing is forecast. <b>Solid</b> = qualification locked (group finished) · <b><span style="color:#b8860b;">● amber</span></b> = current standing, still provisional · <b style="color:#b3b0ad;">grey</b> = not yet decided. Knockout rounds fill in as matches are played; <b>Best 3rd</b> slots resolve once all 12 groups finish.</div>`;
   el.innerHTML=legend+`<div class="brk-scroll"><div class="brk-canvas" style="width:${totalW}px;height:${totalH}px;">${svg}${heads}${cards}${extra}</div></div>`;
+}
+
+function bonusFlag(team){ return (typeof flag==='function')?flag(team):team; }
+function renderBonus(){
+  const el=document.getElementById('bonusContent'); if(!el) return;
+  const L=document.getElementById('loadingBonus'); if(L)L.style.display='none'; el.style.display='block';
+  const b=state.bonus;
+  if(!b||!b.rounds){ el.innerHTML='<div class="hover-hint">No bonus data yet.</div>'; return; }
+  const rk=state.bonusRound||'early_bird';
+  const R=b.rounds[rk];
+  const champLine = b.champion ? ('🏆 Champion decided: <b>'+bonusFlag(b.champion)+'</b>') :
+    'Scoring resolves as Semifinals, Final &amp; Champion are decided — showing <b>live stakes</b> now.';
+  const toggle=`<div class="bonus-toggle">
+    <button class="bn-tab ${rk==='early_bird'?'active':''}" onclick="setBonusRound('early_bird')">🐦 Early Bird <span>·24</span></button>
+    <button class="bn-tab ${rk==='bonus'?'active':''}" onclick="setBonusRound('bonus')">🎁 Bonus R2 <span>·13</span></button>
+  </div>`;
+  const P=R.pts;
+  const hint=`<div class="hover-hint">🎟️ <b>${R.label}</b> — pick 4 Semifinalists (${P.semi} pt each), 2 Finalists (${P.final} pt each), Champion (${P.champ} pts). ${champLine} <b style="color:#0a8f5b;">Alive</b> = still in · <b style="color:#c4314b;">Busted</b> = eliminated (forfeited) · <b style="color:#b8860b;">Secured</b> = reached.</div>`;
+  // rows
+  const M=R.members;
+  let rows=Object.keys(M).map(n=>({n,m:M[n]}));
+  rows.sort((a,b2)=>b2.m.max-a.m.max || b2.m.secured-a.m.secured || a.n.localeCompare(b2.n));
+  const me=(typeof getMe==='function')?getMe():null;
+  let body='<div class="lb-wrap"><table class="lb-table bonus-table"><thead><tr>'
+    +'<th class="stick lb-c-sl">#</th><th class="stick lb-c-player">Player</th>'
+    +'<th>Champion</th><th class="right">SEC</th><th class="right">LIVE</th><th class="right">LOST</th><th class="right">MAX</th></tr></thead><tbody>';
+  rows.forEach((r,i)=>{
+    const m=r.m, isMe=(r.n===me);
+    const champState=(m.picks.find(x=>x.level==='champ')||{}).state||'pending';
+    const cc = champState==='secured'?'#b8860b':champState==='busted'?'#c4314b':'#0a8f5b';
+    const champHtml = m.champ?('<span style="color:'+cc+';font-weight:700;">'+bonusFlag(m.champ)+(champState==='busted'?' ✗':'')+'</span>'):'—';
+    body+=`<tr class="${isMe?'me-row':''}">
+      <td class="sl-cell stick lb-c-sl">${i+1}</td>
+      <td class="name-cell clk stick lb-c-player" onclick="showBonusMember('${rk}','${r.n.replace(/'/g,"\\'")}')">${r.n}${isMe?'<span class="you-badge">you</span>':''}</td>
+      <td style="font-size:12px;">${champHtml}</td>
+      <td class="right"><b style="color:#b8860b;">${m.secured}</b></td>
+      <td class="right" style="color:#0a8f5b;font-weight:700;">${m.live}</td>
+      <td class="right" style="color:#c4314b;">${m.forfeited}</td>
+      <td class="right"><span class="pts-val ${m.max>=R.max_pts*0.6?'pts-blue':'pts-green'}">${m.max}</span></td>
+    </tr>`;
+  });
+  body+='</tbody></table></div>';
+  // missers + eliminated
+  const miss=(b.missers&&b.missers[rk])||[];
+  const inv=(b.invalid&&b.invalid[rk])||[];
+  let notes='<div class="bonus-notes">';
+  if(miss.length) notes+='<div class="md-sub">🚫 No entry: '+miss.join(', ')+'</div>';
+  if(inv.length) notes+='<div class="md-sub">⛔ Invalid (after lock): '+inv.join(', ')+'</div>';
+  notes+='<div class="md-sub" style="margin-top:6px;">💀 Eliminated teams ('+b.eliminated.length+'): '+b.eliminated.map(bonusFlag).join(' ')+'</div>';
+  notes+='</div>';
+  el.innerHTML=toggle+hint+body+notes;
+}
+function setBonusRound(rk){ state.bonusRound=rk; renderBonus(); }
+function showBonusMember(rk,name){
+  const b=state.bonus, R=b.rounds[rk], m=R.members[name]; if(!m) return;
+  const stateCol={secured:'#b8860b',pending:'#0a8f5b',busted:'#c4314b'};
+  const stateBg={secured:'#fff4ce',pending:'#dff6dd',busted:'#fde7e9'};
+  function chip(x){
+    const tag = x.state==='secured'?'✓ '+x.pts:(x.state==='busted'?'✗ 0':x.pts+' live');
+    return '<span class="bn-chip" style="background:'+stateBg[x.state]+';color:'+stateCol[x.state]+';">'+bonusFlag(x.team)+' <b>'+tag+'</b></span>';
+  }
+  const semis=m.picks.filter(x=>x.level==='semi'), finals=m.picks.filter(x=>x.level==='final'), champ=m.picks.filter(x=>x.level==='champ');
+  const sec=(arr)=>'<div class="bn-sec">'+arr.map(chip).join('')+'</div>';
+  const body=`<div class="hover-hint" style="margin-bottom:10px;">${R.label} — <b style="color:#b8860b;">${m.secured} secured</b> · <b style="color:#0a8f5b;">${m.live} live</b> · <b style="color:#c4314b;">${m.forfeited} forfeited</b> · max <b>${m.max}</b> of ${R.max_pts}</div>`
+    +`<div class="md-sec-title">Semifinalists (${R.pts.semi} pt each)</div>${sec(semis)}`
+    +`<div class="md-sec-title">Finalists (${R.pts.final} pt each)</div>${sec(finals)}`
+    +`<div class="md-sec-title">Champion (${R.pts.champ} pts)</div>${sec(champ)}`
+    +`<div class="md-sub" style="margin-top:10px;"><b style="color:#b8860b;">Secured</b> reached the stage · <b style="color:#0a8f5b;">Live</b> still possible · <b style="color:#c4314b;">Busted</b> team eliminated.</div>`;
+  openModal(name,R.label+' picks',body);
 }
 
 function renderStandings(){
