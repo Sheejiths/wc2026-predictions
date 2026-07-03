@@ -576,7 +576,7 @@
      "team2": "France",
      "score1": 2,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 03:00 PM EST",
      "status": "valid",
      "group": "I"
@@ -586,7 +586,7 @@
      "team2": "Iraq",
      "score1": 3,
      "score2": 0,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 03:00 PM EST",
      "status": "valid",
      "group": "I"
@@ -596,7 +596,7 @@
      "team2": "Saudi Arabia",
      "score1": 2,
      "score2": 1,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 08:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -606,7 +606,7 @@
      "team2": "Spain",
      "score1": 1,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 08:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -616,7 +616,7 @@
      "team2": "Iran",
      "score1": 1,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 11:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -626,7 +626,7 @@
      "team2": "Belgium",
      "score1": 1,
      "score2": 3,
-     "submitted_est": "Jun 26 2026 01:06 PM EST",
+     "submitted_est": "Jun 26 2026 01:07 PM EST",
      "kickoff_est": "Jun 26 2026 11:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -2021,7 +2021,7 @@
      "team2": "Switzerland",
      "score1": 0,
      "score2": 1,
-     "submitted_est": "Jun 12 2026 06:43 AM EST",
+     "submitted_est": "Jun 12 2026 06:44 AM EST",
      "kickoff_est": "Jun 13 2026 03:00 PM EST",
      "status": "valid",
      "group": "B"
@@ -3401,7 +3401,7 @@
      "team2": "Morocco",
      "score1": 1,
      "score2": 0,
-     "submitted_est": "Jun 12 2026 07:11 AM EST",
+     "submitted_est": "Jun 12 2026 07:12 AM EST",
      "kickoff_est": "Jun 13 2026 06:00 PM EST",
      "status": "valid",
      "group": "C"
@@ -8011,7 +8011,7 @@
      "team2": "France",
      "score1": 1,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 03:00 PM EST",
      "status": "valid",
      "group": "I"
@@ -8021,7 +8021,7 @@
      "team2": "Iraq",
      "score1": 2,
      "score2": 0,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 03:00 PM EST",
      "status": "valid",
      "group": "I"
@@ -8031,7 +8031,7 @@
      "team2": "Saudi Arabia",
      "score1": 1,
      "score2": 1,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 08:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -8041,7 +8041,7 @@
      "team2": "Spain",
      "score1": 0,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 08:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -8051,7 +8051,7 @@
      "team2": "Iran",
      "score1": 1,
      "score2": 0,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 11:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -8061,7 +8061,7 @@
      "team2": "Belgium",
      "score1": 0,
      "score2": 2,
-     "submitted_est": "Jun 26 2026 07:31 AM EST",
+     "submitted_est": "Jun 26 2026 07:32 AM EST",
      "kickoff_est": "Jun 26 2026 11:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -9596,7 +9596,7 @@
      "team2": "South Africa",
      "score1": 2,
      "score2": 0,
-     "submitted_est": "Jun 18 2026 03:49 AM EST",
+     "submitted_est": "Jun 18 2026 03:50 AM EST",
      "kickoff_est": "Jun 18 2026 12:00 PM EST",
      "status": "valid",
      "group": "A"
@@ -9606,7 +9606,7 @@
      "team2": "Bosnia & Herzegovina",
      "score1": 2,
      "score2": 1,
-     "submitted_est": "Jun 18 2026 03:49 AM EST",
+     "submitted_est": "Jun 18 2026 03:50 AM EST",
      "kickoff_est": "Jun 18 2026 03:00 PM EST",
      "status": "valid",
      "group": "B"
@@ -9616,7 +9616,7 @@
      "team2": "Qatar",
      "score1": 1,
      "score2": 1,
-     "submitted_est": "Jun 18 2026 03:49 AM EST",
+     "submitted_est": "Jun 18 2026 03:50 AM EST",
      "kickoff_est": "Jun 18 2026 06:00 PM EST",
      "status": "valid",
      "group": "B"
@@ -9626,7 +9626,7 @@
      "team2": "South Korea",
      "score1": 2,
      "score2": 1,
-     "submitted_est": "Jun 18 2026 03:49 AM EST",
+     "submitted_est": "Jun 18 2026 03:50 AM EST",
      "kickoff_est": "Jun 18 2026 09:00 PM EST",
      "status": "valid",
      "group": "A"
@@ -16126,7 +16126,7 @@
      "team2": "Cape Verde",
      "score1": 4,
      "score2": 1,
-     "submitted_est": "Jun 14 2026 07:37 PM EST",
+     "submitted_est": "Jun 14 2026 07:38 PM EST",
      "kickoff_est": "Jun 15 2026 12:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -16136,7 +16136,7 @@
      "team2": "Egypt",
      "score1": 3,
      "score2": 1,
-     "submitted_est": "Jun 14 2026 07:37 PM EST",
+     "submitted_est": "Jun 14 2026 07:38 PM EST",
      "kickoff_est": "Jun 15 2026 03:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -16146,7 +16146,7 @@
      "team2": "Uruguay",
      "score1": 1,
      "score2": 3,
-     "submitted_est": "Jun 14 2026 07:37 PM EST",
+     "submitted_est": "Jun 14 2026 07:38 PM EST",
      "kickoff_est": "Jun 15 2026 06:00 PM EST",
      "status": "valid",
      "group": "H"
@@ -16156,7 +16156,7 @@
      "team2": "New Zealand",
      "score1": 1,
      "score2": 1,
-     "submitted_est": "Jun 14 2026 07:37 PM EST",
+     "submitted_est": "Jun 14 2026 07:38 PM EST",
      "kickoff_est": "Jun 15 2026 09:00 PM EST",
      "status": "valid",
      "group": "G"
@@ -22481,6 +22481,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 12:33 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 12:33 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 12:33 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kesava Prasad": {
@@ -22586,6 +22631,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 09:05 PM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:35 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:35 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:35 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22740,6 +22830,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:36 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:36 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:36 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Deepa R Rao": {
@@ -22890,6 +23025,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 05:15 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 0,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Croatia",
+     "submitted_est": "Jul 02 2026 06:40 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 2,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Spain",
+     "submitted_est": "Jul 02 2026 06:40 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 0,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": "Algeria",
+     "named_winner": "Algeria",
+     "submitted_est": "Jul 02 2026 06:40 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23044,6 +23224,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:25 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:25 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:25 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sunilraj": {
@@ -23194,6 +23419,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 06:01 AM EST",
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:05 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:05 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:05 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23348,6 +23618,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:31 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:31 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:31 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sreejith Ramachandran": {
@@ -23498,6 +23813,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 11:00 AM EST",
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:27 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:27 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Switzerland",
+     "submitted_est": "Jul 02 2026 10:27 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23652,6 +24012,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 04:10 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 04:10 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 04:10 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Abhilash Unniyambath": {
@@ -23802,6 +24207,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 08:05 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:46 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:46 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Switzerland",
+     "submitted_est": "Jul 02 2026 01:46 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24063,6 +24513,51 @@
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:03 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:03 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:03 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Harish": {
@@ -24213,6 +24708,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 10:27 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:09 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:09 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Switzerland",
+     "submitted_est": "Jul 02 2026 10:09 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24367,6 +24907,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:36 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:36 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:36 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Krishnan": {
@@ -24517,6 +25102,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 09:58 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:53 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:53 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 06:53 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24671,6 +25301,51 @@
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Spain",
+     "submitted_est": "Jul 02 2026 08:55 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 08:55 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 08:55 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kamal": {
@@ -24823,6 +25498,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:57 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:57 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:57 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sanjesh": {
@@ -24958,6 +25678,51 @@
      "named_winner": null,
      "submitted_est": "Jun 30 2026 09:32 PM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:05 PM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": "Portugal",
+     "named_winner": "Portugal",
+     "submitted_est": "Jul 02 2026 01:05 PM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 01:05 PM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25112,6 +25877,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:21 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:21 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:21 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Vinod K M": {
@@ -25264,6 +26074,51 @@
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:38 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:38 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:38 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Srijith": {
@@ -25384,6 +26239,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 05:33 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:54 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:54 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 02:54 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25538,6 +26438,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 08:38 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Portugal",
+     "submitted_est": "Jul 02 2026 08:38 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Switzerland",
+     "submitted_est": "Jul 02 2026 08:38 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Nandhini Viswanath": {
@@ -25688,6 +26633,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 10:38 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:22 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Portugal",
+     "submitted_est": "Jul 02 2026 11:22 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:22 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25842,6 +26832,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Portugal",
+     "named_winner": "Portugal",
+     "submitted_est": "Jul 02 2026 03:04 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:04 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:04 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Praveen Kodurkalam": {
@@ -25992,6 +27027,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 12:22 AM EST",
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Portugal",
+     "submitted_est": "Jul 02 2026 07:24 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 07:24 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 07:24 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -26146,6 +27226,51 @@
      "kickoff_est": "Jul 01 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:03 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:03 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 10:03 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "P Vijayan": {
@@ -26298,6 +27423,51 @@
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 0,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Croatia",
+     "named_winner": "Croatia",
+     "submitted_est": "Jul 02 2026 11:43 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:43 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:43 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Bijesh": {
@@ -26433,6 +27603,51 @@
      "named_winner": null,
      "submitted_est": "Jul 01 2026 12:15 PM EST",
      "kickoff_est": "Jul 01 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "12": {
+     "team1": "Portugal",
+     "team2": "Croatia",
+     "score1": 4,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:00 AM EST",
+     "kickoff_est": "Jul 02 2026 07:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "11": {
+     "team1": "Spain",
+     "team2": "Austria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:00 AM EST",
+     "kickoff_est": "Jul 02 2026 03:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "13": {
+     "team1": "Switzerland",
+     "team2": "Algeria",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 03:00 AM EST",
+     "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -29501,33 +30716,33 @@
    "Jul 1"
   ],
   "timeline": {
-   "Kamal": [
-    1,
-    1,
-    6,
-    9
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11
-   ],
    "Ashik": [
     2,
     5,
+    10,
+    15
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19
+   ],
+   "Rajith": [
+    2,
+    5,
+    10,
+    18
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
     10,
     15
    ],
@@ -29537,29 +30752,11 @@
     7,
     12
    ],
-   "P Vijayan": [
-    2,
-    6,
-    10,
-    16
-   ],
-   "Tony": [
-    0,
+   "Sasikumar Prabhakaran": [
     1,
-    6,
-    6
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9
+    7,
+    14,
+    18
    ],
    "Srijith": [
     2,
@@ -29567,17 +30764,35 @@
     9,
     13
    ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
-    18
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22
    ],
-   "Srikanth N R": [
-    1,
-    5,
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11
+   ],
+   "P Vijayan": [
+    2,
+    6,
     10,
-    19
+    16
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5
    ],
    "Nandhini Viswanath": [
     1,
@@ -29591,16 +30806,46 @@
     5,
     8
    ],
-   "Krishnan": [
+   "Sanjesh": [
     2,
     5,
-    10,
-    14
+    7,
+    10
    ],
-   "Deepa R Rao": [
+   "Kamal": [
+    1,
+    1,
+    6,
+    9
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6
+   ],
+   "Vinod K M": [
     1,
     2,
-    7,
+    4,
     11
    ],
    "Smitha Ramesh": [
@@ -29609,29 +30854,17 @@
     9,
     13
    ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14
-   ],
-   "Senthil Kumar": [
+   "Satheesh": [
     1,
     4,
+    7,
+    10
+   ],
+   "Krishnan": [
+    2,
+    5,
     10,
-    13
+    14
    ],
    "Baba Krishnankutty": [
     2,
@@ -29639,35 +30872,17 @@
     8,
     11
    ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13
-   ],
-   "Vinod K M": [
+   "Deepa R Rao": [
     1,
     2,
-    4,
+    7,
     11
    ],
-   "Shaik Afzal": [
-    2,
+   "KD": [
     3,
-    10,
-    15
+    6,
+    11,
+    14
    ]
   }
  },
