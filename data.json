@@ -22580,6 +22580,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:23 PM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 4,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:23 PM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:23 PM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kesava Prasad": {
@@ -22730,6 +22775,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 02:35 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 04:57 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 04:57 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 04:57 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -22929,6 +23019,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:31 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:31 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Colombia",
+     "submitted_est": "Jul 03 2026 07:31 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Deepa R Rao": {
@@ -23124,6 +23259,51 @@
      "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 06:40 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Egypt",
+     "submitted_est": "Jul 03 2026 04:25 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 04:25 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 04:25 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23323,6 +23503,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 02:20 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 02:20 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 02:20 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sunilraj": {
@@ -23518,6 +23743,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 06:05 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:27 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:27 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:27 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -23717,6 +23987,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:10 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:10 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:10 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sreejith Ramachandran": {
@@ -23912,6 +24227,51 @@
      "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 10:27 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:26 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:26 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:26 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24111,6 +24471,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 08:33 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 4,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 08:33 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Ghana",
+     "submitted_est": "Jul 03 2026 08:33 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Abhilash Unniyambath": {
@@ -24306,6 +24711,51 @@
      "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 01:46 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:45 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 4,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:45 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:45 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -24612,6 +25062,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:19 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:19 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:19 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Harish": {
@@ -24807,6 +25302,51 @@
      "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 10:09 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:37 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:37 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:37 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25006,6 +25546,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:34 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:34 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:34 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Krishnan": {
@@ -25201,6 +25786,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 06:53 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25400,6 +26030,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:35 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:35 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:35 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Kamal": {
@@ -25597,6 +26272,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:59 PM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 4,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:59 PM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 2,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Colombia",
+     "submitted_est": "Jul 02 2026 11:59 PM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Sanjesh": {
@@ -25777,6 +26497,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 01:05 PM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:26 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:26 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 07:26 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -25976,6 +26741,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:34 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:34 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Ghana",
+     "submitted_est": "Jul 03 2026 11:34 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Vinod K M": {
@@ -26173,6 +26983,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:28 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:28 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:28 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Srijith": {
@@ -26338,6 +27193,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 02:54 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:44 PM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:44 PM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 02 2026 11:44 PM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -26537,6 +27437,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:46 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:46 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:46 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Nandhini Viswanath": {
@@ -26732,6 +27677,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 11:22 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 12:14 PM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 12:14 PM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 12:14 PM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -26931,6 +27921,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:00 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:00 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 01:00 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "Praveen Kodurkalam": {
@@ -27126,6 +28161,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 07:24 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 05:08 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 05:08 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 05:08 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -27325,6 +28405,51 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 09:42 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
     }
    },
    "P Vijayan": {
@@ -27520,6 +28645,51 @@
      "named_winner": null,
      "submitted_est": "Jul 02 2026 11:43 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "14": {
+     "team1": "Australia",
+     "team2": "Egypt",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Australia",
+     "submitted_est": "Jul 03 2026 10:45 AM EST",
+     "kickoff_est": "Jul 03 2026 02:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "15": {
+     "team1": "Argentina",
+     "team2": "Cape Verde",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:45 AM EST",
+     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 32"
+    },
+    "16": {
+     "team1": "Colombia",
+     "team2": "Ghana",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 10:45 AM EST",
+     "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
     }
@@ -31662,145 +32832,12 @@
    "Jul 2"
   ],
   "timeline": {
-   "P Vijayan": [
-    2,
-    6,
-    10,
-    16,
-    18
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13
-   ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9,
-    16
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
-    18,
-    23
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18,
-    23
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15,
-    20
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    10,
-    19,
-    22
-   ],
    "Sreejith Ramachandran": [
     2,
     3,
     8,
     11,
     16
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13,
-    17
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
-    14,
-    21
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15
    ],
    "Srijith": [
     2,
@@ -31809,40 +32846,26 @@
     13,
     20
    ],
-   "Praveen Kodurkalam": [
+   "Ashik": [
     2,
     5,
-    9,
-    18,
-    21
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
     10,
-    13,
-    17
+    15,
+    20
    ],
-   "Vinod K M": [
+   "Tony": [
+    0,
     1,
-    2,
-    4,
-    11,
-    14
-   ],
-   "Vinod Menon": [
-    2,
-    3,
     6,
-    9,
-    13
+    6,
+    6
    ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13
+   "Bijesh": [
+    0,
+    3,
+    5,
+    8,
+    11
    ],
    "Sanjesh": [
     2,
@@ -31851,12 +32874,159 @@
     10,
     13
    ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13,
+    17
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
+    18,
+    23
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15
+   ],
+   "P Vijayan": [
+    2,
+    6,
+    10,
+    16,
+    18
+   ],
    "KD": [
     3,
     6,
     11,
     14,
     21
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14,
+    21
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
+    13
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
+    11,
+    17,
+    22
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
+    7
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
+    15
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18,
+    21
+   ],
+   "Rajith": [
+    2,
+    5,
+    10,
+    18,
+    23
    ]
   }
  },
