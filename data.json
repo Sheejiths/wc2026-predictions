@@ -23118,10 +23118,10 @@
      "score1": 0,
      "score2": 0,
      "draw_no_score": false,
-     "et1": null,
-     "et2": null,
-     "pens_winner": "Algeria",
-     "named_winner": "Algeria",
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Switzerland",
+     "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 06:40 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
@@ -25756,8 +25756,8 @@
      "score1": 2,
      "score2": 2,
      "draw_no_score": false,
-     "et1": null,
-     "et2": null,
+     "et1": 0,
+     "et2": 0,
      "pens_winner": "Portugal",
      "named_winner": "Portugal",
      "submitted_est": "Jul 02 2026 01:05 PM EST",
@@ -25968,10 +25968,10 @@
      "score1": 1,
      "score2": 1,
      "draw_no_score": false,
-     "et1": null,
-     "et2": null,
+     "et1": 1,
+     "et2": 0,
      "pens_winner": null,
-     "named_winner": null,
+     "named_winner": "Switzerland",
      "submitted_est": "Jul 02 2026 10:21 AM EST",
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
@@ -28247,12 +28247,12 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": "",
-     "floor": false
+     "notePens": "predicted ET-draw but no shootout (pens locked)",
+     "floor": true
     }
    },
    "Vinod Menon": {
@@ -30193,7 +30193,7 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
-     "notePens": "",
+     "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true
     },
     "13": {
@@ -30345,12 +30345,12 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
-     "floor": false
+     "floor": true
     }
    },
    "Vinod K M": {
@@ -31628,7 +31628,7 @@
    "Satheesh": 15,
    "Kesava Prasad": 13,
    "Senthil Kumar": 17,
-   "Deepa R Rao": 12,
+   "Deepa R Rao": 13,
    "Vinod Menon": 13,
    "Sunilraj": 14,
    "KD": 21,
@@ -31643,7 +31643,7 @@
    "Rajith": 23,
    "Kamal": 16,
    "Sanjesh": 13,
-   "Smitha Ramesh": 14,
+   "Smitha Ramesh": 15,
    "Vinod K M": 14,
    "Srijith": 20,
    "Sheejith Sahadevan": 25,
@@ -31662,152 +31662,12 @@
    "Jul 2"
   ],
   "timeline": {
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    10,
-    19,
-    22
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11,
-    14
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15,
-    20
-   ],
    "Krishnan": [
     2,
     5,
     10,
     14,
     21
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    14
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
-    18,
-    23
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13,
-    17
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9,
-    13
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16
    ],
    "Senthil Kumar": [
     1,
@@ -31816,12 +31676,103 @@
     13,
     17
    ],
-   "Shaik Afzal": [
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
+    7
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25
+   ],
+   "Rajith": [
+    2,
+    5,
+    10,
+    18,
+    23
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20
+   ],
+   "Bijesh": [
+    0,
+    3,
+    5,
+    8,
+    11
+   ],
+   "Baba Krishnankutty": [
     2,
     3,
+    8,
+    11,
+    13
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
     10,
-    15,
-    19
+    15
+   ],
+   "KD": [
+    3,
+    6,
+    11,
+    14,
+    21
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22
    ],
    "Kamal": [
     1,
@@ -31837,26 +31788,75 @@
     16,
     18
    ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18,
     21
    ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    12
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17
    ],
-   "Rajith": [
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16
+   ],
+   "Ashik": [
     2,
     5,
     10,
+    15,
+    20
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
     18,
     23
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
+    11,
+    17,
+    22
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6
    ]
   }
  },
