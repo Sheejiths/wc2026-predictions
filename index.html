@@ -437,7 +437,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -446,7 +446,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -455,7 +455,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -464,7 +464,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -473,7 +473,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -482,7 +482,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.18</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Bonus tab: Champion-column alignment fix (override sticky w/ higher specificity)<br>
+  <strong>⚙️ UI v1.12.19</strong> &nbsp;·&nbsp; Built 1 Jul 2026 · Winner-credit ⌊n⌋ now counts stacked credits in R32 board (matches Overall); bonus modal labels winner credit<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1058,18 +1058,19 @@ function showBonusDetail(name,items){
       <div style="margin-top:5px;font-size:12px;color:#605e5c;">Extra-time & penalty bonus earned in the Round of 32</div></div>
     <span style="font-size:13px;font-weight:800;padding:3px 11px;border-radius:12px;background:#fff1dc;color:#8a5a00;">+${total} bonus</span>
   </div>
-  <div class="hover-hint" style="margin-bottom:10px;">These points are earned <b>on top of</b> the 90-minute tier: predict a 90-min draw and you can score again on the extra-time score (+3/+2/+1), and if you also called an ET draw, on the shootout winner (+2).</div>`;
+  <div class="hover-hint" style="margin-bottom:10px;">These points are earned <b>on top of</b> the 90-minute tier: predict a 90-min draw and you can score again on the extra-time score (+3/+2/+1), and if you also called an ET draw, on the shootout winner (+2). A <span style="color:#6b21a8;font-weight:700;">winner credit</span> (+1) is added when you correctly named the team that advanced but that call wasn't already paid by the ET/pens layers.</div>`;
   if(!items.length){body+='<p style="text-align:center;color:#888;padding:20px;">No bonus points yet.</p>';}
   items.forEach(it=>{
     const[t1,t2]=it.match.split(' vs ');
     let rows='';
     if(it.pET>0)rows+=`<div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:#605e5c;margin-top:2px;">Extra time: predicted <b>${it.et}</b> → actual <b>${it.actualET}</b> <span style="font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;background:#dae8f6;color:#004e8c;">+${it.pET}</span></div>`;
     if(it.pPens>0)rows+=`<div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:#605e5c;margin-top:2px;">Penalties: predicted <b>${it.pens||'—'}</b> → actual <b>${it.actualPens||'—'}</b> <span style="font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;background:#e7d9ff;color:#5a2ca0;">+${it.pPens}</span></div>`;
+    if(it.credit>0)rows+=`<div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:#605e5c;margin-top:2px;">Winner credit: correctly named <b>${it.winner?flag(it.winner):'the team that advanced'}</b> <span style="font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;background:#efe3ff;color:#6b21a8;">+1</span></div>`;
     body+=`<div class="member-item"><div style="flex:1;">
       <div style="font-size:13px;font-weight:600;">${flag(t1.trim())} vs ${flag(t2.trim())} <span style="font-size:11px;color:#8a5a00;font-weight:700;">(90-min pick ${it.p90})</span></div>
       ${rows}</div></div>`;
   });
-  openModal('','ET / Pens bonus — +'+total+' total',body);
+  openModal('','Bonus (ET / pens / winner credit) — +'+total+' total',body);
 }
 function showStatDetail(name,type,items){
   const labels={exact:'Exact Scores (+3 each)',gdiff:'Right Goal Diff (+2 each)',result:'Correct Results (+1 each)'};
@@ -1420,8 +1421,8 @@ function renderLB(){
             hitrate:s.played?hits/s.played:0,
             tied:rankCounts[rank]>1&&rank<=3,medal:MEDALS[rank]};
   });
-  const hint=overall?'🏅 <b>Overall</b> = Group + Round of 32. EXACT·DIFF·RESULT are combined across both stages; <b>KO</b> shows the knockout points (incl. any ET/pens bonus) inside the PTS grand total. '
-    :ko?'🏆 <b>Round of 32</b> knockout scoring (90-min 3/2/1, plus ET and pens bonus). <b>BONUS</b> = ET/pens points on top of the 90-min tier, so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. RESULT includes <span style="color:#6b21a8;font-weight:700;">winner-floor</span> +1s (⌊n⌋). '
+  const hint=overall?'🏅 <b>Overall</b> = Group + Round of 32. EXACT·DIFF·RESULT are combined across both stages; <b>KO</b> shows the knockout points (incl. any ET/pens & winner-credit bonus) inside the PTS grand total. '
+    :ko?'🏆 <b>Round of 32</b> knockout scoring (90-min 3/2/1, plus ET, pens and winner-credit bonuses). <b>BONUS</b> = points on top of the 90-min tier (ET, pens, or a <span style="color:#6b21a8;font-weight:700;">winner-credit</span> +1), so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. <span style="color:#6b21a8;font-weight:700;">⌊n⌋</span> = winner credits (+1 for correctly naming the team that advanced): floors a 0 up to 1 (in RESULT), or adds +1 on top of a scoring draw (in BONUS). '
     :'💡 ';
   el.innerHTML=`<div class="hover-hint">${hint}Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
     <div class="lb-controls"><button class="lb-share" onclick="shareLeaderboardImage()">📤 Share image</button><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
@@ -2074,18 +2075,21 @@ function calcKOScores(){
         const base=({exact:3,gdiff:2,result:1})[c.tier90]||0;
         if(c.tier90==='exact')s.exact.push(item);
         else if(c.tier90==='gdiff')s.gdiff.push(item);
-        else if(c.tier90==='result'){s.result.push(item);if(c.floor)s.resultFloor++;}
+        else if(c.tier90==='result'){s.result.push(item);}
         else s.wrong++;
+        if(c.floor)s.resultFloor++;   // winner credit: count on ANY tier (floor 0->1 OR +1 stacked on exact/diff)
         s.played++; s.pts+=c.total; s.koPts+=c.total;
         const bp=Math.max(0,c.total-base);
         s.bonus+=bp;
         if(bp>0){
+          const advT=res.pens_winner||((res.score1+(res.et1||0))>(res.score2+(res.et2||0))?res.team1:((res.score2+(res.et2||0))>(res.score1+(res.et1||0))?res.team2:null));
           s.bonusItems.push({match:label,p90:pred,
             et:(p&&p.et1!=null)?(p.et1+'-'+p.et2):null,
             pens:(p&&p.pens_winner)||null,
             actualET:(res.et1!=null)?(res.et1+'-'+res.et2):null,
             actualPens:res.pens_winner||null,
-            pET:c.pET||0,pPens:c.pPens||0,bonus:bp});
+            pET:c.pET||0,pPens:c.pPens||0,bonus:bp,
+            credit:(!!c.floor&&(c.pET||0)===0&&(c.pPens||0)===0)?1:0,winner:advT});
         }
       }
     }
