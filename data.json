@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2 Jul 2026",
-  "updated_time": "11:00 PM",
+  "updated": "3 Jul 2026",
+  "updated_time": "2:00 PM",
   "matches_played": 104,
-  "matches_scored": 85,
+  "matches_scored": 86,
   "group": "PDC Friends 1991-93",
-  "ko_results": 13
+  "ko_results": 14
  },
  "predictions": [
   {
@@ -21704,11 +21704,14 @@
     "t2": "Egypt",
     "slot2": "Runner-up G",
     "t2src": "final",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
-    "children": []
+    "s1": 1,
+    "s2": 1,
+    "winner": "Egypt",
+    "status": "actual",
+    "children": [],
+    "et1": 0,
+    "et2": 0,
+    "pens_winner": "Egypt"
    },
    {
     "m": 15,
@@ -21851,11 +21854,11 @@
    {
     "m": 23,
     "round": "R16",
-    "t1": null,
+    "t1": "Egypt",
     "t2": null,
-    "t1src": "tbd",
+    "t1src": "live",
     "t2src": "tbd",
-    "slot1": "TBD",
+    "slot1": "Winner M14",
     "slot2": "TBD",
     "s1": null,
     "s2": null,
@@ -22382,6 +22385,21 @@
     "stage": "Round of 32",
     "kickoff_est": "Jul 02 2026 11:00 PM EST",
     "et_date": "Jul 2"
+   },
+   "14": {
+    "ko": 14,
+    "m": 14,
+    "team1": "Australia",
+    "team2": "Egypt",
+    "score1": 1,
+    "score2": 1,
+    "et1": 0,
+    "et2": 0,
+    "pens_winner": "Egypt",
+    "winner": "Egypt",
+    "stage": "Round of 32",
+    "kickoff_est": "Jul 03 2026 02:00 PM EST",
+    "et_date": "Jul 3"
    }
   },
   "predictions": {
@@ -29021,6 +29039,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Kesava Prasad": {
@@ -29133,6 +29162,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Senthil Kumar": {
@@ -29278,6 +29318,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Deepa R Rao": {
@@ -29422,6 +29473,17 @@
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "predicted ET-draw but no shootout (pens locked)",
+     "floor": true
+    },
+    "14": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 4,
+     "tier90": "exact",
+     "tierET": "wrong",
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
      "floor": true
     }
    },
@@ -29568,6 +29630,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Sunilraj": {
@@ -29713,6 +29786,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "KD": {
@@ -29858,6 +29942,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Sreejith Ramachandran": {
@@ -30001,6 +30096,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
      "notePens": "",
      "floor": true
     }
@@ -30148,6 +30254,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Abhilash Unniyambath": {
@@ -30291,6 +30408,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
      "notePens": "",
      "floor": true
     }
@@ -30517,6 +30645,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Harish": {
@@ -30660,6 +30799,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
      "notePens": "",
      "floor": true
     }
@@ -30807,6 +30957,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Krishnan": {
@@ -30952,6 +31113,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Rajith": {
@@ -31095,6 +31267,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "",
+     "notePens": "",
+     "floor": false
+    },
+    "14": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "predicted 90-draw, match went to ET, but no ET pick given",
      "notePens": "",
      "floor": false
     }
@@ -31242,6 +31425,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sanjesh": {
@@ -31376,6 +31570,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Smitha Ramesh": {
@@ -31519,6 +31724,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
      "notePens": "",
      "floor": true
     }
@@ -31666,6 +31882,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Srijith": {
@@ -31789,6 +32016,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Sheejith Sahadevan": {
@@ -31932,6 +32170,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
      "notePens": "",
      "floor": true
     }
@@ -32079,6 +32328,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Srikanth N R": {
@@ -32224,6 +32484,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Praveen Kodurkalam": {
@@ -32369,6 +32640,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Baba Krishnankutty": {
@@ -32514,6 +32796,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "winner credit: named Egypt who advanced (+1)",
+     "notePens": "",
+     "floor": true
     }
    },
    "P Vijayan": {
@@ -32659,6 +32952,17 @@
      "noteET": "",
      "notePens": "",
      "floor": false
+    },
+    "14": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": "wrong",
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Bijesh": {
@@ -32795,33 +33099,33 @@
    }
   },
   "totals": {
-   "Satheesh": 15,
-   "Kesava Prasad": 13,
-   "Senthil Kumar": 17,
-   "Deepa R Rao": 13,
-   "Vinod Menon": 13,
-   "Sunilraj": 14,
-   "KD": 21,
-   "Sreejith Ramachandran": 16,
-   "Shaik Afzal": 19,
-   "Abhilash Unniyambath": 7,
+   "Satheesh": 16,
+   "Kesava Prasad": 14,
+   "Senthil Kumar": 18,
+   "Deepa R Rao": 17,
+   "Vinod Menon": 14,
+   "Sunilraj": 15,
+   "KD": 22,
+   "Sreejith Ramachandran": 17,
+   "Shaik Afzal": 20,
+   "Abhilash Unniyambath": 8,
    "Tony": 6,
    "Ashik": 20,
-   "Harish": 17,
-   "Sasikumar Prabhakaran": 23,
-   "Krishnan": 21,
-   "Rajith": 23,
+   "Harish": 18,
+   "Sasikumar Prabhakaran": 24,
+   "Krishnan": 22,
+   "Rajith": 26,
    "Kamal": 16,
-   "Sanjesh": 13,
-   "Smitha Ramesh": 15,
-   "Vinod K M": 14,
-   "Srijith": 20,
-   "Sheejith Sahadevan": 25,
-   "Nandhini Viswanath": 22,
-   "Srikanth N R": 22,
-   "Praveen Kodurkalam": 21,
-   "Baba Krishnankutty": 13,
-   "P Vijayan": 18,
+   "Sanjesh": 14,
+   "Smitha Ramesh": 16,
+   "Vinod K M": 15,
+   "Srijith": 21,
+   "Sheejith Sahadevan": 26,
+   "Nandhini Viswanath": 23,
+   "Srikanth N R": 23,
+   "Praveen Kodurkalam": 22,
+   "Baba Krishnankutty": 14,
+   "P Vijayan": 21,
    "Bijesh": 11
   },
   "matchdays": [
@@ -32829,14 +33133,176 @@
    "Jun 29",
    "Jun 30",
    "Jul 1",
-   "Jul 2"
+   "Jul 2",
+   "Jul 3"
   ],
   "timeline": {
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
+    15,
+    16
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15,
+    20,
+    20
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14,
+    15
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19,
+    20
+   ],
+   "KD": [
+    3,
+    6,
+    11,
+    14,
+    21,
+    22
+   ],
    "Rajith": [
     2,
     5,
     10,
     18,
+    23,
+    26
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    14
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13,
+    17,
+    18
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18,
+    21,
+    22
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
+    13,
+    14
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
+    14
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20,
+    21
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    16
+   ],
+   "Bijesh": [
+    0,
+    3,
+    5,
+    8,
+    11,
+    11
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    14
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    17
+   ],
+   "P Vijayan": [
+    2,
+    6,
+    10,
+    16,
+    18,
+    21
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14,
+    15
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
+    16
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
     23
    ],
    "Deepa R Rao": [
@@ -32844,110 +33310,6 @@
     2,
     7,
     11,
-    13
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9,
-    13
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
-    21
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
-    13,
-    17
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11,
-    14
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
     13,
     17
    ],
@@ -32956,77 +33318,48 @@
     7,
     14,
     18,
-    23
+    23,
+    24
    ],
-   "Kamal": [
+   "Nandhini Viswanath": [
     1,
-    1,
-    6,
-    9,
-    16
+    4,
+    11,
+    17,
+    22,
+    23
    ],
    "Krishnan": [
     2,
     5,
     10,
     14,
-    21
-   ],
-   "Srikanth N R": [
-    1,
-    5,
-    10,
-    19,
+    21,
     22
    ],
-   "Ashik": [
+   "Sheejith Sahadevan": [
     2,
-    5,
-    10,
-    15,
-    20
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15
-   ],
-   "P Vijayan": [
-    2,
-    6,
-    10,
+    11,
     16,
-    18
+    22,
+    25,
+    26
    ],
-   "Sanjesh": [
+   "Abhilash Unniyambath": [
+    0,
+    0,
     2,
     5,
     7,
-    10,
-    13
+    8
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17,
+    18
    ]
   }
  },
@@ -35802,6 +36135,7 @@
   },
   "eliminated": [
    "Algeria",
+   "Australia",
    "Austria",
    "Bosnia & Herzegovina",
    "Croatia",
@@ -35833,7 +36167,6 @@
   ],
   "alive": [
    "Argentina",
-   "Australia",
    "Belgium",
    "Brazil",
    "Canada",
@@ -35872,6 +36205,7 @@
   ],
   "ko_losers": [
    "Algeria",
+   "Australia",
    "Austria",
    "Bosnia & Herzegovina",
    "Croatia",
