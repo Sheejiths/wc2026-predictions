@@ -28186,10 +28186,10 @@
      "score1": 1,
      "score2": 1,
      "draw_no_score": false,
-     "et1": 0,
-     "et2": 1,
+     "et1": 1,
+     "et2": 0,
      "pens_winner": null,
-     "named_winner": "Ghana",
+     "named_winner": "Colombia",
      "submitted_est": "Jul 03 2026 08:33 AM EST",
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
@@ -30438,14 +30438,14 @@
     "15": {
      "team1": "Argentina",
      "team2": "Cape Verde",
-     "score1": 3,
-     "score2": 1,
+     "score1": 2,
+     "score2": 0,
      "draw_no_score": false,
      "et1": null,
      "et2": null,
      "pens_winner": null,
      "named_winner": null,
-     "submitted_est": "Jul 03 2026 11:34 AM EST",
+     "submitted_est": "Jul 03 2026 03:49 PM EST",
      "kickoff_est": "Jul 03 2026 06:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
@@ -30453,14 +30453,14 @@
     "16": {
      "team1": "Colombia",
      "team2": "Ghana",
-     "score1": 1,
-     "score2": 1,
+     "score1": 2,
+     "score2": 0,
      "draw_no_score": false,
-     "et1": 0,
-     "et2": 1,
+     "et1": null,
+     "et2": null,
      "pens_winner": null,
-     "named_winner": "Ghana",
-     "submitted_est": "Jul 03 2026 11:34 AM EST",
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 03:49 PM EST",
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
@@ -34257,13 +34257,13 @@
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
      "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
-     "floor": false,
-     "winner_credit": false
+     "floor": true,
+     "winner_credit": true
     }
    },
    "Abhilash Unniyambath": {
@@ -36074,13 +36074,13 @@
      "winner_credit": true
     },
     "16": {
-     "p90": 0,
+     "p90": 1,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "tierET": null,
-     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "noteET": "",
      "notePens": "",
      "floor": false,
      "winner_credit": false
@@ -37768,7 +37768,7 @@
    "Sunilraj": 17,
    "KD": 25,
    "Sreejith Ramachandran": 19,
-   "Shaik Afzal": 21,
+   "Shaik Afzal": 22,
    "Abhilash Unniyambath": 11,
    "Tony": 6,
    "Ashik": 21,
@@ -37778,7 +37778,7 @@
    "Rajith": 29,
    "Kamal": 18,
    "Sanjesh": 18,
-   "Smitha Ramesh": 17,
+   "Smitha Ramesh": 18,
    "Vinod K M": 19,
    "Srijith": 24,
    "Sheejith Sahadevan": 28,
@@ -37798,69 +37798,13 @@
    "Jul 3"
   ],
   "timeline": {
-   "Deepa R Rao": [
+   "Sasikumar Prabhakaran": [
     1,
-    2,
     7,
-    11,
-    13,
-    19
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
     14,
-    21,
-    26
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
-    26
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
     18,
     23,
-    29
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6,
-    6
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16,
-    19
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15,
-    20,
-    21
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11,
-    14,
-    19
+    27
    ],
    "Bijesh": [
     0,
@@ -37878,13 +37822,13 @@
     13,
     17
    ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13,
-    17
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    18
    ],
    "Harish": [
     0,
@@ -37894,36 +37838,36 @@
     17,
     22
    ],
-   "Sasikumar Prabhakaran": [
+   "Sunilraj": [
     1,
+    2,
     7,
+    12,
     14,
-    18,
-    23,
-    27
+    17
    ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
+   "Rajith": [
     2,
     5,
-    7,
-    11
+    10,
+    18,
+    23,
+    29
    ],
-   "Kamal": [
+   "Satheesh": [
     1,
-    1,
-    6,
-    9,
-    16,
+    4,
+    7,
+    10,
+    15,
     18
    ],
-   "Srikanth N R": [
-    1,
+   "Praveen Kodurkalam": [
+    2,
     5,
-    10,
-    19,
-    22,
+    9,
+    18,
+    21,
     26
    ],
    "Senthil Kumar": [
@@ -37934,37 +37878,29 @@
     17,
     20
    ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25,
-    28
-   ],
-   "Sunilraj": [
+   "Vinod K M": [
     1,
     2,
-    7,
-    12,
-    14,
-    17
-   ],
-   "KD": [
-    3,
-    6,
+    4,
     11,
     14,
-    21,
-    25
+    19
    ],
-   "Sanjesh": [
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
     2,
     5,
     7,
-    10,
-    13,
-    18
+    11
    ],
    "Nandhini Viswanath": [
     1,
@@ -37974,22 +37910,6 @@
     22,
     26
    ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13,
-    15
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15,
-    18
-   ],
    "Srijith": [
     2,
     4,
@@ -37998,13 +37918,61 @@
     20,
     24
    ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
+    13,
+    17
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15,
+    20,
+    21
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    18
+   ],
    "Smitha Ramesh": [
     2,
     5,
     9,
     13,
     15,
-    17
+    18
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13,
+    19
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
+    15
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25,
+    28
    ],
    "Shaik Afzal": [
     2,
@@ -38012,7 +37980,15 @@
     10,
     15,
     19,
-    21
+    22
+   ],
+   "KD": [
+    3,
+    6,
+    11,
+    14,
+    21,
+    25
    ],
    "P Vijayan": [
     2,
@@ -38021,6 +37997,30 @@
     16,
     18,
     24
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
+    26
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14,
+    21,
+    26
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    19
    ]
   }
  },
@@ -49525,21 +49525,21 @@
      "t1": "Colombia",
      "t2": "Ghana",
      "actual": "1-0",
-     "pred": "1-1 · ET 0-1",
+     "pred": "1-1 · ET 1-0",
      "p90": 0,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
-     "winner_credit": false,
-     "tier": "wrong"
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": true,
+     "tier": "result"
     }
    ],
    "group_total": 60,
-   "ko_total": 21,
+   "ko_total": 22,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 81
+   "overall": 82
   },
   "Nandhini Viswanath": {
    "group": [
@@ -53809,7 +53809,7 @@
      "t1": "Argentina",
      "t2": "Cape Verde",
      "actual": "1-1 · ET 2-1",
-     "pred": "3-1",
+     "pred": "2-0",
      "p90": 0,
      "pET": 0,
      "pPens": 0,
@@ -53824,21 +53824,21 @@
      "t1": "Colombia",
      "t2": "Ghana",
      "actual": "1-0",
-     "pred": "1-1 · ET 0-1",
-     "p90": 0,
+     "pred": "2-0",
+     "p90": 1,
      "pET": 0,
      "pPens": 0,
-     "total": 0,
-     "tier90": "wrong",
+     "total": 1,
+     "tier90": "result",
      "winner_credit": false,
-     "tier": "wrong"
+     "tier": "result"
     }
    ],
    "group_total": 58,
-   "ko_total": 17,
+   "ko_total": 18,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 75
+   "overall": 76
   },
   "Deepa R Rao": {
    "group": [
