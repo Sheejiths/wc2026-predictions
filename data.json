@@ -1,11 +1,11 @@
 {
  "meta": {
   "updated": "3 Jul 2026",
-  "updated_time": "6:00 PM",
+  "updated_time": "9:30 PM",
   "matches_played": 104,
-  "matches_scored": 87,
+  "matches_scored": 88,
   "group": "PDC Friends 1991-93",
-  "ko_results": 15
+  "ko_results": 16
  },
  "predictions": [
   {
@@ -21740,11 +21740,14 @@
     "t2": "Ghana",
     "slot2": "Best 3rd",
     "t2src": "final",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
-    "children": []
+    "s1": 1,
+    "s2": 0,
+    "winner": "Colombia",
+    "status": "actual",
+    "children": [],
+    "et1": null,
+    "et2": null,
+    "pens_winner": null
    },
    {
     "m": 17,
@@ -21858,11 +21861,11 @@
     "m": 23,
     "round": "R16",
     "t1": "Egypt",
-    "t2": null,
+    "t2": "Colombia",
     "t1src": "live",
-    "t2src": "tbd",
+    "t2src": "live",
     "slot1": "Winner M14",
-    "slot2": "TBD",
+    "slot2": "Winner M16",
     "s1": null,
     "s2": null,
     "winner": null,
@@ -22417,6 +22420,21 @@
     "winner": "Argentina",
     "stage": "Round of 32",
     "kickoff_est": "Jul 03 2026 06:00 PM EST",
+    "et_date": "Jul 3"
+   },
+   "16": {
+    "ko": 16,
+    "m": 16,
+    "team1": "Colombia",
+    "team2": "Ghana",
+    "score1": 1,
+    "score2": 0,
+    "et1": null,
+    "et2": null,
+    "pens_winner": null,
+    "winner": "Colombia",
+    "stage": "Round of 32",
+    "kickoff_est": "Jul 03 2026 09:30 PM EST",
     "et_date": "Jul 3"
    }
   },
@@ -24302,10 +24320,10 @@
      "score1": 1,
      "score2": 1,
      "draw_no_score": false,
-     "et1": null,
-     "et2": null,
+     "et1": 1,
+     "et2": 0,
      "pens_winner": null,
-     "named_winner": null,
+     "named_winner": "Colombia",
      "submitted_est": "Jul 03 2026 09:26 AM EST",
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
@@ -29079,6 +29097,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kesava Prasad": {
@@ -29213,6 +29242,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Senthil Kumar": {
@@ -29378,6 +29418,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "winner credit: named Argentina who advanced (+1)",
+     "notePens": "",
+     "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
     }
@@ -29547,6 +29598,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Vinod Menon": {
@@ -29714,6 +29776,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sunilraj": {
@@ -29881,6 +29954,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "KD": {
@@ -30048,6 +30132,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sreejith Ramachandran": {
@@ -30213,6 +30308,17 @@
      "tier90": "result",
      "tierET": null,
      "noteET": "winner credit: named Argentina who advanced (+1)",
+     "notePens": "",
+     "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
      "notePens": "",
      "floor": true
     }
@@ -30382,6 +30488,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": false
     }
    },
    "Abhilash Unniyambath": {
@@ -30549,6 +30666,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Tony": {
@@ -30795,6 +30923,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Harish": {
@@ -30962,6 +31101,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sasikumar Prabhakaran": {
@@ -31129,6 +31279,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Krishnan": {
@@ -31296,6 +31457,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Rajith": {
@@ -31463,6 +31635,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Kamal": {
@@ -31630,6 +31813,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true
     }
    },
    "Sanjesh": {
@@ -31786,6 +31980,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Smitha Ramesh": {
@@ -31953,6 +32158,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": false
     }
    },
    "Vinod K M": {
@@ -32120,6 +32336,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Srijith": {
@@ -32265,6 +32492,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Sheejith Sahadevan": {
@@ -32432,6 +32670,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Nandhini Viswanath": {
@@ -32599,6 +32848,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Srikanth N R": {
@@ -32766,6 +33026,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Praveen Kodurkalam": {
@@ -32933,6 +33204,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Baba Krishnankutty": {
@@ -33100,6 +33382,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "P Vijayan": {
@@ -33267,6 +33560,17 @@
      "noteET": "winner credit: named Argentina who advanced (+1)",
      "notePens": "",
      "floor": true
+    },
+    "16": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false
     }
    },
    "Bijesh": {
@@ -33403,33 +33707,33 @@
    }
   },
   "totals": {
-   "Satheesh": 17,
+   "Satheesh": 18,
    "Kesava Prasad": 15,
-   "Senthil Kumar": 19,
-   "Deepa R Rao": 18,
-   "Vinod Menon": 15,
-   "Sunilraj": 16,
-   "KD": 23,
-   "Sreejith Ramachandran": 18,
+   "Senthil Kumar": 20,
+   "Deepa R Rao": 19,
+   "Vinod Menon": 17,
+   "Sunilraj": 17,
+   "KD": 25,
+   "Sreejith Ramachandran": 19,
    "Shaik Afzal": 21,
-   "Abhilash Unniyambath": 9,
+   "Abhilash Unniyambath": 11,
    "Tony": 6,
    "Ashik": 21,
-   "Harish": 19,
-   "Sasikumar Prabhakaran": 25,
-   "Krishnan": 23,
-   "Rajith": 27,
-   "Kamal": 17,
-   "Sanjesh": 15,
+   "Harish": 22,
+   "Sasikumar Prabhakaran": 27,
+   "Krishnan": 26,
+   "Rajith": 29,
+   "Kamal": 18,
+   "Sanjesh": 18,
    "Smitha Ramesh": 17,
-   "Vinod K M": 16,
-   "Srijith": 22,
-   "Sheejith Sahadevan": 27,
-   "Nandhini Viswanath": 24,
-   "Srikanth N R": 24,
-   "Praveen Kodurkalam": 23,
-   "Baba Krishnankutty": 15,
-   "P Vijayan": 22,
+   "Vinod K M": 19,
+   "Srijith": 24,
+   "Sheejith Sahadevan": 28,
+   "Nandhini Viswanath": 26,
+   "Srikanth N R": 26,
+   "Praveen Kodurkalam": 26,
+   "Baba Krishnankutty": 17,
+   "P Vijayan": 24,
    "Bijesh": 11
   },
   "matchdays": [
@@ -33441,29 +33745,61 @@
    "Jul 3"
   ],
   "timeline": {
-   "Vinod Menon": [
+   "Deepa R Rao": [
+    1,
     2,
+    7,
+    11,
+    13,
+    19
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17,
+    22
+   ],
+   "KD": [
     3,
     6,
+    11,
+    14,
+    21,
+    25
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    18
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14,
+    19
+   ],
+   "Srijith": [
+    2,
+    4,
     9,
     13,
-    15
+    20,
+    24
    ],
-   "Sheejith Sahadevan": [
+   "Krishnan": [
     2,
-    11,
-    16,
-    22,
-    25,
-    27
-   ],
-   "Srikanth N R": [
-    1,
     5,
     10,
-    19,
-    22,
-    24
+    14,
+    21,
+    26
    ],
    "P Vijayan": [
     2,
@@ -33471,15 +33807,7 @@
     10,
     16,
     18,
-    22
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18,
-    23,
-    27
+    24
    ],
    "Kesava Prasad": [
     2,
@@ -33489,13 +33817,13 @@
     13,
     15
    ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9,
-    16,
-    17
+   "Bijesh": [
+    0,
+    3,
+    5,
+    8,
+    11,
+    11
    ],
    "Senthil Kumar": [
     1,
@@ -33503,87 +33831,7 @@
     10,
     13,
     17,
-    19
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11,
-    14,
-    16
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7,
-    9
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13,
-    15
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
-    21,
-    23
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20,
-    22
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
-    23
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13,
-    15
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15,
-    17
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16,
-    18
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13,
-    18
+    20
    ],
    "Nandhini Viswanath": [
     1,
@@ -33591,15 +33839,39 @@
     11,
     17,
     22,
-    24
+    26
    ],
-   "Sasikumar Prabhakaran": [
+   "Sunilraj": [
     1,
+    2,
     7,
+    12,
     14,
+    17
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    18
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
     18,
-    23,
-    25
+    21,
+    26
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
+    26
    ],
    "Tony": [
     0,
@@ -33609,13 +33881,13 @@
     6,
     6
    ],
-   "Krishnan": [
+   "Rajith": [
     2,
     5,
     10,
-    14,
-    21,
-    23
+    18,
+    23,
+    29
    ],
    "Ashik": [
     2,
@@ -33625,38 +33897,6 @@
     20,
     21
    ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11,
-    11
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15,
-    17
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13,
-    17,
-    19
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14,
-    16
-   ],
    "Shaik Afzal": [
     2,
     3,
@@ -33664,6 +33904,70 @@
     15,
     19,
     21
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    17
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    19
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
+    18,
+    23,
+    27
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
+    17
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25,
+    28
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
+    13,
+    17
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
+    15,
+    18
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
+    7,
+    11
    ]
   }
  },
@@ -36449,6 +36753,7 @@
    "DR Congo",
    "Ecuador",
    "Germany",
+   "Ghana",
    "Haiti",
    "Iran",
    "Iraq",
@@ -36479,7 +36784,6 @@
    "Egypt",
    "England",
    "France",
-   "Ghana",
    "Mexico",
    "Morocco",
    "Norway",
@@ -36517,6 +36821,7 @@
    "DR Congo",
    "Ecuador",
    "Germany",
+   "Ghana",
    "Ivory Coast",
    "Japan",
    "Netherlands",
