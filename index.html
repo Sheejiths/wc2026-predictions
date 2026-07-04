@@ -9,6 +9,54 @@
 <title>FIFA World Cup 2026 — PDC Friends Prediction Tracker</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
+/* ---- fluorescent tier tokens (PART 3) — one block changes the whole site ---- */
+:root{
+  --tier-exact-fill:#2a2410;--tier-exact-border:#ffd54a;--tier-exact-text:#ffe27a;
+  --tier-gdiff-fill:#0d2630;--tier-gdiff-border:#3ad8ff;--tier-gdiff-text:#7fe6ff;
+  --tier-result-fill:#0d2a1a;--tier-result-border:#5cff9d;--tier-result-text:#9dffc4;
+  --tier-wrong-fill:#2e1114;--tier-wrong-border:#ff5c6c;--tier-wrong-text:#ff8a95;
+  --tier-invalid-fill:#2e1226;--tier-invalid-border:#ff5cd0;--tier-invalid-text:#ff92e0;
+  --tier-missing-fill:#1a1f27;--tier-missing-border:#3a4453;--tier-missing-text:#aab4c2;
+  --tier-winner-fill:#0a2a24;--tier-winner-border:#2ff5c8;--tier-winner-text:#7dffe4;
+  --sc-bg:#0e1116;--sc-panel:#11161c;--sc-line:#1e2732;--sc-text:#eaedf2;--sc-accent:#2ff5c8;
+}
+.tchip{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:800;border:1px solid;line-height:1.4;white-space:nowrap;}
+.tchip.exact{background:var(--tier-exact-fill);border-color:var(--tier-exact-border);color:var(--tier-exact-text);}
+.tchip.gdiff{background:var(--tier-gdiff-fill);border-color:var(--tier-gdiff-border);color:var(--tier-gdiff-text);}
+.tchip.result{background:var(--tier-result-fill);border-color:var(--tier-result-border);color:var(--tier-result-text);}
+.tchip.wrong{background:var(--tier-wrong-fill);border-color:var(--tier-wrong-border);color:var(--tier-wrong-text);}
+.tchip.invalid{background:var(--tier-invalid-fill);border-color:var(--tier-invalid-border);color:var(--tier-invalid-text);}
+.tchip.missing{background:var(--tier-missing-fill);border-color:var(--tier-missing-border);color:var(--tier-missing-text);}
+.tchip.winner{background:var(--tier-winner-fill);border-color:var(--tier-winner-border);color:var(--tier-winner-text);}
+/* ---- scorecard modal (PART 4) ---- */
+.sc-overlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:400;display:none;}
+.sc-overlay.open{display:block;}
+.sc-modal{position:fixed;z-index:401;left:50%;top:50%;transform:translate(-50%,-50%);width:min(680px,94vw);max-height:90vh;background:var(--sc-bg);color:var(--sc-text);border:1px solid var(--sc-line);border-radius:16px;display:none;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6);}
+.sc-modal.open{display:flex;}
+.sc-head{display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--sc-line);background:var(--sc-panel);}
+.sc-avatar{width:44px;height:44px;border-radius:50%;background:#0a2a24;border:2px solid var(--sc-accent);color:var(--sc-accent);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;flex-shrink:0;}
+.sc-hname{font-size:16px;font-weight:800;}
+.sc-hsub{font-size:11px;color:#93a0b0;margin-top:2px;}
+.sc-htot{margin-left:auto;text-align:right;}
+.sc-htot b{font-size:26px;color:var(--sc-accent);line-height:1;}
+.sc-htot span{display:block;font-size:10px;color:#93a0b0;text-transform:uppercase;letter-spacing:.5px;}
+.sc-x{background:none;border:none;color:#93a0b0;font-size:22px;cursor:pointer;padding:0 2px;margin-left:8px;}
+.sc-legend{display:flex;flex-wrap:wrap;gap:5px;padding:9px 16px;border-bottom:1px solid var(--sc-line);background:var(--sc-panel);position:sticky;top:0;}
+.sc-body{overflow-y:auto;padding:4px 0 0;}
+.sc-sec{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:#93a0b0;padding:12px 16px 5px;position:sticky;top:0;background:var(--sc-bg);z-index:1;}
+.sc-sub{font-size:11px;color:#6f7d8c;padding:2px 16px 5px 16px;}
+.sc-row{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;padding:6px 16px;border-bottom:1px solid #161c24;font-size:12.5px;}
+.sc-row.miss{opacity:.55;}
+.sc-match{min-width:0;}
+.sc-teams{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sc-pa{font-size:11px;color:#93a0b0;margin-top:1px;}
+.sc-pa b{color:#c8d0da;}
+.sc-layer{font-size:10px;color:#6f7d8c;margin-top:1px;}
+.sc-foot{padding:12px 16px;border-top:1px solid var(--sc-line);background:var(--sc-panel);font-size:12px;}
+.sc-foot .row{display:flex;justify-content:space-between;padding:2px 0;}
+.sc-foot .grand{font-weight:800;font-size:15px;color:var(--sc-accent);border-top:1px solid var(--sc-line);margin-top:6px;padding-top:8px;}
+.sc-recon{font-size:10px;margin-top:4px;}
+
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f3f2f1;color:#201f1e;min-height:100vh;}
 .sticky-top{position:sticky;top:0;z-index:100;}
 .header{background:linear-gradient(135deg,#0078d4 0%,#005a9e 100%);color:#fff;padding:16px 20px 12px;box-shadow:0 2px 8px rgba(0,0,0,.25);}
@@ -438,7 +486,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -447,7 +495,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -456,7 +504,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -465,7 +513,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -474,7 +522,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -483,11 +531,13 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.12.21</strong> &nbsp;·&nbsp; Built 2 Jul 2026 · Bonus tab: right-align SEC/LIVE/LOST/MAX values to match their headers<br>
+  <strong>⚙️ UI v1.13.0</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal (tap Overall PTS): full per-match breakdown, fluorescent tier tokens, winner-credit; group points/tier in data<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
 </div>
+<div class="sc-overlay" id="scOverlay" onclick="closeScorecard()"></div>
+<div class="sc-modal" id="scModal" role="dialog" aria-modal="true" aria-label="Member scorecard"></div>
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
 <div class="modal-sheet" id="modalSheet">
   <div class="modal-handle"></div>
@@ -551,9 +601,10 @@ async function loadData(){
     state.thirds=data.thirds||null;
     state.ko=data.ko||null;
     state.bonus=data.bonus||null;
+    state.scorecard=data.scorecard||null;
     state.bonusRound='early_bird';
     state.scoringMode=data.scoring_mode||'';
-    {var _sm=document.querySelectorAll('.sm-stamp');var _lbl=(state.scoringMode==='winner_floor'?'winner floor':state.scoringMode==='exact_only'?'exact only':(state.scoringMode||'—'));for(var _i=0;_i<_sm.length;_i++)_sm[_i].textContent=_lbl;}
+    {var _sm=document.querySelectorAll('.sm-stamp');var _lbl=(state.scoringMode==='winner_floor'?'additive winner credit':state.scoringMode==='exact_only'?'exact only':(state.scoringMode||'—'));for(var _i=0;_i<_sm.length;_i++)_sm[_i].textContent=_lbl;}
     if(!state.stage)state.stage=(state.ko&&(state.ko.matchdays||[]).length>0)?'overall':'group';
     buildMatchState(data.results||{});
     refreshMeChip();
@@ -1481,7 +1532,9 @@ function buildLBTable(rows){
       <td class="rank-cell stick lb-c-rank">${r.medal?'<span class="medal-emoji">'+r.medal+'</span>':'<span class="rank-badge">'+r.rank+'</span>'}${movementHTML(mv)}</td>
       <td class="name-cell clk stick lb-c-player${s.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">you</span>':''}${r.tied?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+'</span>':''}</td>
       ${sc(s.exact.length,'exact')}${sc(s.gdiff.length,'gdiff')}${sc(s.result.length,'result')}
-      <td class="pts-cell"><span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span></td>
+      <td class="pts-cell">${state.stage==='overall'
+        ?`<button class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}" style="background:none;border:none;cursor:pointer;padding:0;font-family:inherit;" role="button" tabindex="0" aria-label="View ${r.name.replace(/'/g,"").replace(/"/g,'')} scorecard" onclick="openScorecard('${r.name.replace(/'/g,"\\'")}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openScorecard('${r.name.replace(/'/g,"\\'")}');}">${s.pts}</button>`
+        :`<span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span>`}</td>
       ${state.stage==='overall'?('<td class="eff-cell"><span class="ko-pill'+((s.koPts||0)>0?' on':'')+'">'+(s.koPts||0)+'</span></td>'):''}
       ${state.stage==='ko'?('<td class="stat-cell">'+((s.bonus||0)>0?'<button class="stat-btn clickable bonus-c" onclick="showStatByKey(\''+r.uid+'_bonus\')">'+s.bonus+'</button>':'<button class="stat-btn zero">0</button>')+'</td>'):''}
       <td class="eff-cell muted">${s.played}</td>
@@ -1699,6 +1752,95 @@ function renderBracket(){
   const legend=`<div class="hover-hint" style="margin-bottom:10px;">🏆 <b>Live bracket</b> — every team comes from the real group table, nothing is forecast. <b>Solid</b> = qualification locked (group finished) · <b><span style="color:#b8860b;">● amber</span></b> = current standing, still provisional · <b style="color:#b3b0ad;">grey</b> = not yet decided. Knockout rounds fill in as matches are played; <b>Best 3rd</b> slots resolve once all 12 groups finish.</div>`;
   el.innerHTML=legend+`<div class="brk-scroll"><div class="brk-canvas" style="width:${totalW}px;height:${totalH}px;">${svg}${heads}${cards}${extra}</div></div>`;
 }
+
+// ---- Scorecard modal (PART 4) ----
+const SC_TIERLBL={exact:'Exact +3',gdiff:'Goal diff +2',result:'Result +1',wrong:'Wrong 0',invalid:'Invalid',missing:'No prediction',winner:'+1 winner'};
+function scInitials(n){return n.split(/\s+/).map(w=>w[0]).join('').slice(0,2).toUpperCase();}
+function scChip(tier,label){return '<span class="tchip '+tier+'">'+(label||SC_TIERLBL[tier]||tier)+'</span>';}
+function scPill(tier,pts){
+  if(tier==='missing')return '<span class="tchip missing">—</span>';
+  if(tier==='invalid')return '<span class="tchip invalid">0</span>';
+  const t=(tier==='exact'||tier==='gdiff'||tier==='result')?tier:(pts>0?'result':'wrong');
+  return '<span class="tchip '+t+'">+'+pts+'</span>';
+}
+function openScorecard(name){
+  const sc=(state.scorecard||{})[name];
+  if(!sc){return;}
+  const me=(typeof getMe==='function')?getMe():null;
+  const koN=sc.ko.filter(r=>r.tier!=='missing').length;
+  const sub=`group ${sc.group_total} · knockout ${sc.ko_total}`+((sc.bonus_total+sc.eb_total)?` · bonus ${sc.bonus_total+sc.eb_total}`:' · bonus pending');
+  // legend
+  const legend=['exact','gdiff','result','winner','wrong','invalid','missing'].map(t=>scChip(t)).join('');
+  // group rows by matchday
+  let body='';
+  const mds={};sc.group.forEach(r=>{(mds[r.md]=mds[r.md]||[]).push(r);});
+  body+='<div class="sc-sec">🌍 Group stage</div>';
+  Object.keys(mds).map(Number).sort((a,b)=>a-b).forEach(md=>{
+    body+=`<div class="sc-sub">Matchday ${md}</div>`;
+    mds[md].forEach(r=>{ body+=scGroupRow(r); });
+  });
+  // ko rows grouped by round
+  if(sc.ko.length){
+    const rounds={};sc.ko.forEach(r=>{(rounds[r.round]=rounds[r.round]||[]).push(r);});
+    body+='<div class="sc-sec">🏆 Knockout</div>';
+    Object.keys(rounds).forEach(rd=>{
+      body+=`<div class="sc-sub">${rd}</div>`;
+      rounds[rd].forEach(r=>{ body+=scKoRow(r); });
+    });
+  }
+  const reconOk=(sc.group_total+sc.ko_total+sc.eb_total+sc.bonus_total)===sc.overall;
+  const foot=`<div class="sc-foot">
+    <div class="row"><span>Group stage</span><b>${sc.group_total}</b></div>
+    <div class="row"><span>Knockout</span><b>${sc.ko_total}</b></div>
+    <div class="row"><span>Bonus & Early Bird</span><b>${sc.bonus_total+sc.eb_total}${(sc.bonus_total+sc.eb_total)?'':' (pending)'}</b></div>
+    <div class="row grand"><span>Overall</span><span>${sc.overall}</span></div>
+    <div class="sc-recon" style="color:${reconOk?'#5cff9d':'#ff5c6c'};">${reconOk?'✓ reconciles with leaderboard':'⚠ does not reconcile'}</div>
+  </div>`;
+  const el=document.getElementById('scModal');
+  el.innerHTML=`<div class="sc-head">
+      <div class="sc-avatar">${scInitials(name)}</div>
+      <div style="min-width:0;"><div class="sc-hname">${name}${name===me?' <span class="you-badge">you</span>':''}</div><div class="sc-hsub">${sub}</div></div>
+      <div class="sc-htot"><b>${sc.overall}</b><span>points</span></div>
+      <button class="sc-x" aria-label="Close" onclick="closeScorecard()">×</button>
+    </div>
+    <div class="sc-legend">${legend}</div>
+    <div class="sc-body">${body}</div>${foot}`;
+  document.getElementById('scOverlay').classList.add('open');
+  el.classList.add('open');
+  el._share=name;
+}
+function scGroupRow(r){
+  const miss=r.tier==='missing';
+  const pa=miss?'<span style="color:#6f7d8c;">no prediction</span>':`predicted <b>${r.pred}</b> → actual <b>${r.actual}</b>`;
+  return `<div class="sc-row${miss?' miss':''}">
+    <div class="sc-match"><div class="sc-teams">${flag(r.t1)} v ${flag(r.t2)}</div><div class="sc-pa">${pa}</div></div>
+    <div></div>${scPill(r.tier,r.points)}</div>`;
+}
+function scKoRow(r){
+  const miss=r.tier==='missing', inv=r.tier==='invalid';
+  let pa;
+  if(miss)pa='<span style="color:#6f7d8c;">no prediction</span>';
+  else if(inv)pa=`predicted <b>${r.pred}</b> · <span style="color:var(--tier-invalid-text);">after kickoff</span>`;
+  else pa=`predicted <b>${r.pred}</b> → actual <b>${r.actual}</b>`;
+  let layer='';
+  if(!miss&&!inv){
+    const parts=[];
+    if(r.p90>0)parts.push('90 +'+r.p90); else if(r.tier90==='result'&&r.winner_credit)parts.push('90 +0');
+    if(r.pET>0)parts.push('ET +'+r.pET);
+    if(r.pPens>0)parts.push('pens +'+r.pPens);
+    layer=parts.join(' · ');
+  }
+  const wc=(r.winner_credit)?' '+scChip('winner','+1 winner'):'';
+  let pill;
+  if(miss)pill=scPill('missing',0);
+  else if(inv)pill=scPill('invalid',0);
+  else pill='<span class="tchip '+(r.total>0?(r.tier90==='exact'?'exact':r.tier90==='gdiff'?'gdiff':'result'):'wrong')+'">+'+r.total+'</span>';
+  return `<div class="sc-row${miss?' miss':''}">
+    <div class="sc-match"><div class="sc-teams">${flag(r.t1)} v ${flag(r.t2)}</div><div class="sc-pa">${pa}</div>${layer?('<div class="sc-layer">'+layer+wc+'</div>'):(wc?('<div class="sc-layer">'+wc+'</div>'):'')}</div>
+    <div></div>${pill}</div>`;
+}
+function closeScorecard(){document.getElementById('scOverlay').classList.remove('open');document.getElementById('scModal').classList.remove('open');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeScorecard();});
 
 function bonusFlag(team){ return (typeof flag==='function')?flag(team):team; }
 function renderBonus(){
