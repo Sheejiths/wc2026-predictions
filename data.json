@@ -26303,6 +26303,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:00 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:00 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Kesava Prasad": {
@@ -26500,6 +26530,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:35 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:35 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Senthil Kumar": {
@@ -26742,6 +26802,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:47 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:47 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Deepa R Rao": {
@@ -26984,6 +27074,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 05:54 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Morocco",
+     "named_winner": "Morocco",
+     "submitted_est": "Jul 04 2026 05:54 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Vinod Menon": {
@@ -27226,6 +27346,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:48 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:48 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sunilraj": {
@@ -27468,6 +27618,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:28 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:28 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "KD": {
@@ -27710,6 +27890,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:07 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:07 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sreejith Ramachandran": {
@@ -27952,6 +28162,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 10:32 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 10:32 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Shaik Afzal": {
@@ -28194,6 +28434,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:43 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:43 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Abhilash Unniyambath": {
@@ -28436,6 +28706,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:37 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:37 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Tony": {
@@ -28543,6 +28843,36 @@
      "kickoff_est": "Jun 30 2026 09:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 3,
+     "et2": 4,
+     "pens_winner": null,
+     "named_winner": "France",
+     "submitted_est": "Jul 03 2026 11:05 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:05 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Ashik": {
@@ -28785,6 +29115,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 08:41 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 08:41 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Harish": {
@@ -29027,6 +29387,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:41 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:41 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sasikumar Prabhakaran": {
@@ -29269,6 +29659,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 05:27 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 05:27 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Krishnan": {
@@ -29511,6 +29931,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 07:36 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 07:36 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Rajith": {
@@ -29753,6 +30203,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 08:54 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 08:54 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Kamal": {
@@ -29995,6 +30475,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 09:14 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 2,
+     "et2": 3,
+     "pens_winner": null,
+     "named_winner": "Canada",
+     "submitted_est": "Jul 04 2026 09:14 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sanjesh": {
@@ -30222,6 +30732,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:32 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:32 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Smitha Ramesh": {
@@ -30464,6 +31004,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 05:56 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 05:56 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Vinod K M": {
@@ -30706,6 +31276,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:40 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 06:40 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Srijith": {
@@ -30918,6 +31518,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:20 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 04:20 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sheejith Sahadevan": {
@@ -31160,6 +31790,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Morocco",
+     "submitted_est": "Jul 04 2026 11:05 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 11:05 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Nandhini Viswanath": {
@@ -31402,6 +32062,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 0,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 12:13 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Morocco",
+     "submitted_est": "Jul 04 2026 12:13 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Srikanth N R": {
@@ -31644,6 +32334,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:08 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:08 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Praveen Kodurkalam": {
@@ -31886,6 +32606,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:50 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:50 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Baba Krishnankutty": {
@@ -32128,6 +32878,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 02:53 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 02:53 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "P Vijayan": {
@@ -32370,6 +33150,36 @@
      "kickoff_est": "Jul 03 2026 09:30 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:46 AM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 03:46 AM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Bijesh": {
@@ -32552,6 +33362,36 @@
      "kickoff_est": "Jul 02 2026 11:00 PM EST",
      "status": "valid",
      "stage": "Round of 32"
+    },
+    "18": {
+     "team1": "Paraguay",
+     "team2": "France",
+     "score1": 2,
+     "score2": 4,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:01 PM EST",
+     "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "17": {
+     "team1": "Morocco",
+     "team2": "Canada",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 03 2026 11:01 PM EST",
+     "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    }
   },
@@ -37798,38 +38638,6 @@
    "Jul 3"
   ],
   "timeline": {
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
-    18,
-    23,
-    27
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11,
-    11
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9,
-    13,
-    17
-   ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9,
-    16,
-    18
-   ],
    "Harish": [
     0,
     3,
@@ -37838,61 +38646,21 @@
     17,
     22
    ],
-   "Sunilraj": [
-    1,
+   "Sreejith Ramachandran": [
     2,
-    7,
-    12,
-    14,
-    17
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18,
-    23,
-    29
-   ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15,
-    18
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
-    26
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
-    13,
-    17,
-    20
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
+    3,
+    8,
     11,
-    14,
+    16,
     19
    ],
-   "Tony": [
-    0,
+   "Sasikumar Prabhakaran": [
     1,
-    6,
-    6,
-    6,
-    6
+    7,
+    14,
+    18,
+    23,
+    27
    ],
    "Abhilash Unniyambath": [
     0,
@@ -37902,85 +38670,13 @@
     7,
     11
    ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22,
-    26
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20,
-    24
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13,
-    17
-   ],
-   "Ashik": [
+   "Rajith": [
     2,
     5,
     10,
-    15,
-    20,
-    21
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13,
-    18
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15,
-    18
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13,
-    19
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13,
-    15
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25,
-    28
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19,
-    22
+    18,
+    23,
+    29
    ],
    "KD": [
     3,
@@ -37990,21 +38686,29 @@
     21,
     25
    ],
-   "P Vijayan": [
+   "Praveen Kodurkalam": [
     2,
-    6,
-    10,
-    16,
-    18,
-    24
-   ],
-   "Srikanth N R": [
-    1,
     5,
-    10,
-    19,
-    22,
+    9,
+    18,
+    21,
     26
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    18
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19,
+    22
    ],
    "Krishnan": [
     2,
@@ -38014,13 +38718,149 @@
     21,
     26
    ],
-   "Sreejith Ramachandran": [
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    17
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13,
+    17,
+    20
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
+    15,
+    18
+   ],
+   "Baba Krishnankutty": [
     2,
     3,
     8,
     11,
+    13,
+    17
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14,
+    17
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
+    26
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
+    15
+   ],
+   "P Vijayan": [
+    2,
+    6,
+    10,
     16,
+    18,
+    24
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14,
     19
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    18
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25,
+    28
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15,
+    20,
+    21
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
+    18
+   ],
+   "Bijesh": [
+    0,
+    3,
+    5,
+    8,
+    11,
+    11
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13,
+    19
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20,
+    24
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
+    11,
+    17,
+    22,
+    26
    ]
   }
  },

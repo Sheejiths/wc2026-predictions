@@ -110,6 +110,11 @@ body.dark .bn-chip{filter:brightness(.92);}
 .ko-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
 .ko-pill.on{background:#e3f0ff;color:#0b66c3;}
 .ko-sec-head{margin:20px 0 10px;font-size:15px;font-weight:800;color:#0b66c3;border-top:2px solid #e6eef7;padding-top:14px;}
+.ko-round-head-in{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 0 2px;padding:0 2px 8px;border-bottom:2px solid #e6eef7;font-size:15px;font-weight:800;color:#0b66c3;}
+.ko-round-head-in:first-child{margin-top:2px;}
+.ko-round-count{font-size:11px;font-weight:700;color:#8a94a0;}
+body.dark .ko-round-head-in{color:#6fb8ff;border-bottom-color:#26405a;}
+body.dark .ko-round-count{color:#7c8896;}
 body.dark .ko-pill{background:#1a2330;color:#6b7888;}
 body.dark .ko-pill.on{background:#13314e;color:#6fb8ff;}
 body.dark .ko-sec-head{color:#6fb8ff;border-top-color:#26405a;}
@@ -486,7 +491,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   </div>
   <div class="stage-bar" id="stageBar" style="display:none;">
     <button class="stage-btn" id="stageGroup" onclick="setStage('group')">🌍 Group Stage</button>
-    <button class="stage-btn" id="stageKO" onclick="setStage('ko')">🏆 Round of 32</button>
+    <button class="stage-btn" id="stageKO" onclick="setStage('ko')">🏆 Knockout</button>
     <button class="stage-btn active" id="stageOverall" onclick="setStage('overall')">🏅 Overall</button>
   </div>
 </div>
@@ -500,7 +505,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -509,7 +514,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -518,7 +523,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -527,7 +532,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -536,7 +541,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -545,7 +550,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.13.1</strong> &nbsp;·&nbsp; Built 3 Jul 2026 · Scorecard modal now themes with the app — light Office palette by default, fluorescent only in dark mode<br>
+  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -826,7 +831,7 @@ function showMember(name){
       var base=({exact:3,gdiff:2,result:1})[c.tier90]||0;
       kbon[mi]+=Math.max(0,c.total-base);
     }
-    barsHtml+='<div class="md-sub" style="margin:'+(stage==='overall'?'12px':'2px')+' 0 5px;font-weight:700;color:#27c98a;">🏆 Round of 32</div>';
+    barsHtml+='<div class="md-sub" style="margin:'+(stage==='overall'?'12px':'2px')+' 0 5px;font-weight:700;color:#27c98a;">🏆 Knockout</div>';
     barsHtml+=mdBarsHTML(klab,kday,'ko',kbon);
     if(kbon.some(function(b){return b>0;}))
       barsHtml+='<div class="md-sub" style="margin-top:6px;display:flex;align-items:center;gap:6px;"><span style="display:inline-block;width:12px;height:10px;border-radius:2px;background:linear-gradient(90deg,#e69500,#ffc24d);"></span>Amber = ET / penalty bonus (already included in each day\'s total)</div>';
@@ -1423,7 +1428,7 @@ function renderMatches(){
     </div>`;
   });
   html+='</div>';
-  if(state.stage==='overall'){const kh=koMatchesHTML(false);if(kh)html+='<div class="ko-sec-head">🏆 Round of 32</div>'+kh;}
+  if(state.stage==='overall'){const kh=koMatchesHTML(false);if(kh)html+='<div class="ko-sec-head">🏆 Knockout</div>'+kh;}
   el.innerHTML=html;
 }
 
@@ -2075,8 +2080,21 @@ function koMatchesHTML(includeSummary){
     <div class="stat-card"><div class="stat-val">${list.length}</div><div class="stat-lbl">KO Matches</div></div>
     <div class="stat-card"><div class="stat-val">${Object.keys(ko.totals||{}).length}</div><div class="stat-lbl">Participants</div></div>
     <div class="stat-card"><div class="stat-val">${resolved}</div><div class="stat-lbl">Results In</div></div>
-  </div>`:'')+`<div class="match-grid">`;
-  list.forEach(o=>{
+  </div>`:'');
+  // group by round (R32 -> R16 -> QF -> SF -> 3rd -> Final)
+  const RORD={'Round of 32':1,'Round of 16':2,'Quarter-Final':3,'Quarter-Finals':3,'Quarter-final':3,'Semi-Final':4,'Semi-Finals':4,'Semi-final':4,'3rd Place':5,'Third Place':5,'Final':6};
+  const RLBL={'Round of 32':'🏆 Round of 32','Round of 16':'🥇 Round of 16','Quarter-Final':'⚽ Quarter-finals','Quarter-Finals':'⚽ Quarter-finals','Quarter-final':'⚽ Quarter-finals','Semi-Final':'🔥 Semi-finals','Semi-Finals':'🔥 Semi-finals','Semi-final':'🔥 Semi-finals','3rd Place':'🥉 Third place','Third Place':'🥉 Third place','Final':'🏆 Final'};
+  const roundOf=o=>(o.res?o.res.stage:((koPredsFor(o.k)[0]||{}).stage))||'Round of 32';
+  const wr=list.map(o=>({o,r:roundOf(o)}));
+  wr.sort((a,b)=>(RORD[a.r]||9)-(RORD[b.r]||9)||new Date(a.o.kickoff_est)-new Date(b.o.kickoff_est));
+  let curR=null;
+  html+='<div class="match-grid">';
+  wr.forEach(({o,r})=>{
+    if(r!==curR){
+      const grp=wr.filter(x=>x.r===r);const done=grp.filter(x=>x.o.res).length;
+      html+=`<div class="ko-round-head-in"><span>${RLBL[r]||r}</span><span class="ko-round-count">${done}/${grp.length}${done<grp.length?' · '+(grp.length-done)+' pending':''}</span></div>`;
+      curR=r;
+    }
     const k=o.k,res=o.res,preds=koPredsFor(k);
     const t1=res?res.team1:(preds[0]&&preds[0].team1),t2=res?res.team2:(preds[0]&&preds[0].team2);
     const valid=preds.filter(p=>p.status!=='INVALID'),invalid=preds.filter(p=>p.status==='INVALID');
@@ -2107,15 +2125,15 @@ function koMatchesHTML(includeSummary){
     const mostBacked=topKO?`<span><span style="color:#605e5c;">Most backed:</span> <b style="margin-left:3px;">${topKO[0]}</b> <span style="color:#605e5c;margin-left:3px;">(${topKO[1].length} of ${total})</span></span>`:'<span></span>';
     let resultPart='';
     if(res){
-      let r=res.score1+'-'+res.score2+' (90)';
-      if(res.et1!=null)r+=' · ET '+res.et1+'-'+res.et2;
-      if(res.pens_winner)r+=' · pens: '+res.pens_winner;
-      resultPart=`<span><span style="color:#605e5c;">Result:</span> <b style="margin-left:3px;">${r}</b> <span style="color:#605e5c;margin-left:4px;">→ ${flag(res.winner)} advance</span></span>`;
+      let r2=res.score1+'-'+res.score2+' (90)';
+      if(res.et1!=null)r2+=' · ET '+res.et1+'-'+res.et2;
+      if(res.pens_winner)r2+=' · pens: '+res.pens_winner;
+      resultPart=`<span><span style="color:#605e5c;">Result:</span> <b style="margin-left:3px;">${r2}</b> <span style="color:#605e5c;margin-left:4px;">→ ${flag(res.winner)} advance</span></span>`;
     }
     const footerRow=(topKO||res)?`<div class="consensus-row" style="justify-content:space-between;flex-wrap:wrap;gap:6px 16px;">${mostBacked}${resultPart}</div>`:'';
     const badge=res?('&#10003; '+res.score1+'-'+res.score2):'Pending';
     html+=`<div class="match-card" data-teams="${(t1||'').toLowerCase()} ${(t2||'').toLowerCase()}">
-      <div class="match-header"><div class="match-title">${flag(t1)} vs ${flag(t2)}${koStageBadge(res?res.stage:'Round of 32')}</div>
+      <div class="match-header"><div class="match-title">${flag(t1)} vs ${flag(t2)}</div>
       <span class="match-badge ${res?'badge-result':'badge-pending'}">${badge}</span></div>
       <div class="match-body">${bars}${footerRow}${invSec}</div></div>`;
   });
