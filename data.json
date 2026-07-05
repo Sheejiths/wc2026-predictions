@@ -32788,6 +32788,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 11:47 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 11:47 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Srikanth N R": {
@@ -33088,6 +33118,21 @@
      "named_winner": null,
      "submitted_est": "Jul 05 2026 04:28 AM EST",
      "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "21": {
+     "team1": "Portugal",
+     "team2": "Spain",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 12:04 PM EST",
+     "kickoff_est": "Jul 06 2026 03:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -33964,6 +34009,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 03:46 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 12:05 PM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 12:05 PM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -40127,14 +40202,32 @@
    "Jul 4"
   ],
   "timeline": {
-   "Sasikumar Prabhakaran": [
+   "Sunilraj": [
     1,
+    2,
     7,
+    12,
     14,
+    17,
+    19
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
     18,
-    23,
-    27,
-    29
+    20
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    18,
+    20
    ],
    "Krishnan": [
     2,
@@ -40145,23 +40238,14 @@
     26,
     28
    ],
-   "Satheesh": [
-    1,
-    4,
-    7,
-    10,
-    15,
-    18,
-    20
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
     13,
     17,
-    20,
-    22
+    19
    ],
    "Srikanth N R": [
     1,
@@ -40172,39 +40256,21 @@
     26,
     29
    ],
-   "Vinod K M": [
+   "Senthil Kumar": [
     1,
-    2,
+    4,
+    10,
+    13,
+    17,
+    20,
+    22
+   ],
+   "Nandhini Viswanath": [
+    1,
     4,
     11,
-    14,
-    19,
-    21
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13,
-    15,
-    18
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15,
-    20,
-    21,
-    23
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
+    17,
+    22,
     26,
     28
    ],
@@ -40217,24 +40283,6 @@
     18,
     20
    ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25,
-    28,
-    30
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13,
-    17,
-    22,
-    24
-   ],
    "Rajith": [
     2,
     5,
@@ -40243,51 +40291,6 @@
     23,
     29,
     31
-   ],
-   "P Vijayan": [
-    2,
-    6,
-    10,
-    16,
-    18,
-    24,
-    26
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7,
-    11,
-    13
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13,
-    18,
-    20
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22,
-    26,
-    28
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15,
-    18,
-    20
    ],
    "KD": [
     3,
@@ -40298,41 +40301,23 @@
     25,
     27
    ],
-   "Sunilraj": [
+   "Deepa R Rao": [
     1,
     2,
     7,
-    12,
-    14,
-    17,
-    19
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6,
-    6,
-    8
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20,
-    24,
-    26
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
     11,
     13,
-    17,
-    19
+    19,
+    21
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14,
+    19,
+    21
    ],
    "Sreejith Ramachandran": [
     2,
@@ -40343,6 +40328,33 @@
     19,
     21
    ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17,
+    22,
+    24
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20,
+    24,
+    26
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18,
+    21,
+    26,
+    28
+   ],
    "Shaik Afzal": [
     2,
     3,
@@ -40352,14 +40364,77 @@
     22,
     25
    ],
-   "Deepa R Rao": [
-    1,
+   "Ashik": [
     2,
+    5,
+    10,
+    15,
+    20,
+    21,
+    23
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    17,
+    19
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25,
+    28,
+    30
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6,
+    8
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
+    15,
+    18,
+    20
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
+    15,
+    18
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
+    18,
+    23,
+    27,
+    29
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
     7,
     11,
-    13,
-    19,
-    21
+    13
    ],
    "Bijesh": [
     0,
@@ -40370,14 +40445,14 @@
     11,
     15
    ],
-   "Vinod Menon": [
+   "P Vijayan": [
     2,
-    3,
     6,
-    9,
-    13,
-    17,
-    19
+    10,
+    16,
+    18,
+    24,
+    26
    ]
   }
  },

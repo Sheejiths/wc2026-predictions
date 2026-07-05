@@ -416,7 +416,19 @@ body.dark .mv-up{color:#3ad07a;} body.dark .mv-down{color:#ff6b85;} body.dark .m
 .lb-table.lb-ko .lb-c-player{min-width:90px;}
 .eff-cell{text-align:center;width:50px;font-size:12px;font-weight:600;color:#323130;}
 .eff-cell.muted{color:#a19f9d;font-weight:400;}
-.lb-controls{display:flex;justify-content:space-between;align-items:center;margin:2px 2px 8px;}
+.lb-controls{display:flex;gap:8px;align-items:center;margin:2px 2px 8px;}
+.lb-controls .lb-share,.lb-controls .lb-reset{flex:0 0 auto;}
+.ko-lb-rounds{flex:1 1 auto;display:flex;gap:6px;overflow-x:auto;padding:3px 2px;scrollbar-width:thin;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;}
+.ko-lb-rounds::-webkit-scrollbar{height:5px;}
+.ko-lb-rounds::-webkit-scrollbar-thumb{background:#c3d4e6;border-radius:3px;}
+body.dark .ko-lb-rounds::-webkit-scrollbar-thumb{background:#2a3f57;}
+.ko-rbtn{flex:0 0 auto;scroll-snap-align:start;padding:5px 16px;font-size:12px;font-weight:700;border:1.5px solid #d8e6f5;background:#f4f9ff;color:#3a6ea5;border-radius:999px;cursor:pointer;white-space:nowrap;transition:all .15s;}
+.ko-rbtn.active{background:#0078d4;border-color:#0078d4;color:#fff;box-shadow:0 2px 8px rgba(0,120,212,.3);}
+.ko-rbtn:hover:not(.active){background:#e7f1fb;}
+.ko-rbtn:disabled{opacity:.45;cursor:not-allowed;}
+body.dark .ko-rbtn{background:#16222e;border-color:#26405a;color:#7fc0ff;}
+body.dark .ko-rbtn.active{background:#1f6feb;border-color:#1f6feb;color:#fff;box-shadow:0 0 12px rgba(76,179,255,.4);}
+body.dark .ko-rbtn:hover:not(.active){background:#1d2d3d;}
 .lb-reset{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;}
 .lb-reset:active{transform:scale(.96);}
 .lb-share{font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #107c10;background:#107c10;color:#fff;cursor:pointer;font-weight:700;}
@@ -505,7 +517,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -514,7 +526,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -523,7 +535,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -532,7 +544,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -541,7 +553,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -550,7 +562,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.14.0</strong> &nbsp;·&nbsp; Built 4 Jul 2026 · Consolidated Knockout view — matches grouped by round (R32/R16/QF/SF/3rd/Final) with headers; stage renamed to Knockout<br>
+  <strong>⚙️ UI v1.14.1</strong> &nbsp;·&nbsp; Built 5 Jul 2026 · Knockout leaderboard filterable by round (R32→Final) — slidable round tabs with fixed Share & Reset; per-round EXACT·DIFF·RESULT·PTS·BONUS·P·PPM·HIT%<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -568,7 +580,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="modal-body" id="modalBody"></div>
 </div>
 <script>
-let state={predictions:[],matches:{}};
+let state={predictions:[],matches:{},koRound:'R32'};
 const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb87b','#c09060','#e06090','#60c0e0'];
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
@@ -593,6 +605,27 @@ function setStage(s){
   document.getElementById('stageGroup').classList.toggle('active',s==='group');
   document.getElementById('stageKO').classList.toggle('active',s==='ko');
   renderMatches();renderLB();renderTrend();
+}
+// ---- Knockout leaderboard: per-round filter ----
+const KO_ROUNDS=[
+  {code:'R32',label:'R32',   stages:['Round of 32']},
+  {code:'R16',label:'R16',   stages:['Round of 16']},
+  {code:'QF', label:'QF',    stages:['Quarter-Final','Quarter-Finals','Quarter-final']},
+  {code:'SF', label:'SF',    stages:['Semi-Final','Semi-Finals','Semi-final']},
+  {code:'3rd',label:'3rd',   stages:['3rd Place','Third Place','3rd place']},
+  {code:'Final',label:'Final',stages:['Final']}
+];
+const KO_ROUND_BY_CODE=Object.fromEntries(KO_ROUNDS.map(r=>[r.code,r]));
+function koRoundLabel(code){return ({R32:'Round of 32',R16:'Round of 16',QF:'Quarter-finals',SF:'Semi-finals','3rd':'3rd-place playoff',Final:'Final'})[code]||code;}
+function koRoundHasResults(code){
+  const r=KO_ROUND_BY_CODE[code]; if(!r||!state.ko)return false;
+  return Object.values(state.ko.results||{}).some(x=>r.stages.includes(x.stage));
+}
+function setKORound(code){
+  if(!KO_ROUND_BY_CODE[code])return;
+  state.koRound=code;
+  lbSort={col:'rank',dir:'asc'};
+  renderLB();
 }
 function updateReportBtn(){
   var b=document.getElementById('reportBtn');if(!b)return;
@@ -841,7 +874,7 @@ function showMember(name){
   if(useK)exItems=exItems.concat(ko.exact.map(function(e){return {x:e,ko:true};}));
   var exChips=exItems.map(function(o){return '<span class="md-chip'+(o.ko?' ko':'')+'">'+o.x.match.replace(' vs ',' ')+' · '+o.x.pred+'</span>';}).join('');
   var isMe=(name===me);
-  var stageLbl=stage==='ko'?'Round of 32':(stage==='overall'?'Overall':'Group Stage');
+  var stageLbl=stage==='ko'?koRoundLabel(state.koRound):(stage==='overall'?'Overall':'Group Stage');
   var body=''
     +'<div class="md-hero"><div class="md-rank">'+(rk.medal||rk.rank)+'</div>'
     +'<div><div class="md-name">'+name+'</div><div class="md-sub">'+stageLbl+' · Rank '+rk.rank+' · '+pts+' pts</div></div></div>'
@@ -967,7 +1000,7 @@ function shareLeaderboardImage(){
   ensureH2C(function(){
     try{
       var stage=state.stage;
-      var title=stage==='overall'?'Overall Standings':stage==='ko'?'Round of 32 Standings':'Group Stage Standings';
+      var title=stage==='overall'?'Overall Standings':stage==='ko'?(koRoundLabel(state.koRound)+' Standings'):'Group Stage Standings';
       var ranked=stage==='overall'?calcOverallScores():stage==='ko'?calcKOScores():calcAllScores();
       var ranks=denseRanks(ranked);
       var me=getMe();
@@ -1495,10 +1528,10 @@ function renderLB(){
             tied:rankCounts[rank]>1&&rank<=3,medal:MEDALS[rank]};
   });
   const hint=overall?'🏅 <b>Overall</b> = Group + Round of 32. EXACT·DIFF·RESULT are combined across both stages; <b>KO</b> shows the knockout points (incl. any ET/pens & winner-floor bonus) inside the PTS grand total. '
-    :ko?'🏆 <b>Round of 32</b> knockout scoring (90-min 3/2/1, plus ET, pens and winner-credit bonuses). <b>BONUS</b> = points on top of the 90-min tier (ET, pens, or a <span style="color:#6b21a8;font-weight:700;">winner-floor</span> +1), so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. <span style="color:#6b21a8;font-weight:700;">⌊n⌋</span> = winner floors (+1 for correctly naming the team that advanced): floors a 0 up to 1 (in RESULT), or adds +1 on top of a scoring draw (in BONUS). '
+    :ko?'🏆 <b>'+koRoundLabel(state.koRound)+'</b> knockout scoring (90-min 3/2/1, plus ET, pens and winner-credit bonuses). <b>BONUS</b> = points on top of the 90-min tier (ET, pens, or a <span style="color:#6b21a8;font-weight:700;">winner-floor</span> +1), so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. <span style="color:#6b21a8;font-weight:700;">⌊n⌋</span> = winner floors (+1 for correctly naming the team that advanced): floors a 0 up to 1 (in RESULT), or adds +1 on top of a scoring draw (in BONUS). '
     :'💡 ';
   el.innerHTML=`<div class="hover-hint">${hint}Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
-    <div class="lb-controls"><button class="lb-share" onclick="shareLeaderboardImage()">📤 Share image</button><button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
+    <div class="lb-controls"><button class="lb-share" onclick="shareLeaderboardImage()">📤 Share image</button>${ko?('<div class="ko-lb-rounds" role="tablist" aria-label="Knockout round">'+KO_ROUNDS.map(r=>'<button class="ko-rbtn'+(state.koRound===r.code?' active':'')+'" role="tab" aria-selected="'+(state.koRound===r.code)+'"'+(koRoundHasResults(r.code)?'':' disabled title="No results yet"')+' onclick="setKORound(\''+r.code+'\')">'+r.label+'</button>').join('')+'</div>'):''}<button class="lb-reset" onclick="resetLB()">↺ Reset sort</button></div>
     <div class="lb-wrap"><div id="lbHost"></div></div>`;
   applyLBSort();
 }
@@ -2237,6 +2270,7 @@ function calcOverallScores(){
 }
 function calcKOScores(){
   const ko=state.ko, names=state.predictions.map(p=>p.name), map={};
+  const rd=KO_ROUND_BY_CODE[state.koRound]||KO_ROUND_BY_CODE.R32;
   names.forEach(n=>{map[n]={exact:[],gdiff:[],result:[],wrong:0,pts:0,bonus:0,played:0,koPts:0,resultFloor:0,invalidCount:0,noPred:0,bonusItems:[]};});
   if(ko){
     for(const n of names){
@@ -2244,6 +2278,7 @@ function calcKOScores(){
       for(const k in sc){
         const c=sc[k], p=pr[k], res=(ko.results||{})[k];
         if(!res) continue;                         // only scored matches
+        if(!rd.stages.includes(res.stage)) continue; // only the selected round
         if((p&&p.status==='INVALID')||c.tier90==='invalid'){s.invalidCount++;continue;}
         const label=res.team1+' vs '+res.team2;
         const pred=(p&&p.draw_no_score)?'Draw':(p?p.score1+'-'+p.score2:'?');
