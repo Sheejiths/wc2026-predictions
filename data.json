@@ -26369,6 +26369,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 07:27 PM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 07:27 PM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Kesava Prasad": {
@@ -26594,6 +26624,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 04:35 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 09:27 PM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 09:27 PM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -26868,6 +26928,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 03:17 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 03:17 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Deepa R Rao": {
@@ -27138,6 +27228,36 @@
      "named_winner": "Morocco",
      "submitted_est": "Jul 04 2026 05:54 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 06:03 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "England",
+     "submitted_est": "Jul 05 2026 06:03 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -27412,6 +27532,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:32 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 0,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Mexico",
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 04:32 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sunilraj": {
@@ -27682,6 +27832,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 06:28 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 03:50 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 0,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 03:50 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -27956,6 +28136,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:02 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:02 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sreejith Ramachandran": {
@@ -28226,6 +28436,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 10:32 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 07:29 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 07:29 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -28500,6 +28740,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:25 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 01:25 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Abhilash Unniyambath": {
@@ -28772,6 +29042,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:31 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "Mexico",
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 01:31 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Tony": {
@@ -28907,6 +29207,36 @@
      "named_winner": null,
      "submitted_est": "Jul 03 2026 11:05 PM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 10:23 PM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 2,
+     "pens_winner": null,
+     "named_winner": "England",
+     "submitted_est": "Jul 04 2026 10:23 PM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -29181,6 +29511,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 08:20 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 08:20 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Harish": {
@@ -29451,6 +29811,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 06:41 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "Norway",
+     "submitted_est": "Jul 05 2026 03:57 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 0,
+     "pens_winner": "England",
+     "named_winner": "England",
+     "submitted_est": "Jul 05 2026 03:57 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -29725,6 +30115,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 07:45 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "England",
+     "submitted_est": "Jul 05 2026 07:45 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Krishnan": {
@@ -29995,6 +30415,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 07:36 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 1,
+     "score2": 0,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 10:32 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 0,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 10:32 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -30269,6 +30719,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 03:29 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 03:29 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Kamal": {
@@ -30541,6 +31021,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 11:44 PM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 3,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 04 2026 11:44 PM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Sanjesh": {
@@ -30796,6 +31306,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 03:32 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:23 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:23 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -31070,6 +31610,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:58 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 01:58 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Vinod K M": {
@@ -31342,6 +31912,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:45 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": 0,
+     "et2": 1,
+     "pens_winner": null,
+     "named_winner": "England",
+     "submitted_est": "Jul 05 2026 04:45 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Srijith": {
@@ -31582,6 +32182,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 04:20 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 07:29 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 07:29 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -31854,6 +32484,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 11:05 AM EST",
      "kickoff_est": "Jul 04 2026 05:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 10:38 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 10:38 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -32400,6 +33060,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:28 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 04:28 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Praveen Kodurkalam": {
@@ -32672,6 +33362,36 @@
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 2,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 02:07 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 1,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 02:07 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
     }
    },
    "Baba Krishnankutty": {
@@ -32942,6 +33662,36 @@
      "named_winner": null,
      "submitted_est": "Jul 04 2026 02:53 AM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 3,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 12:32 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": 1,
+     "et2": 0,
+     "pens_winner": null,
+     "named_winner": "Mexico",
+     "submitted_est": "Jul 05 2026 12:32 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -33426,6 +34176,36 @@
      "named_winner": null,
      "submitted_est": "Jul 03 2026 11:01 PM EST",
      "kickoff_est": "Jul 04 2026 01:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "19": {
+     "team1": "Brazil",
+     "team2": "Norway",
+     "score1": 4,
+     "score2": 1,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 02:24 AM EST",
+     "kickoff_est": "Jul 05 2026 04:00 PM EST",
+     "status": "valid",
+     "stage": "Round of 16"
+    },
+    "20": {
+     "team1": "Mexico",
+     "team2": "England",
+     "score1": 2,
+     "score2": 2,
+     "draw_no_score": false,
+     "et1": null,
+     "et2": null,
+     "pens_winner": null,
+     "named_winner": null,
+     "submitted_est": "Jul 05 2026 02:24 AM EST",
+     "kickoff_est": "Jul 05 2026 08:00 PM EST",
      "status": "valid",
      "stage": "Round of 16"
     }
@@ -39347,87 +40127,6 @@
    "Jul 4"
   ],
   "timeline": {
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9,
-    13,
-    17,
-    19
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13,
-    17,
-    19
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13,
-    18,
-    20
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13,
-    19,
-    21
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14,
-    17,
-    19
-   ],
-   "Bijesh": [
-    0,
-    3,
-    5,
-    8,
-    11,
-    11,
-    15
-   ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9,
-    16,
-    18,
-    20
-   ],
-   "Nandhini Viswanath": [
-    1,
-    4,
-    11,
-    17,
-    22,
-    26,
-    28
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19,
-    22,
-    25
-   ],
    "Sasikumar Prabhakaran": [
     1,
     7,
@@ -39436,6 +40135,15 @@
     23,
     27,
     29
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14,
+    21,
+    26,
+    28
    ],
    "Satheesh": [
     1,
@@ -39446,41 +40154,23 @@
     18,
     20
    ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
-    21,
-    25,
-    27
-   ],
-   "Kesava Prasad": [
-    2,
+   "Senthil Kumar": [
+    1,
     4,
-    4,
-    9,
-    13,
-    15,
-    18
-   ],
-   "P Vijayan": [
-    2,
-    6,
     10,
-    16,
-    18,
-    24,
-    26
+    13,
+    17,
+    20,
+    22
    ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
+   "Srikanth N R": [
+    1,
     5,
-    7,
-    11,
-    13
+    10,
+    19,
+    22,
+    26,
+    29
    ],
    "Vinod K M": [
     1,
@@ -39491,23 +40181,41 @@
     19,
     21
    ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6,
-    6,
-    8
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
+    15,
+    18
    ],
-   "Rajith": [
+   "Ashik": [
     2,
     5,
     10,
+    15,
+    20,
+    21,
+    23
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
     18,
-    23,
-    29,
-    31
+    21,
+    26,
+    28
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    18,
+    20
    ],
    "Sheejith Sahadevan": [
     2,
@@ -39527,32 +40235,50 @@
     22,
     24
    ],
-   "Srikanth N R": [
-    1,
-    5,
-    10,
-    19,
-    22,
-    26,
-    29
-   ],
-   "Ashik": [
+   "Rajith": [
     2,
     5,
     10,
-    15,
-    20,
-    21,
-    23
+    18,
+    23,
+    29,
+    31
    ],
-   "Senthil Kumar": [
-    1,
-    4,
+   "P Vijayan": [
+    2,
+    6,
+    10,
+    16,
+    18,
+    24,
+    26
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
+    7,
+    11,
+    13
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
     10,
     13,
+    18,
+    20
+   ],
+   "Nandhini Viswanath": [
+    1,
+    4,
+    11,
     17,
-    20,
-    22
+    22,
+    26,
+    28
    ],
    "Smitha Ramesh": [
     2,
@@ -39563,23 +40289,32 @@
     18,
     20
    ],
-   "Sreejith Ramachandran": [
-    2,
+   "KD": [
     3,
-    8,
+    6,
     11,
-    16,
-    19,
-    21
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
     14,
     21,
-    26,
-    28
+    25,
+    27
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14,
+    17,
+    19
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6,
+    8
    ],
    "Srijith": [
     2,
@@ -39590,14 +40325,59 @@
     24,
     26
    ],
-   "Praveen Kodurkalam": [
+   "Baba Krishnankutty": [
     2,
+    3,
+    8,
+    11,
+    13,
+    17,
+    19
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    19,
+    21
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19,
+    22,
+    25
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13,
+    19,
+    21
+   ],
+   "Bijesh": [
+    0,
+    3,
     5,
+    8,
+    11,
+    11,
+    15
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
     9,
-    18,
-    21,
-    26,
-    28
+    13,
+    17,
+    19
    ]
   }
  },
