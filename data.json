@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "4 Jul 2026",
-  "updated_time": "5:00 PM",
+  "updated": "5 Jul 2026",
+  "updated_time": "4:00 PM",
   "matches_played": 104,
-  "matches_scored": 90,
+  "matches_scored": 91,
   "group": "PDC Friends 1991-93",
-  "ko_results": 18
+  "ko_results": 19
  },
  "predictions": [
   {
@@ -25424,14 +25424,17 @@
     "t2src": "live",
     "slot1": "R16",
     "slot2": "R16",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
+    "s1": 1,
+    "s2": 2,
+    "winner": "Norway",
+    "status": "actual",
     "children": [
      2,
      5
-    ]
+    ],
+    "et1": null,
+    "et2": null,
+    "pens_winner": null
    },
    {
     "m": 20,
@@ -25562,11 +25565,11 @@
    {
     "m": 27,
     "round": "QF",
-    "t1": null,
+    "t1": "Norway",
     "t2": null,
-    "t1src": "tbd",
+    "t1src": "live",
     "t2src": "tbd",
-    "slot1": "TBD",
+    "slot1": "QF",
     "slot2": "TBD",
     "s1": null,
     "s2": null,
@@ -26096,6 +26099,21 @@
     "stage": "Round of 16",
     "kickoff_est": "Jul 04 2026 05:00 PM EST",
     "et_date": "Jul 4"
+   },
+   "19": {
+    "ko": 19,
+    "m": 19,
+    "team1": "Brazil",
+    "team2": "Norway",
+    "score1": 1,
+    "score2": 2,
+    "et1": null,
+    "et2": null,
+    "pens_winner": null,
+    "winner": "Norway",
+    "stage": "Round of 16",
+    "kickoff_est": "Jul 05 2026 04:00 PM EST",
+    "et_date": "Jul 5"
    }
   },
   "predictions": {
@@ -34503,6 +34521,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Kesava Prasad": {
@@ -34680,6 +34710,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -34903,6 +34945,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Deepa R Rao": {
@@ -35121,6 +35175,18 @@
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true,
      "winner_credit": true
+    },
+    "19": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Vinod Menon": {
@@ -35334,6 +35400,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -35557,6 +35635,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "KD": {
@@ -35770,6 +35860,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -35993,6 +36095,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Shaik Afzal": {
@@ -36206,6 +36320,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -36429,6 +36555,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Tony": {
@@ -36534,6 +36672,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -36757,6 +36907,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Harish": {
@@ -36975,6 +37137,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "",
+     "floor": true,
+     "winner_credit": true
     }
    },
    "Sasikumar Prabhakaran": {
@@ -37188,6 +37362,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -37411,6 +37597,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Rajith": {
@@ -37624,6 +37822,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -37847,6 +38057,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Sanjesh": {
@@ -38048,6 +38270,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -38271,6 +38505,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Vinod K M": {
@@ -38489,6 +38735,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Srijith": {
@@ -38678,6 +38936,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -38901,6 +39171,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Nandhini Viswanath": {
@@ -39119,6 +39401,18 @@
      "notePens": "",
      "floor": true,
      "winner_credit": true
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Srikanth N R": {
@@ -39332,6 +39626,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -39555,6 +39861,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Baba Krishnankutty": {
@@ -39768,6 +40086,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -39991,6 +40321,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Bijesh": {
@@ -40159,6 +40501,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "19": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    }
   },
@@ -40166,7 +40520,7 @@
    "Satheesh": 20,
    "Kesava Prasad": 18,
    "Senthil Kumar": 22,
-   "Deepa R Rao": 21,
+   "Deepa R Rao": 24,
    "Vinod Menon": 19,
    "Sunilraj": 19,
    "KD": 27,
@@ -40175,7 +40529,7 @@
    "Abhilash Unniyambath": 13,
    "Tony": 8,
    "Ashik": 23,
-   "Harish": 24,
+   "Harish": 25,
    "Sasikumar Prabhakaran": 29,
    "Krishnan": 28,
    "Rajith": 31,
@@ -40199,71 +40553,19 @@
    "Jul 1",
    "Jul 2",
    "Jul 3",
-   "Jul 4"
+   "Jul 4",
+   "Jul 5"
   ],
   "timeline": {
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
-    14,
-    17,
-    19
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15,
-    18,
-    20
-   ],
-   "Sanjesh": [
-    2,
-    5,
-    7,
-    10,
-    13,
-    18,
-    20
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
-    14,
-    21,
-    26,
-    28
-   ],
-   "Baba Krishnankutty": [
+   "Shaik Afzal": [
     2,
     3,
-    8,
-    11,
-    13,
-    17,
-    19
-   ],
-   "Srikanth N R": [
-    1,
-    5,
     10,
+    15,
     19,
     22,
-    26,
-    29
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
-    13,
-    17,
-    20,
-    22
+    25,
+    25
    ],
    "Nandhini Viswanath": [
     1,
@@ -40272,133 +40574,8 @@
     17,
     22,
     26,
-    28
-   ],
-   "Kamal": [
-    1,
-    1,
-    6,
-    9,
-    16,
-    18,
-    20
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18,
-    23,
-    29,
-    31
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
-    21,
-    25,
-    27
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13,
-    19,
-    21
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
-    11,
-    14,
-    19,
-    21
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16,
-    19,
-    21
-   ],
-   "Harish": [
-    0,
-    3,
-    8,
-    13,
-    17,
-    22,
-    24
-   ],
-   "Srijith": [
-    2,
-    4,
-    9,
-    13,
-    20,
-    24,
-    26
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
-    26,
-    28
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19,
-    22,
-    25
-   ],
-   "Ashik": [
-    2,
-    5,
-    10,
-    15,
-    20,
-    21,
-    23
-   ],
-   "Vinod Menon": [
-    2,
-    3,
-    6,
-    9,
-    13,
-    17,
-    19
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25,
     28,
-    30
-   ],
-   "Tony": [
-    0,
-    1,
-    6,
-    6,
-    6,
-    6,
-    8
+    28
    ],
    "Satheesh": [
     1,
@@ -40407,6 +40584,127 @@
     10,
     15,
     18,
+    20,
+    20
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13,
+    19,
+    21,
+    24
+   ],
+   "Rajith": [
+    2,
+    5,
+    10,
+    18,
+    23,
+    29,
+    31,
+    31
+   ],
+   "Sasikumar Prabhakaran": [
+    1,
+    7,
+    14,
+    18,
+    23,
+    27,
+    29,
+    29
+   ],
+   "Vinod Menon": [
+    2,
+    3,
+    6,
+    9,
+    13,
+    17,
+    19,
+    19
+   ],
+   "KD": [
+    3,
+    6,
+    11,
+    14,
+    21,
+    25,
+    27,
+    27
+   ],
+   "P Vijayan": [
+    2,
+    6,
+    10,
+    16,
+    18,
+    24,
+    26,
+    26
+   ],
+   "Abhilash Unniyambath": [
+    0,
+    0,
+    2,
+    5,
+    7,
+    11,
+    13,
+    13
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6,
+    8,
+    8
+   ],
+   "Praveen Kodurkalam": [
+    2,
+    5,
+    9,
+    18,
+    21,
+    26,
+    28,
+    28
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15,
+    20,
+    21,
+    23,
+    23
+   ],
+   "Vinod K M": [
+    1,
+    2,
+    4,
+    11,
+    14,
+    19,
+    21,
+    21
+   ],
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
+    18,
+    20,
     20
    ],
    "Kesava Prasad": [
@@ -40416,25 +40714,8 @@
     9,
     13,
     15,
-    18
-   ],
-   "Sasikumar Prabhakaran": [
-    1,
-    7,
-    14,
     18,
-    23,
-    27,
-    29
-   ],
-   "Abhilash Unniyambath": [
-    0,
-    0,
-    2,
-    5,
-    7,
-    11,
-    13
+    18
    ],
    "Bijesh": [
     0,
@@ -40443,16 +40724,118 @@
     8,
     11,
     11,
+    15,
     15
    ],
-   "P Vijayan": [
+   "Sunilraj": [
+    1,
     2,
-    6,
+    7,
+    12,
+    14,
+    17,
+    19,
+    19
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
     10,
+    13,
+    17,
+    20,
+    22,
+    22
+   ],
+   "Baba Krishnankutty": [
+    2,
+    3,
+    8,
+    11,
+    13,
+    17,
+    19,
+    19
+   ],
+   "Harish": [
+    0,
+    3,
+    8,
+    13,
+    17,
+    22,
+    24,
+    25
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14,
+    21,
+    26,
+    28,
+    28
+   ],
+   "Sheejith Sahadevan": [
+    2,
+    11,
+    16,
+    22,
+    25,
+    28,
+    30,
+    30
+   ],
+   "Sanjesh": [
+    2,
+    5,
+    7,
+    10,
+    13,
+    18,
+    20,
+    20
+   ],
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
+    26,
+    29,
+    29
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    19,
+    21,
+    21
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20,
+    24,
+    26,
+    26
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
     16,
     18,
-    24,
-    26
+    20,
+    20
    ]
   }
  },
@@ -40552,7 +40935,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Portugal",
@@ -40574,9 +40957,9 @@
        }
       ],
       "secured": 0,
-      "live": 10,
-      "forfeited": 14,
-      "max": 10,
+      "live": 8,
+      "forfeited": 16,
+      "max": 8,
       "semis": [
        "Argentina",
        "Netherlands",
@@ -40918,7 +41301,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -40940,9 +41323,9 @@
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
       "semis": [
        "France",
        "England",
@@ -41040,7 +41423,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -41062,9 +41445,9 @@
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
       "semis": [
        "France",
        "England",
@@ -41101,7 +41484,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -41123,9 +41506,9 @@
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
       "semis": [
        "France",
        "Portugal",
@@ -41650,7 +42033,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -41672,9 +42055,9 @@
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 22,
+      "forfeited": 2,
+      "max": 22,
       "semis": [
        "France",
        "Spain",
@@ -41821,7 +42204,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "England",
@@ -41839,7 +42222,7 @@
         "team": "Brazil",
         "level": "final",
         "pts": 4,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "England",
@@ -41851,13 +42234,13 @@
         "team": "Brazil",
         "level": "champ",
         "pts": 8,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 22,
-      "forfeited": 2,
-      "max": 22,
+      "live": 8,
+      "forfeited": 16,
+      "max": 8,
       "semis": [
        "France",
        "Brazil",
@@ -41893,7 +42276,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -41927,9 +42310,9 @@
        }
       ],
       "secured": 0,
-      "live": 5,
-      "forfeited": 8,
-      "max": 5,
+      "live": 4,
+      "forfeited": 9,
+      "max": 4,
       "semis": [
        "Netherlands",
        "Brazil",
@@ -41966,7 +42349,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -41988,9 +42371,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
       "semis": [
        "Spain",
        "France",
@@ -42088,13 +42471,13 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Brazil",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42106,13 +42489,13 @@
         "team": "Brazil",
         "level": "champ",
         "pts": 5,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
       "semis": [
        "France",
        "Portugal",
@@ -42131,7 +42514,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42161,7 +42544,7 @@
         "team": "Brazil",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42171,9 +42554,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 10,
+      "forfeited": 3,
+      "max": 10,
       "semis": [
        "Brazil",
        "Spain",
@@ -42253,7 +42636,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42293,9 +42676,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
       "semis": [
        "Brazil",
        "Spain",
@@ -42314,7 +42697,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42344,7 +42727,7 @@
         "team": "Brazil",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42354,9 +42737,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 10,
+      "forfeited": 3,
+      "max": 10,
       "semis": [
        "Brazil",
        "Spain",
@@ -42375,7 +42758,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42405,19 +42788,19 @@
         "team": "Brazil",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Brazil",
         "level": "champ",
         "pts": 5,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
       "semis": [
        "Brazil",
        "Spain",
@@ -42436,7 +42819,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42476,9 +42859,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
       "semis": [
        "Brazil",
        "Spain",
@@ -42497,7 +42880,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Germany",
@@ -42537,9 +42920,9 @@
        }
       ],
       "secured": 0,
-      "live": 12,
-      "forfeited": 1,
-      "max": 12,
+      "live": 11,
+      "forfeited": 2,
+      "max": 11,
       "semis": [
        "Brazil",
        "Germany",
@@ -42558,7 +42941,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42598,9 +42981,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
       "semis": [
        "Brazil",
        "Spain",
@@ -42881,13 +43264,13 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Brazil",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42899,13 +43282,13 @@
         "team": "Brazil",
         "level": "champ",
         "pts": 5,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
       "semis": [
        "France",
        "Spain",
@@ -42985,7 +43368,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -43025,9 +43408,9 @@
        }
       ],
       "secured": 0,
-      "live": 10,
-      "forfeited": 3,
-      "max": 10,
+      "live": 9,
+      "forfeited": 4,
+      "max": 9,
       "semis": [
        "Brazil",
        "Argentina",
@@ -43125,7 +43508,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -43147,9 +43530,9 @@
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 12,
+      "forfeited": 1,
+      "max": 12,
       "semis": [
        "France",
        "Spain",
@@ -43180,7 +43563,7 @@
         "team": "Brazil",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -43208,9 +43591,9 @@
        }
       ],
       "secured": 0,
-      "live": 5,
-      "forfeited": 8,
-      "max": 5,
+      "live": 4,
+      "forfeited": 9,
+      "max": 4,
       "semis": [
        "Spain",
        "Netherlands",
@@ -43231,6 +43614,7 @@
    "Australia",
    "Austria",
    "Bosnia & Herzegovina",
+   "Brazil",
    "Canada",
    "Cape Verde",
    "Croatia",
@@ -43265,7 +43649,6 @@
   "alive": [
    "Argentina",
    "Belgium",
-   "Brazil",
    "Colombia",
    "Egypt",
    "England",
@@ -43301,6 +43684,7 @@
    "Australia",
    "Austria",
    "Bosnia & Herzegovina",
+   "Brazil",
    "Canada",
    "Cape Verde",
    "Croatia",
@@ -44230,6 +44614,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -45123,6 +45522,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 57,
@@ -46016,6 +46430,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -46909,6 +47338,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 64,
@@ -47802,6 +48246,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-2",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 50,
@@ -48695,6 +49154,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 60,
@@ -49588,6 +50062,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 57,
@@ -50481,13 +50970,28 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "1-1 · ET 0-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": true,
+     "tier": "result"
     }
    ],
    "group_total": 52,
-   "ko_total": 24,
+   "ko_total": 25,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 76
+   "overall": 77
   },
   "Sheejith Sahadevan": {
    "group": [
@@ -51374,6 +51878,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 67,
@@ -52267,6 +52786,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 60,
@@ -53160,6 +53694,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 64,
@@ -54053,6 +54602,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "1-0",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 65,
@@ -54946,6 +55510,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-0",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 63,
@@ -55823,6 +56402,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "4-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 43,
@@ -56716,6 +57310,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 58,
@@ -57609,13 +58218,28 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "1-2",
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "winner_credit": false,
+     "tier": "exact"
     }
    ],
    "group_total": 56,
-   "ko_total": 21,
+   "ko_total": 24,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 77
+   "overall": 80
   },
   "Sreejith Ramachandran": {
    "group": [
@@ -58502,6 +59126,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 67,
@@ -59395,6 +60034,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 59,
@@ -60288,6 +60942,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 53,
@@ -61181,6 +61850,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-0",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -62074,6 +62758,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-2",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 52,
@@ -62967,6 +63666,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 57,
@@ -63860,6 +64574,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 65,
@@ -64741,6 +65470,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 51,
@@ -65634,6 +66378,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 50,
@@ -66519,6 +67278,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -67408,6 +68182,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 40,
@@ -68265,6 +69054,21 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 19,
+     "round": "Round of 16",
+     "t1": "Brazil",
+     "t2": "Norway",
+     "actual": "1-2",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 30,
