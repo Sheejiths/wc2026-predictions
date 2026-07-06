@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "5 Jul 2026",
-  "updated_time": "8:00 PM",
+  "updated": "6 Jul 2026",
+  "updated_time": "3:00 PM",
   "matches_played": 104,
-  "matches_scored": 92,
+  "matches_scored": 93,
   "group": "PDC Friends 1991-93",
-  "ko_results": 20
+  "ko_results": 21
  },
  "predictions": [
   {
@@ -25466,14 +25466,17 @@
     "t2src": "live",
     "slot1": "R16",
     "slot2": "R16",
-    "s1": null,
-    "s2": null,
-    "winner": null,
-    "status": "pending",
+    "s1": 0,
+    "s2": 1,
+    "winner": "Spain",
+    "status": "actual",
     "children": [
      12,
      11
-    ]
+    ],
+    "et1": null,
+    "et2": null,
+    "pens_winner": null
    },
    {
     "m": 22,
@@ -25550,11 +25553,11 @@
    {
     "m": 26,
     "round": "QF",
-    "t1": null,
+    "t1": "Spain",
     "t2": null,
-    "t1src": "tbd",
+    "t1src": "live",
     "t2src": "tbd",
-    "slot1": "TBD",
+    "slot1": "QF",
     "slot2": "TBD",
     "s1": null,
     "s2": null,
@@ -26132,6 +26135,21 @@
     "stage": "Round of 16",
     "kickoff_est": "Jul 05 2026 08:00 PM EST",
     "et_date": "Jul 5"
+   },
+   "21": {
+    "ko": 21,
+    "m": 21,
+    "team1": "Portugal",
+    "team2": "Spain",
+    "score1": 0,
+    "score2": 1,
+    "et1": null,
+    "et2": null,
+    "pens_winner": null,
+    "winner": "Spain",
+    "stage": "Round of 16",
+    "kickoff_est": "Jul 06 2026 03:00 PM EST",
+    "et_date": "Jul 6"
    }
   },
   "predictions": {
@@ -35358,6 +35376,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Kesava Prasad": {
@@ -35559,6 +35589,18 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -35806,6 +35848,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "predicted ET-draw but no shootout (pens locked)",
+     "floor": true,
+     "winner_credit": true
     }
    },
    "Deepa R Rao": {
@@ -36048,6 +36102,18 @@
      "notePens": "",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Vinod Menon": {
@@ -36290,6 +36356,18 @@
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Sunilraj": {
@@ -36527,6 +36605,18 @@
      "pPens": 0,
      "total": 1,
      "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -36774,6 +36864,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Sreejith Ramachandran": {
@@ -37011,6 +37113,18 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -37258,6 +37372,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Abhilash Unniyambath": {
@@ -37500,6 +37626,18 @@
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Tony": {
@@ -37876,6 +38014,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Harish": {
@@ -38118,6 +38268,18 @@
      "notePens": "predicted ET-draw but no shootout (pens locked)",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Sasikumar Prabhakaran": {
@@ -38360,6 +38522,18 @@
      "notePens": "",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Krishnan": {
@@ -38597,6 +38771,18 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -38844,6 +39030,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Kamal": {
@@ -39086,6 +39284,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Sanjesh": {
@@ -39311,6 +39521,18 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -39558,6 +39780,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Vinod K M": {
@@ -39800,6 +40034,18 @@
      "notePens": "",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Srijith": {
@@ -40013,6 +40259,18 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -40260,6 +40518,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "predicted ET-draw but no shootout (pens locked)",
+     "floor": true,
+     "winner_credit": true
     }
    },
    "Nandhini Viswanath": {
@@ -40497,6 +40767,18 @@
      "pPens": 0,
      "total": 0,
      "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -40744,6 +41026,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Praveen Kodurkalam": {
@@ -40981,6 +41275,18 @@
      "pPens": 0,
      "total": 2,
      "tier90": "gdiff",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
      "tierET": null,
      "noteET": "",
      "notePens": "",
@@ -41228,6 +41534,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "P Vijayan": {
@@ -41470,6 +41788,18 @@
      "notePens": "",
      "floor": false,
      "winner_credit": false
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "predicted 90-draw but match decided in 90 (ET locked)",
+     "notePens": "predicted ET-draw but no shootout (pens locked)",
+     "floor": false,
+     "winner_credit": false
     }
    },
    "Bijesh": {
@@ -41662,36 +41992,48 @@
      "notePens": "",
      "floor": true,
      "winner_credit": true
+    },
+    "21": {
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "tierET": null,
+     "noteET": "",
+     "notePens": "",
+     "floor": false,
+     "winner_credit": false
     }
    }
   },
   "totals": {
    "Satheesh": 20,
    "Kesava Prasad": 20,
-   "Senthil Kumar": 24,
-   "Deepa R Rao": 25,
-   "Vinod Menon": 20,
-   "Sunilraj": 20,
+   "Senthil Kumar": 25,
+   "Deepa R Rao": 26,
+   "Vinod Menon": 22,
+   "Sunilraj": 22,
    "KD": 29,
-   "Sreejith Ramachandran": 23,
+   "Sreejith Ramachandran": 26,
    "Shaik Afzal": 25,
-   "Abhilash Unniyambath": 14,
+   "Abhilash Unniyambath": 16,
    "Tony": 9,
    "Ashik": 26,
-   "Harish": 26,
-   "Sasikumar Prabhakaran": 30,
-   "Krishnan": 30,
-   "Rajith": 31,
+   "Harish": 27,
+   "Sasikumar Prabhakaran": 31,
+   "Krishnan": 33,
+   "Rajith": 33,
    "Kamal": 21,
-   "Sanjesh": 20,
-   "Smitha Ramesh": 20,
+   "Sanjesh": 22,
+   "Smitha Ramesh": 21,
    "Vinod K M": 22,
-   "Srijith": 26,
-   "Sheejith Sahadevan": 32,
-   "Nandhini Viswanath": 28,
-   "Srikanth N R": 29,
+   "Srijith": 28,
+   "Sheejith Sahadevan": 33,
+   "Nandhini Viswanath": 30,
+   "Srikanth N R": 31,
    "Praveen Kodurkalam": 30,
-   "Baba Krishnankutty": 19,
+   "Baba Krishnankutty": 20,
    "P Vijayan": 26,
    "Bijesh": 16
   },
@@ -41703,68 +42045,20 @@
    "Jul 2",
    "Jul 3",
    "Jul 4",
-   "Jul 5"
+   "Jul 5",
+   "Jul 6"
   ],
   "timeline": {
-   "Srikanth N R": [
-    1,
+   "Sanjesh": [
+    2,
     5,
-    10,
-    19,
-    22,
-    26,
-    29,
-    29
-   ],
-   "Kesava Prasad": [
-    2,
-    4,
-    4,
-    9,
-    13,
-    15,
-    18,
-    20
-   ],
-   "Sreejith Ramachandran": [
-    2,
-    3,
-    8,
-    11,
-    16,
-    19,
-    21,
-    23
-   ],
-   "Satheesh": [
-    1,
-    4,
     7,
     10,
-    15,
+    13,
     18,
     20,
-    20
-   ],
-   "Senthil Kumar": [
-    1,
-    4,
-    10,
-    13,
-    17,
     20,
-    22,
-    24
-   ],
-   "Sheejith Sahadevan": [
-    2,
-    11,
-    16,
-    22,
-    25,
-    28,
-    30,
-    32
+    22
    ],
    "Sasikumar Prabhakaran": [
     1,
@@ -41774,97 +42068,19 @@
     23,
     27,
     29,
-    30
-   ],
-   "Deepa R Rao": [
-    1,
-    2,
-    7,
-    11,
-    13,
-    19,
-    21,
-    25
-   ],
-   "KD": [
-    3,
-    6,
-    11,
-    14,
-    21,
-    25,
-    27,
-    29
-   ],
-   "Smitha Ramesh": [
-    2,
-    5,
-    9,
-    13,
-    15,
-    18,
-    20,
-    20
-   ],
-   "Baba Krishnankutty": [
-    2,
-    3,
-    8,
-    11,
-    13,
-    17,
-    19,
-    19
-   ],
-   "Shaik Afzal": [
-    2,
-    3,
-    10,
-    15,
-    19,
-    22,
-    25,
-    25
-   ],
-   "Praveen Kodurkalam": [
-    2,
-    5,
-    9,
-    18,
-    21,
-    26,
-    28,
-    30
-   ],
-   "Rajith": [
-    2,
-    5,
-    10,
-    18,
-    23,
-    29,
-    31,
+    30,
     31
    ],
-   "Vinod Menon": [
-    2,
+   "Bijesh": [
+    0,
     3,
-    6,
-    9,
-    13,
-    17,
-    19,
-    20
-   ],
-   "Vinod K M": [
-    1,
-    2,
-    4,
+    5,
+    8,
     11,
-    14,
-    19,
-    21,
-    22
+    11,
+    15,
+    16,
+    16
    ],
    "Nandhini Viswanath": [
     1,
@@ -41874,15 +42090,6 @@
     22,
     26,
     28,
-    28
-   ],
-   "Krishnan": [
-    2,
-    5,
-    10,
-    14,
-    21,
-    26,
     28,
     30
    ],
@@ -41894,37 +42101,96 @@
     17,
     22,
     24,
-    26
+    26,
+    27
    ],
-   "Ashik": [
+   "Smitha Ramesh": [
+    2,
+    5,
+    9,
+    13,
+    15,
+    18,
+    20,
+    20,
+    21
+   ],
+   "Rajith": [
     2,
     5,
     10,
+    18,
+    23,
+    29,
+    31,
+    31,
+    33
+   ],
+   "Satheesh": [
+    1,
+    4,
+    7,
+    10,
     15,
+    18,
     20,
+    20,
+    20
+   ],
+   "Sreejith Ramachandran": [
+    2,
+    3,
+    8,
+    11,
+    16,
+    19,
     21,
     23,
     26
    ],
-   "Sanjesh": [
+   "Sheejith Sahadevan": [
     2,
-    5,
-    7,
-    10,
-    13,
-    18,
-    20,
-    20
+    11,
+    16,
+    22,
+    25,
+    28,
+    30,
+    32,
+    33
    ],
-   "Tony": [
-    0,
-    1,
+   "Vinod Menon": [
+    2,
+    3,
     6,
+    9,
+    13,
+    17,
+    19,
+    20,
+    22
+   ],
+   "KD": [
+    3,
     6,
-    6,
-    6,
-    8,
-    9
+    11,
+    14,
+    21,
+    25,
+    27,
+    29,
+    29
+   ],
+   "Shaik Afzal": [
+    2,
+    3,
+    10,
+    15,
+    19,
+    22,
+    25,
+    25,
+    25
    ],
    "Abhilash Unniyambath": [
     0,
@@ -41934,37 +42200,52 @@
     7,
     11,
     13,
-    14
-   ],
-   "Sunilraj": [
-    1,
-    2,
-    7,
-    12,
     14,
-    17,
-    19,
-    20
+    16
    ],
-   "Kamal": [
-    1,
-    1,
-    6,
+   "Praveen Kodurkalam": [
+    2,
+    5,
     9,
-    16,
     18,
-    20,
-    21
+    21,
+    26,
+    28,
+    30,
+    30
    ],
-   "Srijith": [
+   "Srikanth N R": [
+    1,
+    5,
+    10,
+    19,
+    22,
+    26,
+    29,
+    29,
+    31
+   ],
+   "Krishnan": [
+    2,
+    5,
+    10,
+    14,
+    21,
+    26,
+    28,
+    30,
+    33
+   ],
+   "Vinod K M": [
+    1,
     2,
     4,
-    9,
-    13,
-    20,
-    24,
-    26,
-    26
+    11,
+    14,
+    19,
+    21,
+    22,
+    22
    ],
    "P Vijayan": [
     2,
@@ -41974,17 +42255,107 @@
     18,
     24,
     26,
+    26,
     26
    ],
-   "Bijesh": [
-    0,
+   "Baba Krishnankutty": [
+    2,
     3,
-    5,
     8,
     11,
-    11,
+    13,
+    17,
+    19,
+    19,
+    20
+   ],
+   "Kesava Prasad": [
+    2,
+    4,
+    4,
+    9,
+    13,
     15,
-    16
+    18,
+    20,
+    20
+   ],
+   "Ashik": [
+    2,
+    5,
+    10,
+    15,
+    20,
+    21,
+    23,
+    26,
+    26
+   ],
+   "Srijith": [
+    2,
+    4,
+    9,
+    13,
+    20,
+    24,
+    26,
+    26,
+    28
+   ],
+   "Kamal": [
+    1,
+    1,
+    6,
+    9,
+    16,
+    18,
+    20,
+    21,
+    21
+   ],
+   "Tony": [
+    0,
+    1,
+    6,
+    6,
+    6,
+    6,
+    8,
+    9,
+    9
+   ],
+   "Senthil Kumar": [
+    1,
+    4,
+    10,
+    13,
+    17,
+    20,
+    22,
+    24,
+    25
+   ],
+   "Sunilraj": [
+    1,
+    2,
+    7,
+    12,
+    14,
+    17,
+    19,
+    20,
+    22
+   ],
+   "Deepa R Rao": [
+    1,
+    2,
+    7,
+    11,
+    13,
+    19,
+    21,
+    25,
+    26
    ]
   }
  },
@@ -42017,7 +42388,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "England",
@@ -42029,7 +42400,7 @@
         "team": "Portugal",
         "level": "final",
         "pts": 4,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -42041,13 +42412,13 @@
         "team": "Portugal",
         "level": "champ",
         "pts": 8,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 10,
+      "forfeited": 14,
+      "max": 10,
       "semis": [
        "Spain",
        "France",
@@ -42078,7 +42449,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Brazil",
@@ -42090,7 +42461,7 @@
         "team": "Portugal",
         "level": "final",
         "pts": 4,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Netherlands",
@@ -42106,9 +42477,9 @@
        }
       ],
       "secured": 0,
-      "live": 8,
-      "forfeited": 16,
-      "max": 8,
+      "live": 2,
+      "forfeited": 22,
+      "max": 2,
       "semis": [
        "Argentina",
        "Netherlands",
@@ -42389,7 +42760,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42411,9 +42782,9 @@
        }
       ],
       "secured": 0,
-      "live": 22,
-      "forfeited": 2,
-      "max": 22,
+      "live": 20,
+      "forfeited": 4,
+      "max": 20,
       "semis": [
        "Germany",
        "Spain",
@@ -42511,7 +42882,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "France",
@@ -42523,19 +42894,19 @@
         "team": "Portugal",
         "level": "final",
         "pts": 4,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Portugal",
         "level": "champ",
         "pts": 8,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 24,
-      "forfeited": 0,
-      "max": 24,
+      "live": 10,
+      "forfeited": 14,
+      "max": 10,
       "semis": [
        "France",
        "England",
@@ -42621,7 +42992,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -42655,9 +43026,9 @@
        }
       ],
       "secured": 0,
-      "live": 22,
-      "forfeited": 2,
-      "max": 22,
+      "live": 20,
+      "forfeited": 4,
+      "max": 20,
       "semis": [
        "France",
        "Portugal",
@@ -43608,7 +43979,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Argentina",
@@ -43642,9 +44013,9 @@
        }
       ],
       "secured": 0,
-      "live": 5,
-      "forfeited": 8,
-      "max": 5,
+      "live": 4,
+      "forfeited": 9,
+      "max": 4,
       "semis": [
        "France",
        "Portugal",
@@ -44474,7 +44845,7 @@
         "team": "Portugal",
         "level": "semi",
         "pts": 1,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Spain",
@@ -44486,19 +44857,19 @@
         "team": "Portugal",
         "level": "final",
         "pts": 2,
-        "state": "pending"
+        "state": "busted"
        },
        {
         "team": "Portugal",
         "level": "champ",
         "pts": 5,
-        "state": "pending"
+        "state": "busted"
        }
       ],
       "secured": 0,
-      "live": 13,
-      "forfeited": 0,
-      "max": 13,
+      "live": 5,
+      "forfeited": 8,
+      "max": 5,
       "semis": [
        "Spain",
        "Argentina",
@@ -44784,6 +45155,7 @@
    "New Zealand",
    "Panama",
    "Paraguay",
+   "Portugal",
    "Qatar",
    "Saudi Arabia",
    "Scotland",
@@ -44805,7 +45177,6 @@
    "France",
    "Morocco",
    "Norway",
-   "Portugal",
    "Spain",
    "Switzerland",
    "USA"
@@ -44846,6 +45217,7 @@
    "Mexico",
    "Netherlands",
    "Paraguay",
+   "Portugal",
    "Senegal",
    "South Africa",
    "Sweden"
@@ -45797,6 +46169,21 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "0-0 · ET 0-0 · pens Portugal",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -46720,6 +47107,21 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "3-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 57,
@@ -47643,13 +48045,28 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 61,
-   "ko_total": 20,
+   "ko_total": 22,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 81
+   "overall": 83
   },
   "Praveen Kodurkalam": {
    "group": [
@@ -48566,6 +48983,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 64,
@@ -49489,13 +49921,28 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-2 · ET 0-0 · pens Spain",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": true,
+     "tier": "result"
     }
    ],
    "group_total": 50,
-   "ko_total": 24,
+   "ko_total": 25,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 74
+   "overall": 75
   },
   "Srikanth N R": {
    "group": [
@@ -50412,13 +50859,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-3",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 60,
-   "ko_total": 29,
+   "ko_total": 31,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 89
+   "overall": 91
   },
   "Kamal": {
    "group": [
@@ -51335,6 +51797,21 @@
      "tier90": "result",
      "winner_credit": false,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "3-2",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 57,
@@ -52258,13 +52735,28 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "0-2",
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": false,
+     "tier": "result"
     }
    ],
    "group_total": 52,
-   "ko_total": 26,
+   "ko_total": 27,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 78
+   "overall": 79
   },
   "Sheejith Sahadevan": {
    "group": [
@@ -53181,13 +53673,28 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-1 · ET 0-0 · pens Spain",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": true,
+     "tier": "result"
     }
    ],
    "group_total": 67,
-   "ko_total": 32,
+   "ko_total": 33,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 99
+   "overall": 100
   },
   "Shaik Afzal": {
    "group": [
@@ -54097,6 +54604,21 @@
      "t2": "England",
      "actual": "2-3",
      "pred": "1-1 · ET 1-0",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-1",
      "p90": 0,
      "pET": 0,
      "pPens": 0,
@@ -55027,13 +55549,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 64,
-   "ko_total": 28,
+   "ko_total": 30,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 92
+   "overall": 94
   },
   "Krishnan": {
    "group": [
@@ -55950,13 +56487,28 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "0-1",
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "winner_credit": false,
+     "tier": "exact"
     }
    ],
    "group_total": 65,
-   "ko_total": 30,
+   "ko_total": 33,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 95
+   "overall": 98
   },
   "Vinod Menon": {
    "group": [
@@ -56873,13 +57425,28 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 63,
-   "ko_total": 20,
+   "ko_total": 22,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 83
+   "overall": 85
   },
   "Bijesh": {
    "group": [
@@ -57780,6 +58347,21 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "4-2",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 43,
@@ -58703,13 +59285,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-3",
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": false,
+     "tier": "result"
     }
    ],
    "group_total": 58,
-   "ko_total": 20,
+   "ko_total": 21,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 78
+   "overall": 79
   },
   "Deepa R Rao": {
    "group": [
@@ -59626,13 +60223,28 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-3",
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": false,
+     "tier": "result"
     }
    ],
    "group_total": 56,
-   "ko_total": 25,
+   "ko_total": 26,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 81
+   "overall": 82
   },
   "Sreejith Ramachandran": {
    "group": [
@@ -60549,13 +61161,28 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "0-1",
+     "p90": 3,
+     "pET": 0,
+     "pPens": 0,
+     "total": 3,
+     "tier90": "exact",
+     "winner_credit": false,
+     "tier": "exact"
     }
    ],
    "group_total": 67,
-   "ko_total": 23,
+   "ko_total": 26,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 90
+   "overall": 93
   },
   "Satheesh": {
    "group": [
@@ -61464,6 +62091,21 @@
      "t1": "Mexico",
      "t2": "England",
      "actual": "2-3",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
      "pred": "2-1",
      "p90": 0,
      "pET": 0,
@@ -62395,13 +63037,28 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-3",
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": false,
+     "tier": "result"
     }
    ],
    "group_total": 53,
-   "ko_total": 30,
+   "ko_total": 31,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 83
+   "overall": 84
   },
   "Ashik": {
    "group": [
@@ -63318,6 +63975,21 @@
      "tier90": "exact",
      "winner_credit": false,
      "tier": "exact"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 61,
@@ -64241,13 +64913,28 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-3",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 52,
-   "ko_total": 14,
+   "ko_total": 16,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 66
+   "overall": 68
   },
   "Rajith": {
    "group": [
@@ -65164,13 +65851,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 57,
-   "ko_total": 31,
+   "ko_total": 33,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 88
+   "overall": 90
   },
   "KD": {
    "group": [
@@ -66087,6 +66789,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 65,
@@ -66998,6 +67715,21 @@
      "tier90": "gdiff",
      "winner_credit": false,
      "tier": "gdiff"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "2-1",
+     "p90": 0,
+     "pET": 0,
+     "pPens": 0,
+     "total": 0,
+     "tier90": "wrong",
+     "winner_credit": false,
+     "tier": "wrong"
     }
    ],
    "group_total": 51,
@@ -67921,13 +68653,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-3",
+     "p90": 1,
+     "pET": 0,
+     "pPens": 0,
+     "total": 1,
+     "tier90": "result",
+     "winner_credit": false,
+     "tier": "result"
     }
    ],
    "group_total": 50,
-   "ko_total": 19,
+   "ko_total": 20,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 69
+   "overall": 70
   },
   "Srijith": {
    "group": [
@@ -68836,13 +69583,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 61,
-   "ko_total": 26,
+   "ko_total": 28,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 87
+   "overall": 89
   },
   "Sanjesh": {
    "group": [
@@ -69755,13 +70517,28 @@
      "tier90": "wrong",
      "winner_credit": false,
      "tier": "wrong"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": "1-2",
+     "p90": 2,
+     "pET": 0,
+     "pPens": 0,
+     "total": 2,
+     "tier90": "gdiff",
+     "winner_credit": false,
+     "tier": "gdiff"
     }
    ],
    "group_total": 40,
-   "ko_total": 20,
+   "ko_total": 22,
    "eb_total": 0,
    "bonus_total": 0,
-   "overall": 60
+   "overall": 62
   },
   "Tony": {
    "group": [
@@ -70642,6 +71419,17 @@
      "tier90": "result",
      "winner_credit": true,
      "tier": "result"
+    },
+    {
+     "ko": 21,
+     "round": "Round of 16",
+     "t1": "Portugal",
+     "t2": "Spain",
+     "actual": "0-1",
+     "pred": null,
+     "total": 0,
+     "tier": "missing",
+     "winner_credit": false
     }
    ],
    "group_total": 30,
