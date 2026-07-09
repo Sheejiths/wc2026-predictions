@@ -73,7 +73,9 @@ body.dark{
 
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f3f2f1;color:#201f1e;min-height:100vh;}
 .sticky-top{position:sticky;top:0;z-index:100;}
-.header{background:linear-gradient(135deg,#0078d4 0%,#005a9e 100%);color:#fff;padding:16px 20px 12px;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.header{position:relative;overflow:hidden;background:linear-gradient(135deg,#0078d4 0%,#005a9e 100%);color:#fff;padding:16px 20px 12px 116px;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.gvc-wm{position:absolute;top:50%;left:16px;transform:translateY(-50%);height:82px;width:auto;pointer-events:none;user-select:none;}
+@media(max-width:560px){.header{padding-left:66px;}.gvc-wm{height:46px;left:10px;}}
 .header h1{font-size:clamp(15px,3.5vw,22px);font-weight:700;}
 .header-sub{font-size:12px;color:#c8e0f4;margin-top:3px;}
 .header-meta{font-size:11px;color:#a8cce8;margin-top:2px;}
@@ -493,6 +495,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
 <body>
 <div class="sticky-top">
   <div class="header">
+    <img class="gvc-wm" src="gvc_banner_logo.png" alt="Govt. Victoria College">
     <h1>⚽ FIFA World Cup 2026 — Prediction Tracker</h1>
     <div class="header-sub">PDC Friends 1991-93 · Group Stage</div>
     <div class="header-meta">Scoring: 3 pts exact · 2 pts right goal diff · 1 pt correct result</div>
