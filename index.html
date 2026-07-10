@@ -118,6 +118,12 @@ body.dark .bn-tab:hover:not(.active){background:#1d2d3d;}
 body.dark .bn-chip{filter:brightness(.92);}
 .ko-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
 .ko-pill.on{background:#e3f0ff;color:#0b66c3;}
+.eb-pill,.bn-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
+.eb-pill.on{background:#fff3d6;color:#8a5a00;}
+.bn-pill.on{background:#efe6ff;color:#6b21a8;}
+body.dark .eb-pill,body.dark .bn-pill{background:#1a2330;color:#6b7888;}
+body.dark .eb-pill.on{background:#2a2410;color:#ffd54a;}
+body.dark .bn-pill.on{background:#241a33;color:#c9a2ff;}
 .ko-sec-head{margin:20px 0 10px;font-size:15px;font-weight:800;color:#0b66c3;border-top:2px solid #e6eef7;padding-top:14px;}
 .ko-round-head-in{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 0 2px;padding:0 2px 8px;border-bottom:2px solid #e6eef7;font-size:15px;font-weight:800;color:#0b66c3;}
 .ko-round-head-in:first-child{margin-top:2px;}
@@ -538,7 +544,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -547,7 +553,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -556,7 +562,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -565,7 +571,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -574,7 +580,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -583,7 +589,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.5</strong> &nbsp;·&nbsp; Built 7 Jul 2026 · Bonus tab: Early Bird carry-over badge (🐦) on EB->Bonus members, plus late/untagged markers; Bonus round aligned with Biju<br>
+  <strong>⚙️ UI v1.15.6</strong> &nbsp;·&nbsp; Built 9 Jul 2026 · Overall leaderboard: separate 🐦 Early Bird & 🎁 Bonus secured columns; PTS grand total = Group + Knockout + EB secured + Bonus secured<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1605,7 +1611,7 @@ function renderLB(){
             hitrate:s.played?hits/s.played:0,
             tied:rankCounts[rank]>1&&rank<=3,medal:MEDALS[rank]};
   });
-  const hint=overall?'🏅 <b>Overall</b> = Group + Round of 32. EXACT·DIFF·RESULT are combined across both stages; <b>KO</b> shows the knockout points (incl. any ET/pens & winner-floor bonus) inside the PTS grand total. '
+  const hint=overall?'🏅 <b>Overall</b> — <b>PTS</b> is the grand total: Group + Knockout (R32·R16·QF…) + <b>🐦 EB</b> (Early Bird secured) + <b>🎁 Bonus</b> (Bonus secured). <b>KO</b> shows knockout points (incl. ET/pens & winner-floor); <b>🐦 EB</b> and <b>🎁 Bonus</b> show points already secured as picked teams advance. '
     :ko?'🏆 <b>'+koRoundLabel(state.koRound)+'</b> knockout scoring (90-min 3/2/1, plus ET, pens and winner-credit bonuses). <b>BONUS</b> = points on top of the 90-min tier (ET, pens, or a <span style="color:#6b21a8;font-weight:700;">winner-floor</span> +1), so PTS = 3·EXACT + 2·DIFF + 1·RESULT + BONUS. <span style="color:#6b21a8;font-weight:700;">⌊n⌋</span> = winner floors (+1 for correctly naming the team that advanced): floors a 0 up to 1 (in RESULT), or adds +1 on top of a scoring draw (in BONUS). '
     :'💡 ';
   el.innerHTML=`<div class="hover-hint">${hint}Tap a column header to sort · tap coloured EXACT·DIFF·RESULT numbers for match details · PPM = points per match predicted, HIT% = share of picks that scored, P = matches predicted</div>
@@ -1623,6 +1629,8 @@ function lbCompare(a,b,col){
     case 'result':return a.s.result.length-b.s.result.length;
     case 'pts':return a.s.pts-b.s.pts;
     case 'ko':return (a.s.koPts||0)-(b.s.koPts||0);
+    case 'ebPts':return (a.s.ebPts||0)-(b.s.ebPts||0);
+    case 'bonusPts':return (a.s.bonusPts||0)-(b.s.bonusPts||0);
     case 'bonus':return (a.s.bonus||0)-(b.s.bonus||0);
     case 'played':return a.s.played-b.s.played;
     case 'ppm':return a.ppm-b.ppm;
@@ -1644,7 +1652,7 @@ function buildLBTable(rows){
     ${lbTh('rank','RANK','stick lb-c-rank')}
     ${lbTh('player','PLAYER','left stick lb-c-player')}
     ${lbTh('exact','EXACT')}${lbTh('diff','DIFF')}${lbTh('result','RESULT')}
-    ${lbTh('pts','PTS','right')}${state.stage==='overall'?lbTh('ko','KO'):''}${state.stage==='ko'?lbTh('bonus','BONUS'):''}${lbTh('played','P')}${lbTh('ppm','PPM')}${lbTh('hit','HIT%')}
+    ${lbTh('pts','PTS','right')}${state.stage==='overall'?lbTh('ko','KO'):''}${state.stage==='overall'?lbTh('ebPts','🐦 EB'):''}${state.stage==='overall'?lbTh('bonusPts','🎁 BONUS'):''}${state.stage==='ko'?lbTh('bonus','BONUS'):''}${lbTh('played','P')}${lbTh('ppm','PPM')}${lbTh('hit','HIT%')}
     </tr></thead><tbody>`;
   rows.forEach((r,idx)=>{
     const s=r.s;
@@ -1666,6 +1674,8 @@ function buildLBTable(rows){
         ?`<button class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}" style="background:none;border:none;cursor:pointer;padding:0;font-family:inherit;" role="button" tabindex="0" aria-label="View ${r.name.replace(/'/g,"").replace(/"/g,'')} scorecard" onclick="openScorecard('${r.name.replace(/'/g,"\\'")}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openScorecard('${r.name.replace(/'/g,"\\'")}');}">${s.pts}</button>`
         :`<span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span>`}</td>
       ${state.stage==='overall'?('<td class="eff-cell"><span class="ko-pill'+((s.koPts||0)>0?' on':'')+'">'+(s.koPts||0)+'</span></td>'):''}
+      ${state.stage==='overall'?('<td class="eff-cell"><span class="eb-pill'+((s.ebPts||0)>0?' on':'')+'">'+(s.ebPts||0)+'</span></td>'):''}
+      ${state.stage==='overall'?('<td class="eff-cell"><span class="bn-pill'+((s.bonusPts||0)>0?' on':'')+'">'+(s.bonusPts||0)+'</span></td>'):''}
       ${state.stage==='ko'?('<td class="stat-cell">'+((s.bonus||0)>0?'<button class="stat-btn clickable bonus-c" onclick="showStatByKey(\''+r.uid+'_bonus\')">'+s.bonus+'</button>':'<button class="stat-btn zero">0</button>')+'</td>'):''}
       <td class="eff-cell muted">${s.played}</td>
       <td class="eff-cell">${s.played?r.ppm.toFixed(2):'—'}</td>
@@ -2335,7 +2345,7 @@ function renderTrendKO(){
 
 function calcOverallScores(){
   const base=calcAllScores();              // [[name,s],...] group only
-  const map={}; base.forEach(([n,s])=>{map[n]=s;s.koPts=0;s.koBonus=0;s.resultFloor=0;});
+  const map={}; base.forEach(([n,s])=>{map[n]=s;s.koPts=0;s.koBonus=0;s.resultFloor=0;s.ebPts=0;s.bonusPts=0;});
   const ko=state.ko;
   if(ko){
     for(const n in map){
@@ -2355,6 +2365,15 @@ function calcOverallScores(){
         s.played++; s.pts+=c.total; s.koPts+=c.total; s.koBonus+=(c.total-c.p90);
       }
     }
+  }
+  // Fold Early Bird / Bonus SECURED points into the grand total, and expose them
+  // as their own columns. PTS = Group + KO + Early Bird secured + Bonus secured.
+  const scmap=state.scorecard||{};
+  for(const n in map){
+    const s=scmap[n]||{};
+    map[n].ebPts=s.eb_total||0;
+    map[n].bonusPts=s.bonus_total||0;
+    map[n].pts += map[n].ebPts + map[n].bonusPts;
   }
   return Object.entries(map).sort((a,b)=>b[1].pts-a[1].pts||b[1].exact.length-a[1].exact.length||b[1].gdiff.length-a[1].gdiff.length);
 }
