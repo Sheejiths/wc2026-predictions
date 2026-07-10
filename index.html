@@ -504,6 +504,54 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
 .brk-champ-lbl{font-size:9px;font-weight:700;color:#a07b00;letter-spacing:.07em;margin-bottom:3px;}
 .brk-champ-team{font-size:13px;font-weight:800;color:#7d5a00;background:#fff4ce;border:1.5px solid #f0c850;border-radius:8px;padding:7px 9px;white-space:nowrap;}
 .brk-3p{position:absolute;font-size:11px;color:#605e5c;background:#faf9f8;border:1px solid #edebe9;border-radius:8px;padding:6px 10px;white-space:nowrap;}
+/* ---- Awards tab + certificate ---- */
+.aw-head{padding:14px 16px 4px;}
+.aw-head h2{margin:0;font-size:20px;}
+.aw-head p{margin:4px 0 0;color:#605e5c;font-size:12.5px;max-width:640px;}
+body.dark .aw-head p{color:#a9b6c2;}
+.aw-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;padding:12px 16px 24px;}
+.aw-card{position:relative;text-align:left;background:#fff;border:1px solid #e6ebf1;border-radius:14px;padding:16px 14px 12px;cursor:pointer;transition:transform .12s,box-shadow .12s,border-color .12s;display:flex;flex-direction:column;gap:3px;}
+.aw-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,60,120,.14);border-color:#bcd6f2;}
+body.dark .aw-card{background:#1b2531;border-color:#2a3846;}
+.aw-ic{font-size:30px;line-height:1;}
+.aw-t{font-weight:800;font-size:14.5px;color:#0b66c3;margin-top:4px;}
+body.dark .aw-t{color:#5fb0ff;}
+.aw-who{font-weight:700;font-size:15px;}
+.aw-why{font-size:12px;color:#5a6672;line-height:1.45;margin-top:3px;}
+body.dark .aw-why{color:#9fb0c0;}
+.aw-cta{margin-top:8px;font-size:11px;font-weight:700;color:#8a97a6;}
+.aw-org{background:linear-gradient(135deg,#0b2f5e,#0a2547);border-color:#e0b422;}
+.aw-org .aw-t{color:#f0d060;}
+.aw-org .aw-who,.aw-org .aw-why,.aw-org .aw-cta{color:#e6eefb;}
+.aw-badge{position:absolute;top:10px;right:10px;background:#e0b422;color:#0a2547;font-size:9px;font-weight:800;letter-spacing:1px;padding:2px 7px;border-radius:8px;text-transform:uppercase;}
+.cert-modal{position:fixed;inset:0;background:rgba(6,16,30,.82);display:flex;align-items:center;justify-content:center;z-index:1000;padding:16px;}
+.cert-wrap{display:flex;flex-direction:column;align-items:center;gap:12px;max-height:94vh;overflow:auto;}
+.cert-actions{display:flex;gap:10px;}
+.cert-dl{background:#e0b422;color:#0a2547;font-weight:800;border:none;border-radius:10px;padding:10px 18px;cursor:pointer;font-size:13px;}
+.cert-dl:hover{background:#f0d060;}
+.cert-close{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.3);border-radius:10px;padding:10px 18px;cursor:pointer;font-size:13px;}
+.cert{position:relative;width:720px;max-width:92vw;aspect-ratio:1.4/1;background:linear-gradient(135deg,#0c3468 0%,#08213f 100%);color:#fff;border-radius:10px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.55);font-family:Georgia,'Times New Roman',serif;}
+.cert::before{content:'';position:absolute;inset:14px;border:2px solid #e0b422;border-radius:6px;pointer-events:none;}
+.cert::after{content:'';position:absolute;inset:20px;border:1px solid rgba(224,180,34,.45);border-radius:4px;pointer-events:none;}
+.cert-bgwm{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:80%;width:auto;opacity:.10;pointer-events:none;}
+.cert-inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:38px 52px 64px;box-sizing:border-box;}
+.cert-orgline{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#bcd3ef;}
+.cert-head{font-size:26px;font-weight:700;color:#f0d060;letter-spacing:1px;margin-top:5px;}
+.cert-rule{width:130px;border-top:1px solid rgba(224,180,34,.5);margin:12px 0 6px;position:relative;height:1px;}
+.cert-rule span{position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#0a2b52;color:#e0b422;padding:0 9px;font-size:12px;}
+.cert-ic{font-size:34px;margin:2px 0;}
+.cert-aw{font-size:21px;font-weight:700;letter-spacing:.3px;}
+.cert-pres{font-size:12px;color:#bcd3ef;font-style:italic;margin-top:10px;}
+.cert-name{font-size:32px;font-weight:700;font-style:italic;color:#f0d060;margin:1px 0 6px;}
+.cert-why{font-size:12.5px;line-height:1.55;color:#e6eefb;max-width:80%;font-style:italic;}
+.cert-foot{position:absolute;left:52px;right:52px;bottom:34px;display:flex;justify-content:space-between;align-items:flex-end;}
+.cert-event{font-size:10.5px;color:#bcd3ef;letter-spacing:.5px;text-align:left;max-width:52%;}
+.cert-sign{text-align:right;}
+.cert-sig-name{font-size:22px;font-style:italic;color:#fff;line-height:1;}
+.cert-sig-role{font-size:9.5px;color:#bcd3ef;letter-spacing:1.5px;text-transform:uppercase;border-top:1px solid rgba(255,255,255,.4);padding-top:4px;margin-top:3px;}
+.cert-org{background:linear-gradient(135deg,#123f79 0%,#0a2547 100%);}
+.cert-org .cert-aw{color:#f0d060;}
+@media(max-width:560px){.cert-inner{padding:26px 30px 54px;}.cert-head{font-size:20px;}.cert-aw{font-size:16px;}.cert-name{font-size:24px;}.cert-why{font-size:11px;max-width:90%;}.cert-foot{left:30px;right:30px;bottom:24px;}}
 </style>
 </head>
 <body>
@@ -528,6 +576,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
     <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
     <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
     <button class="tab" onclick="switchTab('bonus')">🎟️ Bonus</button>
+    <button class="tab" onclick="switchTab('awards')">🏅 Awards</button>
   </div>
   <div class="stage-bar" id="stageBar" style="display:none;">
     <button class="stage-btn" id="stgGroup" onclick="setStage('group')">🌍 Group Stage</button>
@@ -552,7 +601,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -561,7 +610,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -570,7 +619,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -579,7 +628,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -588,7 +637,7 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -597,10 +646,22 @@ body.dark .th-confirmed{outline-color:#1f5a33;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.11</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Member modals: bar chart & scorecard split Knockout into R32/R16/QF/SF/3rd/Final; bottom totals split by round (each round its own colour) + separate 🐦 Early Bird / 🎁 Bonus<br>
+  <strong>⚙️ UI v1.15.12</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · New 🏅 Awards tab: 31 award cards + shareable certificate per member (GVC watermark, download as image)<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
+</div>
+<div id="panel-awards" class="panel">
+  <div id="awardsContent"></div>
+</div>
+<div id="certModal" class="cert-modal" style="display:none;" onclick="if(event.target===this)closeCert()">
+  <div class="cert-wrap">
+    <div id="certHost"></div>
+    <div class="cert-actions">
+      <button class="cert-dl" onclick="downloadCert()">📥 Download / Share image</button>
+      <button class="cert-close" onclick="closeCert()">Close</button>
+    </div>
+  </div>
 </div>
 <div class="sc-overlay" id="scOverlay" onclick="closeScorecard()"></div>
 <div class="sc-modal" id="scModal" role="dialog" aria-modal="true" aria-label="Member scorecard"></div>
@@ -620,7 +681,7 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket','bonus'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','trend','standings','bracket','bonus','awards'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
   // stage toggle only applies to matches / leaderboard / trend
@@ -631,6 +692,7 @@ function switchTab(t){
   if(t==='standings') renderStandings();
   if(t==='bracket') renderBracket();
   if(t==='bonus') renderBonus();
+  if(t==='awards') renderAwards();
 }
 
 function setStage(s, round){
@@ -1084,6 +1146,88 @@ function showReport(){
     +'</div><div class="rep-foot">sheejiths.github.io/wc2026-predictions</div></div>'
     +'<div class="rep-actions"><button class="rep-share" id="repShareBtn" onclick="shareReportImage()">📤 Share as image</button></div>';
   openModal('','',card);
+}
+const AWARDS=[
+ {org:1,ic:'🎖️',t:"The Commissioner's Award",who:'Biju',why:'The official custodian of the competition — he sets the rules, settles every scoreline, and posts the updated standings every single day without fail. The steady, impartial hand that keeps the whole contest running and fair.'},
+ {ic:'🏗️',t:'The Architect Award',who:'Sheejith Sahadevan',why:'Designed and runs this entire live prediction tracker — the site, the data pipeline and the leaderboard — all while competing at the very sharp end himself. The rare player-builder who constructs the arena and fights for the title inside it.'},
+ {ic:'🦁',t:'The Brave Predictor Award',who:'Bijesh',why:'The boldest board in the group — averaging over four goals a knockout tie and making the most fearless high-scoring calls of anyone. Never plays it safe.'},
+ {ic:'🐤',t:'The Underdog Believer Award',who:'Deepa R Rao',why:'The only member to back Norway to topple Brazil — and called the scoreline exactly. Believed in the underdog when all others looked away.'},
+ {ic:'⏱️',t:'The Last-Minute Miracle Award',who:'Rajith',why:'Submitted a knockout prediction barely twelve minutes before kickoff and landed the exact scoreline. Cut it fine and delivered the miracle.'},
+ {ic:'🕐',t:'The Extra-Time Specialist',who:'Praveen Kodurkalam',why:'Read the game beyond ninety minutes and scored cleanly on the extra-time layer — a call few others even attempted.'},
+ {ic:'🥅',t:'The Penalty Shootout Expert',who:'Krishnan',why:'The only member to foresee a knockout tie going all the way to penalties, taking a competition-high haul from the shootout while everyone else misread it.'},
+ {ic:'📐',t:'The Goal Difference Guru',who:'Smitha Ramesh',why:'Recorded the most correct goal-difference calls in the entire competition. Reads the margin of a match better than anyone.'},
+ {ic:'⚔️',t:'The Giant Killer Supporter',who:'Sunilraj',why:'Backed the giant-killers all the way, supporting the tournament\u2019s surprise packages on their run through the knockouts.'},
+ {ic:'🎲',t:'The Risk Taker Award',who:'Abhilash Unniyambath',why:'One of the most adventurous boards in the group, forever chasing the big, high-scoring call rather than the safe one.'},
+ {ic:'❤️',t:'The Heart Over Head Award',who:'Kesava Prasad',why:'A die-hard Netherlands loyalist who picked them champion in every round and kept the faith long after logic had moved on. Pure heart.'},
+ {ic:'⚽',t:'The Football Enthusiast Award',who:'Srikanth N R',why:'One of the most active and passionate voices in the group throughout the tournament — always in the thread, always talking football.'},
+ {ic:'🎯',t:'The Bullseye Award',who:'Sreejith Ramachandran',why:'Landed the joint-most exact scorelines in the whole competition. Deadly accurate when it counts.'},
+ {ic:'🌍',t:'The Transcontinental Award',who:'KD',why:'Predicting from across the world and still holding a place near the top of the table. Distance is no barrier to a sharp football brain.'},
+ {ic:'⏲️',t:'The Metronome Award',who:'Nandhini Viswanath',why:'Relentlessly consistent from the first whistle — a steady stream of exact hits and correct results, week after week.'},
+ {ic:'🇧🇷',t:'The Seleção Faithful',who:'Ashik',why:'Kept Brazil as champion even after their tournament ended. Loyalty, unshaken by results.'},
+ {ic:'🇪🇸',t:'The La Roja Loyalist',who:'Srijith',why:'Backed Spain for the crown — and saw his pick march proudly into the Quarter-Finals.'},
+ {ic:'📏',t:'The Fine-Margins Award',who:'P Vijayan',why:'A specialist in the correct goal difference — forever reading matches by the finest of margins.'},
+ {ic:'🟧',t:'The Oranje Optimist',who:'Vinod Menon',why:'The eternal Netherlands believer, pairing his loyalty with one of the sharpest eyes for a goal difference in the group.'},
+ {ic:'⚖️',t:'The All-Rounder Award',who:'Shaik Afzal',why:'A wonderfully balanced board — strong across exact scores, goal differences and results alike, with no weakness to exploit.'},
+ {ic:'🧱',t:'The Ever-Present Award',who:'Sasikumar Prabhakaran',why:'Turned up for every single match of the tournament — rock-steady and utterly dependable.'},
+ {ic:'🔥',t:'The Clutch Predictor Award',who:'Kamal',why:'Nailed the Quarter-Final opener to the exact scoreline, delivering precisely when the big games arrived.'},
+ {ic:'🏦',t:'The Banker Award',who:'Vinod K M',why:'Amassed the most correct results in the group — the safest pair of hands, always banking the points.'},
+ {ic:'🤫',t:'The Quiet Achiever Award',who:'Harish',why:'No noise, just a steady and respectable board. Does all his talking on the score sheet.'},
+ {ic:'🧡',t:'The Ever-Loyal Award',who:'Satheesh',why:'A faithful regular from day one who never missed a beat through the whole competition.'},
+ {ic:'💥',t:'The All-or-Nothing Award',who:'Senthil Kumar',why:'A board of bold exact calls and few half-measures — he nails the scoreline or he doesn\u2019t, with little in between.'},
+ {ic:'📣',t:'The Group-Chat MVP',who:'Baba Krishnankutty',why:'One of the loudest and most engaged voices in the group, keeping the banter alive while quietly banking correct results.'},
+ {ic:'🎯',t:'The Pure Predictor Award',who:'Sanjesh',why:'Skipped the Early Bird and Bonus side-games entirely and let his match predictions do all the talking. All football, no frills.'},
+ {ic:'🕊️',t:'The Free Spirit Award',who:'Tony',why:'Predicts on his own schedule and drops in for the games he fancies. Marches entirely to his own beat.'},
+ {ic:'🌸',t:'The Fashionably Late Award',who:'Jaya Nambiar',why:'Joined mid-tournament and dived straight into the knockouts without hesitation. Better late than never.'},
+ {ic:'🌱',t:'The Fresh Legs Award',who:'Satheesh M',why:'The newest arrival, jumping in at the Quarter-Finals with everything still to play for. The rookie to watch.'}
+];
+function renderAwards(){
+  var el=document.getElementById('awardsContent');
+  var cards=AWARDS.map(function(a,i){
+    return '<button class="aw-card'+(a.org?' aw-org':'')+'" onclick="openCertificate('+i+')">'
+      +(a.org?'<div class="aw-badge">Organizer</div>':'')
+      +'<div class="aw-ic">'+a.ic+'</div>'
+      +'<div class="aw-t">'+a.t+'</div>'
+      +'<div class="aw-who">'+a.who+'</div>'
+      +'<div class="aw-why">'+a.why+'</div>'
+      +'<div class="aw-cta">🎓 View certificate →</div>'
+      +'</button>';
+  }).join('');
+  el.innerHTML='<div class="aw-head"><h2>🏅 Awards</h2><p>A tribute to everyone in <b>PDC Friends 1991-93</b> · FIFA World Cup 2026. Tap any award to open its certificate, then download it to share in the group.</p></div><div class="aw-grid">'+cards+'</div>';
+}
+var curCert=null;
+function openCertificate(i){
+  var a=AWARDS[i]; curCert=a;
+  var html='<div class="cert'+(a.org?' cert-org':'')+'" id="certCard">'
+    +'<img class="cert-bgwm" src="gvc_banner_logo.png" crossorigin="anonymous" alt="">'
+    +'<div class="cert-inner">'
+    +'<div class="cert-orgline">Govt. Victoria College &nbsp;·&nbsp; PDC Friends 1991-93</div>'
+    +'<div class="cert-head">Certificate of Achievement</div>'
+    +'<div class="cert-rule"><span>★</span></div>'
+    +'<div class="cert-ic">'+a.ic+'</div>'
+    +'<div class="cert-aw">'+a.t+'</div>'
+    +'<div class="cert-pres">is proudly presented to</div>'
+    +'<div class="cert-name">'+a.who+'</div>'
+    +'<div class="cert-why">&ldquo;'+a.why+'&rdquo;</div>'
+    +'<div class="cert-foot">'
+      +'<div class="cert-event">⚽ FIFA World Cup 2026 &nbsp;·&nbsp; Prediction Competition</div>'
+      +'<div class="cert-sign"><div class="cert-sig-name">Biju</div><div class="cert-sig-role">Competition Organizer</div></div>'
+    +'</div>'
+    +'</div></div>';
+  document.getElementById('certHost').innerHTML=html;
+  document.getElementById('certModal').style.display='flex';
+}
+function closeCert(){document.getElementById('certModal').style.display='none';}
+function downloadCert(){
+  var card=document.getElementById('certCard'); if(!card)return;
+  var btn=document.querySelector('.cert-dl'); if(btn){btn.disabled=true;btn.textContent='Rendering…';}
+  var done=function(){ if(btn){btn.disabled=false;btn.textContent='📥 Download / Share image';} };
+  ensureH2C(function(){
+    html2canvas(card,{backgroundColor:null,scale:3,useCORS:true}).then(function(canvas){
+      var a=document.createElement('a');
+      a.download='Award_'+((curCert&&curCert.who)||'certificate').replace(/[^a-z0-9]+/gi,'_')+'.png';
+      a.href=canvas.toDataURL('image/png'); a.click(); done();
+    }).catch(function(){ done(); alert('Could not render the certificate image.'); });
+  });
 }
 function ensureH2C(cb){
   if(window.html2canvas){cb();return;}
