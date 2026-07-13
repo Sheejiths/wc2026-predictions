@@ -79,7 +79,7 @@ body.dark{
 .sc-rk{font-size:10px;font-weight:800;color:#8a8886;background:rgba(150,150,150,.16);padding:1px 6px;border-radius:6px;margin-left:6px;vertical-align:middle;letter-spacing:.02em;}
 body.dark .sc-rk{color:#aab3c2;background:rgba(160,175,200,.18);}
 /* ===== Title Race ===== */
-.tr-wrap{padding:12px 12px 26px;max-width:640px;margin:0 auto;}
+.tr-wrap{padding:12px 12px 26px;max-width:760px;margin:0 auto;}
 .tr-none{color:#8a8886;text-align:center;padding:30px;}
 .tr-hero{background:linear-gradient(135deg,#0a5c0a,#107c10);color:#fff;border-radius:14px;padding:15px 16px;box-shadow:0 4px 16px rgba(16,124,16,.25);}
 .tr-hero-t{font-size:19px;font-weight:800;letter-spacing:.01em;}
@@ -98,10 +98,10 @@ body.dark .tr-champ{background:#1c2330;border-color:#2b3446;}
 .tr-champ-h{font-size:13.5px;font-weight:700;color:var(--text,#201f1e);padding-bottom:8px;border-bottom:1px dashed #e6e2ee;margin-bottom:8px;}
 body.dark .tr-champ-h{color:#e8ecf2;border-color:#333c4e;}
 .tr-champ-b{display:flex;flex-wrap:wrap;gap:5px;}
-.tr-backer{font-size:12px;font-weight:600;background:#efe3ff;color:#6b21a8;border-radius:7px;padding:2px 8px;}
+.tr-backer{font-size:12px;font-weight:600;background:#fff1b0;color:#7a5900;border-radius:7px;padding:2px 8px;}
 .tr-backer b{font-weight:800;}
-.tr-backer.me{background:#6b21a8;color:#fff;}
-body.dark .tr-backer{background:#2a1e3d;color:#d9b8ff;} body.dark .tr-backer.me{background:#7c3aed;color:#fff;}
+.tr-backer.me{background:#cf9e17;color:#fff;}
+body.dark .tr-backer{background:#33280a;color:#ffd54a;} body.dark .tr-backer.me{background:#e0b422;color:#2a2000;}
 .tr-nobody{font-size:12px;color:#b3b0ae;font-style:italic;}
 .tr-table{border:1px solid #ece9f2;border-radius:12px;overflow:hidden;background:var(--card,#fff);}
 body.dark .tr-table{background:#1c2330;border-color:#2b3446;}
@@ -112,6 +112,7 @@ body.dark .tr-row{border-color:#262f3d;}
 .tr-c-rk{width:26px;text-align:center;font-size:15px;}
 .tr-rk{font-size:13px;font-weight:800;color:#8a8886;}
 .tr-c-nm{flex:1;min-width:0;font-size:14px;font-weight:700;color:var(--text,#201f1e);overflow:hidden;}
+.tr-nm-line{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 body.dark .tr-c-nm{color:#e8ecf2;}
 .tr-sub{font-size:10.5px;font-weight:600;color:#a19f9d;margin-top:1px;}
 .tr-you{font-size:9px;background:#107c10;color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;}
@@ -120,9 +121,9 @@ body.dark .tr-c-nm{color:#e8ecf2;}
 .tr-c-cur span{display:block;}
 .tr-gap{font-size:10.5px;font-weight:700;color:#c4314b;}
 .tr-lead{font-size:10px;font-weight:800;color:#107c10;text-transform:uppercase;letter-spacing:.03em;}
-.tr-c-ct{width:74px;text-align:right;}
-.tr-ct{font-size:11.5px;font-weight:800;color:#6b21a8;background:#efe3ff;border-radius:7px;padding:3px 7px;white-space:nowrap;}
-body.dark .tr-ct{background:#2a1e3d;color:#d9b8ff;}
+.tr-c-ct{flex-shrink:0;text-align:right;white-space:nowrap;}
+.tr-ct{font-size:11.5px;font-weight:800;color:#7a5900;background:#fff1b0;border-radius:7px;padding:3px 7px;white-space:nowrap;}
+body.dark .tr-ct{background:#33280a;color:#ffd54a;}
 .tr-ct.out{color:#c8c6c4;background:transparent;font-weight:600;}
 .tr-foot{font-size:11px;color:#8a8886;line-height:1.55;margin-top:12px;padding:0 3px;}
 .sc-foot .grand{font-weight:800;font-size:15px;color:var(--sc-accent);border-top:1px solid var(--sc-line);margin-top:6px;padding-top:8px;}
@@ -653,7 +654,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -662,7 +663,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -671,7 +672,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -680,7 +681,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -689,7 +690,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -698,7 +699,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.24</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.25</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1334,7 +1335,7 @@ function renderTitleRace(){
     var champChip=r.champTeam?('<span class="tr-ct" title="live champion pick">'+flag(r.champTeam)+' +'+r.champGain+'</span>'):'<span class="tr-ct out">—</span>';
     return '<div class="tr-row'+(r.me?' me':'')+'">'
       +'<div class="tr-c-rk">'+med+'</div>'
-      +'<div class="tr-c-nm">'+r.name+(r.me?' <span class="tr-you">you</span>':'')+'<div class="tr-sub">ceiling '+r.ceiling+'</div></div>'
+      +'<div class="tr-c-nm"><div class="tr-nm-line">'+r.name+(r.me?' <span class="tr-you">you</span>':'')+'</div><div class="tr-sub">ceiling '+r.ceiling+'</div></div>'
       +'<div class="tr-c-cur"><b>'+r.cur+'</b><span>'+gap+'</span></div>'
       +'<div class="tr-c-ct">'+champChip+'</div>'
       +'</div>';
