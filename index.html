@@ -653,7 +653,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -662,7 +662,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -671,7 +671,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -680,7 +680,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -689,7 +689,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -698,7 +698,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.22</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
+  <strong>⚙️ UI v1.15.23</strong> &nbsp;·&nbsp; Built 10 Jul 2026 · Awards certificates restyled to the maroon & gold template (GVC gate watermark baked in); download as image<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -1243,26 +1243,48 @@ function renderTitleRace(){
   var alive=(b.reached_semis||[]).slice();
   var aliveSet={}; alive.forEach(function(t){aliveSet[t]=1;});
   var scored=(state.meta&&state.meta.matches_scored)||0;
-  var remaining=Math.max(0,104-scored);
-  var MAX_KO=8, matchMax=MAX_KO*remaining;
   var me=(typeof getMe==='function')?getMe():null;
-  // SF brackets so two teams in the same semi can't both make the final
-  var brackets={}, sfPairs=[];
+  var MAX_KO=8;
+  // remaining knockout keys (ko key = match number - 72): M101-M104 => 29..32, unscored
+  var koRes=(state.ko&&state.ko.results)||{}, koPreds=(state.ko&&state.ko.predictions)||{};
+  var remKeys=[]; for(var mk=29;mk<=32;mk++){ if(!koRes[mk]) remKeys.push(mk); }
+  var remaining=remKeys.length, matchMaxCommon=remaining*MAX_KO;
+  // per-member best-case match points: once a member predicts a match, their max is
+  // bounded by that prediction (a decisive pick caps at 3; unpredicted stays the full 8).
+  function bestCaseMatch(name){
+    var t=0;
+    remKeys.forEach(function(k){
+      var p=koPreds[name]&&koPreds[name][k];
+      if(!p||p.score1==null){ t+=MAX_KO; return; }
+      var pts=3;
+      if(p.score1===p.score2){ if(p.et1!=null){ pts+=3; if(p.et1===p.et2&&p.pens_winner) pts+=2; } else if(p.pens_winner){ pts+=2; } }
+      t+=pts;
+    });
+    return t;
+  }
+  // SF pairings for scenario enumeration
+  var sfPairs=[];
   ((state.bracket&&state.bracket.matches)||[]).forEach(function(m){
     if((m.m===29||m.m===30)&&m.t1&&m.t2) sfPairs.push([m.t1,m.t2]);
   });
-  sfPairs.forEach(function(pair,bi){pair.forEach(function(t){brackets[t]=bi;});});
-  function livePickMax(round,name){
-    var out={champ:0,champTeam:null,final:0};
-    var R=b.rounds&&b.rounds[round]; if(!R||!R.members||!R.members[name])return out;
-    var picks=R.members[name].picks||[], fb={};
-    picks.forEach(function(p){
-      if(p.state!=='pending'||!aliveSet[p.team])return;
-      if(p.level==='champ'){ if(p.pts>out.champ){out.champ=p.pts;out.champTeam=p.team;} }
-      else if(p.level==='final'){ var bi=(brackets[p.team]!==undefined)?brackets[p.team]:p.team; if(!fb[bi]||p.pts>fb[bi])fb[bi]=p.pts; }
+  // every possible final match-up + champion given the two semis
+  var scenarios=[];
+  if(sfPairs.length===2){
+    sfPairs[0].forEach(function(f1){ sfPairs[1].forEach(function(f2){
+      [f1,f2].forEach(function(ch){ scenarios.push({finalists:[f1,f2],champ:ch}); });
+    }); });
+  }
+  function scenarioBonus(name,sc){
+    var t=0;
+    ['early_bird','bonus'].forEach(function(round){
+      var R=b.rounds&&b.rounds[round]; if(!R||!R.members||!R.members[name])return;
+      (R.members[name].picks||[]).forEach(function(p){
+        if(p.state!=='pending')return;
+        if(p.level==='final'&&sc.finalists.indexOf(p.team)>=0) t+=p.pts;
+        else if(p.level==='champ'&&p.team===sc.champ) t+=p.pts;
+      });
     });
-    Object.keys(fb).forEach(function(k){out.final+=fb[k];});
-    return out;
+    return t;
   }
   function champPick(round,name){
     var R=b.rounds&&b.rounds[round]; if(!R||!R.members||!R.members[name])return null;
@@ -1274,28 +1296,26 @@ function renderTitleRace(){
   }
   var rows=Object.keys(S).map(function(n){
     var cur=S[n].overall||0;
-    var eb=livePickMax('early_bird',n), bn=livePickMax('bonus',n);
+    var matchMax=bestCaseMatch(n);
+    var maxBonus=0; scenarios.forEach(function(sc){var v=scenarioBonus(n,sc); if(v>maxBonus)maxBonus=v;});
     var ebC=champPick('early_bird',n), bnC=champPick('bonus',n);
     var champMap={};
     if(ebC)champMap[ebC.team]=(champMap[ebC.team]||0)+ebC.pts;
     if(bnC)champMap[bnC.team]=(champMap[bnC.team]||0)+bnC.pts;
     var champTeam=null,champGain=0;
     Object.keys(champMap).forEach(function(t){ if(champMap[t]>champGain){champGain=champMap[t];champTeam=t;} });
-    var liveBonus=eb.champ+eb.final+bn.champ+bn.final;
-    return {name:n,cur:cur,liveBonus:liveBonus,ceiling:cur+matchMax+liveBonus,
-      champTeam:champTeam,champGain:champGain,champMap:champMap,finalGain:eb.final+bn.final,me:(n===me)};
+    return {name:n,cur:cur,matchMax:matchMax,maxBonus:maxBonus,ceiling:cur+matchMax+maxBonus,
+      champTeam:champTeam,champGain:champGain,champMap:champMap,me:(n===me)};
   }).sort(function(a,b){return b.cur-a.cur||b.ceiling-a.ceiling;});
-  var leaderPts=rows[0].cur, secondPts=rows[1]?rows[1].cur:0;
-  // dense ranks on current
+  var leaderPts=rows[0].cur;
   var rnk=0,prev=null,seen=0;
-  rows.forEach(function(r){seen++; if(prev===null||r.cur!==prev){rnk=seen;prev=r.cur;} r.rank=rnk; r.gap=leaderPts-r.cur;
-    r.inRace=(r.ceiling>=(r.name===rows[0].name?secondPts:leaderPts));});
+  rows.forEach(function(r){seen++; if(prev===null||r.cur!==prev){rnk=seen;prev=r.cur;} r.rank=rnk; r.gap=leaderPts-r.cur;});
 
-  // ---- remaining fixtures chips ----
+  // ---- remaining fixtures chips (tap -> bracket) ----
   var fx=[];
   sfPairs.forEach(function(p){fx.push('🔥 '+flag(p[0])+' <span class="tr-v">v</span> '+flag(p[1]));});
   fx.push('🥉 3rd place'); fx.push('🏆 Final');
-  var fxChips=fx.map(function(f){return '<span class="tr-fx">'+f+'</span>';}).join('');
+  var fxChips=fx.map(function(f){return '<span class="tr-fx" onclick="switchTab(\'bracket\')">'+f+'</span>';}).join('');
 
   // ---- champion watch ----
   var champByTeam={}; alive.forEach(function(t){champByTeam[t]=[];});
@@ -1306,8 +1326,8 @@ function renderTitleRace(){
     return '<div class="tr-champ"><div class="tr-champ-h">'+flag(t)+' <b>'+t+'</b> win it all</div><div class="tr-champ-b">'+names+'</div></div>';
   }).join('');
 
-  // ---- contenders table (top 12) ----
-  var top=rows.slice(0,12);
+  // ---- contenders table (top 12 by rank, tie-inclusive) ----
+  var top=rows.filter(function(r){return r.rank<=12;});
   var trRows=top.map(function(r){
     var med=({1:'🥇',2:'🥈',3:'🥉'})[r.rank]||('<span class="tr-rk">'+r.rank+'</span>');
     var gap=r.rank===1?'<span class="tr-lead">leader</span>':'<span class="tr-gap">-'+r.gap+'</span>';
@@ -1326,14 +1346,14 @@ function renderTitleRace(){
     +'<div class="tr-hero">'
       +'<div class="tr-hero-t">🏁 Title Race</div>'
       +'<div class="tr-hero-s"><b>'+rows[0].name+'</b> leads on <b>'+leaderPts+'</b>'+(rows[1]?(' · '+rows[1].name+' '+rows[1].cur+' (-'+(leaderPts-rows[1].cur)+')'):'')+'</div>'
-      +'<div class="tr-hero-play">'+remaining+' match'+(remaining!==1?'es':'')+' left · up to <b>'+matchMax+'</b> match points still open to everyone, plus locked Early Bird &amp; Bonus swings</div>'
+      +'<div class="tr-hero-play">'+remaining+' match'+(remaining!==1?'es':'')+' left · up to <b>'+matchMaxCommon+'</b> match points still open to everyone, plus locked Early Bird &amp; Bonus swings</div>'
       +'<div class="tr-fxrow">'+fxChips+'</div>'
     +'</div>'
     +'<div class="tr-sec">🏆 Champion watch <span class="tr-sec-note">— naming the World Cup winner is worth <b>+'+champWeight+'</b> (Early Bird '+((b.rounds&&b.rounds.early_bird.pts.champ)||8)+' + Bonus '+((b.rounds&&b.rounds.bonus.pts.champ)||5)+'), the single biggest swing left</span></div>'
     +'<div class="tr-champ-grid">'+champCards+'</div>'
     +'<div class="tr-sec">📊 Contenders <span class="tr-sec-note">— current points, gap to the lead, and each player’s live champion pick</span></div>'
     +'<div class="tr-table">'+trRows+'</div>'
-    +'<div class="tr-foot">“Ceiling” = current points + every remaining match played perfectly ('+matchMax+') + still-winnable Early Bird/Bonus from live picks. Match predictions for the semis, 3rd-place and final open once those fixtures are set — worth up to 8 points each, for everyone.</div>'
+    +'<div class="tr-foot">“Ceiling” is each player’s genuine maximum: current points + every remaining match played perfectly + the most Early Bird/Bonus they can still win, tested across every possible final match-up and champion (so two picks that can’t both come true are never counted together). Match predictions for the semis, 3rd-place and final open once those fixtures are set — worth up to 8 points each, for everyone, which is why the match ceiling still shows '+matchMaxCommon+' for now.</div>'
     +'</div>';
 }
 function renderAwards(){
