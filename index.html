@@ -663,7 +663,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -672,7 +672,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -681,7 +681,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -690,7 +690,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -699,7 +699,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -708,7 +708,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.30</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.31</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://sheejiths.github.io/wc2026-predictions/" target="_blank">sheejiths.github.io/wc2026-predictions</a>
 </div>
@@ -971,12 +971,13 @@ function movementHTML(delta){
 }
 
 /* ===================== MEMBER DETAIL ===================== */
-function mdBarsHTML(labels,day,cls,bonus){
+function mdBarsHTML(labels,day,cls,bonus,color){
   var mx=Math.max(1,Math.max.apply(null,day.length?day:[0]));
   return day.map(function(v,j){
     var b=(bonus&&bonus[j])||0, basev=Math.max(0,v-b);
     var wBase=Math.round(basev/mx*100), wBon=Math.round(b/mx*100);
-    var seg='<div class="md-bar-fill '+(cls||'')+'" style="width:'+wBase+'%'+(b>0?';border-radius:4px 0 0 4px':'')+'"></div>';
+    var colStyle=color?(';background:'+color):'';
+    var seg='<div class="md-bar-fill '+(cls||'')+'" style="width:'+wBase+'%'+(b>0?';border-radius:4px 0 0 4px':'')+colStyle+'"></div>';
     if(b>0) seg+='<div class="md-bar-fill md-bar-bonus" style="width:'+wBon+'%;border-radius:0 4px 4px 0;display:flex;align-items:center;justify-content:center;">'+(wBon>=16?'<span style="font-size:9px;font-weight:800;color:#5a3600;">'+b+'</span>':'')+'</div>';
     var val=''+v;
     return '<div class="md-bar-row"><span class="md-bar-lbl">'+(labels[j]||('MD'+(j+1)))+'</span>'
@@ -1025,11 +1026,14 @@ function showMember(name){
   var ppm=played?pts/played:0,hit=played?hitN/played:0;
   var rk=memberRank(name,stage);
   var barsHtml='';
+  var STAGE_COL={group:'#12b5ff',R32:'#17b8a6',R16:'#4cc061',QF:'#a3c644',SF:'#ef7a4d','3rd':'#c08457',Final:'#e0b422'};
+  function secRP(getPts){var scE=state.scorecard&&state.scorecard[name];return {pts:(scE?(getPts(scE)||0):0),rank:scStageRank(name,getPts)};}
+  function koRP(R){return secRP(function(s){return (s.ko||[]).filter(function(r){return R.stages.indexOf(r.round)>=0;}).reduce(function(a,r){return a+(r.total||0);},0);});}
   if(useG&&state.timeline&&state.timeline.points&&state.timeline.points[name]){
     var p=state.timeline.points[name],lab=state.timeline.labels||[];
     var day=p.map(function(v,j){return j===0?v:v-p[j-1];});
-    if(stage==='overall')barsHtml+='<div class="md-sub" style="margin:2px 0 5px;font-weight:700;color:#2ea8ff;">🌍 Group Stage</div>';
-    barsHtml+=mdBarsHTML(lab,day,'');
+    if(stage==='overall'){var grp=secRP(function(s){return s.group_total;});barsHtml+='<div class="md-sub" style="margin:2px 0 5px;font-weight:700;color:'+STAGE_COL.group+';">🌍 Group Stage · Rank '+grp.rank+' · '+grp.pts+' pts</div>';}
+    barsHtml+=mdBarsHTML(lab,day,'',null,STAGE_COL.group);
     var bi=day.indexOf(Math.max.apply(null,day)),wi=day.indexOf(Math.min.apply(null,day));
     barsHtml+='<div class="md-sub" style="margin-top:6px;">🔥 Best day: <b>'+(lab[bi]||('MD'+(bi+1)))+'</b> ('+day[bi]+' pts) · 🥶 Quietest: '+(lab[wi]||('MD'+(wi+1)))+' ('+day[wi]+' pts)</div>';
   }
@@ -1055,8 +1059,9 @@ function showMember(name){
       klab=fL;kday=fD;kbon=fB;
     }
     if(stage==='ko'){
-      barsHtml+='<div class="md-sub" style="margin:2px 0 5px;font-weight:700;color:#27c98a;">🏆 '+koRoundLabel(state.koRound)+'</div>';
-      barsHtml+=mdBarsHTML(klab,kday,'ko',kbon);
+      var RIC0={R32:'🎯',R16:'⚡',QF:'⚽',SF:'🔥','3rd':'🥉',Final:'🏆'};
+      barsHtml+='<div class="md-sub" style="margin:2px 0 5px;font-weight:700;color:'+(STAGE_COL[state.koRound]||'#27c98a')+';">'+(RIC0[state.koRound]||'🏆')+' '+koRoundLabel(state.koRound)+'</div>';
+      barsHtml+=mdBarsHTML(klab,kday,'ko',kbon,STAGE_COL[state.koRound]);
     }else{
       var RICON={R32:'🎯',R16:'⚡',QF:'⚽',SF:'🔥','3rd':'🥉',Final:'🏆'};
       var mdRc={};
@@ -1065,8 +1070,9 @@ function showMember(name){
         var fL=[],fD=[],fB=[];
         klab.forEach(function(md,i){if(mdRc[md]===R.code){fL.push(md);fD.push(kday[i]);fB.push(kbon[i]);}});
         if(!fL.length)return;
-        barsHtml+='<div class="md-sub" style="margin:12px 0 5px;font-weight:700;color:#27c98a;">'+(RICON[R.code]||'🏆')+' '+koRoundLabel(R.code)+'</div>';
-        barsHtml+=mdBarsHTML(fL,fD,'ko',fB);
+        var rp=koRP(R);
+        barsHtml+='<div class="md-sub" style="margin:12px 0 5px;font-weight:700;color:'+(STAGE_COL[R.code]||'#27c98a')+';">'+(RICON[R.code]||'🏆')+' '+koRoundLabel(R.code)+' · Rank '+rp.rank+' · '+rp.pts+' pts</div>';
+        barsHtml+=mdBarsHTML(fL,fD,'ko',fB,STAGE_COL[R.code]);
       });
     }
     if(kbon.some(function(b){return b>0;}))
