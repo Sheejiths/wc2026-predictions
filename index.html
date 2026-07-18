@@ -14,6 +14,7 @@
 *{box-sizing:border-box;margin:0;padding:0;}
 /* ---- tier tokens (PART 3) — LIGHT (Office) default; fluorescent under body.dark ---- */
 :root{
+  --you-bg:#e6fbef;--you-accent:#00c853;--you-badge-bg:#00c853;--you-badge-fg:#ffffff;--you-text:#0a5c0a;
   --tier-exact-fill:#fff4ce;--tier-exact-border:#eac54f;--tier-exact-text:#7a5c00;
   --tier-gdiff-fill:#deecf9;--tier-gdiff-border:#4aa3e0;--tier-gdiff-text:#005a9e;
   --tier-result-fill:#dff6dd;--tier-result-border:#6bb700;--tier-result-text:#0b6a0b;
@@ -25,6 +26,7 @@
   --sc-muted:#605e5c;--sc-strong:#201f1e;--sc-rowline:#efedeb;--sc-avatar-bg:#deecf9;--sc-avatar-text:#0078d4;
 }
 body.dark{
+  --you-bg:#0f3a23;--you-accent:#3dffa0;--you-badge-bg:#3dffa0;--you-badge-fg:#04220f;--you-text:#7ff0a8;
   --tier-exact-fill:#2a2410;--tier-exact-border:#ffd54a;--tier-exact-text:#ffe27a;
   --tier-gdiff-fill:#0d2630;--tier-gdiff-border:#3ad8ff;--tier-gdiff-text:#7fe6ff;
   --tier-result-fill:#0d2a1a;--tier-result-border:#5cff9d;--tier-result-text:#9dffc4;
@@ -108,7 +110,7 @@ body.dark .tr-table{background:#1c2330;border-color:#2b3446;}
 .tr-row{display:flex;align-items:center;gap:9px;padding:9px 12px;border-bottom:1px solid #f2f0f4;}
 body.dark .tr-row{border-color:#262f3d;}
 .tr-row:last-child{border-bottom:none;}
-.tr-row.me{background:#eaf5ea;} body.dark .tr-row.me{background:#12301c;}
+.tr-row.me{background:var(--you-bg);}
 .tr-c-rk{width:26px;text-align:center;font-size:15px;}
 .tr-rk{font-size:13px;font-weight:800;color:#8a8886;}
 .tr-c-nm{flex:1;min-width:0;font-size:14px;font-weight:700;color:var(--text,#201f1e);overflow:hidden;}
@@ -116,7 +118,7 @@ body.dark .tr-row{border-color:#262f3d;}
 body.dark .tr-c-nm{color:#e8ecf2;}
 .tr-sub{font-size:10.5px;font-weight:600;color:#a19f9d;margin-top:2px;line-height:1.55;}
 .tr-c-cur{flex-shrink:0;text-align:right;min-width:62px;}
-.tr-you{font-size:9px;background:#107c10;color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;}
+.tr-you{font-size:9px;font-weight:800;background:var(--you-badge-bg);color:var(--you-badge-fg);padding:1px 6px;border-radius:8px;vertical-align:middle;}
 .tr-c-cur b{font-size:17px;font-weight:800;color:#0a5c0a;} body.dark .tr-c-cur b{color:#4ade80;}
 .tr-c-cur span{display:block;}
 .tr-gap{font-size:10.5px;font-weight:700;color:#c4314b;}
@@ -179,6 +181,23 @@ body.dark .bn-chip{filter:brightness(.92);}
 .ko-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
 .ko-pill.on{background:#e3f0ff;color:#0b66c3;}
 .eb-pill,.bn-pill{display:inline-block;min-width:20px;padding:1px 7px;border-radius:10px;font-weight:700;font-size:12px;background:#eef2f6;color:#9aa3ad;}
+.bn-clk{border:none;font-family:inherit;cursor:pointer;transition:transform .1s,box-shadow .1s;}
+.bn-clk:hover{transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.16);}
+.bn-sec{margin-bottom:14px;}
+.bn-sec-h{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:#3a3a38;text-transform:uppercase;letter-spacing:.4px;padding-bottom:5px;border-bottom:1px solid #ebe9e7;margin-bottom:6px;}
+.bn-sec-p{margin-left:auto;font-size:10px;font-weight:600;color:#8a8886;text-transform:none;letter-spacing:0;}
+.bn-row{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:1px solid #f6f5f4;font-size:13px;}
+.bn-row:last-child{border-bottom:none;}
+.bn-ic{font-size:12px;width:16px;text-align:center;flex:none;}
+.bn-tm{flex:1;font-weight:600;color:#201f1e;}
+.bn-lb{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;flex:none;}
+.bn-pt{font-weight:800;font-size:13px;min-width:34px;text-align:right;flex:none;}
+.bn-tot{margin-top:12px;padding-top:10px;border-top:2px solid #ebe9e7;font-size:12.5px;color:#605e5c;text-align:center;}
+.bn-none{padding:22px 4px;text-align:center;color:#8a8886;font-size:13px;}
+body.dark .bn-sec-h{color:#e6edf3;border-bottom-color:#2a3846;}
+body.dark .bn-row{border-bottom-color:#222c38;}
+body.dark .bn-tm{color:#e6edf3;}
+body.dark .bn-tot{border-top-color:#2a3846;color:#a9b6c3;}
 .eb-pill.on{background:#fff3d6;color:#8a5a00;}
 .bn-pill.on{background:#efe6ff;color:#6b21a8;}
 body.dark .eb-pill,body.dark .bn-pill{background:#1a2330;color:#6b7888;}
@@ -211,12 +230,13 @@ body.dark .ko-sec-head{color:#6fb8ff;border-top-color:#26405a;}
 .badge-result{background:#dff6dd;color:#107c10;}
 .badge-pending{background:#edebe9;color:#605e5c;}
 .match-body{padding:10px 14px;}
-.pred-row{display:flex;align-items:center;gap:8px;margin-bottom:5px;cursor:pointer;}
-.pred-row.mine{background:#eef9ee;border-left:3px solid #107c10;border-radius:6px;padding:3px 4px 3px 5px;margin-left:-4px;}
-body.dark .pred-row.mine{background:#13341f;border-left-color:#3ad07a;}
-.pred-row.mine .pred-label{color:#0a5c0a;font-weight:700;}
-body.dark .pred-row.mine .pred-label{color:#7ff0a8;}
-.pred-you{font-size:8px;font-weight:800;background:#107c10;color:#fff;padding:1px 5px;border-radius:7px;vertical-align:middle;margin-left:3px;}
+.pred-row{display:flex;align-items:center;gap:8px;margin-bottom:5px;cursor:pointer;position:relative;}
+.pred-row.mine::before{content:'';position:absolute;left:-7px;right:-4px;top:-3px;bottom:-3px;background:var(--you-bg);border-left:3px solid var(--you-accent);border-radius:6px;z-index:0;pointer-events:none;}
+.pred-row.mine>*{position:relative;z-index:1;}
+
+.pred-row.mine .pred-label{color:var(--you-text);font-weight:700;}
+
+.pred-you{font-size:8px;font-weight:800;background:var(--you-badge-bg);color:var(--you-badge-fg);padding:1px 5px;border-radius:7px;vertical-align:middle;margin-left:3px;}
 .pred-row:hover .pred-bar-wrap{opacity:.85;}
 .pred-label{font-size:12px;color:#605e5c;width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;}
 .pred-label.inv-lbl{color:#c4314b;}
@@ -256,6 +276,12 @@ body.dark .pred-row.mine .pred-label{color:#7ff0a8;}
 .modal-body{padding:12px 16px 24px;}
 .modal-close{position:absolute;top:10px;right:14px;font-size:22px;background:none;border:none;cursor:pointer;color:#605e5c;line-height:1;padding:4px;}
 .member-item{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid #f3f2f1;}
+.mp-search{position:sticky;top:0;background:var(--card,#fff);padding:2px 0 10px;z-index:2;}
+.mp-search input{width:100%;padding:10px 14px;border:1px solid #d5dee8;border-radius:22px;font-size:14px;background:#fff;outline:none;box-sizing:border-box;transition:border-color .15s,box-shadow .15s;}
+.mp-search input:focus{border-color:var(--you-accent);box-shadow:0 0 0 3px rgba(0,200,83,.16);}
+body.dark .mp-search{background:#1c2330;}
+body.dark .mp-search input{background:#141c26;border-color:#2a3846;color:#e6edf3;}
+.mp-none{padding:18px 4px;text-align:center;font-size:13px;color:#8a8886;}
 .member-item:last-child{border-bottom:none;}
 .member-avatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0;}
 .member-name{font-size:13px;font-weight:600;color:#201f1e;}
@@ -307,16 +333,84 @@ body.dark .pred-row.mine .pred-label{color:#7ff0a8;}
 .hdr-btn.disabled,.hdr-btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none;}
 
 /* ===== "This is me" row + movement arrows ===== */
-.lb-table tr.me-row td{background:#fff8e6!important;}
-.lb-table tr.me-row td:first-child{border-left:3px solid #f5a623;}
-.you-badge{font-size:9px;font-weight:700;color:#3a2c00;background:#ffd180;border-radius:8px;padding:1px 6px;margin-left:5px;vertical-align:middle;}
+.lb-table tr.me-row td{background:var(--you-bg)!important;}
+.lb-table tr.me-row td:first-child{border-left:3px solid var(--you-accent);}
+.you-badge{font-size:9px;font-weight:800;color:var(--you-badge-fg);background:var(--you-badge-bg);border-radius:8px;padding:1px 6px;margin-left:5px;vertical-align:middle;}
 .bn-carry{font-size:9px;font-weight:700;color:#8a5a00;background:#fff3d6;border:1px solid #f0d99a;border-radius:8px;padding:1px 7px;margin-left:6px;vertical-align:middle;white-space:nowrap;}
 .bn-late{font-size:9px;font-weight:700;color:#5a5a5a;background:#eef0f2;border:1px solid #dcdfe3;border-radius:8px;padding:1px 6px;margin-left:5px;vertical-align:middle;white-space:nowrap;}
 body.dark .bn-carry{color:#ffd54a;background:#2a2410;border-color:#4a3f15;}
 body.dark .bn-late{color:#aeb6c0;background:#1d2733;border-color:#2c3a49;}
 .mv{font-size:10px;font-weight:700;line-height:1;display:block;margin-top:2px;}
 .mv-up{color:#2FC36B;} .mv-down{color:#FF5C7A;} .mv-same{color:#b0aeac;}
+.tab-champ{background:linear-gradient(135deg,#f7b733,#fc4a1a);color:#fff;font-weight:800;box-shadow:0 0 10px rgba(247,183,51,.5);}
+/* ===== Champion podium ===== */
+.champ-stage{position:relative;overflow:hidden;border-radius:16px;padding:20px 12px 0;
+  background:radial-gradient(120% 90% at 50% -10%,#3a2b6d 0%,#241a4d 42%,#1a1338 74%,#120d29 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 50px rgba(0,0,0,.45);}
+.champ-spark{position:absolute;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
+.champ-in{position:relative;z-index:1;}
+.champ-title{text-align:center;color:#ffd76a;font-weight:800;font-size:15px;letter-spacing:2px;
+  display:flex;align-items:center;justify-content:center;gap:9px;text-shadow:0 2px 12px rgba(255,190,60,.35);}
+.champ-sub{text-align:center;color:#b9aee6;font-size:11.5px;margin-top:5px;letter-spacing:.5px;}
+.champ-podium{display:flex;justify-content:center;align-items:flex-end;gap:10px;margin-top:22px;}
+.champ-col{display:flex;flex-direction:column;align-items:center;flex:0 1 33%;max-width:180px;min-width:0;}
+.champ-av{border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;
+  position:relative;box-shadow:0 6px 20px rgba(0,0,0,.4);overflow:hidden;background-size:cover;background-position:center;}
+.champ-av.gold{width:92px;height:92px;font-size:30px;background-color:#b71c1c;background-image:linear-gradient(135deg,#e53935,#b71c1c);
+  border:4px solid #ffd54a;box-shadow:0 0 26px rgba(255,200,70,.75),0 6px 20px rgba(0,0,0,.4);}
+.champ-av.silver{width:66px;height:66px;font-size:22px;background-image:linear-gradient(135deg,#9c6bd6,#6a3fb0);border:3px solid #d7c3f2;}
+.champ-av.bronze{width:60px;height:60px;font-size:20px;background-image:linear-gradient(135deg,#e08a4b,#b5652f);border:3px solid #f0c79a;}
+.champ-crown{position:absolute;top:-26px;left:50%;transform:translateX(-50%);font-size:26px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.4));z-index:2;}
+.champ-nm{color:#fff;font-weight:700;font-size:13.5px;margin-top:10px;text-align:center;line-height:1.25;max-width:100%;
+  overflow:hidden;text-overflow:ellipsis;}
+.champ-pts{font-weight:800;font-size:24px;margin-top:2px;line-height:1;}
+.champ-pts.gold{color:#ffd54a;text-shadow:0 2px 10px rgba(255,190,60,.4);}
+.champ-pts.silver{color:#e6dcff;}
+.champ-pts.bronze{color:#f6cfa6;}
+.champ-pts small{font-size:11px;font-weight:600;opacity:.75;margin-left:2px;}
+.champ-plinth{width:100%;margin-top:12px;border-radius:9px 9px 0 0;display:flex;align-items:flex-start;
+  justify-content:center;padding-top:12px;font-weight:900;color:#fff;position:relative;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.25),inset 0 -18px 30px rgba(0,0,0,.22);}
+.champ-plinth.gold{height:118px;background:linear-gradient(180deg,#ffd24a,#f0a81e);font-size:44px;color:#fff;}
+.champ-plinth.silver{height:86px;background:linear-gradient(180deg,#c9c9d4,#9a9aab);font-size:34px;}
+.champ-plinth.bronze{height:66px;background:linear-gradient(180deg,#dc9a5f,#b06f38);font-size:30px;}
+.champ-plinth .champ-rk{text-shadow:0 2px 6px rgba(0,0,0,.28);}
+.champ-me{outline:3px solid var(--you-accent);outline-offset:1px;}
+.champ-rest{margin:26px auto 0;max-width:520px;padding:4px 8px 20px;}
+.champ-rest-h{color:#c9bff0;font-size:11px;letter-spacing:1.5px;text-align:center;margin-bottom:10px;font-weight:700;}
+.champ-rrow{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:10px;margin-bottom:6px;
+  background:rgba(255,255,255,.05);color:#e9e4ff;font-size:13.5px;}
+.champ-rrow .rk{width:24px;text-align:center;font-weight:800;color:#b9aee6;flex:none;}
+.champ-rrow .nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.champ-rrow .pt{font-weight:800;color:#ffd76a;flex:none;}
+.champ-rrow.me{background:var(--you-bg);color:var(--you-text);outline:1px solid var(--you-accent);}
+.champ-rrow.me .nm{color:var(--you-text);}
+@keyframes champFall{0%{transform:translateY(-24px) rotate(45deg);opacity:0;}
+  10%{opacity:.9;}90%{opacity:.9;}100%{transform:translateY(var(--fall)) rotate(var(--spin));opacity:0;}}
+.gem{position:absolute;top:-20px;width:9px;height:9px;opacity:0;animation:champFall linear infinite;
+  border-radius:2px;}
+@keyframes flagDrift{0%{transform:translateY(-30px) rotate(0deg);opacity:0;}
+  12%{opacity:.85;}88%{opacity:.85;}100%{transform:translateY(var(--fall)) rotate(var(--spin));opacity:0;}}
+.flagfall{position:absolute;top:-30px;line-height:1;opacity:0;animation:flagDrift linear infinite;
+  font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;
+  filter:drop-shadow(0 2px 3px rgba(0,0,0,.35));will-change:transform;}
+@media (prefers-reduced-motion:reduce){.gem,.flagfall{animation:none;display:none;}}
+@media (max-width:520px){
+  .champ-av.gold{width:74px;height:74px;font-size:24px;}
+  .champ-av.silver{width:54px;height:54px;font-size:18px;}
+  .champ-av.bronze{width:50px;height:50px;font-size:16px;}
+  .champ-plinth.gold{height:92px;font-size:34px;}.champ-plinth.silver{height:68px;font-size:26px;}.champ-plinth.bronze{height:52px;font-size:24px;}
+  .champ-nm{font-size:12px;}.champ-pts{font-size:19px;}.champ-podium{gap:5px;}
+  .champ-title{font-size:12.5px;letter-spacing:1px;}
+}
 /* Rank Trend grid + unselected ("ghost") lines — barely visible in both themes */
+.trend-sub{display:flex;gap:6px;margin:2px 0 10px;}
+.tsub{font-size:12px;font-weight:700;padding:6px 16px;border-radius:999px;border:1.5px solid #d8e6f5;background:#f4f9ff;color:#3a6ea5;cursor:pointer;transition:all .15s;}
+.tsub.active{background:#0078d4;border-color:#0078d4;color:#fff;box-shadow:0 2px 8px rgba(0,120,212,.3);}
+.tsub:hover:not(.active){background:#e7f1fb;}
+body.dark .tsub{background:#16222e;border-color:#26405a;color:#7fc0ff;}
+body.dark .tsub.active{background:#1f6feb;border-color:#1f6feb;color:#fff;box-shadow:0 0 12px rgba(76,179,255,.4);}
+body.dark .tsub:hover:not(.active){background:#1d2d3d;}
 .trend-grid{stroke:rgba(0,0,0,.05);}
 .trend-ghost{stroke:rgba(0,0,0,.06);}
 body.dark .trend-grid{stroke:rgba(255,255,255,.045);}
@@ -434,8 +528,8 @@ body.dark .brk-team.win{color:#5fe08a;background:#123320;}
 body.dark .brk-team.tbd{color:#6b7585;}
 body.dark .brk-team.live .brk-name{color:#ffcf5c;}
 /* me-row highlight */
-body.dark .lb-table tr.me-row td{background:#2a2a16!important;}
-body.dark .lb-table tr.me-row td:first-child{border-left-color:#ffcf5c;}
+body.dark .lb-table tr.me-row td{background:var(--you-bg)!important;}
+body.dark .lb-table tr.me-row td:first-child{border-left-color:var(--you-accent);}
 /* fixes: member picker names, match team labels, bracket card surface, movement arrows */
 body.dark .member-name{color:#eaedf2;}
 body.dark .member-item{border-bottom-color:#283142;}
@@ -606,7 +700,7 @@ body.dark .aw-why{color:#9fb0c0;}
 .cert{position:relative;width:900px;aspect-ratio:927/672;background:url('cert_template.png') center/100% 100% no-repeat;font-family:Georgia,'Times New Roman',serif;color:#4a2038;border-radius:4px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.5);}
 .cert-fit{transform-origin:top left;}
 #certHost{overflow:hidden;}
-.cert-c{position:absolute;left:21%;right:5.5%;top:5%;bottom:22%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
+.cert-c{position:absolute;left:21%;right:11%;top:8%;bottom:15.5%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
 .cert-orgline{font-size:11px;letter-spacing:2.5px;color:#9a1f56;}
 .cert-head{font-size:26px;font-weight:700;color:#7a0b3a;letter-spacing:.5px;margin-top:4px;}
 .cert-ic{font-size:32px;margin-top:14px;}
@@ -614,8 +708,8 @@ body.dark .aw-why{color:#9fb0c0;}
 .cert-pres{font-size:12px;font-style:italic;color:#7a5866;margin-top:14px;}
 .cert-name{font-size:32px;font-weight:700;font-style:italic;color:#7a0b3a;margin-top:2px;border-bottom:2px solid #c69a3a;padding:0 20px 4px;}
 .cert-why{font-size:12.5px;line-height:1.55;font-style:italic;color:#5a4450;margin-top:16px;max-width:90%;}
-.cert-event{position:absolute;left:21%;bottom:6.5%;font-size:10px;color:#8a6678;text-align:left;max-width:42%;}
-.cert-sign{position:absolute;right:8%;bottom:8%;text-align:center;}
+.cert-event{position:absolute;left:21%;bottom:9%;font-size:10px;color:#8a6678;text-align:left;max-width:40%;}
+.cert-sign{position:absolute;right:11%;bottom:9%;text-align:center;}
 .cert-opus{font-family:'Great Vibes','Segoe Script','Brush Script MT',cursive;font-size:34px;line-height:1;color:#7a0b3a;padding:0 6px 2px;border-bottom:1.5px solid #c69a3a;}
 .cert-org .cert-aw{color:#9a1f56;}
 </style>
@@ -639,11 +733,12 @@ body.dark .aw-why{color:#9fb0c0;}
     <button class="tab active" onclick="switchTab('matches')">⚽ Matches</button>
     <button class="tab" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
     <button class="tab" onclick="switchTab('titlerace')">🏁 Title Race</button>
-    <button class="tab" onclick="switchTab('trend')">📈 Rank Trend</button>
+    <button class="tab" onclick="switchTab('trend')">📈 Trend</button>
     <button class="tab" onclick="switchTab('standings')">📊 Standings</button>
     <button class="tab" onclick="switchTab('bracket')">🏆 Bracket</button>
     <button class="tab" onclick="switchTab('bonus')">🎟️ Bonus</button>
     <button class="tab" onclick="switchTab('awards')">🏅 Awards</button>
+    <button class="tab tab-champ" id="tabChampion" onclick="switchTab('champion')" style="display:none;">🏆 Champion</button>
   </div>
   <div class="stage-bar" id="stageBar" style="display:none;">
     <button class="stage-btn" id="stgGroup" onclick="setStage('group')">🌍 Group Stage</button>
@@ -668,7 +763,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -677,7 +772,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -686,7 +781,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -695,7 +790,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -704,7 +799,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -713,7 +808,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -721,7 +816,15 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-awards" class="panel">
   <div id="awardsContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
+  <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
+</div>
+</div>
+<div id="panel-champion" class="panel">
+  <div id="championContent"></div>
+<div class="version-footer">
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 18 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -729,7 +832,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-titlerace" class="panel">
   <div id="titleRaceContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.36</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.53</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -761,7 +864,7 @@ const COLORS=['#5ba7e0','#e8a068','#a78de8','#e87878','#6ecfae','#e8c968','#7bb8
 const AVCOLS=['#0078d4','#107c10','#7719aa','#b33d00','#008272','#c43501','#004e8c','#1e7145'];
 
 function switchTab(t){
-  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','titlerace','trend','standings','bracket','bonus','awards'][i]===t));
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['matches','leaderboard','titlerace','trend','standings','bracket','bonus','awards','champion'][i]===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
   document.getElementById('panel-'+t).classList.add('active');
   // stage toggle only applies to matches / leaderboard / trend
@@ -774,6 +877,7 @@ function switchTab(t){
   if(t==='bracket') renderBracket();
   if(t==='bonus') renderBonus();
   if(t==='awards') renderAwards();
+  if(t==='champion') renderChampion();
 }
 
 function setStage(s, round){
@@ -857,6 +961,7 @@ async function loadData(){
     buildMatchState(data.results||{});
     refreshMeChip();
     renderMatches();renderLB();renderTrend();renderStandings();renderBracket();renderBonus();
+    maybeRevealChampion();
     {const sb=document.getElementById('stageBar');if(sb)sb.style.display=(state.ko&&(state.ko.matchdays||[]).length>0)?'flex':'none';}
     updateStageBar();
     updateReportBtn();
@@ -954,12 +1059,24 @@ function pickMe(){
   var names=(state.predictions||[]).map(function(p){return p.name;}).sort(function(a,b){return a.localeCompare(b);});
   var me=getMe();
   var rows=names.map(function(n){
-    return '<div class="member-item" style="cursor:pointer" onclick="setMe(\''+n.replace(/'/g,"\\'")+'\');closeModal();">'
+    return '<div class="member-item mp-item" data-nm="'+n.toLowerCase().replace(/"/g,'')+'" style="cursor:pointer" onclick="setMe(\''+n.replace(/'/g,"\\'")+'\');closeModal();">'
       +'<div class="member-avatar" style="background:'+avatarColor(n)+'">'+initials(n)+'</div>'
-      +'<div class="member-name">'+n+(n===me?' <span class="you-badge">you</span>':'')+'</div></div>';
+      +'<div class="member-name">'+n+(n===me?' <span class="you-badge">You</span>':'')+'</div></div>';
   }).join('');
+  var search='<div class="mp-search"><input id="mpSearch" type="search" placeholder="🔍 Search by name…" oninput="filterMe(this.value)" autocomplete="off" spellcheck="false"></div>';
   var clear=me?'<button class="md-me-btn is-me" onclick="setMe(\'\');closeModal();">✕ Clear “this is me”</button>':'';
-  openModal('⭐ Who are you?','Pick your name — your row and line get highlighted','<div>'+rows+'</div>'+clear);
+  openModal('⭐ Who are you?','Pick your name — your row and line get highlighted',
+    search+'<div id="mpList">'+rows+'</div><div id="mpNone" class="mp-none" style="display:none;">No member matches that name.</div>'+clear);
+  setTimeout(function(){var s=document.getElementById('mpSearch'); if(s&&window.innerWidth>760)s.focus();},60);
+}
+function filterMe(q){
+  q=(q||'').trim().toLowerCase();
+  var items=document.querySelectorAll('#mpList .mp-item'),shown=0;
+  Array.prototype.forEach.call(items,function(el){
+    var ok=!q||el.getAttribute('data-nm').indexOf(q)>=0;
+    el.style.display=ok?'':'none'; if(ok)shown++;
+  });
+  var none=document.getElementById('mpNone'); if(none)none.style.display=shown?'none':'block';
 }
 function initials(n){var p=n.trim().split(/\s+/);return ((p[0]||'')[0]||'')+((p[1]||'')[0]||'');}
 function avatarColor(n){var h=0;for(var i=0;i<n.length;i++)h=(h*31+n.charCodeAt(i))%360;return 'hsl('+h+',55%,45%)';}
@@ -1238,33 +1355,33 @@ function showReport(){
 }
 const AWARDS=[
  {org:1,ic:'🎖️',t:"The Commissioner's Award",who:'Biju',why:'The official custodian of the competition — he sets the rules, settles every scoreline, and posts the updated standings every single day without fail. The steady, impartial hand that keeps the whole contest running and fair.'},
- {ic:'🏁',t:'The Pace-Setter Award',who:'Sheejith Sahadevan',why:'Surged from mid-table all the way to the summit and led the entire competition for ten matchdays running — and still sits second, right on the leader\u2019s shoulder. The man who set the pace for everyone to chase.'},
- {ic:'🦁',t:'The Brave Predictor Award',who:'Bijesh',why:'The boldest board in the group — averaging over four goals a knockout tie and making the most fearless high-scoring calls of anyone. Never plays it safe.'},
- {ic:'🐤',t:'The Underdog Believer Award',who:'Deepa R Rao',why:'The only member to back Norway to topple Brazil — and called the scoreline exactly. Believed in the underdog when all others looked away.'},
- {ic:'⏱️',t:'The Last-Minute Miracle Award',who:'Rajith',why:'Submitted a knockout prediction barely twelve minutes before kickoff and landed the exact scoreline. Cut it fine and delivered the miracle.'},
- {ic:'🕐',t:'The Extra-Time Specialist',who:'Praveen Kodurkalam',why:'Read the game beyond ninety minutes and scored cleanly on the extra-time layer — a call few others even attempted.'},
- {ic:'🥅',t:'The Penalty Shootout Expert',who:'Krishnan',why:'The only member to foresee a knockout tie going all the way to penalties, taking a competition-high haul from the shootout while everyone else misread it.'},
- {ic:'📐',t:'The Goal Difference Guru',who:'Smitha Ramesh',why:'Recorded the most correct goal-difference calls in the entire competition. Reads the margin of a match better than anyone.'},
- {ic:'⚔️',t:'The Giant Killer Supporter',who:'Sunilraj',why:'Backed the giant-killers all the way, supporting the tournament\u2019s surprise packages on their run through the knockouts.'},
- {ic:'🎲',t:'The Risk Taker Award',who:'Abhilash Unniyambath',why:'One of the most adventurous boards in the group, forever chasing the big, high-scoring call rather than the safe one.'},
- {ic:'❤️',t:'The Heart Over Head Award',who:'Kesava Prasad',why:'A die-hard Netherlands loyalist who picked them champion in every round and kept the faith long after logic had moved on. Pure heart.'},
- {ic:'⚽',t:'The Football Enthusiast Award',who:'Srikanth N R',why:'One of the most active and passionate voices in the group throughout the tournament — always in the thread, always talking football.'},
- {ic:'🎯',t:'The Bullseye Award',who:'Sreejith Ramachandran',why:'Landed the joint-most exact scorelines in the whole competition. Deadly accurate when it counts.'},
- {ic:'⚓',t:'The Dependable Award',who:'KD',why:'One of the highest hit-rates in the whole competition — in the points on two of every three predictions — and a fixture in the top five for 19 of 27 matchdays. A calm, calculated predictor who refines his calls and rarely wastes a matchday.'},
- {ic:'⏲️',t:'The Metronome Award',who:'Nandhini Viswanath',why:'Relentlessly consistent from the first whistle — a steady stream of exact hits and correct results, week after week.'},
- {ic:'🇧🇷',t:'The Seleção Faithful',who:'Ashik',why:'Kept Brazil as champion even after their tournament ended. Loyalty, unshaken by results.'},
- {ic:'🇪🇸',t:'The La Roja Loyalist',who:'Srijith',why:'Backed Spain for the crown — and saw his pick march proudly into the Quarter-Finals.'},
- {ic:'📏',t:'The Fine-Margins Award',who:'P Vijayan',why:'A specialist in the correct goal difference — forever reading matches by the finest of margins.'},
- {ic:'🟧',t:'The Oranje Optimist',who:'Vinod Menon',why:'The eternal Netherlands believer, pairing his loyalty with one of the sharpest eyes for a goal difference in the group.'},
- {ic:'⚖️',t:'The All-Rounder Award',who:'Shaik Afzal',why:'A wonderfully balanced board — strong across exact scores, goal differences and results alike, with no weakness to exploit.'},
- {ic:'🧱',t:'The Ever-Present Award',who:'Sasikumar Prabhakaran',why:'Turned up for every single match of the tournament — rock-steady and utterly dependable.'},
- {ic:'🔥',t:'The Clutch Predictor Award',who:'Kamal',why:'Nailed the Quarter-Final opener to the exact scoreline, delivering precisely when the big games arrived.'},
- {ic:'🏦',t:'The Banker Award',who:'Vinod K M',why:'Amassed the most correct results in the group — the safest pair of hands, always banking the points.'},
- {ic:'🤫',t:'The Quiet Achiever Award',who:'Harish',why:'No noise, just a steady and respectable board. Does all his talking on the score sheet.'},
- {ic:'🧡',t:'The Ever-Loyal Award',who:'Satheesh',why:'A faithful regular from day one who never missed a beat through the whole competition.'},
- {ic:'💥',t:'The All-or-Nothing Award',who:'Senthil Kumar',why:'A board of bold exact calls and few half-measures — he nails the scoreline or he doesn\u2019t, with little in between.'},
- {ic:'📣',t:'The Group-Chat MVP',who:'Baba Krishnankutty',why:'One of the loudest and most engaged voices in the group, keeping the banter alive while quietly banking correct results.'},
- {ic:'🎯',t:'The Pure Predictor Award',who:'Sanjesh',why:'Skipped the Early Bird and Bonus side-games entirely and let his match predictions do all the talking. All football, no frills.'},
+ {ic:'🥇',t:'The Front-Runner Award',who:'Krishnan',why:'Top of the table on 127 points with two matches to play. Has led the competition on eleven separate matchdays — as many as anyone — and owns the biggest knockout haul in the group (45), paired with the joint-best hit-rate of the whole competition (69%). Out in front, and there on merit.'},
+ {ic:'🏁',t:'The Pace-Setter Award',who:'Sheejith Sahadevan',why:'Climbed from 11th all the way to the summit and led the competition on eleven matchdays — and sits second on 126 points, a single point off the lead with one match to play. The most exact scorelines in the entire competition (15), the joint-best hit-rate (69%), and joint-most correct calls on who advances (10). The man who set the pace for everyone to chase.'},
+ {ic:'📈',t:'The Climber Award',who:'Praveen Kodurkalam',why:'Started the tournament 23rd and has hauled himself all the way to joint-3rd on 119 points — the biggest climb in the competition, and he never led a single matchday on the way up. England carried his hopes for the crown right to the semi-final before falling to Argentina.'},
+ {ic:'⚽',t:'The Football Enthusiast Award',who:'Srikanth N R',why:'One of the most active and passionate voices in the group throughout the tournament — always in the thread, always talking football. And it shows on the board: 116 points and inside the top seven, with one of the sharpest eyes for a goal difference in the group (14).'},
+ {ic:'⚓',t:'The Dependable Award',who:'KD',why:'A fixture in the top five on 27 of 30 matchdays — more than any other member, by some distance — and in the points on more than two of every three predictions (67%, joint-third-best in the group). Never spectacular, never absent, never far away.'},
+ {ic:'🇪🇸',t:'The La Roja Loyalist',who:'Srijith',why:'Backed Spain for the crown when it was far from obvious — and has watched his pick march all the way to the Final. Joint-3rd on 119 points, with the most Early Bird points of anyone in the competition (16) and the highest ceiling left in the title race. One match from the perfect call.'},
+ {ic:'🎯',t:'The Bullseye Award',who:'Sreejith Ramachandran',why:'Posted the joint-best group stage of anyone in the competition (67) and has landed 14 exact scorelines along the way — beaten by only one man all tournament. Deadly accurate when it counts.'},
+ {ic:'⏲️',t:'The Metronome Award',who:'Nandhini Viswanath',why:'Relentlessly consistent from the opening whistle — 14 exact scorelines, joint-most correct calls on who advances (10), and in the points on two of every three predictions. Tick, tick, tick: up to 6th on 117 points without ever making a fuss, or ever leading a single matchday.'},
+ {ic:'⏱️',t:'The Last-Minute Miracle Award',who:'Rajith',why:'Submitted a knockout prediction barely twelve minutes before kickoff and landed the exact scoreline. Cut it fine and delivered the miracle — and has one of the biggest knockout hauls in the group (44) to show for it.'},
+ {ic:'🔥',t:'The Clutch Predictor Award',who:'Kamal',why:'Turns up when the lights are brightest — nailed the Quarter-Final opener to the exact scoreline, then called Argentina’s shootout tie spot-on for a maximum haul. Big games, big calls.'},
+ {ic:'📏',t:'The Fine-Margins Award',who:'P Vijayan',why:'A specialist in the correct goal difference — 13 of them, forever reading matches by the finest of margins rather than chasing the exact score.'},
+ {ic:'🤫',t:'The Quiet Achiever Award',who:'Harish',why:'No noise, just results — quietly banked 12 Early Bird points and called the advancing side correctly 10 times, joint-most in the whole competition. Does all his talking on the score sheet.'},
+ {ic:'🇧🇷',t:'The Seleção Faithful',who:'Ashik',why:'Kept Brazil as champion even after their tournament ended. Loyalty, unshaken by results — and no pushover either: he led the whole competition on six matchdays and has 13 exact scorelines.'},
+ {ic:'⚔️',t:'The Giant Killer Supporter',who:'Sunilraj',why:'Backed the giant-killers all the way, supporting the tournament’s surprise packages on their run through the knockouts — and banked 44 correct results doing it.'},
+ {ic:'⚖️',t:'The All-Rounder Award',who:'Shaik Afzal',why:'A wonderfully balanced board — 12 exact scores, 13 goal-difference calls and 34 results, with no weakness to exploit. All of it earned on the pitch: he never played the Early Bird game at all.'},
+ {ic:'🟧',t:'The Oranje Optimist',who:'Vinod Menon',why:'The eternal Netherlands believer, pairing his loyalty with one of the sharpest eyes for a goal difference in the group (14).'},
+ {ic:'🐤',t:'The Underdog Believer Award',who:'Deepa R Rao',why:'The only member to back Norway to topple Brazil — and called the scoreline exactly. Believed in the underdog when all others looked away, and quietly racked up the most correct results in the entire competition (46) along the way.'},
+ {ic:'🧱',t:'The Ever-Present Award',who:'Sasikumar Prabhakaran',why:'Turned up for every single match of the tournament — 98 predictions from 98 possible. Rock-steady and utterly dependable, without missing one.'},
+ {ic:'🚀',t:'The Fast Starter Award',who:'Vinod K M',why:'Out of the blocks quicker than anyone — second after the opening matchday, top of the table soon after, and the outright leader on four separate matchdays. His Argentina pick for the crown is still very much alive.'},
+ {ic:'📐',t:'The Goal Difference Guru',who:'Smitha Ramesh',why:'Recorded the most correct goal-difference calls in the entire competition (15). Reads the margin of a match better than anyone.'},
+ {ic:'🧡',t:'The Ever-Loyal Award',who:'Satheesh',why:'First name on the board, almost every single time — the earliest prediction posted for 79 of the 98 matches he has called, better than eight times in ten, when nobody else managed more than six all tournament. A faithful regular from day one who never missed a round, and rarely let a fixture go up without answering it first.'},
+ {ic:'💥',t:'The All-or-Nothing Award',who:'Senthil Kumar',why:'A board of bold exact calls and few half-measures — 12 exact scorelines, more than members thirty points above him, yet one of the lowest hit-rates in the group (58%). He nails the scoreline or he doesn’t, with little in between. He also called the advancing side correctly 10 times, joint-most of anyone.'},
+ {ic:'🎲',t:'The Risk Taker Award',who:'Abhilash Unniyambath',why:'One of the most adventurous boards in the group, forever chasing the big, high-scoring call rather than the safe one — and still banked 44 correct results while doing it his way.'},
+ {ic:'❤️',t:'The Heart Over Head Award',who:'Kesava Prasad',why:'A die-hard Netherlands loyalist who picked them champion in every round and kept the faith long after logic had moved on. Topped the table on the very first matchday, and climbed back to the summit once more in June. Pure heart.'},
+ {ic:'📣',t:'The Group-Chat MVP',who:'Baba Krishnankutty',why:'One of the loudest and most engaged voices in the group, keeping the banter alive while quietly banking 44 correct results.'},
+ {ic:'🎯',t:'The Pure Predictor Award',who:'Sanjesh',why:'Skipped the Early Bird and Bonus side-games entirely — every single one of his 72 points came from match predictions alone. All football, no frills.'},
+ {ic:'🦁',t:'The Brave Predictor Award',who:'Bijesh',why:'The boldest board in the group — averaging over four goals a knockout tie and making the most fearless high-scoring calls of anyone. It even took him top of the table once. Never plays it safe.'},
  {ic:'🕊️',t:'The Free Spirit Award',who:'Tony',why:'Predicts on his own schedule and drops in for the games he fancies. Marches entirely to his own beat.'},
  {ic:'🌸',t:'The Fashionably Late Award',who:'Jaya Nambiar',why:'Joined mid-tournament and dived straight into the knockouts without hesitation. Better late than never.'},
  {ic:'🌱',t:'The Fresh Legs Award',who:'Satheesh M',why:'The newest arrival, jumping in at the Quarter-Finals with everything still to play for. The rookie to watch.'}
@@ -1273,8 +1390,6 @@ function renderTitleRace(){
   var el=document.getElementById('titleRaceContent');
   var S=state.scorecard||{}, b=state.bonus||{};
   if(!Object.keys(S).length){el.innerHTML='<div class="tr-wrap"><p class="tr-none">No data yet.</p></div>';return;}
-  var alive=(b.reached_semis||[]).slice();
-  var aliveSet={}; alive.forEach(function(t){aliveSet[t]=1;});
   var scored=(state.meta&&state.meta.matches_scored)||0;
   var me=(typeof getMe==='function')?getMe():null;
   var MAX_KO=8;
@@ -1282,6 +1397,18 @@ function renderTitleRace(){
   var koRes=(state.ko&&state.ko.results)||{}, koPreds=(state.ko&&state.ko.predictions)||{};
   var remKeys=[]; for(var mk=29;mk<=32;mk++){ if(!koRes[mk]) remKeys.push(mk); }
   var remaining=remKeys.length, matchMaxCommon=remaining*MAX_KO;
+  // semi-final slots: a decided semi contributes only its winner; an undecided one both teams.
+  function bmatch(mm){return ((state.bracket&&state.bracket.matches)||[]).filter(function(m){return m.m===mm;})[0];}
+  var sfSlots=[];
+  [29,30].forEach(function(mm){
+    var res=koRes[mm], bm=bmatch(mm);
+    if(res&&res.winner) sfSlots.push([res.winner]);
+    else if(bm&&bm.t1&&bm.t2) sfSlots.push([bm.t1,bm.t2]);
+  });
+  // teams that can still lift the trophy
+  var alive=[]; sfSlots.forEach(function(s){s.forEach(function(t){if(alive.indexOf(t)<0)alive.push(t);});});
+  alive.sort();
+  var aliveSet={}; alive.forEach(function(t){aliveSet[t]=1;});
   // per-member best-case match points: once a member predicts a match, their max is
   // bounded by that prediction (a decisive pick caps at 3; unpredicted stays the full 8).
   function bestCaseMatch(name){
@@ -1295,15 +1422,10 @@ function renderTitleRace(){
     });
     return t;
   }
-  // SF pairings for scenario enumeration
-  var sfPairs=[];
-  ((state.bracket&&state.bracket.matches)||[]).forEach(function(m){
-    if((m.m===29||m.m===30)&&m.t1&&m.t2) sfPairs.push([m.t1,m.t2]);
-  });
-  // every possible final match-up + champion given the two semis
+  // every possible final match-up + champion, given what the semis have decided so far
   var scenarios=[];
-  if(sfPairs.length===2){
-    sfPairs[0].forEach(function(f1){ sfPairs[1].forEach(function(f2){
+  if(sfSlots.length===2){
+    sfSlots[0].forEach(function(f1){ sfSlots[1].forEach(function(f2){
       [f1,f2].forEach(function(ch){ scenarios.push({finalists:[f1,f2],champ:ch}); });
     }); });
   }
@@ -1345,9 +1467,14 @@ function renderTitleRace(){
   rows.forEach(function(r){seen++; if(prev===null||r.cur!==prev){rnk=seen;prev=r.cur;} r.rank=rnk; r.gap=leaderPts-r.cur;});
 
   // ---- remaining fixtures chips (tap -> bracket) ----
-  var fx=[];
-  sfPairs.forEach(function(p){fx.push('🔥 '+flag(p[0])+' <span class="tr-v">v</span> '+flag(p[1]));});
-  fx.push('🥉 3rd place'); fx.push('🏆 Final');
+  var MCHIP={29:{ic:'🔥'},30:{ic:'🔥'},31:{ic:'🥉',nm:'3rd place'},32:{ic:'🏆',nm:'Final'}};
+  var fx=remKeys.map(function(mk){
+    var bm=bmatch(mk), cfg=MCHIP[mk];
+    var t1=bm&&bm.t1, t2=bm&&bm.t2;
+    var teams=(t1&&t2)?(flag(t1)+' <span class="tr-v">v</span> '+flag(t2))
+              :(t1?(flag(t1)+' <span class="tr-v">v</span> TBD'):(cfg.nm||'TBD'));
+    return cfg.ic+' '+((mk>=31&&t1&&t2)?(cfg.nm+': '+teams):(mk>=31&&t1?(cfg.nm+': '+teams):teams));
+  });
   var fxChips=fx.map(function(f){return '<span class="tr-fx" onclick="switchTab(\'bracket\')">'+f+'</span>';}).join('');
 
   // ---- champion watch ----
@@ -1367,7 +1494,7 @@ function renderTitleRace(){
     var champChip=r.champTeam?(' &middot; <span class="tr-ct" title="live champion pick">'+flag(r.champTeam)+' +'+r.champGain+'</span>'):'';
     return '<div class="tr-row'+(r.me?' me':'')+'">'
       +'<div class="tr-c-rk">'+med+'</div>'
-      +'<div class="tr-c-nm"><div class="tr-nm-line">'+r.name+(r.me?' <span class="tr-you">you</span>':'')+'</div>'
+      +'<div class="tr-c-nm"><div class="tr-nm-line">'+r.name+(r.me?' <span class="tr-you">You</span>':'')+'</div>'
         +'<div class="tr-sub">ceiling '+r.ceiling+champChip+'</div></div>'
       +'<div class="tr-c-cur"><b>'+r.cur+'</b><span>'+gap+'</span></div>'
       +'</div>';
@@ -1388,6 +1515,110 @@ function renderTitleRace(){
     +'<div class="tr-table">'+trRows+'</div>'
     +'<div class="tr-foot">“Ceiling” is each player’s genuine maximum: current points + every remaining match played perfectly + the most Early Bird/Bonus they can still win, tested across every possible final match-up and champion (so two picks that can’t both come true are never counted together). Match predictions for the semis, 3rd-place and final open once those fixtures are set — worth up to 8 points each, for everyone, which is why the match ceiling still shows '+matchMaxCommon+' for now.</div>'
     +'</div>';
+}
+function championReady(){
+  // Final (M104 => ko key 32) scored?  Allow ?champ=1 to preview before then.
+  var forced=/[?&]champ=1/.test(location.search);
+  var done=!!(state.ko&&state.ko.results&&state.ko.results['32']);
+  return forced||done;
+}
+function maybeRevealChampion(){
+  var tab=document.getElementById('tabChampion');
+  if(!tab)return;
+  if(championReady()){
+    tab.style.display='';
+    // auto-land on Champion the first time it becomes available
+    if(!sessionStorage.getItem('champSeen')){
+      try{sessionStorage.setItem('champSeen','1');}catch(e){}
+      switchTab('champion');
+    }
+  } else { tab.style.display='none'; }
+}
+function championRows(){
+  var sc=state.scorecard||{};
+  var arr=Object.keys(sc).map(function(n){return [n,(sc[n]&&sc[n].overall)||0];});
+  arr.sort(function(a,b){return b[1]-a[1]||a[0].localeCompare(b[0]);});
+  var rank={},cur=0,prev=null,seen=0;
+  arr.forEach(function(x){seen++;if(x[1]!==prev){cur=seen;prev=x[1];}rank[x[0]]=cur;});
+  return {arr:arr,rank:rank};
+}
+function renderChampion(){
+  var el=document.getElementById('championContent'); if(!el)return;
+  var R=championRows(), arr=R.arr, rank=R.rank, me=getMe();
+  if(!arr.length){el.innerHTML='';return;}
+  // champion team (if final scored) for the sub-line
+  var champTeam=(state.bonus&&state.bonus.champion)||null;
+  var updated=(state.meta&&state.meta.updated)||'';
+  var pod=arr.slice(0,3).map(function(x){return x[0];});
+  var g=arr[0],s=arr[1],b=arr[2];
+  function av(name,cls){
+    return '<div class="champ-av '+cls+(name===me?' champ-me':'')+'">'+initials(name)+'</div>';
+  }
+  function col(entry,cls,rk,crown){
+    if(!entry)return '';
+    var name=entry[0],pts=entry[1];
+    return '<div class="champ-col">'
+      +(crown?'<div class="champ-crown">👑</div>':'')
+      +av(name,cls)
+      +'<div class="champ-nm'+(name===me?' ':'')+'">'+name+(name===me?' <span class="you-badge">You</span>':'')+'</div>'
+      +'<div class="champ-pts '+cls+'">'+pts+'<small>pts</small></div>'
+      +'<div class="champ-plinth '+cls+'"><span class="champ-rk">'+rk+'</span></div>'
+    +'</div>';
+  }
+  var podium='<div class="champ-podium">'
+    +col(s,'silver',2,false)+col(g,'gold',1,true)+col(b,'bronze',3,false)+'</div>';
+  var rest='';
+  if(arr.length>3){
+    rest='<div class="champ-rest"><div class="champ-rest-h">FINAL STANDINGS</div>';
+    arr.slice(3).forEach(function(x){
+      rest+='<div class="champ-rrow'+(x[0]===me?' me':'')+'"><span class="rk">'+rank[x[0]]+'</span>'
+        +'<span class="nm">'+x[0]+(x[0]===me?' <span class="you-badge">You</span>':'')+'</span>'
+        +'<span class="pt">'+x[1]+'</span></div>';
+    });
+    rest+='</div>';
+  }
+  var sub='🏆 FIFA World Cup 2026 Prediction Competition'+(champTeam?(' · '+flag(champTeam)+' champions'):'')
+        +(updated?(' · final standings as of '+updated):'');
+  el.innerHTML=
+    '<div class="champ-stage">'
+      +'<div class="champ-spark" id="champSpark"></div>'
+      +'<div class="champ-in">'
+        +'<div class="champ-title">🏆 CHAMPIONS 🏆</div>'
+        +'<div class="champ-sub">'+sub+'</div>'
+        +podium+rest
+      +'</div>'
+    +'</div>';
+  champSparkle();
+}
+function champSparkle(){
+  var host=document.getElementById('champSpark'); if(!host)return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  var mobile=window.innerWidth<=520;
+  var H=(host.offsetHeight||440)+40;
+  var h='';
+  // layer 1: gem sparkles (many, small, quick)
+  var COLORS=['#ffd76a','#7ad0ff','#c9a3f0','#ff8fb0','#8affc0','#fff2b0'];
+  var n=mobile?16:38;
+  for(var i=0;i<n;i++){
+    var left=Math.random()*100, size=5+Math.random()*7, dur=4.5+Math.random()*4.5, delay=Math.random()*6;
+    var spin=(Math.random()*720-360)+45, c=COLORS[i%COLORS.length];
+    h+='<span class="gem" style="left:'+left.toFixed(1)+'%;width:'+size.toFixed(1)+'px;height:'+size.toFixed(1)
+      +'px;background:'+c+';--fall:'+H+'px;--spin:'+spin.toFixed(0)+'deg;animation-duration:'+dur.toFixed(1)
+      +'s;animation-delay:-'+delay.toFixed(1)+'s;box-shadow:0 0 6px '+c+'99;"></span>';
+  }
+  // layer 2: country flags (fewer, slower, gentle drift) — accents, not a downpour
+  var flags=Object.keys(FLAGS).map(function(k){return FLAGS[k];});
+  for(var f=flags.length-1;f>0;f--){var r=Math.floor(Math.random()*(f+1));var t=flags[f];flags[f]=flags[r];flags[r]=t;}
+  var fn=mobile?7:14;
+  for(var j=0;j<fn;j++){
+    var fl=flags[j%flags.length];
+    var fleft=Math.random()*96+2, fsize=(mobile?15:19)+Math.random()*6;
+    var fdur=9+Math.random()*7, fdelay=Math.random()*12, fspin=(Math.random()*60-30);
+    h+='<span class="flagfall" style="left:'+fleft.toFixed(1)+'%;font-size:'+fsize.toFixed(0)+'px;'
+      +'--fall:'+H+'px;--spin:'+fspin.toFixed(0)+'deg;animation-duration:'+fdur.toFixed(1)
+      +'s;animation-delay:-'+fdelay.toFixed(1)+'s;">'+fl+'</span>';
+  }
+  host.innerHTML=h;
 }
 function renderAwards(){
   var el=document.getElementById('awardsContent');
@@ -1524,7 +1755,7 @@ function shareLeaderboardImage(){
           +'<div style="width:20px;text-align:center;font-size:11px;color:#a19f9d;font-weight:700;">'+r.sl+'</div>'
           +'<div style="width:26px;text-align:center;font-size:15px;">'+rk+'</div>'
           +'<div style="width:26px;text-align:center;">'+mvHTML(r.mvd)+'</div>'
-          +'<div style="flex:1;font-size:13px;font-weight:'+(r.me?'800':'600')+';color:#201f1e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+r.name+(r.me?' <span style="font-size:10px;background:#107c10;color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;">you</span>':'')+'</div>'
+          +'<div style="flex:1;font-size:13px;font-weight:'+(r.me?'800':'600')+';color:#201f1e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+r.name+(r.me?' <span style="font-size:10px;font-weight:800;background:#00c853;color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;">You</span>':'')+'</div>'
           +num(r.exact,30,'#7d5a00')+num(r.diff,30,'#004e8c')+resCell
           +'<div style="width:40px;text-align:right;font-size:16px;font-weight:800;color:#0a5c0a;">'+r.pts+'</div></div>';
       }
@@ -2078,17 +2309,18 @@ function buildLBTable(rows){
       const fl=(type==='result'&&s.resultFloor>0)?`<sup style="color:#6b21a8;font-weight:800;font-size:9px;">⌊${s.resultFloor}⌋</sup>`:'';
       return`<td class="stat-cell"><button class="stat-btn clickable ${cc}" onclick="showStatByKey('${r.uid+'_'+type}')">${val}${fl}</button></td>`;
     };
-    h+=`<tr class="${r.tied?'tied':''}${isMe?' me-row':''}">
+    const hasPts=(s.pts>0);
+    h+=`<tr class="${(r.tied&&hasPts)?'tied':''}${isMe?' me-row':''}">
       <td class="sl-cell stick lb-c-sl">${idx+1}</td>
-      <td class="rank-cell stick lb-c-rank">${r.medal?'<span class="medal-emoji">'+r.medal+'</span>':'<span class="rank-badge">'+r.rank+'</span>'}${movementHTML(mv)}</td>
-      <td class="name-cell clk stick lb-c-player${s.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">you</span>':''}${r.tied?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+'</span>':''}</td>
+      <td class="rank-cell stick lb-c-rank">${!hasPts?'':(r.medal?'<span class="medal-emoji">'+r.medal+'</span>':'<span class="rank-badge">'+r.rank+'</span>')+movementHTML(mv)}</td>
+      <td class="name-cell clk stick lb-c-player${s.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">You</span>':''}${(r.tied&&hasPts)?'<span class="tied-tag">tied</span>':''}${s.invalidCount>0?'<span class="inv-tag">⛔'+s.invalidCount+'</span>':''}</td>
       ${sc(s.exact.length,'exact')}${sc(s.gdiff.length,'gdiff')}${sc(s.result.length,'result')}
       <td class="pts-cell">${state.stage==='overall'
         ?`<button class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}" style="background:none;border:none;cursor:pointer;padding:0;font-family:inherit;" role="button" tabindex="0" aria-label="View ${r.name.replace(/'/g,"").replace(/"/g,'')} scorecard" onclick="openScorecard('${r.name.replace(/'/g,"\\'")}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openScorecard('${r.name.replace(/'/g,"\\'")}');}">${s.pts}</button>`
         :`<span class="pts-val ${s.pts>=6?'pts-blue':s.pts>0?'pts-green':'pts-grey'}">${s.pts}</span>`}</td>
       ${state.stage==='overall'?('<td class="eff-cell"><span class="ko-pill'+((s.koPts||0)>0?' on':'')+'">'+(s.koPts||0)+'</span></td>'):''}
-      ${state.stage==='overall'?('<td class="eff-cell"><span class="eb-pill'+((s.ebPts||0)>0?' on':'')+'">'+(s.ebPts||0)+'</span></td>'):''}
-      ${state.stage==='overall'?('<td class="eff-cell"><span class="bn-pill'+((s.bonusPts||0)>0?' on':'')+'">'+(s.bonusPts||0)+'</span></td>'):''}
+      ${state.stage==='overall'?('<td class="eff-cell"><button class="eb-pill bn-clk'+((s.ebPts||0)>0?' on':'')+'" onclick="showBonusDetail(\''+r.name.replace(/'/g,"\\'")+'\',\'early_bird\')" title="Early Bird picks">'+(s.ebPts||0)+'</button></td>'):''}
+      ${state.stage==='overall'?('<td class="eff-cell"><button class="bn-pill bn-clk'+((s.bonusPts||0)>0?' on':'')+'" onclick="showBonusDetail(\''+r.name.replace(/'/g,"\\'")+'\',\'bonus\')" title="Bonus picks">'+(s.bonusPts||0)+'</button></td>'):''}
       ${state.stage==='ko'?('<td class="stat-cell">'+((s.bonus||0)>0?'<button class="stat-btn clickable bonus-c" onclick="showStatByKey(\''+r.uid+'_bonus\')">'+s.bonus+'</button>':'<button class="stat-btn zero">0</button>')+'</td>'):''}
       <td class="eff-cell muted">${s.played}</td>
       <td class="eff-cell">${s.played?r.ppm.toFixed(2):'—'}</td>
@@ -2117,6 +2349,7 @@ function sortLB(col){
 function resetLB(){lbSort={col:'rank',dir:'asc'};applyLBSort();}
 
 let trendSel=null;
+let trendMode='rank';
 const TRENDCOLORS=['#2EA8FF','#F5A623','#2FC36B','#E84FA8','#FF7A45','#00C2B8','#9B6CFF','#36C5F0','#FF5C7A','#A8C921'];
 
 function renderTrend(){
@@ -2142,39 +2375,75 @@ function renderTrend(){
   });
   const finalPos=posByMD[nMD-1], finalRank=rankByMD[nMD-1];
   const sortedNames=names.slice().sort((a,b)=>finalPos[a]-finalPos[b]);
-  if(trendSel===null){ const me=getMe(); trendSel=new Set(sortedNames.slice(0,3)); if(me&&tl.points[me])trendSel.add(me); }
+  if(trendSel===null){ const me=getMe(); trendSel=new Set(sortedNames.filter(n=>finalRank[n]<=3)); if(me&&tl.points[me])trendSel.add(me); }
   const selSorted=sortedNames.filter(n=>trendSel.has(n));
   const colorOf={};selSorted.forEach((n,i)=>colorOf[n]=TRENDCOLORS[i%TRENDCOLORS.length]);
 
-  const W=720,L=34,Rm=148,T=22,B=38,rowH=15;
+  const isPts=(trendMode==='pts');
+  const W=720,L=34,Rm=148,T=22,B=52,rowH=15;
   const plotH=N*rowH,Hsvg=T+plotH+B;
   const xx=j=>L+(nMD<=1?0:j*((W-L-Rm)/(nMD-1)));
   const yy=pos=>T+(pos-0.5)*rowH;
+  let maxPts=1; names.forEach(n=>tl.points[n].forEach(v=>{if(v>maxPts)maxPts=v;}));
+  const yTop=Math.ceil(maxPts/20)*20;
+  const yP=v=>T+plotH*(1-v/yTop);
+  const Y=(n,j)=>isPts?yP(tl.points[n][j]):yy(posByMD[j][n]);
+  const FY=n=>isPts?yP(tl.points[n][nMD-1]):yy(finalPos[n]);
   const esc=s=>s.replace(/'/g,"\\'");
 
   let svg=`<svg viewBox="0 0 ${W} ${Hsvg}" width="100%" style="max-width:100%;font-family:inherit;min-width:520px;">`;
-  for(let r=1;r<=N;r+=5){
-    svg+=`<line x1="${L}" y1="${yy(r)}" x2="${W-Rm}" y2="${yy(r)}" class="trend-grid" stroke-width="1"/>`;
-    svg+=`<text x="${L-6}" y="${yy(r)+3}" text-anchor="end" font-size="9" fill="#b0aeac">${r}</text>`;
+  if(isPts){
+    const step=yTop>200?40:20;
+    for(let v=0;v<=yTop;v+=step){
+      svg+=`<line x1="${L}" y1="${yP(v)}" x2="${W-Rm}" y2="${yP(v)}" class="trend-grid" stroke-width="1"/>`;
+      svg+=`<text x="${L-6}" y="${yP(v)+3}" text-anchor="end" font-size="9" fill="#b0aeac">${v}</text>`;
+    }
+  }else{
+    for(let r=1;r<=N;r+=5){
+      svg+=`<line x1="${L}" y1="${yy(r)}" x2="${W-Rm}" y2="${yy(r)}" class="trend-grid" stroke-width="1"/>`;
+      svg+=`<text x="${L-6}" y="${yy(r)+3}" text-anchor="end" font-size="9" fill="#b0aeac">${r}</text>`;
+    }
   }
   mds.forEach((md,j)=>{
     svg+=`<line x1="${xx(j)}" y1="${T-4}" x2="${xx(j)}" y2="${T+plotH}" class="trend-grid" stroke-width="1"/>`;
-    svg+=`<text x="${xx(j)}" y="${T+plotH+16}" text-anchor="middle" font-size="10" font-weight="600" fill="#605e5c">${(tl.labels&&tl.labels[j])||('MD'+md)}</text>`;
+    const lb=(tl.labels&&tl.labels[j])||('MD'+md);
+    const prev=j>0?((tl.labels&&tl.labels[j-1])||('MD'+mds[j-1])):null;
+    if(lb!==prev){
+      const X=xx(j), Y=T+plotH+13;
+      svg+=`<text x="${X}" y="${Y}" text-anchor="end" font-size="9" font-weight="600" fill="#605e5c" transform="rotate(-60 ${X} ${Y})">${lb}</text>`;
+    }
   });
   names.forEach(n=>{
     if(trendSel.has(n)) return;
-    const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
+    const pts=mds.map((md,j)=>`${xx(j)},${Y(n,j)}`).join(' ');
     svg+=`<polyline points="${pts}" fill="none" class="trend-ghost" stroke-width="1.2" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
   });
   selSorted.forEach(n=>{
     const c=colorOf[n];
-    const pts=mds.map((md,j)=>`${xx(j)},${yy(posByMD[j][n])}`).join(' ');
+    const pts=mds.map((md,j)=>`${xx(j)},${Y(n,j)}`).join(' ');
     svg+=`<polyline points="${pts}" fill="none" stroke="${c}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(n)}')"/>`;
     mds.forEach((md,j)=>{
-      svg+=`<circle cx="${xx(j)}" cy="${yy(posByMD[j][n])}" r="3.3" fill="${c}"><title>${n} — ${(tl.labels&&tl.labels[j])||('MD'+md)} (MD${md}): rank ${rankByMD[j][n]}, ${tl.points[n][j]} pts</title></circle>`;
+      svg+=`<circle cx="${xx(j)}" cy="${Y(n,j)}" r="3.3" fill="${c}"><title>${n} — ${(tl.labels&&tl.labels[j])||('MD'+md)} (MD${md}): rank ${rankByMD[j][n]}, ${tl.points[n][j]} pts</title></circle>`;
     });
-    const fy=yy(finalPos[n]);
-    svg+=`<text x="${W-Rm+8}" y="${fy+3.3}" font-size="10.5" font-weight="600" fill="${c}">${finalRank[n]}. ${n}</text>`;
+  });
+  // right-edge labels: nudge apart so tied/close players never overlap
+  const GAP=12.5, top=T+2, bot=T+plotH;
+  const lab=selSorted.map(n=>({n,y0:FY(n),y:FY(n)})).sort((a,b)=>a.y0-b.y0);
+  for(let i=1;i<lab.length;i++) if(lab[i].y-lab[i-1].y<GAP) lab[i].y=lab[i-1].y+GAP;
+  if(lab.length && lab[lab.length-1].y>bot){
+    lab[lab.length-1].y=bot;
+    for(let i=lab.length-2;i>=0;i--) if(lab[i+1].y-lab[i].y<GAP) lab[i].y=lab[i+1].y-GAP;
+  }
+  if(lab.length && lab[0].y<top){
+    lab[0].y=top;
+    for(let i=1;i<lab.length;i++) if(lab[i].y-lab[i-1].y<GAP) lab[i].y=lab[i-1].y+GAP;
+  }
+  lab.forEach(o=>{
+    const c=colorOf[o.n];
+    if(Math.abs(o.y-o.y0)>1.2){
+      svg+=`<path d="M${W-Rm+1} ${o.y0} L${W-Rm+5} ${o.y}" fill="none" stroke="${c}" stroke-width="1" opacity=".55"/>`;
+    }
+    svg+=`<text x="${W-Rm+8}" y="${o.y+3.3}" font-size="10.5" font-weight="600" fill="${c}" style="cursor:pointer" onclick="toggleTrendPlayer('${esc(o.n)}')">${finalRank[o.n]}. ${o.n}${isPts?(' \u00b7 '+tl.points[o.n][nMD-1]):''}</text>`;
   });
   svg+=`</svg>`;
 
@@ -2184,10 +2453,17 @@ function renderTrend(){
     chips+=`<button onclick="toggleTrendPlayer('${esc(n)}')" style="font-size:11px;padding:3px 9px;border-radius:12px;cursor:pointer;border:1.5px solid ${on?c:'#d6d6d6'};background:${on?c:'#fff'};color:${on?'#fff':'#605e5c'};font-weight:${on?'600':'500'};white-space:nowrap;">${n}</button>`;
   });
   chips+=`</div>`;
-  const hint=`<div class="hover-hint" style="margin-bottom:8px;">📈 Rank by matchday (1 = top). Tap a name or line to highlight; tap again to remove. Hover a dot for points.</div>`;
+  const sub=`<div class="trend-sub">`
+    +`<button class="tsub${isPts?' active':''}" onclick="setTrendMode('pts')">📊 Points</button>`
+    +`<button class="tsub${isPts?'':' active'}" onclick="setTrendMode('rank')">📈 Rank</button>`
+    +`</div>`;
+  const hint=`<div class="hover-hint" style="margin-bottom:8px;">${isPts
+    ?'📊 Cumulative <b>match points</b> (group + knockout) by matchday — higher is better. Early Bird &amp; Bonus are awarded separately and aren\'t plotted here, so the final figure differs from the leaderboard total. Tap a name or line to highlight; tap again to remove.'
+    :'📈 Rank by matchday (1 = top). Tap a name or line to highlight; tap again to remove. Hover a dot for points.'}</div>`;
   const ctrl=`<div style="display:flex;gap:8px;margin-bottom:10px;"><button onclick="trendSelTop3()" style="font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;">🏅 Top 3</button><button onclick="trendSelClear()" style="font-size:11px;padding:4px 11px;border-radius:6px;border:1px solid #d6d6d6;background:#fff;cursor:pointer;color:#333;font-weight:600;">Clear all</button></div>`;
-  el.innerHTML=hint+ctrl+chips+`<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">${svg}</div>`;
+  el.innerHTML=sub+hint+ctrl+chips+`<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">${svg}</div>`;
 }
+function setTrendMode(m){trendMode=m;renderTrend();}
 function toggleTrendPlayer(n){if(!trendSel)trendSel=new Set();if(trendSel.has(n))trendSel.delete(n);else trendSel.add(n);renderTrend();}
 function trendSelClear(){trendSel=new Set();renderTrend();}
 function trendSelTop3(){trendSel=null;renderTrend();}
@@ -2366,7 +2642,7 @@ function openScorecard(name){
   const el=document.getElementById('scModal');
   el.innerHTML=`<div class="sc-head">
       <div class="sc-avatar">${scInitials(name)}</div>
-      <div style="min-width:0;"><div class="sc-hname">${name}${name===me?' <span class="you-badge">you</span>':''}</div><div class="sc-hsub">${sub}</div></div>
+      <div style="min-width:0;"><div class="sc-hname">${name}${name===me?' <span class="you-badge">You</span>':''}</div><div class="sc-hsub">${sub}</div></div>
       <div class="sc-htot"><b>${sc.overall}</b><span>points</span></div>
       <button class="sc-x" aria-label="Close" onclick="closeScorecard()">×</button>
     </div>
@@ -2440,7 +2716,7 @@ function renderBonus(){
     const champHtml = m.champ?('<span style="color:'+cc+';font-weight:700;">'+bonusFlag(m.champ)+(champState==='busted'?' ✗':'')+'</span>'):'—';
     body+=`<tr class="${isMe?'me-row':''}">
       <td class="sl-cell stick lb-c-sl">${i+1}</td>
-      <td class="name-cell clk stick lb-c-player" onclick="showBonusMember('${rk}','${r.n.replace(/'/g,"\\'")}')">${r.n}${isMe?'<span class="you-badge">you</span>':''}${m.carry_over?'<span class="bn-carry" title="Carried over from Early Bird pick (no separate Bonus entry)">🐦 Early Bird carry-over</span>':''}${m.late?'<span class="bn-late" title="Posted after the lock — counted per Biju">🕐 late</span>':''}${m.untagged?'<span class="bn-late" title="Posted without the #Bonus tag — captured">🏷️ untagged</span>':''}</td>
+      <td class="name-cell clk stick lb-c-player" onclick="showBonusMember('${rk}','${r.n.replace(/'/g,"\\'")}')">${r.n}${isMe?'<span class="you-badge">You</span>':''}${m.carry_over?'<span class="bn-carry" title="Carried over from Early Bird pick (no separate Bonus entry)">🐦 Early Bird carry-over</span>':''}${m.late?'<span class="bn-late" title="Posted after the lock — counted per Biju">🕐 late</span>':''}${m.untagged?'<span class="bn-late" title="Posted without the #Bonus tag — captured">🏷️ untagged</span>':''}</td>
       <td style="font-size:12px;">${champHtml}</td>
       <td class="right"><b style="color:#b8860b;">${m.secured}</b></td>
       <td class="right" style="color:#0a8f5b;font-weight:700;">${m.live}</td>
@@ -2575,6 +2851,41 @@ const FLAGS={
 
 function flag(t){const f=FLAGS[t];return f?`<span style="font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;">${f}</span> ${t}`:t;}
 function flagText(t){const f=FLAGS[t];return f?f+' '+t:t;}
+const BN_LVL={semi:{t:'Semi-Finalist',ic:'🔥'},final:{t:'Finalist',ic:'🏆'},champ:{t:'Champion',ic:'👑'}};
+const BN_ST={secured:{ic:'✅',t:'secured',c:'#107c10'},busted:{ic:'❌',t:'busted',c:'#a4262c'},pending:{ic:'⏳',t:'still live',c:'#8a6d00'}};
+function showBonusDetail(name,round){
+  const R=state.bonus&&state.bonus.rounds&&state.bonus.rounds[round];
+  if(!R)return;
+  const ic=(round==='early_bird')?'🐦':'🎁', lbl=R.label||round;
+  const m=(R.members||{})[name];
+  if(!m||!(m.picks||[]).length){
+    openModal(ic+' '+lbl+' — '+name,'No picks recorded',
+      '<div class="bn-none">'+name+' didn’t make any '+lbl+' picks.</div>');
+    return;
+  }
+  let body='';
+  ['semi','final','champ'].forEach(function(lv){
+    const ps=(m.picks||[]).filter(function(p){return p.level===lv;});
+    if(!ps.length)return;
+    const L=BN_LVL[lv], per=(R.pts&&R.pts[lv])||0;
+    body+='<div class="bn-sec"><div class="bn-sec-h">'+L.ic+' '+L.t+'<span class="bn-sec-p">'+per+' pt'+(per===1?'':'s')+(ps.length>1?' each':'')+'</span></div>';
+    ps.forEach(function(p){
+      const S=BN_ST[p.state]||BN_ST.pending;
+      const val=(p.state==='secured')?('+'+p.pts):(p.state==='pending'?('+'+p.pts+'?'):'—');
+      body+='<div class="bn-row"><span class="bn-ic">'+S.ic+'</span>'
+        +'<span class="bn-tm">'+flagText(p.team)+'</span>'
+        +'<span class="bn-lb" style="color:'+S.c+'">'+S.t+'</span>'
+        +'<span class="bn-pt" style="color:'+S.c+'">'+val+'</span></div>';
+    });
+    body+='</div>';
+  });
+  const bits=['<b>'+(m.secured||0)+'</b> secured'];
+  if(m.live)bits.push('<b>'+m.live+'</b> still live');
+  if(m.forfeited)bits.push('<b>'+m.forfeited+'</b> missed');
+  body+='<div class="bn-tot">'+bits.join(' · ')+'</div>';
+  const sub=(m.secured||0)+' point'+((m.secured||0)===1?'':'s')+' secured'+((m.live||0)?' · '+m.live+' still live':'');
+  openModal(ic+' '+lbl+' — '+name,sub,body);
+}
 
 function filterMatches(q){
   q=q.trim().toLowerCase();
@@ -2771,7 +3082,7 @@ function renderLBKO(){
     const isMe=r.name===me;
     h+=`<tr class="${isMe?'me-row':''}"><td class="sl-cell stick lb-c-sl">${i+1}</td>
       <td class="rank-cell stick lb-c-rank">${medal?'<span class="medal-emoji">'+medal+'</span>':'<span class="rank-badge">'+rank+'</span>'}</td>
-      <td class="name-cell clk stick lb-c-player${r.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">you</span>':''}</td>
+      <td class="name-cell clk stick lb-c-player${r.pts===0?' dimmed':''}" onclick="showMember('${r.name.replace(/'/g,"\\'")}')">${r.name}${isMe?'<span class="you-badge">You</span>':''}</td>
       <td class="pts-cell"><span class="pts-val ${r.pts>=3?'pts-blue':r.pts>0?'pts-green':'pts-grey'}">${r.pts}</span></td>
       <td class="eff-cell muted">${r.np}</td></tr>`;
   });
@@ -2908,7 +3219,7 @@ function buildOverallTimeline(){
   const koByMD=koMDs.map(()=>[]);
   for(const k in (ko.results||{})){const r=ko.results[k];const j=koMDs.indexOf(r.et_date);if(j>=0)koByMD[j].push(k);}
   const out={matchdays:g.matchdays.slice(),labels:(g.labels||g.matchdays).slice(),points:{},exact:{},gdiff:{}};
-  koMDs.forEach((d,j)=>{out.matchdays.push(gN+1+j);out.labels.push('R32');});
+  koMDs.forEach((d,j)=>{ out.matchdays.push(gN+1+j); out.labels.push(d||('MD'+(gN+1+j))); });
   names.forEach(n=>{
     out.points[n]=g.points[n].slice();
     out.exact[n]=g.exact?g.exact[n].slice():g.points[n].map(()=>0);
