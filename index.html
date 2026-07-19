@@ -115,6 +115,26 @@ body.dark .tr-row{border-color:#262f3d;}
 .tr-rk{font-size:13px;font-weight:800;color:#8a8886;}
 .tr-c-nm{flex:1;min-width:0;font-size:14px;font-weight:700;color:var(--text,#201f1e);overflow:hidden;}
 .tr-nm-line{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.tr-nm-tap{cursor:pointer;}
+.tr-nm-cue{color:#12b5ff;font-weight:800;font-size:11px;opacity:.85;}
+.tr-nm-tap:hover{color:#0a7fbf;}
+.fs-head{padding:2px 2px 12px;border-bottom:1px solid var(--line,#eee);margin-bottom:12px;}
+.fs-cur{font-size:12px;color:#605e5c;}.fs-cur b{color:#0a5c0a;font-size:15px;}
+.fs-pred{font-size:13px;margin-top:4px;}
+.fs-bonus{font-size:11.5px;color:#605e5c;margin-top:6px;}
+.fs-blk{margin-bottom:14px;}
+.fs-blk-h{font-size:12.5px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+.fs-bchip{font-size:10.5px;font-weight:800;background:#fff1dc;color:#8a5a00;padding:1px 7px;border-radius:9px;}
+.fs-nob{font-size:10.5px;font-weight:600;color:#a19f9d;}
+.fs-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:9px;margin-bottom:5px;background:#f7f7f8;}
+.fs-row.best{background:#e9f7ef;outline:1.5px solid #2FC36B;}
+.fs-out{flex:1;font-size:12.5px;font-weight:600;min-width:0;}
+.fs-mb{font-size:11px;color:#605e5c;white-space:nowrap;}
+.fs-tot{font-weight:800;font-size:15px;color:#0a5c0a;min-width:34px;text-align:right;}
+.fs-star{color:#f0a81e;font-size:12px;}
+.fs-foot{font-size:11px;color:#8a8886;line-height:1.5;margin-top:8px;}
+body.dark .fs-row{background:rgba(255,255,255,.05);}
+body.dark .fs-row.best{background:rgba(47,195,107,.16);}
 body.dark .tr-c-nm{color:#e8ecf2;}
 .tr-sub{font-size:10.5px;font-weight:600;color:#a19f9d;margin-top:2px;line-height:1.55;}
 .tr-c-cur{flex-shrink:0;text-align:right;min-width:62px;}
@@ -785,7 +805,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -794,7 +814,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -803,7 +823,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -812,7 +832,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -821,7 +841,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -830,7 +850,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -838,7 +858,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-awards" class="panel">
   <div id="awardsContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -846,7 +866,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-champion" class="panel">
   <div id="championContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 18 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 18 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -854,7 +874,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-titlerace" class="panel">
   <div id="titleRaceContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.60</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -1409,6 +1429,121 @@ const AWARDS=[
  {ic:'🌸',t:'The Fashionably Late Award',who:'Jaya Nambiar',why:'Joined mid-tournament and dived straight into the knockouts without hesitation. Better late than never.'},
  {ic:'🌱',t:'The Fresh Legs Award',who:'Satheesh M',why:'The newest arrival, jumping in at the Quarter-Finals with everything still to play for. The rookie to watch.'}
 ];
+/* ===== Final-scenarios modal (Title Race name -> tap) =====================
+   JS port of ko_score.py, verified to match the pipeline exactly on a battery
+   of cases. Used only for the hypothetical Final (M104) outcomes. */
+function _trScoreTier(ps1,ps2,rs1,rs2){
+  if(ps1===rs1&&ps2===rs2)return{pts:3,tier:'exact'};
+  var pr=ps1>ps2?1:ps1<ps2?-1:0, rr=rs1>rs2?1:rs1<rs2?-1:0;
+  if(pr!==rr)return{pts:0,tier:'wrong'};
+  if((ps1-ps2)===(rs1-rs2))return{pts:2,tier:'gdiff'};
+  return{pts:1,tier:'result'};
+}
+function _trFxWinner(r,t1,t2){var a=r.s1,b=r.s2;if(r.et1!=null){a+=r.et1;b+=r.et2;}if(a>b)return t1;if(b>a)return t2;return r.pw||null;}
+function _trKoScore(p,r,t1,t2){
+  // p:{s1,s2,et1,et2,pw,nw}  r:{s1,s2,et1,et2,pw}
+  var out={p90:0,pET:0,pPens:0,total:0,floor:false};
+  var ps1=p.s1,ps2=p.s2,rs1=r.s1,rs2=r.s2, drawNoScore=(ps1==null), pred90draw;
+  if(drawNoScore){pred90draw=true; if(rs1===rs2){out.p90=1;}else{out.p90=0;}}
+  else{pred90draw=(ps1===ps2); out.p90=_trScoreTier(ps1,ps2,rs1,rs2).pts;}
+  var wentET=(r.et1!=null&&r.et2!=null);
+  if(pred90draw&&wentET&&p.et1!=null)out.pET=_trScoreTier(p.et1,p.et2,r.et1,r.et2).pts;
+  var predETdraw=(p.et1!=null&&p.et1===p.et2), wentPens=!!r.pw;
+  if(predETdraw&&wentPens&&p.pw&&p.pw===r.pw)out.pPens=2;
+  out.total=out.p90+out.pET+out.pPens;
+  var winner=_trFxWinner(r,t1,t2), pw=p.nw||p.pw;
+  if(!pw&&p.et1!=null&&p.et1!==p.et2)pw=(p.et1>p.et2)?t1:t2;
+  if(!pw&&ps1!=null&&ps1!==ps2)pw=(ps1>ps2)?t1:t2;
+  var decisiveForAdv=(ps1!=null&&ps1!==ps2&&((ps1>ps2)?t1:t2)===winner);
+  var paid=(decisiveForAdv&&out.p90>0)||out.pET>0||out.pPens>0;
+  if(pw&&winner&&pw===winner&&!paid){out.total+=1;out.floor=true;}
+  return out;
+}
+function showFinalScenarios(name){
+  var sc=state.scorecard||{}, cur=(sc[name]&&sc[name].overall)||0, b=state.bonus||{};
+  var ko=state.ko||{}, koRes=ko.results||{}, koPreds=ko.predictions||{};
+  // Only the Final (M104 => ko key 32) should remain unscored.
+  if(koRes[32] || !koPreds){ openModal(name,'',''); return; }
+  var bm=((state.bracket&&state.bracket.matches)||[]).filter(function(m){return m.m===32;})[0];
+  var t1=bm&&bm.t1, t2=bm&&bm.t2;
+  if(!t1||!t2){ var any=koPreds[name]&&koPreds[name][32]; if(any){t1=any.team1;t2=any.team2;} }
+  if(!t1||!t2){ openModal(name+' — Final scenarios','','<div class="tr-none">The Final match-up isn\u2019t set yet.</div>'); return; }
+  var pred=koPreds[name]&&koPreds[name][32]||null;
+  var hasPred=!!(pred&&pred.score1!=null);
+  function bonusIf(champ){
+    var t=0;
+    ['early_bird','bonus'].forEach(function(rd){
+      var R=b.rounds&&b.rounds[rd]; if(!R||!R.members||!R.members[name])return;
+      (R.members[name].picks||[]).forEach(function(p){
+        if(p.state!=='pending')return;
+        if(p.level==='final'&&[t1,t2].indexOf(p.team)>=0)t+=p.pts;
+        else if(p.level==='champ'&&p.team===champ)t+=p.pts;
+      });
+    });
+    return t;
+  }
+  var bonusT1=bonusIf(t1), bonusT2=bonusIf(t2);
+  // outcome set for a two-team final (t1 vs t2)
+  var outs=[
+    {champ:t1,r:{s1:1,s2:0}}, {champ:t1,r:{s1:2,s2:1}}, {champ:t1,r:{s1:2,s2:0}},
+    {champ:t2,r:{s1:0,s2:1}}, {champ:t2,r:{s1:1,s2:2}}, {champ:t2,r:{s1:0,s2:2}},
+    {champ:t1,r:{s1:1,s2:1,et1:0,et2:0,pw:t1},pens:true},
+    {champ:t2,r:{s1:1,s2:1,et1:0,et2:0,pw:t2},pens:true}
+  ];
+  var predOrient=null;
+  if(hasPred){
+    predOrient={s1:pred.score1,s2:pred.score2,et1:(pred.et1==null?null:pred.et1),et2:(pred.et2==null?null:pred.et2),
+                pw:pred.pens_winner||null,nw:pred.named_winner||null};
+  }
+  var rows=outs.map(function(o){
+    var r=o.r; r.et1=r.et1==null?null:r.et1; r.et2=r.et2==null?null:r.et2; r.pw=r.pw||null;
+    var bonus=(o.champ===t1)?bonusT1:bonusT2;
+    var match, best=false;
+    if(hasPred){ match=_trKoScore(predOrient,r,t1,t2).total; }
+    else{ // best you could do for this exact outcome = predict it perfectly
+      var ideal={s1:r.s1,s2:r.s2,et1:r.et1,et2:r.et2,pw:r.pw,nw:o.champ};
+      match=_trKoScore(ideal,r,t1,t2).total;
+    }
+    return {label:_finalLabel(o,t1,t2),champ:o.champ,match:match,bonus:bonus,total:cur+match+bonus};
+  });
+  var maxTot=Math.max.apply(null,rows.map(function(x){return x.total;}));
+  rows.forEach(function(x){x.best=(x.total===maxTot);});
+  // header
+  var predLine=hasPred
+    ? ('Your pick: <b>'+flag(t1)+' '+pred.score1+'\u2013'+pred.score2+' '+flag(t2)+'</b>'
+        +(pred.et1!=null?(' · ET '+pred.et1+'\u2013'+pred.et2):'')+(pred.pens_winner?(' · pens '+pred.pens_winner):''))
+    : '<b style="color:#c76a00;">You haven\u2019t predicted the Final yet</b> — figures below show the <b>best</b> you could score if you predict each result.';
+  var bonusNote='';
+  if(bonusT1||bonusT2){
+    var parts=[];
+    if(bonusT1)parts.push(flag(t1)+' champion \u2192 <b>+'+bonusT1+'</b> bonus');
+    if(bonusT2)parts.push(flag(t2)+' champion \u2192 <b>+'+bonusT2+'</b> bonus');
+    bonusNote='<div class="fs-bonus">Live bonus: '+parts.join(' &nbsp;·&nbsp; ')+'</div>';
+  }
+  var body='<div class="fs-head"><div class="fs-cur">Now <b>'+cur+'</b> pts</div><div class="fs-pred">'+predLine+'</div>'+bonusNote+'</div>';
+  function block(champ,bonus){
+    var rs=rows.filter(function(x){return x.champ===champ;});
+    var head='<div class="fs-blk-h">'+flag(champ)+' <b>If '+champ+' win the cup</b>'+(bonus?(' <span class="fs-bchip">+'+bonus+' bonus</span>'):' <span class="fs-nob">no live bonus</span>')+'</div>';
+    var lines=rs.map(function(x){
+      return '<div class="fs-row'+(x.best?' best':'')+'">'
+        +'<span class="fs-out">'+x.label+'</span>'
+        +'<span class="fs-mb">'+(hasPred?'':'up to ')+'+'+x.match+' match'+(x.bonus?(' · +'+x.bonus+' bonus'):'')+'</span>'
+        +'<span class="fs-tot">'+x.total+(x.best?' <span class="fs-star">\u2605</span>':'')+'</span></div>';
+    }).join('');
+    return '<div class="fs-blk">'+head+lines+'</div>';
+  }
+  body+=block(t2,bonusT2)+block(t1,bonusT1);
+  body+='<div class="fs-foot">\u2605 = your ceiling ('+maxTot+'). '
+    +(hasPred?'Rows show what <b>your locked pick</b> scores under each result.'
+             :'Rows show the <b>best</b> total if you predict that exact result.')
+    +' A win by 1 that isn\u2019t your exact score still earns the goal-difference tier; any correct winner earns at least the winner credit.</div>';
+  openModal(name+' \u2014 Final scenarios','how M104 could play out',body);
+}
+function _finalLabel(o,t1,t2){
+  var r=o.r;
+  if(o.pens) return '\uD83E\uDD1D '+t1+' '+r.s1+'\u2013'+r.s2+' '+t2+' \u2192 '+flag(o.champ)+' on pens';
+  return flag(o.champ)+' win '+r.s1+'\u2013'+r.s2;
+}
 function renderTitleRace(){
   var el=document.getElementById('titleRaceContent');
   var S=state.scorecard||{}, b=state.bonus||{};
@@ -1517,7 +1652,7 @@ function renderTitleRace(){
     var champChip=r.champTeam?(' &middot; <span class="tr-ct" title="live champion pick">'+flag(r.champTeam)+' +'+r.champGain+'</span>'):'';
     return '<div class="tr-row'+(r.me?' me':'')+'">'
       +'<div class="tr-c-rk">'+med+'</div>'
-      +'<div class="tr-c-nm"><div class="tr-nm-line">'+r.name+(r.me?' <span class="tr-you">You</span>':'')+'</div>'
+      +'<div class="tr-c-nm"><div class="tr-nm-line tr-nm-tap" onclick="showFinalScenarios(\''+r.name.replace(/'/g,"\\'")+'\')" title="Tap for M104 scenarios">'+r.name+(r.me?' <span class="tr-you">You</span>':'')+' <span class="tr-nm-cue">\u25B8</span></div>'
         +'<div class="tr-sub">ceiling '+r.ceiling+champChip+'</div></div>'
       +'<div class="tr-c-cur"><b>'+r.cur+'</b><span>'+gap+'</span></div>'
       +'</div>';
@@ -1983,7 +2118,11 @@ function showStatDetail(name,type,items){
   const _stage=state.stage;
   let scoredMatches, allScoresForChart, played, noPredCount, invalidCount, pts;
   if(_stage==='ko'){
-    scoredMatches=state.ko?Object.keys(state.ko.results||{}).length:0;
+    // Count results for the SELECTED round only (matches how calcKOScores computes
+    // 'played'); using all KO results here produced phantom "no prediction" counts
+    // (e.g. 3rd place: 31 all-KO results - 1 played = 30).
+    const _rd=KO_ROUND_BY_CODE[state.koRound]||KO_ROUND_BY_CODE.R32;
+    scoredMatches=state.ko?Object.values(state.ko.results||{}).filter(r=>_rd.stages.includes(r.stage)).length:0;
     allScoresForChart=calcKOScores();
     const pd=allScoresForChart.find(([n])=>n===name); const s=pd?pd[1]:null;
     played=s?s.played:0; invalidCount=s?s.invalidCount:0;
