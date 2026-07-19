@@ -343,56 +343,70 @@ body.dark .bn-late{color:#aeb6c0;background:#1d2733;border-color:#2c3a49;}
 .mv{font-size:10px;font-weight:700;line-height:1;display:block;margin-top:2px;}
 .mv-up{color:#2FC36B;} .mv-down{color:#FF5C7A;} .mv-same{color:#b0aeac;}
 .champ-close{position:absolute;top:10px;right:12px;z-index:3;width:32px;height:32px;border-radius:50%;
-  border:1px solid rgba(255,255,255,.35);background:rgba(0,60,110,.45);color:#ffffff;font-size:16px;
+  border:1px solid rgba(255,255,255,.4);background:rgba(6,58,20,.6);color:#ffffff;font-size:16px;
   line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;
   backdrop-filter:blur(4px);transition:background .15s,transform .15s;}
 .champ-close:hover{background:rgba(255,80,90,.7);transform:scale(1.08);}
 .champ-back{background:rgba(255,255,255,.14);color:#ffffff;border:1px solid rgba(255,255,255,.35);
   border-radius:20px;padding:9px 20px;font-size:13px;font-weight:700;cursor:pointer;transition:background .15s;}
 .champ-back:hover{background:rgba(255,255,255,.16);}
-.tab-champ{background:linear-gradient(135deg,#2b88d8,#0078d4);color:#fff;font-weight:800;box-shadow:0 0 10px rgba(0,120,212,.5);}
+.tab-champ{background:linear-gradient(135deg,#4fd968,#1f9e37);color:#fff;font-weight:800;box-shadow:0 0 10px rgba(60,220,90,.5);}
 /* ===== Champion podium ===== */
 .champ-stage{position:relative;overflow:hidden;border-radius:16px;padding:20px 12px 0;
-  background:linear-gradient(160deg,#106ebe 0%,#0078d4 45%,#005a9e 100%);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 50px rgba(0,0,0,.45);}
+  background:
+    radial-gradient(120% 75% at 50% 0%,rgba(120,255,170,.16) 0%,rgba(120,255,170,0) 42%),
+    repeating-linear-gradient(180deg,rgba(255,255,255,.035) 0 48px,rgba(0,0,0,.06) 48px 96px),
+    linear-gradient(180deg,#0d7a41 0%,#0a5e33 45%,#064a28 72%,#03361d 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.10),inset 0 -40px 90px rgba(0,0,0,.45),0 18px 50px rgba(0,0,0,.5);}
+.champ-pitch{position:absolute;inset:0;z-index:0;pointer-events:none;}
 .champ-spark{position:absolute;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
 .champ-in{position:relative;z-index:1;}
-.champ-title{text-align:center;color:#ffffff;font-weight:800;font-size:15px;letter-spacing:2px;
-  display:flex;align-items:center;justify-content:center;gap:9px;text-shadow:0 2px 10px rgba(0,0,0,.25);}
-.champ-sub{text-align:center;color:#dbeeff;font-size:11.5px;margin-top:5px;letter-spacing:.5px;}
+.champ-title{text-align:center;color:#ffffff;font-weight:900;font-size:15px;letter-spacing:2px;
+  display:flex;align-items:center;justify-content:center;gap:9px;text-shadow:0 0 12px rgba(57,255,120,.55),0 2px 6px rgba(0,60,0,.5);}
+.champ-sub{text-align:center;color:#eafff0;font-size:11.5px;margin-top:5px;letter-spacing:.5px;text-shadow:0 1px 4px rgba(0,50,0,.5);}
 .champ-podium{display:flex;justify-content:center;align-items:flex-end;gap:10px;margin-top:22px;}
 .champ-col{display:flex;flex-direction:column;align-items:center;flex:0 1 33%;max-width:180px;min-width:0;}
 .champ-av{border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;
   position:relative;box-shadow:0 6px 20px rgba(0,0,0,.4);overflow:hidden;background-size:cover;background-position:center;}
-.champ-av.gold{width:92px;height:92px;font-size:30px;background-color:#0f6cbd;background-image:linear-gradient(135deg,#2b88d8,#005a9e);
-  border:4px solid #ffd24a;box-shadow:0 0 22px rgba(255,200,70,.6),0 6px 18px rgba(0,0,0,.35);}
-.champ-av.silver{width:66px;height:66px;font-size:22px;background-image:linear-gradient(135deg,#b9bcc2,#7d8188);border:3px solid #e6e7ea;}
-.champ-av.bronze{width:60px;height:60px;font-size:20px;background-image:linear-gradient(135deg,#d68a4e,#a9662f);border:3px solid #f0c79a;}
+.champ-av.gold{width:92px;height:92px;font-size:30px;background-color:#1b7a2e;background-image:linear-gradient(135deg,#3ff05e,#12a234);
+  border:4px solid #eaff3a;box-shadow:0 0 24px rgba(210,255,60,.7),0 6px 18px rgba(0,40,0,.4);}
+.champ-av.silver{width:66px;height:66px;font-size:22px;background-image:linear-gradient(135deg,#eef3f6,#b7c0c7);color:#20321f;border:3px solid #ffffff;}
+.champ-av.bronze{width:60px;height:60px;font-size:20px;background-image:linear-gradient(135deg,#f0a95e,#c47a34);border:3px solid #ffe0b8;}
 .champ-crown{position:absolute;top:-26px;left:50%;transform:translateX(-50%);font-size:26px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.4));z-index:2;}
-.champ-nm{color:#fff;font-weight:700;font-size:13.5px;margin-top:10px;text-align:center;line-height:1.25;max-width:100%;
+.champ-nm{color:#ffffff;font-weight:800;font-size:13.5px;margin-top:10px;text-align:center;line-height:1.25;max-width:100%;text-shadow:0 1px 5px rgba(0,45,0,.6);
   overflow:hidden;text-overflow:ellipsis;}
 .champ-pts{font-weight:800;font-size:24px;margin-top:2px;line-height:1;}
-.champ-pts.gold{color:#ffd54a;text-shadow:0 2px 10px rgba(255,190,60,.4);}
-.champ-pts.silver{color:#eef3f7;}
-.champ-pts.bronze{color:#f6cfa6;}
+.champ-pts.gold{color:#eaff3a;text-shadow:0 0 12px rgba(210,255,60,.6),0 2px 6px rgba(0,40,0,.5);}
+.champ-pts.silver{color:#ffffff;text-shadow:0 1px 5px rgba(0,45,0,.5);}
+.champ-pts.bronze{color:#ffe0b8;text-shadow:0 1px 5px rgba(0,45,0,.5);}
 .champ-pts small{font-size:11px;font-weight:600;opacity:.75;margin-left:2px;}
 .champ-plinth{width:100%;margin-top:12px;border-radius:9px 9px 0 0;display:flex;align-items:flex-start;
   justify-content:center;padding-top:12px;font-weight:900;color:#fff;position:relative;
   box-shadow:inset 0 2px 0 rgba(255,255,255,.25),inset 0 -18px 30px rgba(0,0,0,.22);}
-.champ-plinth.gold{height:118px;background:linear-gradient(180deg,#ffd24a,#f0a81e);font-size:44px;color:#fff;}
-.champ-plinth.silver{height:86px;background:linear-gradient(180deg,#c9c9d4,#9a9aab);font-size:34px;}
-.champ-plinth.bronze{height:66px;background:linear-gradient(180deg,#dc9a5f,#b06f38);font-size:30px;}
+.champ-plinth.gold{height:118px;background:linear-gradient(180deg,#ffe24a,#f0a81e);font-size:44px;color:#fff;border:1px solid rgba(255,255,255,.5);border-bottom:none;}
+.champ-plinth.silver{height:86px;background:linear-gradient(180deg,#dfe3e8,#9aa0a9);font-size:34px;border:1px solid rgba(255,255,255,.45);border-bottom:none;}
+.champ-plinth.bronze{height:66px;background:linear-gradient(180deg,#e8a866,#bd7a3e);font-size:30px;border:1px solid rgba(255,255,255,.5);border-bottom:none;}
 .champ-plinth .champ-rk{text-shadow:0 2px 6px rgba(0,0,0,.28);}
 .champ-me{outline:3px solid var(--you-accent);outline-offset:1px;}
 .champ-rest{margin:26px auto 0;max-width:520px;padding:4px 8px 20px;}
-.champ-rest-h{color:#dbeeff;font-size:11px;letter-spacing:1.5px;text-align:center;margin-bottom:10px;font-weight:700;}
+.champ-rest-h{color:#9dffbf;font-size:11px;letter-spacing:1.6px;text-align:center;margin-bottom:10px;font-weight:800;text-shadow:0 1px 6px rgba(0,60,20,.6);}
 .champ-rrow{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:10px;margin-bottom:6px;
-  background:rgba(255,255,255,.10);color:#f3f9ff;font-size:13.5px;}
-.champ-rrow .rk{width:24px;text-align:center;font-weight:800;color:#bfe0f7;flex:none;}
+  background:rgba(255,255,255,.07);color:#f2fff5;font-size:13.5px;border:1px solid rgba(255,255,255,.09);}
+.champ-rrow .rk{width:24px;text-align:center;font-weight:800;color:#9dffbf;flex:none;}
 .champ-rrow .nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.champ-rrow .pt{font-weight:800;color:#ffffff;flex:none;}
+.champ-rrow .pt{font-weight:800;color:#eaff3a;flex:none;}
 .champ-rrow.me{background:var(--you-bg);color:var(--you-text);outline:1px solid var(--you-accent);}
 .champ-rrow.me .nm{color:var(--you-text);}
+/* Pitch-theme "You" highlight: green-on-green is invisible, so use white (matches
+   the field markings) with a glow, scoped to the champion stage only. */
+.champ-stage .champ-me{outline:3px solid #ffffff;outline-offset:2px;
+  box-shadow:0 0 16px rgba(255,255,255,.9),0 6px 18px rgba(0,40,0,.45);}
+.champ-stage .champ-rrow.me{background:rgba(255,255,255,.94);color:#0b3a1c;
+  outline:2px solid #ffffff;box-shadow:0 0 10px rgba(255,255,255,.35);}
+.champ-stage .champ-rrow.me .nm{color:#0b3a1c;}
+.champ-stage .champ-rrow.me .rk{color:#0b3a1c;}
+.champ-stage .champ-rrow.me .pt{color:#0f8a2c;}
+.champ-stage .you-badge{background:#ffffff;color:#0b3a1c;box-shadow:0 1px 3px rgba(0,40,0,.4);}
 @keyframes champFall{0%{transform:translateY(-24px) rotate(45deg);opacity:0;}
   10%{opacity:.9;}90%{opacity:.9;}100%{transform:translateY(var(--fall)) rotate(var(--spin));opacity:0;}}
 .gem{position:absolute;top:-20px;width:9px;height:9px;opacity:0;animation:champFall linear infinite;
@@ -771,7 +785,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div id="matchesContent" style="display:none;"></div>
 
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -780,7 +794,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingLB"><div class="loading-spinner"></div>Loading leaderboard…</div>
   <div id="lbContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -789,7 +803,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingTrend"><div class="loading-spinner"></div>Loading trends…</div>
   <div id="trendContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -798,7 +812,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingStandings"><div class="loading-spinner"></div>Loading standings…</div>
   <div id="stContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -807,7 +821,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBracket"><div class="loading-spinner"></div>Loading bracket…</div>
   <div id="brkContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -816,7 +830,7 @@ body.dark .aw-why{color:#9fb0c0;}
   <div class="loading" id="loadingBonus"><div class="loading-spinner"></div>Loading bonus…</div>
   <div id="bonusContent" style="display:none;"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -824,7 +838,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-awards" class="panel">
   <div id="awardsContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -832,7 +846,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-champion" class="panel">
   <div id="championContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 18 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 18 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -840,7 +854,7 @@ body.dark .aw-why{color:#9fb0c0;}
 <div id="panel-titlerace" class="panel">
   <div id="titleRaceContent"></div>
 <div class="version-footer">
-  <strong>⚙️ UI v1.15.55</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
+  <strong>⚙️ UI v1.15.58</strong> &nbsp;·&nbsp; Built 14 Jul 2026<br>
   PDC Friends 1991-93 &nbsp;·&nbsp; FIFA World Cup 2026 Prediction Tracker &nbsp;·&nbsp; Scoring: <span class="sm-stamp">—</span><br>
   <a href="https://gvc-pdc-1991-93-wc-2026-predictions.netlify.app" target="_blank">gvc-pdc-1991-93-wc-2026-predictions.netlify.app</a>
 </div>
@@ -1056,6 +1070,7 @@ function getMe(){ try{return localStorage.getItem('pdc_me')||'';}catch(e){return
 function setMe(name){
   try{ if(name)localStorage.setItem('pdc_me',name); else localStorage.removeItem('pdc_me'); }catch(e){}
   refreshMeChip(); renderMatches(); renderLB(); renderTrend(); renderTitleRace();
+  if(typeof renderChampion==='function' && document.getElementById('championContent')) renderChampion();
 }
 function refreshMeChip(){
   var c=document.getElementById('meChip'); if(!c)return;
@@ -1524,6 +1539,35 @@ function renderTitleRace(){
     +'<div class="tr-foot">“Ceiling” is each player’s genuine maximum: current points + every remaining match played perfectly + the most Early Bird/Bonus they can still win, tested across every possible final match-up and champion (so two picks that can’t both come true are never counted together). Match predictions for the semis, 3rd-place and final open once those fixtures are set — worth up to 8 points each, for everyone, which is why the match ceiling still shows '+matchMaxCommon+' for now.</div>'
     +'</div>';
 }
+const PITCH_SVG='<svg viewBox="0 0 400 620" preserveAspectRatio="none" width="100%" height="100%" style="position:absolute;inset:0;opacity:.42;">'
+  +'<g fill="none" stroke="#eafff2" stroke-width="2.2" stroke-opacity="0.9">'
+  // outer boundary
+  +'<rect x="10" y="10" width="380" height="600" rx="4"/>'
+  // halfway line + centre circle + spot
+  +'<line x1="10" y1="310" x2="390" y2="310"/>'
+  +'<circle cx="200" cy="310" r="58"/>'
+  +'<circle cx="200" cy="310" r="3.2" fill="#ffffff" stroke="none"/>'
+  // top penalty box + 6-yard box + arc + spot
+  +'<rect x="95" y="10" width="210" height="92"/>'
+  +'<rect x="145" y="10" width="110" height="38"/>'
+  +'<circle cx="200" cy="74" r="3" fill="#ffffff" stroke="none"/>'
+  +'<path d="M150 102 A 56 56 0 0 0 250 102"/>'
+  // bottom penalty box + 6-yard box + arc + spot
+  +'<rect x="95" y="518" width="210" height="92"/>'
+  +'<rect x="145" y="572" width="110" height="38"/>'
+  +'<circle cx="200" cy="546" r="3" fill="#ffffff" stroke="none"/>'
+  +'<path d="M150 518 A 56 56 0 0 1 250 518"/>'
+  // corner arcs
+  +'<path d="M10 22 A 12 12 0 0 0 22 10"/>'
+  +'<path d="M378 10 A 12 12 0 0 0 390 22"/>'
+  +'<path d="M10 598 A 12 12 0 0 1 22 610"/>'
+  +'<path d="M390 598 A 12 12 0 0 1 378 610"/>'
+  +'</g>'
+  // goals (top + bottom) in fluor white
+  +'<g fill="none" stroke="#eaff3a" stroke-width="3" stroke-opacity="0.9">'
+  +'<rect x="170" y="4" width="60" height="10"/>'
+  +'<rect x="170" y="606" width="60" height="10"/>'
+  +'</g></svg>';
 function championReady(){
   // Final (M104 => ko key 32) scored?  Allow ?champ=1 to preview before then.
   var forced=/[?&]champ=1/.test(location.search);
@@ -1544,10 +1588,25 @@ function maybeRevealChampion(){
 }
 function championRows(){
   var sc=state.scorecard||{};
-  var arr=Object.keys(sc).map(function(n){return [n,(sc[n]&&sc[n].overall)||0];});
-  arr.sort(function(a,b){return b[1]-a[1]||a[0].localeCompare(b[0]);});
-  var rank={},cur=0,prev=null,seen=0;
-  arr.forEach(function(x){seen++;if(x[1]!==prev){cur=seen;prev=x[1];}rank[x[0]]=cur;});
+  // Tiebreak MUST match the leaderboard (denseRanks): overall pts -> exact -> gdiff -> name.
+  // Alphabetical was inconsistent and could crown a different player than the board.
+  function cnt(n,which){
+    var s=sc[n]||{},c=0,i;
+    var g=s.group||[]; for(i=0;i<g.length;i++) if(g[i].tier===which) c++;
+    var k=s.ko||[]; for(i=0;i<k.length;i++) if(k[i].tier90===which) c++;
+    return c;
+  }
+  var arr=Object.keys(sc).map(function(n){
+    return [n,(sc[n]&&sc[n].overall)||0,cnt(n,'exact'),cnt(n,'gdiff')];
+  });
+  arr.sort(function(a,b){
+    return b[1]-a[1] || b[2]-a[2] || b[3]-a[3] || a[0].localeCompare(b[0]);
+  });
+  var rank={},cur=0,prevKey=null,seen=0;
+  arr.forEach(function(x){
+    seen++; var key=x[1]+'|'+x[2]+'|'+x[3];
+    if(key!==prevKey){cur=seen;prevKey=key;} rank[x[0]]=cur;
+  });
   return {arr:arr,rank:rank};
 }
 function renderChampion(){
@@ -1589,6 +1648,7 @@ function renderChampion(){
         +(updated?(' · final standings as of '+updated):'');
   el.innerHTML=
     '<div class="champ-stage">'
+      +'<div class="champ-pitch">'+PITCH_SVG+'</div>'
       +'<div class="champ-spark" id="champSpark"></div>'
       +'<button class="champ-close" onclick="switchTab(\'leaderboard\')" aria-label="Close" title="Back to Leaderboard">✕</button>'
       +'<div class="champ-in">'
@@ -1607,7 +1667,7 @@ function champSparkle(){
   var H=(host.offsetHeight||440)+40;
   var h='';
   // layer 1: gem sparkles (many, small, quick)
-  var COLORS=['#ffffff','#ffd24a','#bfe0f7','#4aa3e0','#c7e8ff','#eaf3fb'];
+  var COLORS=['#eaff3a','#ffffff','#5cff9d','#b6ff5c','#d2ffe0','#9dffbf'];
   var n=mobile?16:38;
   for(var i=0;i<n;i++){
     var left=Math.random()*100, size=5+Math.random()*7, dur=4.5+Math.random()*4.5, delay=Math.random()*6;
